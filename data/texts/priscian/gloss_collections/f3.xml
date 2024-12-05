@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ENTITY facsBase "https://gallica.bnf.fr/ark:/12148/btv1b52515672f/">
+    <!ENTITY ref2Base "">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../../basetexts/priscian.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Priscian in Paris, Bibliothèque Nationale de France, lat. 7504</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcription by Mary Sweeney, Postdoctoral Researcher on the IRC Laureate Project GLOSSAM, led by Pádraic Moran at the University of Galway.</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">F3</note>
+				<note type="hex_colour">e34229</note><!-- hex colour to be choosen -->
+				<note type="image_url_base"></note>
+				<note type="ref2_url_base">http://www.glossing.org/glossengine/images/thesaurus/ </note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Nationale de France</repository>
+                  <idno>MS Lat. 7504</idno>
+					</msIdentifier>
+					<physDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<note n="2r3 a" target="#II_5.1__1" facs="&facsBase;f7.item" place="m.s.">
+					<term>Philosophi</term>
+					<gloss>Achademia stoici peripatetici: achademia ab academia uilla platonis. 
+						Stoici dicunt<ex>ur</ex> q<ex>ui</ex> ad ur<supplied>bem ueni</supplied>entes in porticib<ex>us</ex> te<ex>m</ex>plorum philosophabantur. 
+						Peripatetici exorantes, quam tamen eundo philosophabant<ex>ur</ex>.					
+						Et dicti peripatetici circu<ex>m</ex> calcatores pericircum<gap/> q<ex>uo</ex>d haberent sententias circu<ex>m</ex> calcatus, .i. ueritate solidatas				
+					</gloss>			
+				</note>
+				<note n="2r3 a1" target="#II_5.1__1" facs="&facsBase;f7.item" place="m.d.">
+					<term>Philosophi</term>
+					<gloss>philosophi scilicet qui Stoici dicuntur philosophi, Grece amatores</gloss>
+				</note>
+				<note n="2r3 b" target="#II_5.1__2" facs="&facsBase;f7.item" place="m.s.">
+					<term>definiunt</term>
+					<gloss>diffinire <ex>est</ex> quasi diffinire, diffinitio <ex>est</ex> philosophoru<ex>m</ex> que in reb<ex>us</ex> ex prim<ex>um</ex> dis explicat q<ex>ui</ex>d sit, diffinire autem est q<ex>uo</ex>d d<ex>icitu</ex>r certu<ex>m</ex> terminu<ex>m</ex> statuere</gloss>
+				</note>
+				<note n="2r3 c" target="#II_5.1__7" facs="&facsBase;f7.item" place="m.d.">
+					<term>tenuissimum</term>
+					<gloss>quare dict<ex>um</ex> tenuissimu<ex>m</ex> aere<ex>m</ex> ut ostendera n<ex>on</ex> existo crasso et terrae uicino aere uoce<ex>m</ex> fieri sed ex illo superiori, 
+						na<ex>m</ex> a t<ex>er</ex>ra usq<ex>ue</ex> ad lunare<ex>m</ex> circulu<ex>m</ex> crassus aer est et spissus, 
+						unde et aliquando corporascit in nubes et implerisque locis terre similis est, 
+						a lunari circulo ad speram <supplied>caeli</supplied> purus est ether</gloss>
+				</note>
+				<note n="2r3 c1" target="#II_5.1__7" facs="&facsBase;f7.item" place="m.s.">
+					<term>tenuissimum</term>	
+					<gloss>ad quod co<ex>n</ex>paratur aer quia d<ex>icitu</ex>r tenuissim<ex>um</ex> potest ad reliqua elem<ex>en</ex>ta ut terra q<ex>uo</ex>d uerat<ex>ur</ex> in puluere<ex>m</ex> <supplied>ardica</supplied> solis tenuis appellat<ex>ur</ex> a quo tenuior aer tenuis sum<ex>mus</ex> potest</gloss>
+				</note>
+			
+				<!-- re examine -->
+				<note n="2r3 d" target="#II_5.1__8" facs="&facsBase;f7.item">
+					<term>ictum</term>
+					<gloss>p<ex>er</ex>cussu<ex>m</ex></gloss>
+					<!-- Signes de renvoi also present but cannot find matching sign -->		
+				</note>
+
+				<note n="2r3 e" target="#II_5.1__10" facs="&facsBase;f7.item">
+					<term>suum</term>
+					<gloss>p<ex>ro</ex>prium</gloss>
+				</note>
+				<note n="2r3 f" target="#II_5.2__1" facs="&facsBase;f7.item">
+					<term>sensibile</term>
+					<gloss>percipibile </gloss>
+				</note>
+				<note n="2r4 g" target="#II_5.2__9" facs="&facsBase;f7.item" place="m.s.">
+					<term>accidit</term>
+					<gloss>hoc dic<ex>tum</ex> sonus auditui, sunt auditus sono, quantu<ex>m</ex> p<ex>er</ex>tinet ad aures sentitus auri autem aer, 
+						sed sensibilis d<ex>icitu</ex>r inter intelligibilis eo q<ex>uo</ex>d sentiri at que intelligi po<ex>st</ex> ab anima q<ex>uo</ex>d p<ex>ro</ex>prie humanis aurib<ex>us</ex> canuerit</gloss>
+				</note>
+				<note n="2r4 h" target="#II_5.2__14" facs="&facsBase;f7.item">
+					<term>definitio</term>
+					<gloss>uocis quae greci ‘usian’ dicunt</gloss>
+				</note>
+				<note n="2r4 i" target="#II_5.3__2" facs="&facsBase;f7.item">
+					<term>substantia</term>
+					<gloss>ab aere</gloss>
+				</note>
+				<note n="2r4 j" target="#II_5.3__5" facs="&facsBase;f7.item">
+					<term>altera</term>
+					<gloss>scilicet su<ex>m</ex>pta <ex>est</ex> si difinitio</gloss>
+				</note>
+				<note n="2r4 j1" target="#II_5.3__8" facs="&facsBase;f7.item" place="m.d.">
+					<term>notione</term>
+					<gloss>acognitione .i. ab auditu </gloss>
+				</note>
+				<note n="2r5 k" target="#II_5.3__12" facs="&facsBase;f7.item">
+					<term>ἔννωιαν</term>
+					<gloss>.i. notio. Na<ex>m</ex> G<ex>raecus</ex> scio unde d<ex>icitu</ex>r, notis 'seauton,' .i. <supplied>nosce</supplied> te ipsum.</gloss>
+				</note>
+				<note n="2r5 k1" target="#II_5.4__4" facs="&facsBase;f7.item">
+					<term>accidentibus</term>
+					<gloss>forinsecus</gloss>
+				</note>
+				<note n="2r5 l" target="#II_5.4__11" facs="&facsBase;f7.item">
+					<term>quantum</term>
+					<gloss>.i. p<ex>ro</ex> sui magnitudine</gloss>
+				</note>
+				<note n="2r5 l1" target="#II_5.4__11" facs="&facsBase;f7.item" place="m.d.">
+					<term>quantum</term>
+					<gloss>Uox e<ex>st</ex> aer ict<ex>us</ex> sensibilis auditu, quantu<ex>m</ex> in ipse, .i. in ipso ictu, 
+						scilicet in ipsa p<ex>er</ex>cussione si forte percitat<ex>ur</ex> aer magnu<ex>m</ex> sonu<ex>m</ex> reddit. Si uno exigue modicere sonat</gloss>
+				</note>
+				<note n="2r6 m" target="#II_5.5__9" facs="&facsBase;f7.item">
+					<term>inarticulata</term>
+					<gloss>ut mugitus</gloss>
+				</note>
+				<note n="2r6 n" target="#II_5.6__3" facs="&facsBase;f7.item">
+					<term>articulata</term>
+					<gloss>intelligibilis scilicet uox</gloss>
+				</note>
+				<note n="2r6 o" target="#II_5.6__7" facs="&facsBase;f7.item">
+					<term> coartata</term>
+					<gloss>scilicet uox e<ex>st</ex> ad intelligendu<ex>m</ex></gloss>
+				</note>
+				<note n="2r7 p" target="#II_5.6__14" facs="&facsBase;f7.item">
+					<term>sensu</term>
+					<gloss>intellectu</gloss>
+				</note>
+				<note n="2r7 q" target="#II_5.7__2" facs="&facsBase;f7.item">
+					<term>eius</term>
+					<gloss>hominis</gloss>
+				</note>
+				<note n="2r7 r" target="#II_5.7__9" facs="&facsBase;f7.item">
+					<term>inarticulata</term>
+					<gloss>Quae n<ex>on</ex> est c<ex>on</ex>iuncta cu<ex>m</ex> sensu<ex>m</ex> m<ex>en</ex>tis eius qui loq<ex>ui</ex>t<ex>ur</ex></gloss>
+				</note>
+				<note n="2r7 s" target="#II_5.7__11" facs="&facsBase;f7.item">
+					<term>contraria</term>
+					<gloss>scilicet superiori uide licet articulate</gloss>
+				</note>
+				<note n="2r8 t" target="#II_5.8__1" facs="&facsBase;f7.item">
+					<term>affectu</term>
+					<gloss>a nullo intellectur</gloss>
+				</note>
+				<note n="2r8 u" target="#II_5.8__2" facs="&facsBase;f7.item">
+					<term>proficiscitur</term>
+					<gloss>uenit</gloss>
+				</note>
+				<note n="2r8 v" target="#II_5.8__5" facs="&facsBase;f7.item">
+					<term>literata</term>
+					<gloss>Ecce quatuor species vocis implices, ex quibus <supplied>sunt aliqua</supplied> quatuor c<ex>on</ex>iunctae</gloss>
+				</note>
+				<note n="2r9 w" target="#II_5.9__6" facs="&facsBase;f7.item">
+					<term>igitur</term>
+					<gloss>scilicet q<ex>ui</ex>a quinq<ex>ue</ex> sunt distantie uocu<ex>m</ex> </gloss>
+				</note>
+				<note n="2r10 x" target="#II_5.12__5" facs="&facsBase;f7.item">
+					<term>possunt</term>
+					<gloss>.i. sunt illiteratae</gloss>
+				</note>
+				<note n="2r10 y" target="#II_5.12__12" facs="&facsBase;f7.item">
+					<term>sibili</term>
+					<gloss>.i. sunt articulatae</gloss>
+				</note>
+				<note n="2r10 z" target="#II_5.13__2" facs="&facsBase;f7.item">
+					<term>gemitus</term>
+					<gloss>.i. infirmorum</gloss>
+				</note>
+				<note n="2r10 z1" target="#II_5.13__2" facs="&facsBase;f7.item" place="m.d.">
+					<term>gemitus</term>
+					<gloss>modulationes cordaruex<ex>m</ex>, q<ex>uonia</ex>m eorum intelligitur <supplied>affectus</supplied>, quamuis n<ex>on</ex> scribat<ex>ur</ex>. 
+						In gemitu dolor, in sibilo <supplied>uero aliquando</supplied> mitigation (.i. pacificatio) equorum aliquando acumen canu<ex>m</ex>; 
+						<supplied>in tinnitu</supplied> et enim cordaru<ex>m</ex> dep<ex>re</ex>henditur intellectus <supplied>plerumque syllabarum</supplied>.</gloss>
+				<!-- see MURETHACH (MUIREDACH) AUTISSIODORENSIS METENSISQUE - ACLL Intellectus in Donati Arte maiore -->
+				</note>
+				<note n="2r10 aa" target="#II_5.13__4" facs="&facsBase;f7.item">
+					<term>hae</term>
+					<gloss>scilicet sibili et gemitus</gloss>
+				</note>
+				<note n="2r11 bb" target="#II_5.13__9" facs="&facsBase;f7.item">
+					<term>sensum</term>
+					<gloss>.i. intellectu<ex>m</ex></gloss>
+				</note>
+				<note n="2r11 cc" target="#II_5.13__12" facs="&facsBase;f7.item">
+					<term>proferentis</term>
+					<gloss>hominis uoces</gloss>
+				</note>
+				<note n="2r11 dd" target="#II_5.14__3" facs="&facsBase;f7.item">
+					<term>scribi</term>
+					<gloss>ideo sunt inlitteratae</gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('scibantur' to 'scribantur') - Difference: 10.0% -->
+				<note n="2r12 ee" target="#II_5.14__15" facs="&facsBase;f7.item">
+					<term>scribantur</term>
+					<gloss>.i. s<ex>unt</ex> litteratae</gloss>
+				</note>
+				<note n="2r12 ff" target="#II_5.15__7" facs="&facsBase;f7.item">
+					<term>significent</term>
+					<gloss>.i. n<ex>on</ex> habent sensu<ex>m</ex></gloss>
+				</note>
+				<note n="2r12 gg" target="#II_5.15__10" facs="&facsBase;f7.item">
+					<term>coax</term>
+					<gloss>uox ranaru<ex>m</ex></gloss>
+				</note>
+
+			
+				<!-- n="2r13 hh" target="#II_5.15" facs="&facsBase;f7.item">
+					<gloss>has enim uoces quanquam intellegimus de quo sunt uolucre profecte tamen inarticulate dicuntur quia uox ut superius dici inarticulata est quae nullo affectu proficiseitur mentis </gloss>
+					<note>The scirbe has by mistake inserted a quote from Donatus Ortigraphus - Ars grammatica - LLT De uoce, linea : 23, into the main body text. This quotation is also found as a marginal gloss in F2 on 2v.</note>
+					-->
+
+				<note n="2r15 ii" target="#II_6.1__10" facs="&facsBase;f7.item" place="m.d.">
+					<term>possunt</term>
+					<gloss>ut c<ex>on</ex>lisiones petraru<ex>m</ex></gloss>
+					<!-- see Murethach - In Donati artem maiorem - LLT pars : 1, pag. : 6, linea : 37 -->
+				</note>
+				<note n="2r15 jj" target="#II_6.2__2" facs="&facsBase;f7.item">
+					<term>crepitus</term>
+					<gloss>scissiones arborum, p<ex>ro</ex>p<ex>ri</ex>e  sonus fla<ex>m</ex>mae</gloss>
+				</note>
+				<note n="2r15 kk" target="#II_6.2__4" facs="&facsBase;f7.item">
+					<term>mugitus</term>
+					<gloss>uox bou<ex>m</ex>, animaliu<ex>m</ex></gloss>
+				</note>
+				<note n="2r15 ll" target="#II_6.3__1" facs="&facsBase;f7.item">
+					<term>species</term>
+					<gloss>geminatas</gloss>
+				</note>
+				<note n="2r16 mm" target="#II_6.3__5" facs="&facsBase;f7.item">
+					<term>superiores</term>
+					<gloss>simplices</gloss>
+				</note>
+				<note n="2r16 nn" target="#II_6.3__8" facs="&facsBase;f7.item">
+					<term>uoci</term>
+					<gloss>sono</gloss>
+				</note>
+				<note n="2r16 oo" target="#II_6.4__5" facs="&facsBase;f7.item">
+					<term>singulas</term>
+					<gloss>differentias</gloss>
+				</note>
+				<note n="2r17 pp" target="#II_6.4__7" facs="&facsBase;f7.item" place="m.l.">
+					<term>coeuntes</term>
+					<gloss>Omnis et eni<ex>m</ex> uox 'apo tu boo' dicit<ex>ur</ex>, .i. a sono mutata 'b' in 'u' et d<ex>icitu</ex>r uox quia quid sonu<ex>m</ex> dat</gloss>
+				</note>
+				<note n="2r17 qq" target="#II_6.4__9" facs="&facsBase;f7.item">
+					<term>uox</term>
+					<gloss>Uenit ad ethimologia<ex>m</ex>, .i. proprietatem ethimo<supplied>logiae</supplied>. Eni<ex>m</ex> p<ex>ro</ex>p<ex>ri</ex>u<ex>m</ex> est ethimologia<ex>m</ex> p<ex>ro</ex>prietas unius cuiusq<ex>ue</ex> rei</gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 8 ('ἀπὸ τοῦ βοῶ' to 'ἀπὸ') - Difference: 72.73% -->
+				<note n="2r17 rr" target="#II_6.5__10" facs="&facsBase;f7.item">
+					<term>ἀπὸ τοῦ βοῶ</term>
+					<gloss>uel ab hoc sono, .i. a grecs, .i. asonande</gloss>
+				</note>
+			</div>
+		</body>
+	</text>
+</TEI>

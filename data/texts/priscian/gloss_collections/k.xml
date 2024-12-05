@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ENTITY facsBase "https://digital.blb-karlsruhe.de/blbhs/content/pageview/">
+    <!ENTITY ref2Base "">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../../basetexts/priscian.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Priscian in Karlsruhe Priscian</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcription by Mary Sweeney, Postdoctoral Researcher on the IRC Laureate Project GLOSSAM, led by Pádraic Moran at the University of Galway.</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">K</note>
+				<note type="hex_colour">ff5c4a</note>
+				<note type="image_url_base">https://digital.blb-karlsruhe.de/blbhs/content/pageview/</note>
+				<note type="ref2_url_base">http://www.glossing.org/glossengine/images/thesaurus/ </note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+                  <settlement>Karlsruhe</settlement>
+                  <repository>Badische Landesbibliothek</repository>
+                  <collection>Augiensis</collection>
+                  <idno>cxxxii</idno>
+					</msIdentifier>
+					<physDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+			<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 3 ('anotatione' to 'notione') - Difference: 30.0% -->
+				<note n="2v24 a" target="#II_5.3__8" facs="&facsBase;137618">
+				<term>anotatione</term>
+				<gloss><ex>uel</ex> notione</gloss>
+			</note>
+			<note n="2v26 b" target="#II_5.4__13" facs="&facsBase;137618">
+				<term>ipsa</term>
+				<gloss><ex>uel</ex> ipso</gloss>
+			</note>
+			<note n="2v26 b1" target="#II_5.5__3" facs="&facsBase;137618" place="m.l.">
+				<term>differentiae</term>
+				<gloss>de uocis specieb<ex>us</ex></gloss>
+			</note>
+			<note n="2v26 c" target="#II_5.5__9" facs="&facsBase;137618" place="3r">
+				<term>inarticulata</term>
+                <gloss>ens enim uoces quanqua<ex>m</ex> intelligimus (.i. s<ex>ed</ex> in libro romano non habetur) de quo sint uolucre p<ex>ro</ex>fectae t<ex>ame</ex>n inarticulatae d<ex>icu</ex>n<ex>tu</ex>r q<ex>uia</ex> uox ut superius inarticulata <ex>est</ex> quae a nullo affectu p<ex>ro</ex>ficiscitur mentis</gloss>
+				<!-- Donatus Ortigraphus - Ars grammatica - LLT De uoce, linea : 23 Possibly referring to the lost work of Varro - De gente populi Romani libri IIII, which is referenced by Augustine, 'De civitate dei' xxi. 8 and which is the same passage used by the glossator of L f.1r -->
+			</note>
+            <note n="2v31 e" target="#II_5.11__2" facs="&facsBase;137618">
+				<term>arma</term>
+                <gloss>Vir<ex>gilius</ex></gloss>
+           </note>
+<note n="2v38 a" target="#II_6.6__2" facs="&facsBase;137618" place="m.d.">
+	<term>litera</term>
+	<gloss>.i. quid sit litt<ex>er</ex>a</gloss>
+</note>
+<note n="2v40 a1" target="#II_6.8__7" facs="&facsBase;137618">
+	<term>quantum</term>
+	<gloss><g>...</g> &gt; (4r29=7.26) </gloss><term>igitur</term><gloss><g>...</g></gloss> 
+</note>
+<note n="2v40 b" target="#II_6.8__10" facs="&facsBase;137618">
+	<term>comprehensionem</term>
+	<gloss>p<ex>er</ex>tinet</gloss>
+</note>
+<note n="2v42 c" target="#II_6.10__12" facs="&facsBase;137618">
+	<term>diuidi</term>
+	<gloss>.i. partiri</gloss>
+</note>
+<note n="2v42 d" target="#II_6.11__5" facs="&facsBase;137618">
+	<term>diuidi</term>
+	<gloss>.i. partiri</gloss>
+</note>
+<note n="2v44 e" target="#II_6.14__10" facs="&facsBase;137618">
+	<term>plerumque</term>
+	<gloss><g>..</g> &gt; (4r8=7.6) </gloss><term>igitur</term><gloss><g>..</g></gloss> 
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('tanguit' to 'tangit') - Difference: 14.29% -->
+				<note n="4r5 a" target="#II_6.19__14" facs="&facsBase;137621" place="m.l.">
+	<term>tanguit</term>
+	<gloss><ex>uel</ex> tanguit<ex>ur</ex> aure<ex>m</ex></gloss>
+</note>
+<note n="4r5 b" target="#II_6.20__4" facs="&facsBase;137621">
+	<term>diuiditur</term>
+	<gloss>.i. partit<ex>ur</ex></gloss>
+</note>
+<note n="4r14 d" target="#II_7.7__2" facs="&facsBase;137621">
+	<term>pronuntiationes</term>
+	<gloss>.i. soni</gloss>
+</note>
+<note n="4r16 e" target="#II_7.8__3" facs="&facsBase;137621">
+	<term>sonos</term>
+	<gloss>.i. p<ex>ro</ex>nuntiationes</gloss>
+</note>
+<note n="4r21 f" target="#II_7.14__5" facs="&facsBase;137621" place="m.l.">
+	<term>âra</term>
+	<gloss>similit<ex>er</ex> aliae vocales possunt p<ex>ro</ex>ferri.</gloss>
+	<note type="editorial">Absent in main text</note>
+</note>
+<note n="4r22 g" target="#II_7.16__7" facs="&facsBase;137621" place="m.l.">
+	<term>Donato</term>
+	<gloss>Don<ex>atus</ex></gloss>
+</note>
+<note n="4r28 h" target="#II_7.24__6" facs="&facsBase;137621">
+	<term>plures</term>
+	<gloss >.i. quia p<ex>er</ex>iturae uel uocales</gloss>
+</note>
+<note n="4r30 j" target="#II_8.1__12" facs="&facsBase;137621" place="3v">
+	<term>dicuntur</term>
+	<gloss place="3v">Uar<ex>ro</ex>: quod esse ostendit Varro in II de antiquitate literar<ex>um</ex>, 
+		docens Chaldaeorum lingua singularum nomina literarum ad earum formas (.i. p<ex>ro</ex>nuntiationes) esse 
+		facta ⁊ ex hoc certum fieri, eos esse primos auctores literarum
+	</gloss>
+</note>
+<note n="4r30 j1" target="#II_8.1__12" facs="&facsBase;137621" place="3v m.l.">
+	<term>dicuntur</term>
+	<gloss>q<ex>uia</ex> dicit iuti<corr>Eutychus?</corr>uerba meditatiuae formae</gloss>
+</note>
+<note n="4r39 k" target="#II_8.15__10" facs="&facsBase;137621" place="m.l.">
+	<term>Seruius</term>
+	<gloss>Ser<ex>uius</ex></gloss>
+</note>
+<note n="4r40 l" target="#II_8.16__8" facs="&facsBase;137621">
+	<term>semiuocales</term>
+	<gloss>i<ex>n</ex>q<ex>uit</ex></gloss>
+</note>
+<note n="4r41 m" target="#II_8.19__5" facs="&facsBase;137621" place="m.l.">
+	<term>Eutropius</term>
+	<gloss>Eu<ex>tropius</ex></gloss>
+</note>
+<note n="4r42 n" target="#II_8.20__10" facs="&facsBase;137621">
+	<term>eandem</term>
+	<gloss><ex>uel</ex> i<ex>n</ex> ea<ex>m</ex></gloss>
+	<note type="editorial">see G 4b24</note>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('litterarum' to 'literarum') - Difference: 10.0% -->
+				<note n="4v1 a1" target="#II_9.4__1" facs="&facsBase;137622">
+	<term>litterarum</term>
+	<gloss><g>;</g> &gt; (4v1=9.5) </gloss><term>his</term><gloss><g>;</g></gloss> 
+</note>
+<note n="4v2 a" target="#II_9.7__11" facs="&facsBase;137622">
+	<term>consonantes</term>
+	<gloss>.i. eo q<ex>uod</ex> consonant c<ex>um</ex> uocalibus</gloss>
+</note>
+<note n="4v3 b" target="#II_9.8__3" facs="&facsBase;137622">
+	<term>uocales</term>
+	<gloss>.i. fig<ex>ur</ex>ae</gloss>
+</note>
+<note n="4v4 c" target="#II_9.11__1" facs="&facsBase;137622" place="m.l.">
+	<term>semiuocales</term>
+	<gloss>de semiuocalib<ex>us</ex> q<ex>uo</ex>t sunt ⁊ q<ex>ua</ex>re d<ex>icu</ex>n<ex>tu</ex>r </gloss>
+</note>
+<note n="4v12 d" target="#II_9.20__6" facs="&facsBase;137622">
+	<term>partem</term>
+	<gloss>h<ex>abe</ex>nt</gloss>
+</note>
+<note n="4v13 d" target="#II_9.22__3" facs="&facsBase;137622" place="m.l.">
+	<term>mutae</term>
+	<gloss>de mutis q<ex>uo</ex>t s<ex>un</ex>t et q<ex>ua</ex>re d<ex>icu</ex>n<ex>tu</ex>r</gloss>
+</note>
+<note n="4v21 e" target="#II_10.3__4" facs="&facsBase;137622" place="m.l.">
+	<term>consonantibus</term>
+	<gloss>de duplicib<ex>us</ex>us cons<ex>on</ex>a<ex>ntes</ex></gloss>
+</note>
+<note n="4v22 f" target="#II_10.4__12" facs="&facsBase;137622">
+	<term>sunt</term>
+	<gloss>de liq<ex>ui</ex>dis</gloss>
+</note>
+<note n="4v26 g" target="#II_10.9__4" facs="&facsBase;137622" place="m.l.">
+	<term>Ouidius</term>
+	<gloss>Oui<ex>dius</ex></gloss>
+</note>
+<note n="4v27 h" target="#II_10.11__1" facs="&facsBase;137622" place="m.l.">
+	<term>Euripides</term>
+	<gloss>Eur<ex>ipides</ex></gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 11 ('callimachus' to 'καλλίμαχος') - Difference: 100.0% -->
+				<note n="4v30 i" target="#II_10.17__1" facs="&facsBase;137622" place="m.l.">
+	<term>Callimach<ex>us</ex></term>
+	<gloss>Cal<ex>limachus</ex></gloss>
+</note>
+<note n="4v32 i1" target="#II_11.3__12" facs="&facsBase;137622">
+	<term>duas</term>
+	<gloss>.i. f ⁊ x</gloss>
+</note>
+<note n="4v33 j" target="#II_11.5__3" facs="&facsBase;137622" place="m.l.">
+	<term>digamma</term>
+	<gloss>De singular<ex>um</ex> potestate F prima de s<ex>upe</ex>ruacuis</gloss>
+</note>
+<note n="4v33 j1" target="#II_11.5__3" facs="&facsBase;137622">
+	<term>digamma</term>
+	<gloss>.i. diaga<ex>m</ex>ma no<ex>men</ex> fig<ex>ur</ex>ae uau u<ex>ero</ex> no<ex>men</ex> potestatis</gloss>
+</note>
+<note n="5r9 a" target="#II_12.5__1" facs="&facsBase;137623" place="m.l.">
+	<term>k</term>
+	<gloss>k</gloss>
+</note>
+<note n="5r13 b" target="#II_12.10__3" facs="&facsBase;137623" place="m.d.">
+	<term>consonantis</term>
+	<gloss>metro</gloss>
+</note>
+<note n="5r14 c" target="#II_12.10__6" facs="&facsBase;137623" place="m.l.">
+	<term>q</term>
+	<gloss>q</gloss>
+</note>
+<note n="5r22 d" target="#II_12.20__1" facs="&facsBase;137623" place="m.l.">
+	<term>h</term>
+	<gloss>h</gloss>
+</note>
+<note n="5r31 e" target="#II_13.7__1" facs="&facsBase;137623" place="m.l.">
+	<term>Erichthonius</term>
+	<gloss>.i. p<ex>ri</ex>m<ex>us</ex> qui Athenis regnauit quattuor equos 
+		iunxisse fert<ex>ur</ex>, ut Vir<ex>gilius</ex> 'prim<ex>us</ex> Erichthonius curr<ex>us</ex> ⁊ quattuor 
+		ausus iungere equos rapidos q<ex>ue</ex> <g>∴</g>cursus<g>∴</g> rotis insistere uictor'</gloss>
+</note>
+<note n="5r33 f" target="#II_13.9__1" facs="&facsBase;137623" place="m.d.">
+	<term>Varronis</term>
+	<gloss>Uar<ex>ronis</ex></gloss>
+</note>
+<note n="5r33 h1" target="#II_13.11__9" facs="&facsBase;137623" place="m.d.">
+	<term>consonantes</term>
+	<gloss>Q<ex>uod</ex> alt<ex>er</ex>ius formae s<ex>un</ex>t .i ⁊ u. quando transeunt</gloss>
+</note>
+<!-- re-examine: Multiple possible matches found -->
+				<note n="5r36 i" target="#II_13.15__6" facs="&facsBase;137623" place="m.d.">
+	<term>in</term>
+	<gloss>metro</gloss>
+</note>
+<note n="5v9 a" target="#II_14.10__4" facs="&facsBase;137624">
+	<term>mannus</term>
+	<gloss>.i. brevis equs</gloss>
+</note>
+<note n="5v12 b" target="#II_14.13__4" facs="&facsBase;137624" place="m.l.">
+	<term>Caesari</term>
+	<gloss>Caes<ex>ar</ex></gloss>
+</note>
+<note n="5v14 c" target="#II_14.16__9" facs="&facsBase;137624" place="m.l.">
+	<term>Virgilius</term>
+	<gloss>Vir<ex>gilius</ex></gloss>
+</note>
+<note n="5v18 d" target="#II_15.1__1" facs="&facsBase;137624" place="m.l.">
+	<term>U</term>
+	<gloss>U</gloss>
+</note>
+<note n="5v20 e" target="#II_15.3__10" facs="&facsBase;137624" place="m.l.">
+	<term>Ϝ</term>
+	<gloss>Ϝ</gloss>
+</note>
+<note n="5v20 f" target="#II_15.4__6" facs="&facsBase;137624" place="m.l.">
+	<term>Varrone</term>
+	<gloss>Var<ex>ro</ex></gloss>
+</note>
+<note n="5v24 g" target="#II_15.9__1" facs="&facsBase;137624" place="m.l.">
+	<term>Astyage</term>
+	<gloss>Asti<ex></ex></gloss>
+</note>
+<note n="5v27 g" target="#II_15.13__2" facs="&facsBase;137624" place="m.l.">
+	<term>at</term>
+	<gloss>Vir<ex>gilius</ex></gloss>
+</note>
+<note n="5v28 g1" target="#II_15.14__10" facs="&facsBase;137624">
+	<term>consonante</term>
+	<gloss>digamma</gloss>
+</note>
+<note n="5v35 h" target="#II_16.8__8" facs="&facsBase;137624" place="m.l.">
+	<term>Horatius</term>
+	<gloss><ex>H</ex>or<ex>atius</ex></gloss>
+</note>
+<note n="5v38 i" target="#II_16.12__11" facs="&facsBase;137624" place="m.l.">
+	<term>Catullus</term>
+	<gloss>Cat<ex>ullus</ex></gloss>
+</note>
+<note n="5v42 j" target="#II_16.19__1" facs="&facsBase;137624" place="m.l.">
+	<term>digamma</term>
+	<gloss>F</gloss>
+</note>
+<note n="5v46 k" target="#II_17.3__1" facs="&facsBase;137624" place="m.l.">
+	<term>Terentius</term>
+	<gloss>Ter<ex>entius</ex></gloss>
+</note>
+<note n="6r3 a" target="#II_17.8__13" facs="&facsBase;137625">
+	<term>illos</term>
+	<gloss>sequimur</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 2 ('ueris' to 'uis') - Difference: 40.0% -->
+				<note n="6r3 b" target="#II_17.9__8" facs="&facsBase;137625">
+	<term>ueris</term>
+	<gloss><ex>uel</ex> uestis</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 2 ('tustissimo' to 'uetustissimo') - Difference: 16.67% -->
+				<note n="6r6 c" target="#II_17.13__9" facs="&facsBase;137625">
+	<term>tustissimo</term>
+	<gloss><add>ue</add>tustissimo</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('xerolophi' to 'xerolopho') - Difference: 11.11% -->
+				<note n="6r6 d" target="#II_17.14__3" facs="&facsBase;137625" place="m.d.">
+	<term>Xerolophi</term>
+	<gloss>pho</gloss>
+</note>
+<note n="6r13 e" target="#II_18.7__3" facs="&facsBase;137625">
+	<term>praeponi</term>
+	<gloss>⁊ i<ex>n</ex> p<ex>ri</ex>ncipio syllabae</gloss>
+</note>
+<note n="6r17 f" target="#II_18.12__5" facs="&facsBase;137625" place="m.l.">
+	<term>Quintiliano</term>
+	<gloss>Quin<ex>tilianus</ex></gloss>
+</note>
+<note n="6r19 g" target="#II_18.15__1" facs="&facsBase;137625" place="m.l.">
+	<term>aspiratio</term>
+	<gloss>H</gloss>
+</note>
+<note n="6r20 h" target="#II_18.17__1" facs="&facsBase;137625">
+	<term>Herennius</term>
+	<gloss>uel herimus</gloss>
+</note>
+<note n="6r22 i" target="#II_18.20__1" facs="&facsBase;137625" place="m.d.">
+	<term>plurimum</term>
+	<gloss>sonet</gloss>
+</note>
+<note n="6r25 j" target="#II_19.2__12" facs="&facsBase;137625">
+	<term>Erennius</term>
+	<gloss><ex>uel</ex> erimus</gloss>
+</note>
+<note n="6r29 k" target="#II_19.8__4" facs="&facsBase;137625">
+	<term>autem</term>
+	<gloss>antiq<ex>uam</ex></gloss>
+</note>
+<note n="6r30 l" target="#II_19.8__11" facs="&facsBase;137625">
+	<term>tamen</term>
+	<gloss>dictionib<ex>us</ex></gloss>
+</note>
+<note n="6r30 m" target="#II_19.9__13" facs="&facsBase;137625">
+	<term>fama</term>
+	<gloss>fuga</gloss>
+</note>
+<note n="6r42 n" target="#II_19.25__3" facs="&facsBase;137625">
+	<term>σοφία<del>ς</del></term>
+	<gloss>σωpια</gloss>
+</note>
+<note n="6r42 o" target="#II_19.25__4" facs="&facsBase;137625">
+	<term>σοφίας</term>
+	<gloss>σωpιας</gloss>
+</note>
+<note n="6r43 p" target="#II_19.25__10" facs="&facsBase;137625">
+	<term>adeo</term>
+	<gloss><ex>uel</ex> ideo</gloss>
+</note>
+<note n="6v7 a" target="#II_20.12__4" facs="&facsBase;137626">
+	<term>etiam</term>
+	<gloss>ipsius</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('γυβερνήτης' to 'κυβερνήτης') - Difference: 10.0% -->
+				<note n="6v13 b" target="#II_20.20__4" facs="&facsBase;137626" place="m.d.">
+	<term>Γυβερνήτης</term>
+	<gloss>κ</gloss>
+	<note type="editorial">Scribe has corrected initial letter in MS Γυβερνήτης to κυβερνήτης</note>
+</note>
+<!-- re-examine: No line with ID xml:id="II_20.21" occurs in the base-text -->
+				<note n="6v14 c" target="#II_21.1__4" facs="&facsBase;137626">
+	<term>φοιηίκεος</term>
+	<gloss>φοιη<add>ν</add>ίκεος</gloss>
+</note>
+<note n="6v14 d" target="#II_21.1__7" facs="&facsBase;137626" place="m.d.">
+	<term>θεός</term>
+	<gloss>⁊ timor int<ex>er</ex>p<ex>re</ex>tat<ex>ur</ex></gloss>
+</note>
+<note n="6v16 e" target="#II_21.4__1" facs="&facsBase;137626" place="m.l.">
+	<term>consonantium</term>
+	<gloss>q<ex>uo</ex>mo<ex>do</ex> manent ⁊ motant<ex>ur</ex> et abiiciunt<ex>ur</ex> consonan<ex>tes</ex> p<ex>er</ex> casus</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('senciput' to 'sinciput') - Difference: 12.5% -->
+				<note n="6v19 e" target="#II_21.8__7" facs="&facsBase;137626" place="m.d.">
+	<term>senciput</term>
+	<gloss>senatu<ex>m</ex> caput ut flavianus</gloss>
+</note>
+<note n="6v23 f" target="#II_21.14__2" facs="&facsBase;137626" place="m.l.">
+	<term>uerborum</term>
+	<gloss>conso<ex>nantes</ex> q<ex>uo</ex>mo<ex>do</ex> ma<ex>nent</ex> ⁊ mo<ex>tent</ex> i<ex>n</ex> p<ex>rae</ex>t<ex>eritis</ex> p<ex>er</ex>fec<ex>tis</ex> uerbor<ex>um</ex></gloss>
+</note>
+<note n="6v31 g" target="#II_22.1__1" facs="&facsBase;137626" place="m.l.">
+	<term>uocales</term>
+	<gloss>q<ex>uo</ex>mo<ex>do</ex> manent ⁊ producunt<ex>ur</ex> et motant<ex>ur</ex> uocales p<ex>er</ex> p<ex>rae</ex>t<ex>er</ex>ita<ex>m</ex> p<ex>er</ex>fec<ex>tam</ex> uerbor<ex>um</ex></gloss>
+</note>
+<note n="6v31 h" target="#II_22.1__5" facs="&facsBase;137626">
+	<term>perfectis</term>
+	<gloss>p<ex>re</ex>t<ex>er</ex>itis</gloss>
+</note>
+<note n="6v37 i" target="#II_22.9__11" facs="&facsBase;137626" place="m.l.">
+	<term>polyhistore</term>
+	<gloss>de<ex>est</ex> exemplu<ex>m</ex></gloss>
+</note>
+<note n="7r3 a" target="#II_23.1__1" facs="&facsBase;137627" place="m.l.">
+	<term>s</term>
+	<gloss>s</gloss>
+</note>
+<note n="7r8 b" target="#II_23.7__1" facs="&facsBase;137627" place="m.l.">
+	<term>m</term>
+	<gloss>m</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 5 ('tsup.callimachi' to 'callimachi') - Difference: 33.33% -->
+				<note n="7r10 c" target="#II_23.10__4" facs="&facsBase;137627" place="m.l.">
+	<term>t<add>c</add>allimachi</term>
+	<gloss>Cal<ex>limachus</ex></gloss>
+</note>
+<note n="7r24 d" target="#II_24.4__5" facs="&facsBase;137627">
+	<term>x</term>
+	<gloss>⁊ c<ex>um</ex> hís aff<ex>in</ex>is</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 3 ('sepe' to 'hae') - Difference: 75.0% -->
+				<note n="7r38 d1" target="#II_25.4__2" facs="&facsBase;137627">
+	<term>sepe</term>
+	<gloss><ex>uel</ex> pene</gloss>
+</note>
+<note n="7r38 e" target="#II_25.4__7" facs="&facsBase;137627">
+	<term>mutationes</term>
+	<gloss>De transitu uocaliu<ex>m</ex></gloss>
+</note>
+<note n="7r39 f" target="#II_25.8__1" facs="&facsBase;137627" place="m.l.">
+	<term>A</term>
+	<gloss>a</gloss>
+</note>
+<note n="7r43 g" target="#II_25.13__1" facs="&facsBase;137627" place="m.l.">
+	<term>e</term>
+	<gloss>e</gloss>
+</note>
+<note n="7v3 a" target="#II_25.20__1" facs="&facsBase;137628" place="m.l.">
+	<term>I</term>
+	<gloss>i</gloss>
+</note>
+<note n="7v4 b" target="#II_25.21__4" facs="&facsBase;137628">
+	<term>fortis</term>
+	<gloss>.i. fors</gloss>
+</note>
+<note n="7v21 c" target="#II_26.14__6" facs="&facsBase;137628" place="m.l.">
+	<term>augustus</term>
+	<gloss place="m.l.">auctus</gloss>
+	<!-- See Seuetonius' Life of Augustus -->
+</note>
+<note n="7v22 d" target="#II_26.16__1" facs="&facsBase;137628" place="m.l.">
+	<term>O</term>
+	<gloss>o</gloss>
+</note>
+<note n="7v25 d1" target="#II_26.17__17" facs="&facsBase;137628">
+	<term>creaui</term>
+	<gloss><ex>uel</ex> cretis</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 5 ('odonte' to 'compes') - Difference: 83.33% -->
+				<note n="7v25 e" target="#II_26.19__12" facs="&facsBase;137628">
+	<term>odonte</term>
+	<gloss>.i. dente</gloss>
+</note>
+<note n="7v28 f" target="#II_26.24__6" facs="&facsBase;137628">
+	<term>Κῦρος</term>
+	<gloss>.i. manus</gloss>
+	<!-- see Isaiah 45 -->
+</note>
+<note n="7v29 g" target="#II_26.24__12" facs="&facsBase;137628">
+	<term>Κύπρος</term>
+	<gloss>.i. nomen insolae</gloss>
+</note>
+<note n="7v32 h" target="#II_27.2__6" facs="&facsBase;137628" place="m.l.">
+	<term>Lucretius</term>
+	<gloss>Lu<ex>cretius</ex></gloss>
+</note>
+<note n="7v35 i" target="#II_27.9__1" facs="&facsBase;137628" place="m.l.">
+	<term>u</term>
+	<gloss>u</gloss>
+</note>
+<note n="7v37 j" target="#II_27.11__10" facs="&facsBase;137628" place="m.l.">
+	<term>Papirianus</term>
+	<gloss>Pa<ex>pirianus</ex></gloss>
+</note>
+<note n="7v43 l" target="#II_27.19__3" facs="&facsBase;137628">
+	<term>currus</term>
+	<gloss><ex>uel</ex> cursus </gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('humerus' to 'homerus') - Difference: 14.29% -->
+				<note n="7v46 m" target="#II_27.22__9" facs="&facsBase;137628">
+	<term>Humerus</term>
+	<gloss>.i. pro homer(us/os)</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('τουγάτηρ' to 'θουγάτηρ') - Difference: 12.5% -->
+				<note n="8r2 a" target="#II_27.25__10" facs="&facsBase;137629">
+	<term>τουγάτηρ</term>
+	<gloss>.i. filia</gloss>
+</note>
+<note n="8r7 b" target="#II_28.7__10" facs="&facsBase;137629">
+	<term>νοῦσος</term>
+	<gloss>.i. infirmus</gloss>
+</note>
+<note n="8r14 c" target="#II_29.3__5" facs="&facsBase;137629">
+	<term>econtra</term>
+	<gloss>a c<ex>on</ex>sonante</gloss>
+</note>
+<note n="8r14 c1" target="#II_29.3__5" facs="&facsBase;137629" place="m.l.">
+	<term>econtra</term>
+	<gloss>a consonante</gloss>
+</note>
+<note n="8r18 e" target="#II_29.8__9" facs="&facsBase;137629" place="m.l.">
+	<term>l</term>
+	<gloss>l</gloss>
+</note>
+<note n="8r18 f" target="#II_29.9__4" facs="&facsBase;137629" place="m.d.">
+	<term>Plinio</term>
+	<gloss>Pli<ex>nius</ex></gloss>
+</note>
+<note n="8r22 g" target="#II_29.15__1" facs="&facsBase;137629" place="m.l.">
+	<term>m</term>
+	<gloss>m</gloss>
+</note>
+<note n="8r25 h" target="#II_29.18__12" facs="&facsBase;137629" place="m.d.">
+	<term>Plinio</term>
+	<gloss>Pli<ex>nius</ex></gloss>
+</note>
+<note n="8r25 i" target="#II_29.18__12" facs="&facsBase;137629">
+	<term>Plinio</term>
+	<gloss>placet</gloss>
+</note>
+<note n="8r29 j" target="#II_30.3__2" facs="&facsBase;137629" place="m.l.">
+	<term>illum</term>
+	<gloss>V<ex>irgilius</ex></gloss>
+</note>
+<note n="8r30 k" target="#II_30.4__8" facs="&facsBase;137629" place="m.d.">
+	<term>Ennius</term>
+	<gloss>En<ex>nius</ex></gloss>
+</note>
+<note n="8r31 l" target="#II_30.7__1" facs="&facsBase;137629" place="m.l.">
+	<term>n</term>
+	<gloss>n</gloss>
+</note>
+<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('gnosco' to 'ignosco') - Difference: 14.29% -->
+				<note n="8r33 m" target="#II_30.9__5" facs="&facsBase;137629" place="m.l.">
+	<term>in <add>i</add>gnosco</term>
+	<gloss place="m.l.">.g. ut</gloss>
+	<note type="editorial">MS reads 'transit in.gnosco'</note>
+</note>
+<note n="8r33 n" target="#II_30.9__7" facs="&facsBase;137629">
+	<term>ignauus</term>
+	<gloss>.i. timidus</gloss>
+</note>
+<note n="8r37 o" target="#II_30.15__1" facs="&facsBase;137629" place="m.d.">
+	<term>Varro</term>
+	<gloss>Var<ex>ro</ex></gloss>
+</note>
+<note n="8r42 p" target="#II_30.22__10" facs="&facsBase;137629">
+	<term>catinum</term>
+	<gloss>uas salis</gloss>
+</note>
+<note n="8r42 q" target="#II_31.2__11" facs="&facsBase;137629" place="m.d.">
+	<term>Probo</term>
+	<gloss>P<ex>ro</ex>b<ex>us</ex></gloss>
+</note>
+<note n="8v7 a" target="#II_31.15__1" facs="&facsBase;137630" place="m.l.">
+	<term>R</term>
+	<gloss>R</gloss>
+</note>
+<note n="8v8 b " target="#II_31.17__5" facs="&facsBase;137630" place="m.s.">
+	<term>Orrhoena</term>
+	<gloss>virg<ex>ilianus</ex> horreus u<ex>er</ex>o filius fauni regis latinor<ex>um</ex> in cuius honore<ex>m</ex> 
+		horrhena facta s<ex>un</ex>t i<ex>d est</ex> dies lugbres atq<ex>ue</ex> tristes i<ex>n</ex> quib<ex>us</ex> 
+		latini suos mortuos p<ex>ro</ex>fusis lacrimis flebant. horrheus v<ex>er</ex>o ob horrorem 
+		faciei no<ex>min</ex>atus <ex>est</ex> pirrus <ex>enim</ex> p<ex>ri</ex>us 
+		dictus <ex>est</ex> i<ex>n</ex>de festa horrhena i<ex>d est</ex> horribilia atq<ex>ue</ex>lugubria dicuntur..,</gloss>
+	</note>
+	<note n="8v10 c" target="#II_31.19__15" facs="&facsBase;137630" place="m.l.">
+		<term>Plautus</term>
+		<gloss>Pla<ex>utus</ex></gloss>
+	</note>
+	<note n="8v12 d" target="#II_32.1__1" facs="&facsBase;137630" place="m.l.">
+		<term>s</term>
+		<gloss>S</gloss>
+	</note>
+	<note n="8v13 d" target="#II_32.2__1" facs="&facsBase;137630" place="m.l.">
+		<term>Virgilius</term>
+		<gloss>V<ex>irgilius</ex></gloss>
+	</note>
+	<note n="8v14 e" target="#II_32.5__2" facs="&facsBase;137630" place="m.l.">
+		<term>inter</term>
+		<gloss>V<ex>irgilius</ex></gloss>
+	</note>
+	<note n="8v17 f" target="#II_32.9__11" facs="&facsBase;137630">
+		<term>Chaerea</term>
+		<gloss>uidua</gloss>
+		<!-- χηρεία - widowhood -->
+	</note>
+	<note n="8v19 g" target="#II_32.12__7" facs="&facsBase;137630" place="m.l.">
+		<term>Terentius</term>
+		<gloss>Ter<ex>entius</ex></gloss>
+	</note>
+	<note n="8v25 h" target="#II_32.21__9" facs="&facsBase;137630" place="m.l.">
+		<term>ἅλς</term>
+		<gloss> Ⱶh, Ⱶs</gloss>
+		<!-- Scribe has attempted to correct main body MS reads Ⱶellac, and scribe has tried to correct to 'ἕ, ἅλς' -->
+	</note>
+	<note n="8v32 i" target="#II_33.10__7" facs="&facsBase;137630" place="m.l.">
+		<term>sonat</term>
+		<gloss>q<ex>uam</ex> .bs.</gloss>
+	</note>
+	<note n="8v35 j" target="#II_33.14__1" facs="&facsBase;137630" place="m.l.">
+		<term>x</term>
+		<gloss>X</gloss>
+	</note>
+	<note n="9r1 a1" target="#II_34.5__11" facs="&facsBase;137631">
+		<term>abssectus</term>
+		<gloss><ex>uel</ex> obssectus</gloss>
+	</note>
+	<note n="9r3 a" target="#II_34.8__6" facs="&facsBase;137631" place="m.l.">
+		<term>b</term>
+		<gloss>b</gloss>
+	</note>
+	<note n="9r3 b" target="#II_34.8__7" facs="&facsBase;137631" place="m.l.">
+		<term>transit</term>
+		<gloss>de transitu mutarum</gloss>
+	</note>
+	<note n="9r5 b1" target="#II_34.12__5" facs="&facsBase;137631">
+		<term>subtinnio</term>
+		<gloss><ex>uel</ex> subtineo</gloss>
+	</note>
+	<note n="9r9 c" target="#II_34.18__1" facs="&facsBase;137631" place="m.l.">
+		<term>c</term>
+		<gloss>c</gloss>
+	</note>
+	<note n="9r14 d" target="#II_35.1__1" facs="&facsBase;137631" place="m.l.">
+		<term>d</term>
+		<gloss>d</gloss>
+	</note>
+	<note n="9r17 e" target="#II_35.4__7" facs="&facsBase;137631">
+		<term>arfari</term>
+		<gloss>dictens</gloss>
+	</note>
+	<note n="9r22 f" target="#II_35.13__1" facs="&facsBase;137631" place="m.l.">
+		<term>f</term>
+		<gloss>f</gloss>
+	</note>
+	<note n="9r26 g" target="#II_35.17__9" facs="&facsBase;137631" place="m.d.">
+		<term>autem</term>
+		<gloss>h<ex>aec</ex> .f. lit<ex>er</ex>a</gloss>
+	</note>
+	<note n="9r29 h" target="#II_35.22__1" facs="&facsBase;137631" place="m.l.">
+		<term>g</term>
+		<gloss>g</gloss>
+	</note>
+	<note n="9r30 i" target="#II_35.24__1" facs="&facsBase;137631" place="m.l.">
+		<term>h</term>
+		<gloss>h</gloss>
+	</note>
+	<note n="9r32 j" target="#II_35.26__9" facs="&facsBase;137631" place="m.d.">
+		<term>psiles</term>
+		<gloss>⊣</gloss>
+	</note>
+	<note n="9r34 k" target="#II_36.2__6" facs="&facsBase;137631" place="m.d.">
+		<term>flatilem</term>
+		<gloss>Ⱶ</gloss>
+	</note>
+	<note n="9r34 l" target="#II_36.3__1" facs="&facsBase;137631" place="m.l.">
+		<term>k</term>
+		<gloss>k</gloss>
+	</note>
+	<note n="9r35 m" target="#II_36.5__2" facs="&facsBase;137631" place="m.l.">
+		<term>q</term>
+		<gloss>q</gloss>
+	</note>
+	<note n="9r36 n" target="#II_36.7__8" facs="&facsBase;137631">
+		<term>illam</term>
+		<gloss>.i. c</gloss>
+	</note>
+	<note n="9r41 o" target="#II_36.15__1" facs="&facsBase;137631" place="m.l.">
+		<term>t</term>
+		<gloss>t</gloss>
+	</note>
+	<note n="9r41 o1" target="#II_36.15__1" facs="&facsBase;137631" place="m.d.">
+		<term>t</term>
+		<gloss>t</gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 6 ('dicebant' to 'in') - Difference: 75.0% -->
+				<note n="9r41 p" target="#II_36.15__1" facs="&facsBase;137631" place="m.d.">
+		<term>dicebant</term>
+		<gloss>t</gloss>
+		<note type="editorial">MS reads 'dicebant transit...' instead of 't transit' </note>
+	</note>
+	<note n="9v1 a" target="#II_36.23__13" facs="&facsBase;137632">
+		<term>καρύου</term>
+		<gloss>καρύ<add>ι</add>ου</gloss>
+	</note>
+	<note n="9v9 c" target="#II_37.15__7" facs="&facsBase;137632" place="m.l.">
+		<term>ae</term>
+		<gloss>ae</gloss>
+	</note>
+	<note n="9v11 d" target="#II_37.17__5" facs="&facsBase;137632" place="m.l.">
+		<term>Virgilius</term>
+		<gloss>V<ex>irgilius</ex></gloss>
+	</note>
+	<note n="9v18 e" target="#II_38.9__3" facs="&facsBase;137632" place="m.l.">
+		<term>Virgilius</term>
+		<gloss>V<ex>irgilius</ex></gloss>
+	</note>
+	<note n="9v20 f" target="#II_38.13__11" facs="&facsBase;137632" place="m.l.">
+		<term>Virgilius</term>
+		<gloss>V<ex>irgilius</ex></gloss>
+	</note>
+	<note n="9v21 g" target="#II_38.16__1" facs="&facsBase;137632" place="m.l.">
+		<term>oe</term>
+		<gloss>oe</gloss>
+	</note>
+	<note n="9v24 h" target="#II_38.21__1" facs="&facsBase;137632" place="m.l.">
+		<term>au</term>
+		<gloss>au</gloss>
+	</note>
+	<note n="9v32 i" target="#II_39.13__1" facs="&facsBase;137632" place="m.l.">
+		<term>eu</term>
+		<gloss>eu</gloss>
+	</note>
+	<note n="9v45 i" target="#II_40.10__1" facs="&facsBase;137632" place="m.l.">
+		<term>ei</term>
+		<gloss>ei</gloss>
+	</note>
+	<note n="10r8 a" target="#II_41.6__7" facs="&facsBase;137633" place="m.l.">
+		<term>Plateam</term>
+		<gloss>neceam</gloss>
+		<!-- see R 10v -->
+	</note>
+	<note n="10r16 b" target="#II_41.18__13" facs="&facsBase;137633" place="m.d.">
+		<term>Statius</term>
+		<gloss>Stat<ex>ius</ex></gloss>
+	</note>
+	<note n="10r21 c" target="#II_42.1__5" facs="&facsBase;137633" place="m.l.">
+		<term>Smyrna</term>
+		<gloss>.i. ciuitas <ex>est</ex> ubi homer<ex>us</ex> natus, <ex>est</ex> condita a teseo</gloss>
+		<!-- see Isidorus Hispalensis - Etymologiarum siue Originum libri XX (CPL 1186) - LLT
+			lib. : 15. cap. : 1. par. : 39 -->
+	</note>
+	<note n="10r27 d" target="#II_42.9__9" facs="&facsBase;137633" place="m.l.">
+		<term>βδελυρός</term>
+		<gloss>s<ex>i</ex>n<ex>e</ex> se<ex>m</ex>p<ex>er</ex> ui<ex>m</ex></gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('abdira' to 'abdera') - Difference: 16.67% -->
+				<note n="10r27 e" target="#II_42.9__13" facs="&facsBase;137633" place="m.d.">
+		<term>Abdira</term>
+		<gloss>.i. lapis q<ex>uae</ex> sat<ex>ur</ex>nus comedit</gloss>
+		<note type="editorial">MS reads 'bdelliu<ex>m</ex> gen<ex>us</ex> lapidis abdira'</note>
+		<!-- see Priscianus - Institutiones grammaticae (CPL 1546. LLA 703) - LLT
+			liber: 7. GL 2 - pag.: 313. linea: 24 and IOHANNES SCOTTUS ERIUGENA - ACLL
+			Annotationes in Marcianum (Martianum Capellam) Page: 58 -->
+	</note>
+	<note n="10r27 f" target="#II_42.9__15" facs="&facsBase;137633">
+		<term>abdomen</term>
+		<gloss>pinguedo carniu<ex>m</ex></gloss>
+	</note>
+	<note n="10r27 g" target="#II_42.10__1" facs="&facsBase;137633">
+		<term>Mygdonides</term>
+		<gloss>.i. lapis</gloss>
+	</note>
+	<note n="10r28 g1" target="#II_42.11__1" facs="&facsBase;137633">
+		<term>aptus</term>
+		<gloss><g>"</g> &gt; (10r28.42.11) </gloss><term>diphthongus</term><gloss><g>"</g></gloss> 
+	</note>
+	<note n="10r29 h" target="#II_42.12__5" facs="&facsBase;137633">
+		<term>asbestus</term>
+		<gloss>.i. gen<ex>us</ex> lapidis</gloss>
+	</note>
+	<note n="10r29 i" target="#II_42.12__7" facs="&facsBase;137633">
+		<term>Asbustes</term>
+		<gloss>.i. neph-athnachta</gloss>
+	</note>
+	<note n="10r30 j" target="#II_42.12__15" facs="&facsBase;137633">
+		<term>squalor</term>
+		<gloss>inmu<ex>n</ex>ditia</gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('sthennius' to 'sthenius') - Difference: 11.11% -->
+				<note n="10r30 j1" target="#II_42.13__9" facs="&facsBase;137633">
+		<term>Sthennius</term>
+		<gloss>.i. debilis, 'stennuo' g<ex>rae</ex>c<ex>e</ex>, debilitas lati<ex>ne</ex></gloss>
+	</note>
+	<note n="10r33 k" target="#II_42.16__8" facs="&facsBase;137633">
+		<term>Glabrio</term>
+		<gloss>i<ex>m</ex>berbis</gloss>
+	</note>
+	<note n="10r34 l" target="#II_42.18__3" facs="&facsBase;137633" place="m.l.">
+		<term>Cnidus</term>
+		<gloss>i<ex>n</ex>solae no<ex>men</ex></gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 3 ('quidnus' to 'cnidus') - Difference: 42.86% -->
+				<note n="10r34 m" target="#II_42.18__3" facs="&facsBase;137633">
+		<term>q<ex>ui</ex>dn<ex>us</ex></term>
+		<gloss>aq<ex>ua</ex> frigida</gloss>
+	</note>
+	<note n="10r34 m1" target="#II_42.18__9" facs="&facsBase;137633">
+		<term>Ariadne</term>
+		<gloss>p<ex>roprium</ex></gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('thaerapnae' to 'therapnae') - Difference: 10.0% -->
+				<note n="10r34 n" target="#II_42.19__1" facs="&facsBase;137633">
+		<term>Thaerapnae</term>
+		<gloss>.i. no<ex>men</ex> loci <ex>uel</ex> portus italiae</gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('sipnus' to 'siphnus') - Difference: 14.29% -->
+				<note n="10r34 n1" target="#II_42.19__3" facs="&facsBase;137633">
+		<term>Sipnus</term>
+		<gloss>p<ex>roprium</ex></gloss>
+	</note>
+	<note n="10r35 n2" target="#II_42.19__7" facs="&facsBase;137633">
+		<term>Brennus</term>
+		<gloss>p<ex>roprium</ex></gloss>
+	</note>
+	<note n="10r35 o" target="#II_42.19__13" facs="&facsBase;137633">
+		<term>creber</term>
+		<gloss>celer</gloss>
+	</note>
+	<note n="10r35 p" target="#II_42.20__1" facs="&facsBase;137633">
+		<term>Drances</term>
+		<gloss>dux de la<ex>tinus</ex></gloss>
+	</note>
+	<note n="10r36 q" target="#II_42.20__13" facs="&facsBase;137633" place="m.l.">
+		<term>pratum</term>
+		<gloss>ouium .i. pastor </gloss>
+	</note>
+	<note n="10r36 q1" target="#II_42.20__20" facs="&facsBase;137633">
+		<term>m</term>
+		<gloss><ex>autem</ex></gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('piracmon' to 'pyracmon') - Difference: 12.5% -->
+				<note n="10r36 q2" target="#II_42.21__9" facs="&facsBase;137633">
+		<term>Piracmon</term>
+		<gloss>p<ex>roprium</ex></gloss>
+	</note>
+	<note n="10r36 q3" target="#II_42.21__11" facs="&facsBase;137633">
+		<term>Alcmene</term>
+		<gloss>p<ex>roprium</ex></gloss>
+	</note>
+	<note n="10r36 r" target="#II_42.21__15" facs="&facsBase;137633">
+		<term>Dmois</term>
+		<gloss>loc<ex>us</ex></gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 5 ('dragma' to 'dmois') - Difference: 83.33% -->
+				<note n="10r37 s" target="#II_42.21__15" facs="&facsBase;137633">
+		<term>dragma</term>
+		<gloss>pondus aliq<ex>uo</ex>t</gloss>
+	</note>
+	<note n="10r37 t" target="#II_42.22__5" facs="&facsBase;137633">
+		<term>Tmolus</term>
+		<gloss>mons</gloss>
+	</note>
+	<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('istmos' to 'isthmos') - Difference: 14.29% -->
+				<note n="10r37 u" target="#II_42.22__7" facs="&facsBase;137633" place="m.d.">
+		<term>Istmos</term>
+		<gloss>p<ex>ro</ex>uincia angusta</gloss>
+	</note>
+	<note n="10r41 v" target="#II_43.3__11" facs="&facsBase;137633" place="m.l.">
+		<term>In grecis etiam .φ. secunda ponitur quam nos per ph plerumque scribimus σφραγις</term>
+		<gloss>signaculum <gap/></gloss>
+		<note type="editorial">Additional material in main text, marginal gloss on σφραγις</note>
+	</note>
+</div>
+		</body>
+	</text>
+</TEI>
