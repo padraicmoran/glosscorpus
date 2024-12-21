@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    London,
+                                    British Library,
+                                    Arundel 129</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Arundel129</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <collection/>
+                  <idno>Arundel 129</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                     <handNote xml:id="hand-g3">glossing hand 3</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.III.5__3" n="L3.5.3_1" hand="hand-g1">
+               <gloss>scilicet
+               perhibent</gloss>
+            </note>
+            <note target="#b1.III.5__16" n="L3.5.16_4" hand="hand-main">
+               <gloss>Phoenices dicti a rubro mare, quod proficit in
+               Syriam, quia Si<unclear>donem</unclear> urbem inibi condiderunt</gloss>
+            </note>
+            <note target="#b1.III.8__2" n="L3.8.2_1" hand="hand-g2">
+               <gloss>scilicet sciendum
+               est</gloss>
+            </note>
+            <note target="#b1.III.11__3" n="L3.11.3_1" hand="hand-main">
+               <gloss>quae
+               unum</gloss>
+            </note>
+            <note target="#b1.IV.15__2" n="L4.15.2_2" hand="hand-main">
+               <gloss>vulgarissat</gloss>
+            </note>
+            <note target="#b1.IV.17__2" n="L4.17.2_2" hand="hand-main">
+               <gloss>noverunt</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

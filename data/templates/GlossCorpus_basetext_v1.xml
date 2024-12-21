@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Template for Gloss Corpus, v1.0: http://www.glossing.org/glosscorpus
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ars grammatica</title>
+				<author>Priscian</author>
+			</titleStmt>
+			<editionStmt>
+				<p>Martin Hertz in Heinrich Keil (ed.), <title>Grammatici Latini</title> (6 vols, Leipzig, 1855–80), vols II–III.</p>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+				<date>2024</date>
+				<idno type="URL">http://www.glossing.org/glosscorpus</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="short_title">Priscian</note>
+				<note type="segmentation">Segmented by volume, page and line in GL.</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Digitised by the Corpus Grammaticorum Latinorum project and shared with permission from Alessandro Garcea. </p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="section" n="0">
+				<head>Praefatio</head>
+				<ab xml:id="II_1_0" n="GL II 1 [0]" rend="h1">Priscianus Caesariensis grammaticus Iuliano consuli ac patricio</ab>
+				<ab xml:id="II_1.1" n="GL II 1.1">cum omnis eloquentiae doctrinam et omne studiorum genus</ab>
+				<ab xml:id="II_1.2" n="GL II 1.2">sapientiae luce praefulgens a Graecorum fontibus deriuatum Latinos proprio </ab>
+				<ab xml:id="II_1.3" n="GL II 1.3">sermone inuenio celebrasse et in omnibus illorum uestigia liberalibus </ab>
+				<ab xml:id="II_1.4" n="GL II 1.4">consecutos artibus uideo, nec solum ea, quae emendate ab illis sunt prolata, sed </ab>
+				<ab xml:id="II_1.5" n="GL II 1.5">etiam quosdam errores eorum amore doctorum deceptos imitari, in quibus </ab>
+				<ab xml:id="II_1.6" n="GL II 1.6">maxime uetustissima grammatica ars arguitur peccasse, cuius auctores, </ab>
+				<ab xml:id="II_1.7" n="GL II 1.7">quanto sunt iuniores, tanto perspicaciores, et ingeniis floruisse et </ab>
+				<ab xml:id="II_1.8" n="GL II 1.8">diligentia ualuisse omnium iudicio confirmantur eruditissimorum (quid enim </ab>
+				<ab xml:id="II_1.9" n="GL II 1.9">Herodiani artibus certius, quid Apollonii scrupulosis quaestionibus </ab>
+				<ab xml:id="II_1.10" n="GL II 1.10">enucleatius possit inueniri?) cum igitur eos omnia fere uitia, quaecumque </ab>
+ 			</div>
+			<div type="section" n="1">
+				<head>I. De uoce, de littera</head>
+				<ab xml:id="II_5.0" n="GL II 5.0" rend="h1">
+					<w xml:id="II_5.0__1">liber</w> 
+					<w xml:id="II_5.0__2">primus</w> 
+					<w xml:id="II_5.0__3">de</w> 
+					<w xml:id="II_5.0__4">uoce</w> 
+				</ab>
+				<ab xml:id="II_5.1" n="GL II 5.1">
+					<w xml:id="II_5.1__1">philosophi</w> 
+					<w xml:id="II_5.1__2">definiunt</w>
+					<pc xml:id="II_5.1__3">,</pc> 
+					<w xml:id="II_5.1__4">uocem</w> 
+					<w xml:id="II_5.1__5">esse</w> 
+					<w xml:id="II_5.1__6">aerem</w> 
+					<w xml:id="II_5.1__7">tenuissimum</w> 
+					<w xml:id="II_5.1__8">ictum</w> 
+					<w xml:id="II_5.1__9">uel</w> 
+					<w xml:id="II_5.1__10">suum</w> 
+				</ab>
+				<ab xml:id="II_5.2" n="GL II 5.2">
+					<w xml:id="II_5.2__1">sensibile</w> 
+					<w xml:id="II_5.2__2">aurium</w>
+					<pc xml:id="II_5.2__3">,</pc> 
+					<w xml:id="II_5.2__4">id</w> 
+					<w xml:id="II_5.2__5">est</w> 
+					<w xml:id="II_5.2__6">quod</w> 
+					<w xml:id="II_5.2__7">proprie</w> 
+					<w xml:id="II_5.2__8">auribus</w> 
+					<w xml:id="II_5.2__9">accidit</w>
+					<pc xml:id="II_5.2__10">.</pc> 
+					<w xml:id="II_5.2__11">et</w> 
+					<w xml:id="II_5.2__12">est</w> 
+					<w xml:id="II_5.2__13">prior</w> 
+					<w xml:id="II_5.2__14">definitio</w> 
+				</ab>
+ 			</div>
+		</body>
+	</text>
+</TEI>

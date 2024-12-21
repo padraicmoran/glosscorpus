@@ -1,0 +1,44 @@
+
+html, body {
+   font-family: "Fira Sans", sans-serif;
+   font-size: 1.15em;
+}
+
+a, a:hover, a:visited {
+	color: #666;
+}
+a.btn {
+	color: white;
+}
+
+.highlight, td.highlight, tr.highlight {
+   background-color: #ffff99 !important;
+   }
+
+.siglumBox {
+	display: inline;
+	padding: 3px 6px 3px 6px; 
+	min-width: 20px; 
+	min-height: 24px; 
+	text-align: center; 
+	color: #000000 !important;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+table h1 {
+	font-size: 2em;
+}
+
+h2 {
+	padding-bottom: 12px;
+}
+#miradorViewer h2 {
+	padding-bottom: 0px;
+}
+
+footer.withMsViewer {
+	margin-bottom: 50vh;
+}

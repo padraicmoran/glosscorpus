@@ -10,24 +10,24 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Glosses on Priscian in St Gall, Stiftsbibliothek, 904</title>
+				<title>Glosses on Priscian, Ars grammatica, in St Gall, Stiftsbibliothek, 904</title>
 				<editor>Rijcklof Hofman</editor>
 			</titleStmt>
 			<editionStmt>
-				<p>Glosses from Priscian books 1–5 published in R. Hofman, <title>The Sankt Gall Priscian Commentary. Part 1</title> (2 vols, Münster, 1996).</p>
+				<p>Glosses from Priscian books 1–5 were published in R. Hofman, <title>The Sankt Gall Priscian Commentary. Part 1</title> (2 vols, Münster, 1996).</p>
 				<p>All glosses published in digital edition by Pádraic Moran: http://www.stgallpriscian.ie</p>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Gloss Corpus, http://www.glossing.org/glosscorpus</publisher>
    			<authority>Pádraic Moran</authority>
-				<date>2024</date>
-				<idno type="DOI">…</idno>
+				<date when="2024-12-18">18 December 2024</date>
+				<idno type="DOI">https://doi.org/10.71555/hofman2024</idno>
 				<idno type="URL">http://glosscorpus/glosscorpus/publications/hofman</idno>
-					<availability status="free">
+				<availability status="free">
 					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 					<p>Creative Commons BY-NC-SA 4.0</p>
 					</licence>
-					</availability>
+				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note type="siglum">G</note>

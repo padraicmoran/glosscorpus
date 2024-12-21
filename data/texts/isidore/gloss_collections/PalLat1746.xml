@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Vatican,
+                                    Biblioteca Apostolica Vaticana,
+                                    Pal. Lat. 1746</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">PalLat1746</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vatican</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <collection/>
+                  <idno>Pal. Lat. 1746</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.II.1__3" n="L2.1.3_2" hand="hand-g1">
+               <gloss>gramma Graece,
+               littera Latine</gloss>
+            </note>
+            <note target="#b1.II.1__5" n="L2.1.5_8" hand="hand-g1">
+               <gloss>rethor: Graece
+               eloquens</gloss>
+            </note>
+            <note target="#b1.II.1__11" n="L2.1.11_5" hand="hand-g1">
+               <gloss>id est duorum
+               sermo</gloss>
+            </note>
+            <note target="#b1.II.1__13" n="L2.1.13_6" hand="hand-g1">
+               <gloss>logos Graece,
+               sermo Latine</gloss>
+            </note>
+            <note target="#b1.II.2__3" n="L2.2.3_7" hand="hand-g1">
+               <gloss>dicta a
+               musa</gloss>
+            </note>
+            <note target="#b1.II.3__1" n="L2.3.1_6" hand="hand-g1">
+               <gloss>id est terrae
+               mensura</gloss>
+            </note>
+            <note target="#b1.II.3__4" n="L2.3.4_6" hand="hand-g1">
+               <gloss>id est numerus
+               stellarum</gloss>
+            </note>
+            <note target="#b1.III.5__1" n="L3.5.1_2" hand="hand-g1">
+               <gloss>quidam dicunt
+               initium</gloss>
+            </note>
+            <note target="#b1.III.5__3" n="L3.5.3_2" hand="hand-g1">
+               <gloss>coepisse
+               initium</gloss>
+            </note>
+            <note target="#b1.III.5__12" n="L3.5.12_3" hand="hand-g1">
+               <gloss>scimus</gloss>
+            </note>
+            <note target="#b1.III.8__4" n="L3.8.4_1" hand="hand-g1">
+               <gloss>superius</gloss>
+            </note>
+            <note target="#b1.III.8__10" n="L3.8.10_4">
+               <gloss>scilicet ait</gloss>
+            </note>
+            <note target="#b1.IV.4__1" n="L4.4.1_2" hand="hand-g1">
+               <gloss>scimus</gloss>
+            </note>
+            <note target="#b1.IV.4__6" n="L4.4.6_2" hand="hand-g1">
+               <gloss>scimus</gloss>
+            </note>
+            <note target="#b1.IV.6__1" n="L4.6.1_2" hand="hand-g1">
+               <gloss>aliquando</gloss>
+            </note>
+            <note target="#b1.IV.8__2" n="L4.8.2_1" hand="hand-g1">
+               <gloss>ut vulgus
+               servus</gloss>
+            </note>
+            <note target="#b1.IV.17__7" n="L4.17.7_1" hand="hand-g1">
+               <gloss>magistrorum</gloss>
+            </note>
+            <note target="#b1.VII.2__3" n="L7.2.3_6">
+               <gloss>dicti sunt</gloss>
+            </note>
+            <note target="#b1.VII.2__11" n="L7.2.11_1">
+               <gloss>proprio</gloss>
+            </note>
+            <note target="#b1.VII.5__1" n="L7.5.1_1">
+               <gloss>nomina</gloss>
+            </note>
+            <note target="#b1.VII.11__1" n="L7.11.1_1">
+               <gloss>nomina</gloss>
+            </note>
+            <note target="#b1.VII.23__4" n="L7.23.4_2">
+               <gloss>nomina</gloss>
+            </note>
+            <note target="#b1.XVII.4__12" n="L17.4.12_3">
+               <gloss>audientibus</gloss>
+            </note>
+            <note target="#b1.XVII.8__3" n="L17.8.3_2">
+               <gloss>dicuntur</gloss>
+            </note>
+            <note target="#b1.XVII.9__1" n="L17.9.1_6">
+               <gloss>dictus</gloss>
+            </note>
+            <note target="#b1.XVII.9__2" n="L17.9.2_1">
+               <gloss>syllabam</gloss>
+            </note>
+            <note target="#b1.XVII.17__4" n="L17.17.4_1">
+               <gloss>sunt</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

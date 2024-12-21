@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Cesena,
+                                    Biblioteca Malatesiana,
+                                    S.XXI.5</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">CesenaSXXI5</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Cesena</settlement>
+                  <repository>Biblioteca Malatesiana</repository>
+                  <collection/>
+                  <idno>S.XXI.5</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b..__10" n="L0.E4.10_1">
+               <gloss>dispensationem</gloss>
+            </note>
+            <note target="#b1.III.1__4" n="L3.1.4_1" hand="hand-g2">
+               <gloss>id est
+               numeratores</gloss>
+            </note>
+            <note target="#b1.IV.11__6" n="L4.11.6_1" hand="hand-g1">
+               <gloss>id est
+               accentus</gloss>
+            </note>
+            <note target="#b1.IV.18__4" n="L4.18.4_1" hand="hand-g1">
+               <gloss>annotatur</gloss>
+            </note>
+            <note target="#b1.XXI.2__1" n="L21.2.1_1">
+               <gloss>in praetermissis</gloss>
+            </note>
+            <note target="#b1.XXI.3__1" n="L21.3.1_1">
+               <gloss>in superfluis</gloss>
+            </note>
+            <note target="#b1.XXI.4__1" n="L21.4.1_1">
+               <gloss>in dubiis</gloss>
+            </note>
+            <note target="#b1.XXI.5__1" n="L21.5.1_1">
+               <gloss>in sermonum varietate</gloss>
+            </note>
+            <note target="#b1.XXI.6__1" n="L21.6.1_1">
+               <gloss>in diversitate sensuum</gloss>
+            </note>
+            <note target="#b1.XXI.7__1" n="L21.7.1_1">
+               <gloss>in transmutatis</gloss>
+            </note>
+            <note target="#b1.XXI.8__1" n="L21.8.1_1">
+               <gloss>in separatione</gloss>
+            </note>
+            <note target="#b1.XXI.9__1" n="L21.9.1_1">
+               <gloss>in finis separatione</gloss>
+            </note>
+            <note target="#b1.XXI.10__1" n="L21.10.1_1">
+               <gloss>in difficili quaestione</gloss>
+            </note>
+            <note target="#b1.XXI.11__1" n="L21.11.1_1">
+               <gloss>in ordine transmutato</gloss>
+            </note>
+            <note target="#b1.XXI.12__1" n="L21.12.1_1">
+               <gloss>in ambiguis</gloss>
+            </note>
+            <note target="#b1.XXVII.7__1" n="L27.7.1_1">
+               <gloss>adverbium</gloss>
+            </note>
+            <note target="#b1.XXVII.29__6" n="L27.29.6_1">
+               <gloss>
+                  <gap/>
+               </gloss>
+            </note>
+            <note target="#b1.XXVIII.1__9" n="L28.1.9_1">
+               <gloss>vel cognoscitur</gloss>
+            </note>
+            <note target="#b1.XXIX.3__8" n="L29.3.8_1">
+               <gloss>vel dictae</gloss>
+            </note>
+            <note target="#b1.XXXVII.15__1" n="L37.15.1_1">
+               <gloss>vel locutio</gloss>
+            </note>
+            <note target="#b1.XL.6__13" n="L40.6.13_1">
+               <gloss>id est <sic>
+                     <sic>ranum</sic>
+                     <corr>ranam</corr>
+                  </sic>A notable error of the glossator:
+                     rubum is a bramble, rana is a
+                  frog</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

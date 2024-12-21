@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Laon,
+                                    Bibliothèque municipale,
+                                    MS 447</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Laon447</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Laon</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <collection/>
+                  <idno>MS 447</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                     <handNote xml:id="hand-g3">glossing hand 3</handNote>
+                     <handNote xml:id="hand-g4">glossing hand 4</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b..__1" n="L0.E3.1_1">
+               <gloss>
+                  <sic>membranum</sic> modicum</gloss>
+            </note>
+            <note target="#b..__2" n="L0.E4.2_1">
+               <gloss>di<unclear>si</unclear>catum,
+               delusum</gloss>
+            </note>
+            <note target="#b..__4" n="L0.E4.4_1">
+               <gloss>ob rem, propter quod, quapropter, propter
+               ea, ideo</gloss>
+            </note>
+            <note target="#b..__5" n="L0.E4.5_1">
+               <gloss>id est quare</gloss>
+            </note>
+            <note target="#b..__6" n="L0.E4.6_1">
+               <gloss>
+                  <gap/>ciam</gloss>
+            </note>
+            <note target="#b..__7" n="L0.E4.7_1">
+               <gloss>consolatus</gloss>
+            </note>
+            <note target="#b..__8" n="L0.E4.8_1">
+               <gloss>immito, infero</gloss>
+            </note>
+            <note target="#b..__17" n="L0.E4.17_1">
+               <gloss>id est cum epistola</gloss>
+            </note>
+            <note target="#b1.III.5__14" n="L3.5.14_1" hand="hand-g4">
+               <gloss>dominicales,
+               liberales</gloss>
+            </note>
+            <note target="#b1.III.5__15" n="L3.5.15_1" hand="hand-g4">
+               <gloss>ignobiles</gloss>
+            </note>
+            <note target="#b1.IX.3__4" n="L9.3.4_1">
+               <gloss>Perfecta a perficiendo
+               ut lego. Tunc enim dicendum est quando in praesenti tempore
+                  <sic>legamus</sic>Quando abbreviated as qm</gloss>
+            </note>
+            <note target="#b1.XXVII.29__9" n="L27.29.9_1">
+               <gloss>id est sicilicus vero fit
+                  it<unclear>a</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXX.1__6" n="L30.1.6_1">
+               <gloss>id est qualitate vel 
+                  <del>intellectu</del>
+                  <add>i</add>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.5__7" n="L34.5.7_1">
+               <gloss>videreIntegrated into the main text</gloss>
+            </note>
+            <note target="#b1.XXXVII.8__8" n="L37.8.8_1">
+               <gloss>ardet</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

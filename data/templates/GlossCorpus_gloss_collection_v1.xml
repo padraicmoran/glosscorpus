@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Template for Gloss Corpus, v1.0: http://www.glossing.org/glosscorpus
+-->
+<!DOCTYPE TEI [
+	<!ENTITY facsBase "https://www.e-codices.unifr.ch/en/csg/0904/">
+	<!ENTITY ref2Base "https://archive.org/details/thesauruspalaeo02stok/page/">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Priscian in St Gall, Stiftsbibliothek, 904</title>
+				<editor>Rijcklof Hofman</editor>
+			</titleStmt>
+			<editionStmt>
+				<p>Glosses from Priscian books 1–5 published in R. Hofman, <title>The Sankt Gall Priscian Commentary. Part 1</title> (2 vols, Münster, 1996).</p>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+				<date when="2024-12-18">18 December 2024</date>
+				<idno type="DOI">https://doi.org/10.71555/hofman2024</idno>
+				<idno type="URL">http://glosscorpus/glosscorpus/publications/hofman</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">G</note>
+				<note type="hex_colour">ee0000</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <collection>Rawlinson</collection>
+                  <idno>B505</idno>
+					</msIdentifier>
+					<physDesc>
+						<handDesc>
+							<summary>
+								For details, see Hofman 1996, 12–25. 
+							</summary>
+							<handNote xml:id="hand-A">Main glossator, Irish minuscule</handNote>
+							<handNote xml:id="hand-B">Glossator B, Irish minuscule; helper of glossator A (e.g. col. 65b34r to end of col. 67)</handNote>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<!-- Example 1 -->
+				<note n="1a2 a" target="#II_1.1">
+					<term>omnis</term>
+					<gloss>.i. adit conatus sum usque grammaticorum</gloss> 
+				</note>
+				<!-- Example 2 -->
+				<note n="1a10 e" target="#II_1.3__9" facs="&facsBase;1" ana="#211 #212"  hand="#hand-A" place="m.l.">
+					<term>libralibus</term>
+					<gloss>.i. libardaib</gloss> 
+					<note type="translation">i.e. bookish (arts)</note>
+					<note type="editorial">Misunderstanding based on corruption of the lemma.</note>
+					<ref target="&ref2Base;049">Thes. 1a1</ref>
+				</note>
+			</div>
+		</body>
+	</text>
+</TEI>	

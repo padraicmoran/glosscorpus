@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Oxford,
+                                    Bodleian Library,
+                                    Junius 25</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Junius25</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno>Junius 25</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.IV.3__4" n="L4.3.4_1" hand="hand-g1">
+               <gloss>sono</gloss>
+            </note>
+            <note target="#b1.IV.17__6" n="L4.17.6_1" hand="hand-g2">
+               <gloss>cleiniSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XII.1__10" n="L12.1.10_1">
+               <gloss>lim</gloss>
+            </note>
+            <note target="#b1.XVII.13__2" n="L17.13.2_2">
+               <gloss>carmen navale</gloss>
+            </note>
+            <note target="#b1.XVII.18__1" n="L17.18.1_1">
+               <gloss>homo</gloss>
+            </note>
+            <note target="#b1.XVII.18__2" n="L17.18.2_1">
+               <gloss>medicinae artis</gloss>
+            </note>
+            <note target="#b1.XXI.8__5" n="L21.8.5_4">
+               <gloss>census regni</gloss>
+            </note>
+            <note target="#b1.XXI.14__5" n="L21.14.5_2">
+               <gloss>mons</gloss>
+            </note>
+            <note target="#b1.XXI.17__2" n="L21.17.2_4">
+               <gloss>contrarium</gloss>
+            </note>
+            <note target="#b1.XXI.18__3" n="L21.18.3_2">
+               <gloss>homo a Troia</gloss>
+            </note>
+            <note target="#b1.XXI.20__1" n="L21.20.1_3">
+               <gloss>unitate</gloss>
+            </note>
+            <note target="#b1.XXI.21__1" n="L21.21.1_4">
+               <gloss>lastrot</gloss>
+            </note>
+            <note target="#b1.XXII.1__11" n="L22.1.11_5">
+               <gloss>recordatus est</gloss>
+            </note>
+            <note target="#b1.XXII.2__1" n="L22.2.1_3">
+               <gloss>civitas</gloss>
+            </note>
+            <note target="#b1.XXIII.2__3" n="L23.2.3_4">
+               <gloss>iudicaverunt</gloss>
+            </note>
+            <note target="#b1.XXVI.2__3" n="L26.2.3_1">
+               <gloss>pallia</gloss>
+            </note>
+            <note target="#b1.XXVII.1__7" n="L27.1.7_1">
+               <gloss>accipit</gloss>
+            </note>
+            <note target="#b1.XXVII.10__1" n="L27.10.1_1">
+               <gloss>nota est</gloss>
+            </note>
+            <note target="#b1.XXVII.29__9" n="L27.29.9_5">
+               <gloss>accentus</gloss>
+            </note>
+            <note target="#b1.XXIX.3__10" n="L29.3.10_1">
+               <gloss>horo</gloss>
+            </note>
+            <note target="#b1.XXIX.3__12" n="L29.3.12_4">
+               <gloss>tenebrosus</gloss>
+            </note>
+            <note target="#b1.XXXII.5__7" n="L32.5.7_1">
+               <gloss>mons</gloss>
+            </note>
+            <note target="#b1.XXXII.8__1" n="L32.8.1_1">
+               <gloss>populi</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__6" n="L34.5.6_3">
+               <gloss>delectat</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__8" n="L34.5.8_1">
+               <gloss>Graeca</gloss>
+            </note>
+            <note target="#b1.XXXIV.9__1" n="L34.9.1_3">
+               <gloss>longe</gloss>
+            </note>
+            <note target="#b1.XXXIV.11__4" n="L34.11.4_3">
+               <gloss>
+                  <unclear>nata</unclear>ntes</gloss>
+            </note>
+            <note target="#b1.XXXIV.12__2" n="L34.12.2_1">
+               <gloss>homo de Tur<unclear>no</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.12__3" n="L34.12.3_1">
+               <gloss>bello</gloss>
+            </note>
+            <note target="#b1.XXXIV.13__4" n="L34.13.4_1">
+               <gloss>filius Aeaci</gloss>
+            </note>
+            <note target="#b1.XXXVI.3__6" n="L36.3.6_5">
+               <gloss>vas vinarium</gloss>
+            </note>
+            <note target="#b1.XXXVI.3__8" n="L36.3.8_3">
+               <gloss>homo</gloss>
+            </note>
+            <note target="#b1.XXXVI.3__10" n="L36.3.10_3">
+               <gloss>homo</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__3" n="L36.7.3_3">
+               <gloss>aves</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__6" n="L36.7.6_3">
+               <gloss>fifari arbores
+                  sequunturSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__7" n="L36.7.7_3">
+               <gloss>pisces</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__8" n="L36.7.8_3">
+               <gloss>fifariSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XXXVI.8__2" n="L36.8.2_2">
+               <gloss>Troia</gloss>
+            </note>
+            <note target="#b1.XXXVI.8__2" n="L36.8.2_5">
+               <gloss>penates dixerunt ad AeneamIn manuscript, this gloss received a gloss
+                  to penates (abguti; see Steinmeyer-Sievers II, p.
+                  340)</gloss>
+            </note>
+            <note target="#b..__3" n="L36.8.3_1">
+               <gloss>abgutiSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XXXVI.15__4" n="L36.15.4_1">
+               <gloss>Aeneas Turnum</gloss>
+            </note>
+            <note target="#b1.XXXVI.18__5" n="L36.18.5_4">
+               <gloss>Aeneas de Troia venit</gloss>
+            </note>
+            <note target="#b1.XXXVI.19__3" n="L36.19.3_3">
+               <gloss>Vergilius dixit de pastore</gloss>
+            </note>
+            <note target="#b1.XXXVI.19__5" n="L36.19.5_4">
+               <gloss>
+                  <sic>obtimum</sic>
+                  <corr>optimum</corr>
+                canum</gloss>
+            </note>
+            <note target="#b1.XXXVII.3__1" n="L37.3.1_2">
+               <gloss>pennatos</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__1" n="L37.4.1_3">
+               <gloss>homo deus maris</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__6" n="L37.4.6_6">
+               <gloss>mare</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__7" n="L37.4.7_5">
+               <gloss>magna</gloss>
+            </note>
+            <note target="#b1.XXXVII.5__1" n="L37.5.1_5">
+               <gloss>gilinflihhoSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XXXVII.6__12" n="L37.6.12_3">
+               <gloss>nomen navis</gloss>
+            </note>
+            <note target="#b1.XXXVII.8__5" n="L37.8.5_3">
+               <gloss>spilehusSteinmeyer-Sievers II, p. 340</gloss>
+            </note>
+            <note target="#b1.XL.1__10" n="L40.1.10_1">
+               <gloss>locus</gloss>
+            </note>
+            <note target="#b1.XL.1__14" n="L40.1.14_1">
+               <gloss>Troianos</gloss>
+            </note>
+            <note target="#b1.XL.4__8" n="L40.4.8_1">
+               <gloss>bestia</gloss>
+            </note>
+            <note target="#b1.XL.5__1" n="L40.5.1_1">
+               <gloss>Pelops homo</gloss>
+            </note>
+            <note target="#b1.XL.7__3" n="L40.7.3_3">
+               <gloss>pater Alexandri</gloss>
+            </note>
+            <note target="#b1.XL.7__15" n="L40.7.15_3">
+               <gloss>voluisse</gloss>
+            </note>
+            <note target="#b1.XLI.2__14" n="L41.2.14_3">
+               <gloss>corona</gloss>
+            </note>
+            <note target="#b1.XLII.1__2" n="L42.1.2_3">
+               <gloss>Troianus</gloss>
+            </note>
+            <note target="#b1.XLIV.1__5" n="L44.1.5_1">
+               <gloss>opera dies</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

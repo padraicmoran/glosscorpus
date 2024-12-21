@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Bern,
+                                    Burgerbibliothek,
+                                    MS 101</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Bern101</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Bern</settlement>
+                  <repository>Burgerbibliothek</repository>
+                  <collection/>
+                  <idno>MS 101</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.III.5__16" n="L3.5.16_1" hand="hand-g1">
+               <gloss>
+                  <unclear>Phoenices dic</unclear>ti <unclear>a
+                  ru</unclear>bro <unclear>mare <supplied>quod</supplied> pro</unclear>fecit in
+               Siria <unclear>qui Sidon<supplied>em</supplied>
+                  </unclear> urbem inibi
+                  condi<unclear>derunt unde</unclear> et <unclear>p</unclear>ostea Sido<unclear>nes
+                  a civita</unclear>te Sidon <unclear>nuncupaverunt</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.IV.18__2" n="L4.18.2_1" hand="hand-g1">
+               <gloss>distinxerunt</gloss>
+            </note>
+            <note target="#b1.VI.2__12" n="L6.2.12_1" hand="hand-g1">
+               <gloss>orationis</gloss>
+            </note>
+            <note target="#b1.IX.1__9" n="L9.1.9_1" hand="hand-g1">
+               <gloss>id est ipsa res</gloss>
+            </note>
+            <note target="#b1.IX.2__1" n="L9.2.1_1" hand="hand-g1">
+               <gloss>scilicet verba</gloss>
+            </note>
+            <note target="#b1.IX.2__12" n="L9.2.12_1" hand="hand-g1">
+               <gloss>scilicet sunt</gloss>
+            </note>
+            <note target="#b1.IX.7__5" n="L9.7.5_1">
+               <gloss>ab actu</gloss>
+            </note>
+            <note target="#b1.XVII.23__2" n="L17.23.2_1" hand="hand-g1">
+               <gloss>pedes</gloss>
+            </note>
+            <note target="#b1.XXVIII.1__5" n="L28.1.5_1">
+               <gloss>ad aliquod</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__13" n="L34.5.13_1" hand="hand-g1">
+               <gloss>
+                  <unclear>sed si</unclear> alio quolibet
+                  <unclear>mo</unclear>do incomposita <unclear>dicti</unclear>o proferatur,
+                  <unclear>cacem</unclear>phaton dicitur</gloss>
+            </note>
+            <note target="#b1.XXXIV.6__2" n="L34.6.2_1" hand="hand-g1">
+               <gloss>
+                  <unclear>ad p</unclear>lenam
+                  significa<unclear>tion</unclear>em quale in Ver<unclear>gil</unclear>io</gloss>
+            </note>
+            <note target="#b1.XXXIV.6__6" n="L34.6.6_1" hand="hand-g1">
+               <gloss>Et in Isaia: Aure
+               audietis, dum non possumus audire nisi aure; et apud Iohannem: Quod videmus oculis
+               nostris, dum non aliter videmus nisi oculis; et: Locutus sum lingua</gloss>
+            </note>
+            <note target="#b1.XXXVII.15__19" n="L37.15.19_1" hand="hand-g1">
+               <gloss>per membra</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

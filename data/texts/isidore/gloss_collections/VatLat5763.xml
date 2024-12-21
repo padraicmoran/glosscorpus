@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Vatican,
+                                    Biblioteca Apostolica Vaticana,
+                                    Vat. Lat. 5763</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">VatLat5763</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vatican</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <collection/>
+                  <idno>Vat. Lat. 5763</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.XVI.1__5" n="L16.1.5_2">
+               <gloss>grammaton</gloss>
+            </note>
+            <note target="#b1.XVII.2__18" n="L17.2.18_3">
+               <gloss>officiis</gloss>
+            </note>
+            <note target="#b1.XVII.4__2" n="L17.4.2_1">
+               <gloss>
+                  <sic>blapsemare</sic>
+                  <corr>blasphemare</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XVII.4__12" n="L17.4.12_2">
+               <gloss>amaritudinis</gloss>
+            </note>
+            <note target="#b1.XVII.6__2" n="L17.6.2_3">
+               <gloss>gens</gloss>
+            </note>
+            <note target="#b1.XVII.7__3" n="L17.7.3_1">
+               <gloss>a contrarietate</gloss>
+            </note>
+            <note target="#b1.XVII.8__2" n="L17.8.2_5">
+               <gloss>extensa</gloss>
+            </note>
+            <note target="#b1.XVII.11__2" n="L17.11.2_1">
+               <gloss>festa</gloss>
+            </note>
+            <note target="#b1.XVII.13__2" n="L17.13.2_7">
+               <gloss>cantus vel 
+                  <sic>modolatio</sic>
+                  <corr>modulatio</corr>
+                navigantium</gloss>
+            </note>
+            <note target="#b1.XVII.18__1" n="L17.18.1_4">
+               <gloss>id est a Paeone
+               poeta</gloss>
+            </note>
+            <note target="#b1.XVII.21__8" n="L17.21.8_6">
+               <gloss>scanduntur</gloss>
+            </note>
+            <note target="#b1.XX.4__3" n="L20.4.3_5">
+               <gloss>id est media distinctio</gloss>
+            </note>
+            <note target="#b1.XXI.14__6" n="L21.14.6_4">
+               <gloss>Aut Olympus caelum dicitur qui in
+               narratione separandus est a caelo, id est a firmamento, vel Olympus mons dicitur quem
+               dicunt ob altitudinem caelum contingere. Sed in narratione haec ponenda est nota, ut
+               intellegatur caelum pertingere non posse</gloss>
+            </note>
+            <note target="#b1.XXI.27__2" n="L21.27.2_8">
+               <gloss>deceptio vel fraus</gloss>
+            </note>
+            <note target="#b1.XXXIII.4__1" n="L33.4.1_3">
+               <gloss>partium orationis</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

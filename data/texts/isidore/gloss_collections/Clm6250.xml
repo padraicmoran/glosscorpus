@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Munich,
+                                    Bayerische Staatsbibliothek,
+                                    Clm 6250</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Clm6250</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Munich</settlement>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <collection/>
+                  <idno>Clm 6250</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                     <handNote xml:id="hand-g3">glossing hand 3</handNote>
+                     <handNote xml:id="hand-g4">glossing hand 4</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.I.2__5" n="L1.2.5_2" hand="hand-g1">
+               <gloss>a similitudine</gloss>
+            </note>
+            <note target="#b1.III.1__3" n="L3.1.3_4" hand="hand-g2">
+               <gloss>scriptores</gloss>
+            </note>
+            <note target="#b1.III.5__2" n="L3.5.2_4">
+               <gloss>dicimus</gloss>
+            </note>
+            <note target="#b1.III.5__14" n="L3.5.14_4" hand="hand-g4">
+               <gloss>Ieras id est
+               sacerdotales, nam ierontas Graeci valde senes dicunt; pandemos vero vulgares, nam pan
+               dicitur omne</gloss>
+            </note>
+            <note target="#b1.III.5__16" n="L3.5.16_7">
+               <gloss>Phoenices dicti a rubro mare, quod proficit in
+                  Syriam, qui Sidonem urbem inibi condideruntIntegrated into the main
+                  text</gloss>
+            </note>
+            <note target="#b1.III.7__11" n="L3.7.11_1" hand="hand-g4">
+               <gloss>versus
+                  her<unclear>oicus</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.IV.12__2" n="L4.12.2_1" hand="hand-g4">
+               <gloss>id est gymnasii</gloss>
+            </note>
+            <note target="#b1.VI.2__12" n="L6.2.12_3">
+               <gloss>orationis</gloss>
+            </note>
+            <note target="#b1.VII.2__3" n="L7.2.3_4">
+               <gloss>vocati sunt</gloss>
+            </note>
+            <note target="#b1.IX.3__4" n="L9.3.4_3">
+               <gloss>Nam perfecta a
+               perficiendo ut lego. Tunc enim dicendum est quando in praesenti tempore
+               legimus</gloss>
+            </note>
+            <note target="#b1.XVIII.4__1" n="L18.4.1_1">
+               <gloss>habebit</gloss>
+            </note>
+            <note target="#b1.XXX.1__6" n="L30.1.6_3">
+               <gloss>qualitate</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__12" n="L37.2.12_4">
+               <gloss>vocibus</gloss>
+            </note>
+            <note target="#b1.XXXVII.22__4" n="L37.22.4_4">
+               <gloss>id est Hannibalem, Hasdrubalem, 
+                  <sic>Pomilcarem</sic>
+                  <corr>Hamilcarem</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIX.13__10" n="L39.13.10_1">
+               <gloss>id est Terentii</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

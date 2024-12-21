@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Madrid,
+                                    Real Academia de la Historia,
+                                    MS 25</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">MadridRAH25</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Madrid</settlement>
+                  <repository>Real Academia de la Historia</repository>
+                  <collection/>
+                  <idno>MS 25</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.XX.2__4" n="L20.2.4_1">
+               <gloss>periodus: plena sententia</gloss>
+            </note>
+            <note target="#b1.XXVII.4__2" n="L27.4.2_2">
+               <gloss>recte</gloss>
+            </note>
+            <note target="#b1.XXVII.4__5" n="L27.4.5_2">
+               <gloss>genus vestis</gloss>
+            </note>
+            <note target="#b1.XXVII.8__2" n="L27.8.2_1">
+               <gloss>turpis</gloss>
+            </note>
+            <note target="#b1.XXVII.29__13" n="L27.29.13_1">
+               <gloss>singuli</gloss>
+            </note>
+            <note target="#b1.XXVII.29__16" n="L27.29.16_1">
+               <gloss>medietas, pars sicli</gloss>
+            </note>
+            <note target="#b1.XXVIII.2__1" n="L28.2.1_1">
+               <gloss>inaequalitate</gloss>
+            </note>
+            <note target="#b1.XXVIII.2__3" n="L28.2.3_3">
+               <gloss>semitae vel calles</gloss>
+            </note>
+            <note target="#b1.XXIX.2__7" n="L29.2.7_3">
+               <gloss>inspectio, investigatio</gloss>
+            </note>
+            <note target="#b1.XXIX.3__5" n="L29.3.5_1">
+               <gloss>
+                  <sic>iudicum</sic>
+                  <corr>iudic<supplied>i</supplied>um</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XXIX.3__12" n="L29.3.12_1">
+               <gloss>condensus</gloss>
+            </note>
+            <note target="#b1.XXX.1__5" n="L30.1.5_1">
+               <gloss>tractum</gloss>
+            </note>
+            <note target="#b1.XXX.2__1" n="L30.2.1_1">
+               <gloss>percutit</gloss>
+            </note>
+            <note target="#b1.XXXI.1__7" n="L31.1.7_1">
+               <gloss>interiecta</gloss>
+            </note>
+            <note target="#b1.XXXVII.1__4" n="L37.1.4_2">
+               <gloss>transeunt</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__9" n="L37.2.9_1">
+               <gloss>transformationes</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__12" n="L37.2.12_5">
+               <gloss>velaminibus</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__13" n="L37.2.13_2">
+               <gloss>cooperiuntur</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__15" n="L37.2.15_2">
+               <gloss>aperta</gloss>
+            </note>
+            <note target="#b1.XXXVII.2__16" n="L37.2.16_3">
+               <gloss>manifesta</gloss>
+            </note>
+            <note target="#b1.XXXVII.3__3" n="L37.3.3_2">
+               <gloss>mare</gloss>
+            </note>
+            <note target="#b1.XXXVII.3__4" n="L37.3.4_3">
+               <gloss>navis</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__6" n="L37.4.6_3">
+               <gloss>mare</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__7" n="L37.4.7_2">
+               <gloss>velociter</gloss>
+            </note>
+            <note target="#b1.XXXVII.5__1" n="L37.5.1_2">
+               <gloss>ornatissime</gloss>
+            </note>
+            <note target="#b1.XXXVII.6__1" n="L37.6.1_1">
+               <gloss>stropha, argumentatio</gloss>
+            </note>
+            <note target="#b1.XXXVII.6__15" n="L37.6.15_1">
+               <gloss>navibus</gloss>
+            </note>
+            <note target="#b1.XXXVII.6__17" n="L37.6.17_3">
+               <gloss>dividunt</gloss>
+            </note>
+            <note target="#b1.XXXVII.9__2" n="L37.9.2_2">
+               <gloss>hic primus adinvenit Cererem
+               inventricem frumenti et Liberum inventorem vitis. Vinum primum apud Graecos invenit
+                  <gap/>
+               </gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

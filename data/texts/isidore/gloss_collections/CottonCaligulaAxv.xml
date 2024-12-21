@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    London,
+                                    British Library,
+                                    Cotton Caligula A.xv</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">CottonCaligulaAxv</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <collection/>
+                  <idno>Cotton Caligula A.xv</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.XXI.1__7" n="L21.1.7_1">
+               <gloss>primum autem dicatur quid sit
+               nota</gloss>
+            </note>
+            <note target="#b1.XXI.2__5" n="L21.2.5_1">
+               <gloss>scilicet ea</gloss>
+            </note>
+            <note target="#b1.XXI.5__3" n="L21.5.3_2">
+               <gloss>scilicet ut veritas et
+               iustitia</gloss>
+            </note>
+            <note target="#b1.XXI.6__1" n="L21.6.1_2">
+               <gloss>contrarius scriptor</gloss>
+            </note>
+            <note target="#b1.XXI.6__2" n="L21.6.2_1">
+               <gloss>in his locis</gloss>
+            </note>
+            <note target="#b1.XXI.7__2" n="L21.7.2_1">
+               <gloss>scilicet nota</gloss>
+            </note>
+            <note target="#b1.XXI.8__1" n="L21.8.1_2">
+               <gloss>
+                  <corr>similis
+               scriptor</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XXI.8__1" n="L21.8.1_9">
+               <gloss>Graecum</gloss>
+            </note>
+            <note target="#b1.XXI.8__7" n="L21.8.7_1">
+               <gloss>ne unum fiat a duobus</gloss>
+            </note>
+            <note target="#b1.XXI.28__3" n="L21.28.3_1">
+               <gloss>expositum</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

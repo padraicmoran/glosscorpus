@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Leiden,
+                                    Universiteitsbibliotheek,
+                                    Voss. Lat. F 82</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">VLF82</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Leiden</settlement>
+                  <repository>Universiteitsbibliotheek</repository>
+                  <collection/>
+                  <idno>Voss. Lat. F 82</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                     <handNote xml:id="hand-g3">glossing hand 3</handNote>
+                     <handNote xml:id="hand-g4">glossing hand 4</handNote>
+                     <handNote xml:id="hand-g5">glosing hand 5</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.I.1__1" n="L1.1.1_1" hand="hand-g1">
+               <gloss>scientia et disciplina est cum res aliqua certa ratione percipitur, ut: eclipsis
+               solis lunari corpori subiectum est</gloss>
+            </note>
+            <note target="#b1.I.1__1" n="L1.1.1_4">
+               <gloss>eruditio, doctrina</gloss>
+            </note>
+            <note target="#b1.I.2__1" n="L1.2.1_1" hand="hand-g1">
+               <gloss>peritia, ingenium</gloss>
+            </note>
+            <note target="#b1.I.2__6" n="L1.2.6_1" hand="hand-g1">
+               <gloss>
+                  <unclear>in</unclear>quiratur an iusti<supplied>ti</supplied>a utilis sit.
+                  <unclear>Ut</unclear> omnis virtus utilis est, iustitia autem virtus est, ergo
+               iustitia utilis est</gloss>
+            </note>
+            <note target="#b1.I.3__10" n="L1.3.10_1" hand="hand-g1">
+               <gloss>opinabile
+               et verisimile est cum certa res latet et nullo modo firma ratione colligi ac definiri
+               potest, ut: Multi philosophorum solem abesse a luna decem et novem partes prodiderunt
+               et tantidem abesse lunam a terra. Pythagoras vero a terra ad lunam centum viginti sex
+               milia stadiorum intellegit, ab ea ad solum duplum, inde ad duodecim signa triplum.
+               Magnitudo etiam 
+                  <sic>cele</sic>
+                  <corr>caeli</corr>
+                et profunditas terrae opinatio est, quia certa ratione non potest
+               definiri</gloss>
+            </note>
+            <note target="#b1.II.1__15" n="L2.1.15_1" hand="hand-g2">
+               <gloss>occultissimis</gloss>
+            </note>
+            <note target="#b1.III.1__4" n="L3.1.4_2" hand="hand-g2">
+               <gloss>computatores</gloss>
+            </note>
+            <note target="#b1.III.1__15" n="L3.1.15_1" hand="hand-g3">
+               <gloss>substantia</gloss>
+            </note>
+            <note target="#b1.III.4__5" n="L3.4.5_1" hand="hand-g3">
+               <gloss>id est ex voce</gloss>
+            </note>
+            <note target="#b1.III.5__2" n="L3.5.2_2">
+               <gloss>scilicet tradunt</gloss>
+            </note>
+            <note target="#b1.III.5__14" n="L3.5.14_2" hand="hand-g2">
+               <gloss>ierastian sacr<gap/>
+               </gloss>
+            </note>
+            <note target="#b1.III.6__6" n="L3.6.6_1" hand="hand-g2">
+               <gloss>rex Lybiae</gloss>
+            </note>
+            <note target="#b1.III.7__1" n="L3.7.1_1" hand="hand-g2">
+               <gloss>
+                  <gap/>
+               </gloss>
+            </note>
+            <note target="#b1.III.8__1" n="L3.8.1_1" hand="hand-g2">
+               <gloss>divinas</gloss>
+            </note>
+            <note target="#b1.III.8__8" n="L3.8.8_1" hand="hand-g1">
+               <gloss>praepositio</gloss>
+            </note>
+            <note target="#b1.III.8__9" n="L3.8.9_1" hand="hand-g2">
+               <gloss>mori</gloss>
+            </note>
+            <note target="#b1.III.9__1" n="L3.9.1_1" hand="hand-g2">
+               <gloss>T</gloss>
+            </note>
+            <note target="#b1.III.9__8" n="L3.9.8_1" hand="hand-g2">
+               <gloss>A</gloss>
+            </note>
+            <note target="#b1.IV.12__3" n="L4.12.3_1" hand="hand-g3">
+               <gloss>dif<supplied>ferentia</supplied>
+               </gloss>
+            </note>
+            <note target="#b1.IV.12__4" n="L4.12.4_1" hand="hand-g3">
+               <gloss>inutilis</gloss>
+            </note>
+            <note target="#b1.VII.13__8" n="L7.13.8_1">
+               <gloss>id est seminobilia</gloss>
+            </note>
+            <note target="#b1.VII.23__3" n="L7.23.3_1">
+               <gloss>rhetor facundus</gloss>
+            </note>
+            <note target="#b1.XVII.2__2" n="L17.2.2_7">
+               <gloss>sive
+               ab igne appellatur, qui<unclear>a ignis Graece</unclear> pyr dicitur, quia
+                  v<unclear>elut</unclear> ignis celeri<unclear>ter labitur</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXI.17__2" n="L21.17.2_1">
+               <gloss>Stropha est species
+               l<unclear>ocu</unclear>tionis cum quis vel d<unclear>igne</unclear> aut ingeniose vel
+                  a<unclear>stute</unclear> loquitur ad alter<unclear>um</unclear> et econtrario
+                  alter<gap/> antistrofam, hoc
+                  <unclear>est</unclear> contrariam conv<unclear>ersati</unclear>onem, obicit. Et
+                  hae<unclear>c spe</unclear>cies locutionis <unclear>est</unclear> vel ad convicia
+               vel a<unclear>d</unclear> mina vel irrisio<unclear>nem</unclear> aut
+                  insult<unclear>atio</unclear>nem vel ad quamlibet ast<unclear>utam</unclear>
+               locutionem. Et h<unclear>aec</unclear> figura oppon<unclear>itur</unclear> in
+               historiis et in gestibus ubi person<unclear>ae</unclear> contrarie
+                  loq<unclear>uen</unclear>tes introduce<unclear>ntur</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXI.19__2" n="L21.19.2_1">
+               <gloss>leges</gloss>
+            </note>
+            <note target="#b1.XXI.27__2" n="L21.27.2_2">
+               <gloss>emendandas</gloss>
+            </note>
+            <note target="#b1.XXIX.1__4" n="L29.1.4_1">
+               <gloss>proprietas</gloss>
+            </note>
+            <note target="#b1.XXIX.1__6" n="L29.1.6_2">
+               <gloss>id est collatione</gloss>
+            </note>
+            <note target="#b1.XXIX.1__7" n="L29.1.7_1">
+               <gloss>manifestationem</gloss>
+            </note>
+            <note target="#b1.XXIX.1__11" n="L29.1.11_1">
+               <gloss>cur</gloss>
+            </note>
+            <note target="#b1.XXIX.2__3" n="L29.2.3_1">
+               <gloss>
+                  <gap/> uti</gloss>
+            </note>
+            <note target="#b1.XXIX.2__7" n="L29.2.7_1">
+               <gloss>consideratio</gloss>
+            </note>
+            <note target="#b1.XXXIII.4__1" n="L33.4.1_1">
+               <gloss>partibus orationis</gloss>
+            </note>
+            <note target="#b1.XXXIV.4__4" n="L34.4.4_1">
+               <gloss>dolere</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__7" n="L34.5.7_2">
+               <gloss>videre</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__13" n="L34.5.13_2">
+               <gloss>sed si alio
+               quolibet modo incomposit<unclear>a</unclear> dictio proferatur, cacemphaton
+               dicitur</gloss>
+            </note>
+            <note target="#b1.XXXIV.6__2" n="L34.6.2_2">
+               <gloss>ad plenam
+               significationem quale in Vergilio</gloss>
+            </note>
+            <note target="#b1.XXXVI.9__2" n="L36.9.2_1">
+               <gloss>arbores</gloss>
+            </note>
+            <note target="#b1.XXXVI.9__5" n="L36.9.5_1">
+               <gloss>
+                  <sic>nomen fluvius</sic>
+               </gloss>
+            </note>
+            <note target="#b1.XXXVI.9__7" n="L36.9.7_1">
+               <gloss>currentes</gloss>
+            </note>
+            <note target="#b1.XXXVI.14__4" n="L36.14.4_1">
+               <gloss>nomen proprium</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__2" n="L37.4.2_1">
+               <gloss>a quo Neptuno</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__9" n="L37.4.9_1">
+               <gloss>cuius</gloss>
+            </note>
+            <note target="#b1.XXXVII.4__10" n="L37.4.10_1">
+               <gloss>circumeunt</gloss>
+            </note>
+            <note target="#b1.XXXVII.6__18" n="L37.6.18_1">
+               <gloss>tantummodo</gloss>
+            </note>
+            <note target="#b1.XXXVII.7__2" n="L37.7.2_1">
+               <gloss>re</gloss>
+            </note>
+            <note target="#b1.XXXVII.7__2" n="L37.7.2_3">
+               <gloss>indicans</gloss>
+            </note>
+            <note target="#b1.XXXVII.8__6" n="L37.8.6_1">
+               <gloss>psallunt</gloss>
+            </note>
+            <note target="#b1.XXXVII.9__4" n="L37.9.4_1">
+               <gloss>requiescit</gloss>
+            </note>
+            <note target="#b1.XXXVII.10__8" n="L37.10.8_1">
+               <gloss>repleat</gloss>
+            </note>
+            <note target="#b1.XXXVII.10__9" n="L37.10.9_1">
+               <gloss>immissus</gloss>
+            </note>
+            <note target="#b1.XXXVII.11__6" n="L37.11.6_1">
+               <gloss>pro Polyphemo</gloss>
+            </note>
+            <note target="#b1.XXXVII.11__7" n="L37.11.7_1">
+               <gloss>Troilus</gloss>
+            </note>
+            <note target="#b1.XXXVII.13__7" n="L37.13.7_1">
+               <gloss>trans</gloss>
+            </note>
+            <note target="#b1.XXXVII.13__10" n="L37.13.10_1">
+               <gloss>prima pars</gloss>
+            </note>
+            <note target="#b1.XXXVII.14__2" n="L37.14.2_1">
+               <gloss>factum</gloss>
+            </note>
+            <note target="#b1.XXXVII.15__11" n="L37.15.11_1">
+               <gloss>replebat</gloss>
+            </note>
+            <note target="#b1.XXXVII.16__1" n="L37.16.1_1">
+               <gloss>transilitio</gloss>
+            </note>
+            <note target="#b1.XXXVII.20__8" n="L37.20.8_1">
+               <gloss>recesserunt</gloss>
+            </note>
+            <note target="#b1.XXXVII.21__4" n="L37.21.4_1">
+               <gloss>percutit</gloss>
+            </note>
+            <note target="#b1.XXXVII.21__10" n="L37.21.10_1">
+               <gloss>ultra fidem eant</gloss>
+            </note>
+            <note target="#b1.XXXVII.29__4" n="L37.29.4_1">
+               <gloss>tu Anchisiades</gloss>
+            </note>
+            <note target="#b1.XXXVII.33__4" n="L37.33.4_1">
+               <gloss>prope</gloss>
+            </note>
+            <note target="#b1.XXXVII.33__7" n="L37.33.7_1">
+               <gloss>contra,
+                  manu ad manum</gloss>
+            </note>
+            <note target="#b1.XXXIX.2__11" n="L39.2.11_2">
+               <gloss>poetarum</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__18" n="L39.16.18_1">
+               <gloss>maioribus bestiis</gloss>
+            </note>
+            <note target="#b1.XXXIX.17__6" n="L39.17.6_2">
+               <gloss>hymnos</gloss>
+            </note>
+            <note target="#b1.XXXIX.23__3" n="L39.23.3_1">
+               <gloss>decantetur</gloss>
+            </note>
+            <note target="#b1.XL.4__15" n="L40.4.15_1">
+               <gloss>miseriis, ruinis</gloss>
+            </note>
+            <note target="#b1.XL.7__4" n="L40.7.4_1">
+               <gloss>consiliatores</gloss>
+            </note>
+            <note target="#b1.XL.7__8" n="L40.7.8_1">
+               <gloss>scilicet ut</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

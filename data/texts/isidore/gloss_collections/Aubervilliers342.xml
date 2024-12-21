@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Aubervilliers,
+                                    Institut de recherche et d'histoire des textes,
+                                    CP 342</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Aubervilliers342</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Aubervilliers</settlement>
+                  <repository>Institut de recherche et d'histoire des textes</repository>
+                  <collection/>
+                  <idno>CP 342</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.III.8__10" n="L3.8.10_5" hand="hand-g2">
+               <gloss>sic
+               ait</gloss>
+            </note>
+            <note target="#b1.IV.4__2" n="L4.4.2_1" hand="hand-g1">
+               <gloss>id est
+               dimidium</gloss>
+            </note>
+            <note target="#b1.IV.8__3" n="L4.8.3_2" hand="hand-main">
+               <gloss>hoc est in similitudinemIntegrated into the main
+                  text</gloss>
+            </note>
+            <note target="#b1.VII.2__3" n="L7.2.3_8" hand="hand-g2">
+               <gloss>dicuntur</gloss>
+            </note>
+            <note target="#b1.VII.31__6" n="L7.31.6_3" hand="hand-g2">
+               <gloss>
+                  <sic>promimus</sic>
+               </gloss>
+            </note>
+            <note target="#b1.XVII.2__2" n="L17.2.2_12" hand="hand-g2">
+               <gloss>sive
+               ab igne appellatur, qui Graece pyr dicitur, quia velut ignis celeriter
+               labitur</gloss>
+            </note>
+            <note target="#b1.XVII.10__1" n="L17.10.1_6" hand="hand-g2">
+               <gloss>dicitur</gloss>
+            </note>
+            <note target="#b1.XVII.17__1" n="L17.17.1_5" hand="hand-g2">
+               <gloss>Ionicus minor et maior ex suo auctore Ion vocabulum sortiti sunt, a quo et Iones, id
+               est Athenienses, vocantur. Dictus autem minor, quod a brevitate syllabarum incipiat,
+               maior quod a longitudine</gloss>
+            </note>
+            <note target="#b1.XVII.18__1" n="L17.18.1_5" hand="hand-g2">
+               <gloss>Paeone poeta suo</gloss>
+            </note>
+            <note target="#b1.XVII.19__1" n="L17.19.1_2" hand="hand-g2">
+               <gloss>quattuor ex divisione sua nomina acceperunt et ideo epitriti</gloss>
+            </note>
+            <note target="#b1.XVII.22__10" n="L17.22.10_3" hand="hand-main">
+               <gloss>
+                  <del>dupli</del>
+                  <add>duplum</add>
+                  Integrated into the main text</gloss>
+            </note>
+            <note target="#b1.XVII.23__2" n="L17.23.2_4" hand="hand-g2">
+               <gloss>pedes</gloss>
+            </note>
+            <note target="#b1.XXI.15__2" n="L21.15.2_4" hand="hand-g1">
+               <gloss>poeta</gloss>
+            </note>
+            <note target="#b1.XXVII.29__9" n="L27.29.9_10" hand="hand-g2">
+               <gloss>et
+               sicilicus quia in Sicilia inveniebatur primoA notable error of
+                  the glossator: The name of the sign is a diminutive of sicilis (Lat. 'sickle') and not related to Sicily</gloss>
+            </note>
+            <note target="#b1.XXXII.1__11" n="L32.1.11_4" hand="hand-g2">
+               <gloss>subdita imperio</gloss>
+            </note>
+            <note target="#b1.XXXIV.4__6" n="L34.4.6_4" hand="hand-g2">
+               <gloss>illud
+               acyrologia est</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__9" n="L34.5.9_2" hand="hand-main">
+               <gloss>videreIntegrated into the main text</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__13" n="L34.5.13_5" hand="hand-g2">
+               <gloss>sed et si alio quemlibet modo incomposita dictio
+                  profer<unclear>atur</unclear>, cacem<unclear>phaton dicitur</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.6__2" n="L34.6.2_6" hand="hand-g2">
+               <gloss>ad plenam significationem quale in Vergilio</gloss>
+            </note>
+            <note target="#b1.XXXIV.6__6" n="L34.6.6_4" hand="hand-g2">
+               <gloss>Et in Isaia: Aure
+               audietis, dum non possumus audire nisi aure; et apud Iohannem: Quod vidimus oculis
+               nostris, dum non aliter videmus nisi oculis; et: Locutus sum lingua mea</gloss>
+            </note>
+            <note target="#b1.XXXIV.9__6" n="L34.9.6_6" hand="hand-g2">
+               <gloss>id est
+               si vivit</gloss>
+            </note>
+            <note target="#b1.XXXIV.11__3" n="L34.11.3_2" hand="hand-g2">
+               <gloss>vel
+               parvae naves</gloss>
+            </note>
+            <note target="#b1.XXXIV.15__1" n="L34.15.1_1" hand="hand-g2">
+               <gloss>vel
+               criminatur</gloss>
+            </note>
+            <note target="#b1.XXXIV.15__2" n="L34.15.2_1" hand="hand-g2">
+               <gloss>vadatur</gloss>
+            </note>
+            <note target="#b1.XXXV.3__5" n="L35.3.5_3" hand="hand-g2">
+               <gloss>dictionis</gloss>
+            </note>
+            <note target="#b1.XXXV.7__3" n="L35.7.3_3" hand="hand-g2">
+               <gloss>dicunt</gloss>
+            </note>
+            <note target="#b1.XXXVI.3__6" n="L36.3.6_8" hand="hand-g1">
+               <gloss>vas
+               vinarium</gloss>
+            </note>
+            <note target="#b1.XXXVI.5__2" n="L36.5.2_8" hand="hand-g1">
+               <gloss>castaneae molles</gloss>
+            </note>
+            <note target="#b1.XXXVI.9__3" n="L36.9.3_7" hand="hand-g1">
+               <gloss>nomen
+               patriae</gloss>
+            </note>
+            <note target="#b1.XXXVI.9__5" n="L36.9.5_6" hand="hand-g1">
+               <gloss>nomen
+               fluminis</gloss>
+            </note>
+            <note target="#b1.XXXVII.7__3" n="L37.7.3_3" hand="hand-g2">
+               <gloss>ostendens</gloss>
+            </note>
+            <note target="#b1.XXXVII.12__1" n="L37.12.1_5" hand="hand-g2">
+               <gloss>positum</gloss>
+            </note>
+            <note target="#b1.XXXVII.24__12" n="L37.24.12_3" hand="hand-g1">
+               <gloss>nani: parvissimi homines qui sunt in aquis</gloss>
+            </note>
+            <note target="#b1.XXXVII.24__13" n="L37.24.13_5" hand="hand-g1">
+               <gloss>mons</gloss>
+            </note>
+            <note target="#b1.XXXVII.26__5" n="L37.26.5_3" hand="hand-g2">
+               <gloss>ut
+               est: Quaedam filia mater matris et mater filia est filiae suae</gloss>
+            </note>
+            <note target="#b1.XXXVII.34__3" n="L37.34.3_5" hand="hand-g1">
+               <gloss>civitas</gloss>
+            </note>
+            <note target="#b1.XXXIX.2__16" n="L39.2.16_1" hand="hand-g2">
+               <gloss>dictum</gloss>
+            </note>
+            <note target="#b1.XXXIX.10__7" n="L39.10.7_11" hand="hand-g2">
+               <gloss>hoc
+               est fortium</gloss>
+            </note>
+            <note target="#b1.XXXIX.15__5" n="L39.15.5_5" hand="hand-g1">
+               <gloss>id
+               est inventore</gloss>
+            </note>
+            <note target="#b1.XXXIX.15__6" n="L39.15.6_3" hand="hand-g1">
+               <gloss>soluta</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__10" n="L39.16.10_6" hand="hand-g2">
+               <gloss>auderent</gloss>
+            </note>
+            <note target="#b1.XXXIX.17__5" n="L39.17.5_5" hand="hand-g1">
+               <gloss>civitas</gloss>
+            </note>
+            <note target="#b1.XXXIX.17__7" n="L39.17.7_6" hand="hand-g1">
+               <gloss>idolum</gloss>
+            </note>
+            <note target="#b1.XL.1__12" n="L40.1.12_3" hand="hand-g1">
+               <gloss>id
+               est incredibiles</gloss>
+            </note>
+            <note target="#b1.XL.6__2" n="L40.6.2_4" hand="hand-g1">
+               <gloss>id est
+               mulier</gloss>
+            </note>
+            <note target="#b1.XL.6__3" n="L40.6.3_4" hand="hand-g1">
+               <gloss>id est
+               mulieri</gloss>
+            </note>
+            <note target="#b1.XLIII.1__8" n="L43.1.8_4" hand="hand-g1">
+               <gloss>id est
+               numerus</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

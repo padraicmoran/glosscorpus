@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Paris,
+                                    Bibliothèque nationale de France,
+                                    Lat. 11278</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Paris11278</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <collection/>
+                  <idno>Lat. 11278</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                     <handNote xml:id="hand-g3">glossing hand 3</handNote>
+                     <handNote xml:id="hand-g4">glossing hand 4</handNote>
+                     <handNote xml:id="hand-g5">glossing hand 5</handNote>
+                     <handNote xml:id="hand-g6">glossing hand 6</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.I.2__2" n="L1.2.2_5" hand="hand-g1">
+               <gloss>strictis</gloss>
+            </note>
+            <note target="#b1.I.3__9" n="L1.3.9_1" hand="hand-g2">
+               <gloss>veritati</gloss>
+            </note>
+            <note target="#b1.I.3__10" n="L1.3.10_5" hand="hand-g2">
+               <gloss>aestimabile</gloss>
+            </note>
+            <note target="#b1.II.1__4" n="L2.1.4_3" hand="hand-g2">
+               <gloss>doctrina</gloss>
+            </note>
+            <note target="#b1.II.1__5" n="L2.1.5_6" hand="hand-g2">
+               <gloss>eloquentia</gloss>
+            </note>
+            <note target="#b1.II.1__6" n="L2.1.6_4" hand="hand-g2">
+               <gloss>splendorem</gloss>
+            </note>
+            <note target="#b1.II.1__7" n="L2.1.7_5" hand="hand-g2">
+               <gloss>abundantiam</gloss>
+            </note>
+            <note target="#b1.II.1__9" n="L2.1.9_4" hand="hand-g2">
+               <gloss>civitatibus</gloss>
+            </note>
+            <note target="#b1.III.1__3" n="L3.1.3_7" hand="hand-g1">
+               <gloss>qui componunt
+               libros</gloss>
+            </note>
+            <note target="#b1.III.1__4" n="L3.1.4_8" hand="hand-g2">
+               <gloss>computatores</gloss>
+            </note>
+            <note target="#b1.III.2__1" n="L3.2.1_2" hand="hand-g2">
+               <gloss>inventus</gloss>
+            </note>
+            <note target="#b1.III.5__9" n="L3.5.9_2" hand="hand-g2">
+               <gloss>rex
+               Graecorum</gloss>
+            </note>
+            <note target="#b1.III.5__16" n="L3.5.16_9" hand="hand-g2">
+               <gloss>rubei</gloss>
+            </note>
+            <note target="#b1.III.7__8" n="L3.7.8_2" hand="hand-g2">
+               <gloss>ad 
+                  <sic>casu</sic>
+                  <corr>casu<supplied>m</supplied>
+                  </corr>
+                mortis</gloss>
+            </note>
+            <note target="#b1.III.7__13" n="L3.7.13_3" hand="hand-g2">
+               <gloss>viam</gloss>
+            </note>
+            <note target="#b1.III.8__1" n="L3.8.1_5" hand="hand-g1">
+               <gloss>similitudinis</gloss>
+            </note>
+            <note target="#b1.IV.1__1" n="L4.1.1_2" hand="hand-g1">
+               <gloss>mater
+               Evandri</gloss>
+            </note>
+            <note target="#b1.IV.1__2" n="L4.1.2_2">
+               <gloss>dea</gloss>
+            </note>
+            <note target="#b1.IV.1__4" n="L4.1.4_2" hand="hand-g1">
+               <gloss>prophetabat</gloss>
+            </note>
+            <note target="#b1.IV.1__6" n="L4.1.6_4">
+               <gloss>
+                  <gap/>
+               </gloss>
+            </note>
+            <note target="#b1.IV.3__5" n="L4.3.5_1" hand="hand-g3">
+               <gloss>divisae</gloss>
+            </note>
+            <note target="#b1.IV.7__2" n="L4.7.2_2">
+               <gloss>flumen</gloss>
+            </note>
+            <note target="#b1.IV.8__3" n="L4.8.3_1" hand="hand-g4">
+               <gloss>similis</gloss>
+            </note>
+            <note target="#b1.IV.11__4" n="L4.11.4_2" hand="hand-g6">
+               <gloss>id est
+               pinguis</gloss>
+            </note>
+            <note target="#b1.IV.11__6" n="L4.11.6_2" hand="hand-g1">
+               <gloss>accent<unclear>us</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.VII.13__8" n="L7.13.8_4">
+               <gloss>id est mulio</gloss>
+            </note>
+            <note target="#b1.XVII.2__2" n="L17.2.2_5">
+               <gloss>asona<gap/>
+               </gloss>
+            </note>
+            <note target="#b1.XVII.9__1" n="L17.9.1_4">
+               <gloss>circumbrevis</gloss>
+            </note>
+            <note target="#b1.XVII.10__1" n="L17.10.1_4">
+               <gloss>circumlongus</gloss>
+            </note>
+            <note target="#b1.XVII.13__2" n="L17.13.2_5">
+               <gloss>canticum navale</gloss>
+            </note>
+            <note target="#b1.XXI.5__1" n="L21.5.1_4">
+               <gloss>
+                  <sic>finialis</sic>
+                  <corr>finalis</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XXI.8__1" n="L21.8.1_6" hand="hand-main">
+               <gloss>
+                  <unclear>sim</unclear>ilis scriptio</gloss>
+            </note>
+            <note target="#b1.XXI.10__1" n="L21.10.1_4">
+               <gloss>
+                  <unclear>iu</unclear>diciale</gloss>
+            </note>
+            <note target="#b1.XXI.11__1" n="L21.11.1_5">
+               <gloss>
+                  <unclear>con</unclear>traria
+               sigmae</gloss>
+            </note>
+            <note target="#b1.XXI.14__1" n="L21.14.1_3">
+               <gloss>duorum versuum</gloss>
+            </note>
+            <note target="#b1.XXI.15__1" n="L21.15.1_2">
+               <gloss>duplex annotatio</gloss>
+            </note>
+            <note target="#b1.XXI.17__2" n="L21.17.2_5">
+               <gloss>conversio</gloss>
+            </note>
+            <note target="#b1.XXI.20__1" n="L21.20.1_5">
+               <gloss>una disputatio</gloss>
+            </note>
+            <note target="#b1.XXII.1__5" n="L22.1.5_2">
+               <gloss>nota<supplied>rii</supplied>
+               </gloss>
+            </note>
+            <note target="#b1.XXII.1__11" n="L22.1.11_6">
+               <gloss>explanat<supplied>us</supplied>
+               </gloss>
+            </note>
+            <note target="#b1.XXIV.1__5" n="L24.1.5_1">
+               <gloss>tau</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__3" n="L36.7.3_4">
+               <gloss>avis noe</gloss>
+            </note>
+            <note target="#b1.XXXVI.7__8" n="L36.7.8_4">
+               <gloss>deus deorum</gloss>
+            </note>
+            <note target="#b1.XXXVI.8__7" n="L36.8.7_4">
+               <gloss>mensurati</gloss>
+            </note>
+            <note target="#b1.XXXVI.8__8" n="L36.8.8_2">
+               <gloss>navibus</gloss>
+            </note>
+            <note target="#b1.XXXVI.9__3" n="L36.9.3_5">
+               <gloss>locus</gloss>
+            </note>
+            <note target="#b1.XXXIX.2__8" n="L39.2.8_2" hand="hand-main">
+               <gloss>id est cola et 
+                     <sic>commita</sic>
+                  <corr>commata</corr>
+                  The same integrated gloss appears in Bologna 797 and
+               Schaffhausen42</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__4" n="L39.16.4_6">
+               <gloss>aestimantur</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

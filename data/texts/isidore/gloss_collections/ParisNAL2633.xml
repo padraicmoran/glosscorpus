@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Paris,
+                                    Bibliothèque nationale de France,
+                                    n.a.l. 2633</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">ParisNAL2633</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <collection/>
+                  <idno>n.a.l. 2633</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b1.XXII.2__4" n="L22.2.4_4">
+               <gloss>id est dux</gloss>
+            </note>
+            <note target="#b1.XXIII.1__7" n="L23.1.7_1">
+               <gloss>id est M</gloss>
+            </note>
+            <note target="#b1.XXIV.1__1" n="L24.1.1_2">
+               <gloss>id est epistolis</gloss>
+            </note>
+            <note target="#b1.XXIV.1__6" n="L24.1.6_5">
+               <gloss>id est <gap/>
+               </gloss>
+            </note>
+            <note target="#b1.XXIV.1__9" n="L24.1.9_2">
+               <gloss>potius <gap/>us</gloss>
+            </note>
+            <note target="#b1.XXV.1__8" n="L25.1.8_1">
+               <gloss>id est has litteras</gloss>
+            </note>
+            <note target="#b1.XXVI.2__2" n="L26.2.2_2">
+               <gloss>meretrice</gloss>
+            </note>
+            <note target="#b1.XXVII.1__4" n="L27.1.4_2">
+               <gloss>id est adver<gap/>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.4__3" n="L34.4.3_1">
+               <gloss>id est
+               form<unclear>idanti</unclear>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.5__4" n="L34.5.4_1">
+               <gloss>vel son<gap/>
+               </gloss>
+            </note>
+            <note target="#b1.XXXIV.15__3" n="L34.15.3_2">
+               <gloss>id est expectatur</gloss>
+            </note>
+            <note target="#b1.XXXIV.16__1" n="L34.16.1_1">
+               <gloss>id est <gap/>a</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Oxford,
+                                    Queen's College,
+                                    MS 320</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://glosscorpus/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Queen320</note>
+            <note type="hex_colour"/>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Queen's College</repository>
+                  <collection/>
+                  <idno>MS 320</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <note target="#b..__2" n="L0.E1.2_1">
+               <gloss>scilicet protegat me Deus</gloss>
+            </note>
+            <note target="#b..__3" n="L0.E1.3_1">
+               <gloss>id est post</gloss>
+            </note>
+            <note target="#b..__4" n="L0.E1.4_1">
+               <gloss>id est deposco</gloss>
+            </note>
+            <note target="#b1.I.1__7" n="L1.1.7_2" hand="hand-g2">
+               <gloss>id est pleniter</gloss>
+            </note>
+            <note target="#b1.I.2__4" n="L1.2.4_2" hand="hand-g2">
+               <gloss>id est
+               derivatum</gloss>
+            </note>
+            <note target="#b1.IV.4__6" n="L4.4.6_1" hand="hand-g2">
+               <gloss>id est mutas</gloss>
+            </note>
+            <note target="#b1.VII.33__4" n="L7.33.4_1">
+               <gloss>variantur</gloss>
+            </note>
+            <note target="#b1.VII.33__6" n="L7.33.6_1">
+               <gloss>casibus flectitur</gloss>
+            </note>
+            <note target="#b1.XX.4__3" n="L20.4.3_3">
+               <gloss>id est media distinctio</gloss>
+            </note>
+            <note target="#b1.XXI.15__2" n="L21.15.2_2">
+               <gloss>doctus</gloss>
+            </note>
+            <note target="#b1.XXI.27__2" n="L21.27.2_6">
+               <gloss>mendacia</gloss>
+            </note>
+            <note target="#b1.XXIV.2__2" n="L24.2.2_1">
+               <gloss>vel lauta a lapsu</gloss>
+            </note>
+            <note target="#b1.XXVII.13__1" n="L27.13.1_3">
+               <gloss>tristitia</gloss>
+            </note>
+            <note target="#b1.XXVII.29__9" n="L27.29.9_6">
+               <gloss>nomen ponderis et figurae et habet sex 
+                  <sic>scropulus</sic>
+                  <corr>scrupulos</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XXVII.29__12" n="L27.29.12_1">
+               <gloss>viri aleae vel nomen ponderis</gloss>
+            </note>
+            <note target="#b1.XXX.1__6" n="L30.1.6_5">
+               <gloss>intellectu</gloss>
+            </note>
+            <note target="#b1.XXX.1__7" n="L30.1.7_1">
+               <gloss>verbum</gloss>
+            </note>
+            <note target="#b1.XXXII.8__3" n="L32.8.3_3">
+               <gloss>ut luna</gloss>
+            </note>
+            <note target="#b1.XXXII.8__4" n="L32.8.4_2">
+               <gloss>ut ille</gloss>
+            </note>
+            <note target="#b1.XXXII.8__6" n="L32.8.6_1">
+               <gloss>ut luna</gloss>
+            </note>
+            <note target="#b1.XXXII.8__7" n="L32.8.7_1">
+               <gloss>ut ille</gloss>
+            </note>
+            <note target="#b1.XXXIV.4__8" n="L34.4.8_1">
+               <gloss>ut sit fertilis terra</gloss>
+            </note>
+            <note target="#b1.XXXIV.5__6" n="L34.5.6_4">
+               <gloss>id est iocundat</gloss>
+            </note>
+            <note target="#b1.XXXIV.8__1" n="L34.8.1_1">
+               <gloss>id est longa sententia</gloss>
+            </note>
+            <note target="#b1.XXXIV.9__1" n="L34.9.1_4">
+               <gloss>iteratio verbi</gloss>
+            </note>
+            <note target="#b1.XXXIV.9__6" n="L34.9.6_3">
+               <gloss>id est vivit</gloss>
+            </note>
+            <note target="#b1.XXXV.4__11" n="L35.4.11_2">
+               <gloss>opum dives</gloss>
+            </note>
+            <note target="#b1.XXXV.5__3" n="L35.5.3_1">
+               <gloss>nomen viri</gloss>
+            </note>
+            <note target="#b1.XXXIX.4__6" n="L39.4.6_4">
+               <gloss>feminae</gloss>
+            </note>
+            <note target="#b1.XXXIX.7__7" n="L39.7.7_3">
+               <gloss>nomen metri</gloss>
+            </note>
+            <note target="#b1.XXXIX.10__7" n="L39.10.7_4">
+               <gloss>hoc est fortium</gloss>
+            </note>
+            <note target="#b1.XXXIX.13__8" n="L39.13.8_3">
+               <gloss>id est nomen insulae</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__2" n="L39.16.2_5">
+               <gloss>de civitate Syracusanorum</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__10" n="L39.16.10_3">
+               <gloss>auderent</gloss>
+            </note>
+            <note target="#b1.XXXIX.16__19" n="L39.16.19_7">
+               <gloss>pastorum ovium</gloss>
+            </note>
+            <note target="#b1.XXXIX.17__7" n="L39.17.7_4">
+               <gloss>idolum</gloss>
+            </note>
+            <note target="#b1.XL.1__16" n="L40.1.16_4">
+               <gloss>id est crevit</gloss>
+            </note>
+            <note target="#b1.XL.4__16" n="L40.4.16_3">
+               <gloss>subiacens</gloss>
+            </note>
+            <note target="#b1.XL.6__2" n="L40.6.2_2">
+               <gloss>mulier</gloss>
+            </note>
+            <note target="#b1.XL.6__3" n="L40.6.3_2">
+               <gloss>
+                  <sic>muliei</sic>
+                  <corr>mulieri</corr>
+               </gloss>
+            </note>
+            <note target="#b1.XL.7__12" n="L40.7.12_1">
+               <gloss>cura</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>
