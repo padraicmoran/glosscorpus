@@ -23,7 +23,7 @@ templateHeader($pageTitle, $carouselSlug);
 	Manuscripts</a> (GLOSSAM), funded by Research Ireland, 2022–2026.
 </p>
 
-<p>Its functions/core principles are:
+<p>Its editorial principles are:
 </p>
 
 <ul>
