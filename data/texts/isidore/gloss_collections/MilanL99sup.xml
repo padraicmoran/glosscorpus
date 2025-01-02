@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">MilanL99sup</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">c6a31c</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,14 +48,16 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXI.27__2-->
             <note target="#b1.XXI.27__2" n="L21.27.2_4">
                <gloss>deceptio vel fraus</gloss>
             </note>
+            <!--1.XXXVII.15__19-->
             <note target="#b1.XXXVII.15__19" n="L37.15.19_3">
                <gloss>per
                membra soporem</gloss>
             </note>
+            <!--1.XXXVII.22__9-->
             <note target="#b1.XXXVII.22__9" n="L37.22.9_2">
                <gloss>excerptio</gloss>
             </note>

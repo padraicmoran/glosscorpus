@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Montecassino320</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">c5a51b</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,144 +48,186 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXI.8__1-->
             <note target="#b1.XXI.8__1" n="L21.8.1_4">
                <gloss>id est opinat<gap/>
                </gloss>
             </note>
+            <!--1.XXI.8__5-->
             <note target="#b1.XXI.8__5" n="L21.8.5_3">
                <gloss>
                   <unclear>enume</unclear>ratio,
                ordo, series</gloss>
             </note>
+            <!--1.XXI.11__1-->
             <note target="#b1.XXI.11__1" n="L21.11.1_4">
                <gloss>discretio</gloss>
             </note>
+            <!--1.XXI.20__2-->
             <note target="#b1.XXI.20__2" n="L21.20.2_1">
                <gloss>adverte</gloss>
             </note>
+            <!--1.XXI.28__2-->
             <note target="#b1.XXI.28__2" n="L21.28.2_2">
                <gloss>temperamenta, cogitationes</gloss>
             </note>
+            <!--1.XXXII.1__5-->
             <note target="#b1.XXXII.1__5" n="L32.1.5_1">
                <gloss>scilicet corrupta</gloss>
             </note>
+            <!--1.XXXII.1__6-->
             <note target="#b1.XXXII.1__6" n="L32.1.6_2">
                <gloss>scilicet corrupto</gloss>
             </note>
+            <!--1.XXXIV.4__1-->
             <note target="#b1.XXXIV.4__1" n="L34.4.1_1">
                <gloss>immanuale verbum</gloss>
             </note>
+            <!--1.XXXIV.5__1-->
             <note target="#b1.XXXIV.5__1" n="L34.5.1_1">
                <gloss>mala vox</gloss>
             </note>
+            <!--1.XXXIV.5__9-->
             <note target="#b1.XXXIV.5__9" n="L34.5.9_1">
                <gloss>videre</gloss>
             </note>
+            <!--1.XXXIV.6__1-->
             <note target="#b1.XXXIV.6__1" n="L34.6.1_1">
                <gloss>plenasso. abundans</gloss>
             </note>
+            <!--1.XXXIV.7__1-->
             <note target="#b1.XXXIV.7__1" n="L34.7.1_1">
                <gloss>superius verbi</gloss>
             </note>
+            <!--1.XXXIV.12__1-->
             <note target="#b1.XXXIV.12__1" n="L34.12.1_2">
                <gloss>mala</gloss>
             </note>
+            <!--1.XXXV.3__1-->
             <note target="#b1.XXXV.3__1" n="L35.3.1_1">
                <gloss>aggregatio</gloss>
             </note>
+            <!--1.XXXV.4__1-->
             <note target="#b1.XXXV.4__1" n="L35.4.1_1">
                <gloss>extensio</gloss>
             </note>
+            <!--1.XXXV.4__5-->
             <note target="#b1.XXXV.4__5" n="L35.4.5_1">
                <gloss>correptio</gloss>
             </note>
+            <!--1.XXXV.4__8-->
             <note target="#b1.XXXV.4__8" n="L35.4.8_1">
                <gloss>productio</gloss>
             </note>
+            <!--1.XXXV.5__1-->
             <note target="#b1.XXXV.5__1" n="L35.5.1_1">
                <gloss>supercollisio</gloss>
             </note>
+            <!--1.XXXV.6__4-->
             <note target="#b1.XXXV.6__4" n="L35.6.4_1">
                <gloss>contrapositio</gloss>
             </note>
+            <!--1.XXXV.6__5-->
             <note target="#b1.XXXV.6__5" n="L35.6.5_1">
                <gloss>transpositio</gloss>
             </note>
+            <!--1.XXXVI.1__1-->
             <note target="#b1.XXXVI.1__1" n="L36.1.1_1">
                <gloss>praeoccupatio</gloss>
             </note>
+            <!--1.XXXVI.3__1-->
             <note target="#b1.XXXVI.3__1" n="L36.3.1_1">
                <gloss>iugatio</gloss>
             </note>
+            <!--1.XXXVI.4__1-->
             <note target="#b1.XXXVI.4__1" n="L36.4.1_1">
                <gloss>subi<supplied>u</supplied>nctus
             </gloss>
             </note>
+            <!--1.XXXVI.5__1-->
             <note target="#b1.XXXVI.5__1" n="L36.5.1_1">
                <gloss>
                   <unclear>c</unclear>onsum<unclear>ptio</unclear>, id est
                com<unclear>m</unclear>unis <gap/>sio</gloss>
             </note>
+            <!--1.XXXVI.7__1-->
             <note target="#b1.XXXVI.7__1" n="L36.7.1_1">
                <gloss>
                   <gap/>rcum
                   du<unclear>p</unclear>licatio</gloss>
             </note>
+            <!--1.XXXVI.8__1-->
             <note target="#b1.XXXVI.8__1" n="L36.8.1_1">
                <gloss>relatio</gloss>
             </note>
+            <!--1.XXXVI.9__1-->
             <note target="#b1.XXXVI.9__1" n="L36.9.1_1">
                <gloss>superrelatio</gloss>
             </note>
+            <!--1.XXXVI.10__1-->
             <note target="#b1.XXXVI.10__1" n="L36.10.1_1">
                <gloss>superiunctura</gloss>
             </note>
+            <!--1.XXXVI.11__1-->
             <note target="#b1.XXXVI.11__1" n="L36.11.1_1">
                <gloss>supersumptio</gloss>
             </note>
+            <!--1.XXXVI.12__1-->
             <note target="#b1.XXXVI.12__1" n="L36.12.1_2">
                <gloss>denominatio</gloss>
             </note>
+            <!--1.XXXVI.14__1-->
             <note target="#b1.XXXVI.14__1" n="L36.14.1_1">
                <gloss>praesimilitudo</gloss>
             </note>
+            <!--1.XXXVI.15__1-->
             <note target="#b1.XXXVI.15__1" n="L36.15.1_1">
                <gloss>
                   <sic>simili</sic> casualis</gloss>
             </note>
+            <!--1.XXXVI.16__1-->
             <note target="#b1.XXXVI.16__1" n="L36.16.1_1">
                <gloss>
                   <sic>simili</sic>
                terminales</gloss>
             </note>
+            <!--1.XXXVI.17__1-->
             <note target="#b1.XXXVI.17__1" n="L36.17.1_1">
                <gloss>multicasualis</gloss>
             </note>
+            <!--1.XXXVI.18__1-->
             <note target="#b1.XXXVI.18__1" n="L36.18.1_1">
                <gloss>series</gloss>
             </note>
+            <!--1.XXXVI.19__1-->
             <note target="#b1.XXXVI.19__1" n="L36.19.1_1">
                <gloss>multa compositio</gloss>
             </note>
+            <!--1.XXXVI.20__1-->
             <note target="#b1.XXXVI.20__1" n="L36.20.1_1">
                <gloss>incompositio</gloss>
             </note>
+            <!--1.XXXVI.21__1-->
             <note target="#b1.XXXVI.21__1" n="L36.21.1_1">
                <gloss>contrapositio</gloss>
             </note>
+            <!--1.XXXVI.22__1-->
             <note target="#b1.XXXVI.22__1" n="L36.22.1_1">
                <gloss>permotio</gloss>
             </note>
+            <!--1.XXXVII.1__1-->
             <note target="#b1.XXXVII.1__1" n="L37.1.1_1">
                <gloss>modus</gloss>
             </note>
+            <!--1.XXXVII.2__1-->
             <note target="#b1.XXXVII.2__1" n="L37.2.1_1">
                <gloss>transformatio</gloss>
             </note>
+            <!--1.XXXVII.7__1-->
             <note target="#b1.XXXVII.7__1" n="L37.7.1_1">
                <gloss>transsumptio</gloss>
             </note>
+            <!--1.XXXVII.14__1-->
             <note target="#b1.XXXVII.14__1" n="L37.14.1_1">
                <gloss>nomen ab hoc sono</gloss>
             </note>

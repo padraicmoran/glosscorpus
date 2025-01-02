@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Wolfenbuttel64</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">aae600</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,23 +48,27 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XVII.2__2-->
             <note target="#b1.XVII.2__2" n="L17.2.2_11">
                <gloss>sive
                ab igne appellatur, qui<supplied>a</supplied> ignis Graece pyr dicitur, quia velut
                ignis celeriter labitur</gloss>
             </note>
+            <!--1.XVII.29__8-->
             <note target="#b1.XVII.29__8" n="L17.29.8_2" hand="hand-g1">
                <gloss>ita
                -</gloss>
             </note>
+            <!--1.XXXII.8__2-->
             <note target="#b1.XXXII.8__2" n="L32.8.2_3" hand="hand-g1">
                <gloss>aprillis
                pro aprilis</gloss>
             </note>
+            <!--1.XXXIII.4__1-->
             <note target="#b1.XXXIII.4__1" n="L33.4.1_4">
                <gloss>partium</gloss>
             </note>
+            <!--1.XXXIX.10__7-->
             <note target="#b1.XXXIX.10__7" n="L39.10.7_10">
                <gloss>hoc est fortium</gloss>
             </note>

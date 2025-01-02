@@ -4,7 +4,7 @@
     <!ENTITY ref2Base "">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-	xml:base="../../basetexts/priscian.xml"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
 	<teiHeader>
@@ -117,7 +117,7 @@
 </note>
 <note n="4r30 j" target="#II_8.1__12" facs="&facsBase;137621" place="3v">
 	<term>dicuntur</term>
-	<gloss place="3v">Uar<ex>ro</ex>: quod esse ostendit Varro in II de antiquitate literar<ex>um</ex>, 
+	<gloss>Uar<ex>ro</ex>: quod esse ostendit Varro in II de antiquitate literar<ex>um</ex>, 
 		docens Chaldaeorum lingua singularum nomina literarum ad earum formas (.i. p<ex>ro</ex>nuntiationes) esse 
 		facta ⁊ ex hoc certum fieri, eos esse primos auctores literarum
 	</gloss>
@@ -443,7 +443,7 @@
 </note>
 <note n="7v21 c" target="#II_26.14__6" facs="&facsBase;137628" place="m.l.">
 	<term>augustus</term>
-	<gloss place="m.l.">auctus</gloss>
+	<gloss>auctus</gloss>
 	<!-- See Seuetonius' Life of Augustus -->
 </note>
 <note n="7v22 d" target="#II_26.16__1" facs="&facsBase;137628" place="m.l.">
@@ -541,7 +541,7 @@
 <!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('gnosco' to 'ignosco') - Difference: 14.29% -->
 				<note n="8r33 m" target="#II_30.9__5" facs="&facsBase;137629" place="m.l.">
 	<term>in <add>i</add>gnosco</term>
-	<gloss place="m.l.">.g. ut</gloss>
+	<gloss>.g. ut</gloss>
 	<note type="editorial">MS reads 'transit in.gnosco'</note>
 </note>
 <note n="8r33 n" target="#II_30.9__7" facs="&facsBase;137629">

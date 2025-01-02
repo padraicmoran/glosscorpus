@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">RegLat1953</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">b4cc0a</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,16 +48,19 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            <note target="#b..__1" n="L0.E1.1_1">
+         <div><!--..0-->
+            <note target="#b..0" n="L0.E1.1_1">
                <gloss>scilicet vita</gloss>
             </note>
-            <note target="#b..__2" n="L0.E1.2_2">
+            <!--..0-->
+            <note target="#b..0" n="L0.E1.2_2">
                <gloss>id est virtute vel adiutorio Dei</gloss>
             </note>
+            <!--1.III.5__12-->
             <note target="#b1.III.5__12" n="L3.5.12_4">
                <gloss>certum est</gloss>
             </note>
+            <!--1.VII.2__3-->
             <note target="#b1.VII.2__3" n="L7.2.3_7">
                <gloss>scilicet dicebantur</gloss>
             </note>

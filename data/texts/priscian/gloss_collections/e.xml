@@ -4,7 +4,7 @@
     <!ENTITY ref2Base "">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-	xml:base="../../basetexts/priscian.xml"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
 	<teiHeader>
@@ -598,7 +598,7 @@
 </note>
 <note n="6r11 g" target="#II_9.30__6" facs="&facsBase;f15.item">
 	<term>ancipites</term>
-	<gloss>dubi<ex>e</ex> .i. int<ex>er</ex> p<ex>ro</ex>duc<ex>tam</ex> <ex>et</ex> cor<ex>reptam</ex>, .i. q<ex>uo</ex>mo<ex>do</ex> poss<ex>unt</ex> cor<ex>reptam</ex> sic <er>et</er> p<ex>ro</ex>duc<ex>tam</ex> </gloss>
+	<gloss>dubi<ex>e</ex> .i. int<ex>er</ex> p<ex>ro</ex>duc<ex>tam</ex> <ex>et</ex> cor<ex>reptam</ex>, .i. q<ex>uo</ex>mo<ex>do</ex> poss<ex>unt</ex> cor<ex>reptam</ex> sic <ex>et</ex> p<ex>ro</ex>duc<ex>tam</ex> </gloss>
 </note>
 <note n="6r11 g1" target="#II_9.30__6" facs="&facsBase;f15.item">
 	<term>ancipites</term>
@@ -624,7 +624,7 @@
 <!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('perpetue' to 'perpetuo') - Difference: 12.5% -->
 				<note n="6r12 l" target="#II_10.1__6" facs="&facsBase;f15.item">
 	<term>perpetue</term>
-	<gloss>.i. se<ex>mpit<ex>er</ex>no</ex></gloss>
+	<gloss>.i. se<ex>mpit</ex>er<ex>no</ex></gloss>
 </note>
 <note n="6r13 m" target="#II_10.3__5" facs="&facsBase;f15.item">
 	<term>longae</term>
@@ -1046,13 +1046,13 @@
 	<term>figurae</term>
 	<gloss>e<ex>ss</ex>e elim<ex>en</ex>ta</gloss>
 </note>
-<note n="7r14 r1" target="#II_12.22__8" facs="&facsBase;f17.item">
+<note n="7r14 r1" target="#II_12.22__8" facs="&facsBase;f17.item" place="m.d.">
 	<term>figurae</term>
-	<gloss place="m.d.">S. erisenon sig<ex>nificat</ex> VIS, ↑ ennacos. significat dcccc, .pc. coppe. significat .c.  </gloss>
+	<gloss>S. erisenon sig<ex>nificat</ex> VIS, ↑ ennacos. significat dcccc, .pc. coppe. significat .c.  </gloss>
 </note>
-<note n="7r14 r2" target="#II_12.22__8" facs="&facsBase;f17.item">
+<note n="7r14 r2" target="#II_12.22__8" facs="&facsBase;f17.item" place="m.l.">
 	<term>figurae</term>
-	<gloss place="m.l.">p.c, ↑ dcccc</gloss>
+	<gloss>p.c, ↑ dcccc</gloss>
 </note>
 <note n="7r14 s" target="#II_12.23__4" facs="&facsBase;f17.item">
 	<term>literas</term>
@@ -1208,9 +1208,9 @@
 	<term>quod</term>
 	<gloss>ius</gloss>
 </note>
-<note n="7v24 p1" target="#II_14.13__3" facs="&facsBase;f18.item">
+<note n="7v24 p1" target="#II_14.13__3" facs="&facsBase;f18.item" place="m.s.">
 	<term>quod</term>
-	<gloss place='m.s.'> Nam postremu<ex>m</ex> .i. pro uocali e<ex>st</ex> accipiendum</gloss>
+	<gloss> Nam postremu<ex>m</ex> .i. pro uocali e<ex>st</ex> accipiendum</gloss>
 	<!-- see Donatus Ortigraphus - Ars grammatica - LLT
 		De littera, linea : 578 [*] -->
 </note>
@@ -1274,9 +1274,9 @@
 	<term>digamma</term>
 	<gloss>F .vau.</gloss>
 </note>
-<note n="8r7 j" target="#II_15.3__15" facs="&facsBase;f19.item">
+<note n="8r7 j" target="#II_15.3__15" facs="&facsBase;f19.item" place="m.d.">
 	<term>uau</term>
-	<gloss place="m.d.">vau</gloss>
+	<gloss>vau</gloss>
 </note>
 <note n="8r7 k" target="#II_15.4__3" facs="&facsBase;f19.item">
 	<term>uoce</term>
@@ -1329,7 +1329,7 @@
 </note>
 <note n="8r14 w" target="#II_15.13__4" facs="&facsBase;f19.item">
 	<term>haud</term>
-	<gloss>.i. n<e>on</e></gloss>
+	<gloss>.i. n<ex>on</ex></gloss>
 </note>
 <note n="8r14 x" target="#II_15.13__6" facs="&facsBase;f19.item">
 	<term>nequiquam</term>
@@ -1552,7 +1552,7 @@
 	<term>inuidia</term>
 	<gloss>.u. p<ex>ro</ex> nihilo <ex>est</ex> híc</gloss>
 </note>
-<note n="8v6 q" target="#II_17.4__5" facs="&facsBase;f20.item" plqce="m.l.">
+<note n="8v6 q" target="#II_17.4__5" facs="&facsBase;f20.item" place="m.l.">
 	<term>inuenias</term>
 	<gloss>sinin.i</gloss>
 </note>
@@ -2275,7 +2275,7 @@
 </note>
 <note n="9v16 ss" target="#II_21.9__1" facs="&facsBase;f22.item">
 	<term>allec</term>
-	<gloss>.i. p<ex>os</ex>t<er>er</er>ior<ex>um</ex> pars captus</gloss> 
+	<gloss>.i. p<ex>os</ex>t<ex>er</ex>ior<ex>um</ex> pars captus</gloss> 
 </note>
 <note n="9v17 tt" target="#II_21.9__13" facs="&facsBase;f22.item">
 	<term>quare</term>
@@ -5695,7 +5695,7 @@ additional main body text - from P. Vergilius Maro - Eclogae siue Bucolica (LLA 
 </note>
 <note n="14v22 nnn" target="#II_39.18__5" facs="&facsBase;f32.item">
 	<term>diaeresin</term>
-	<gloss>.i. per di<supplies>s</supplies>cissionem</gloss>
+	<gloss>.i. per di<supplied>s</supplied>cissionem</gloss>
 </note>
 <note n="14v23 ooo" target="#II_39.19__12" facs="&facsBase;f32.item">
 	<term>quae</term>
@@ -6038,15 +6038,15 @@ additional main body text - from P. Vergilius Maro - Eclogae siue Bucolica (LLA 
 </note>
 <note n="15v5 f" target="#II_42.4__5" facs="&facsBase;f34.item">
 	<term>crebro</term>
-	<gloss>adu<er>er</er>b<ex>um</ex></gloss>
+	<gloss>adu<ex>er</ex>b<ex>um</ex></gloss>
 </note>
 <note n="15v5 g" target="#II_42.4__8" facs="&facsBase;f34.item">
 	<term>smaragdo</term>
-	<gloss>n<er>on</er> .z.</gloss>
+	<gloss>n<ex>on</ex> .z.</gloss>
 </note>
 <note n="15v6 h" target="#II_42.5__10" facs="&facsBase;f34.item">
 	<term>metro</term>
-	<gloss>n<er>on</er> pot<ex>est</ex> duplex an<ex>te</ex> .m.</gloss>
+	<gloss>n<ex>on</ex> pot<ex>est</ex> duplex an<ex>te</ex> .m.</gloss>
 </note>
 <note n="15v6 i" target="#II_42.5__12" facs="&facsBase;f34.item">
 	<term>posset</term>

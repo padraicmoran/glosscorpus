@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">VeniceII46</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">aedb04</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -46,37 +47,47 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXI.2__1-->
             <note target="#b1.XXI.2__1" n="L21.2.1_2">
                <gloss>in praetermissis haec figura</gloss>
             </note>
+            <!--1.XXI.3__1-->
             <note target="#b1.XXI.3__1" n="L21.3.1_2">
                <gloss>in superfluis</gloss>
             </note>
+            <!--1.XXI.4__1-->
             <note target="#b1.XXI.4__1" n="L21.4.1_2">
                <gloss>in dubiis</gloss>
             </note>
+            <!--1.XXI.5__1-->
             <note target="#b1.XXI.5__1" n="L21.5.1_5">
                <gloss>in sermonum varietate</gloss>
             </note>
+            <!--1.XXI.6__1-->
             <note target="#b1.XXI.6__1" n="L21.6.1_4">
                <gloss>in diversitate sensuum</gloss>
             </note>
+            <!--1.XXI.7__1-->
             <note target="#b1.XXI.7__1" n="L21.7.1_2">
                <gloss>in transmutatis</gloss>
             </note>
+            <!--1.XXI.8__1-->
             <note target="#b1.XXI.8__1" n="L21.8.1_8">
                <gloss>in separatione</gloss>
             </note>
+            <!--1.XXI.9__1-->
             <note target="#b1.XXI.9__1" n="L21.9.1_2">
                <gloss>in finis separatione</gloss>
             </note>
+            <!--1.XXI.10__1-->
             <note target="#b1.XXI.10__1" n="L21.10.1_5">
                <gloss>in dificili quaestione</gloss>
             </note>
+            <!--1.XXI.11__1-->
             <note target="#b1.XXI.11__1" n="L21.11.1_6">
                <gloss>in ordine transmutato</gloss>
             </note>
+            <!--1.XXI.12__1-->
             <note target="#b1.XXI.12__1" n="L21.12.1_2">
                <gloss>in ambiguis</gloss>
             </note>

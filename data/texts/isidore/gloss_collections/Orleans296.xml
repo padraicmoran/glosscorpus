@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Orleans296</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">c3aa19</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -50,76 +51,105 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            <note target="#b..__1" n="L0.E5.1_1">
+         <div><!--..0-->
+            <note target="#b..0" n="L0.E5.1_1">
                <gloss>almitatis</gloss>
             </note>
-            <note target="#b..__2" n="L0.E5.2_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.2_1">
                <gloss>turbatus</gloss>
             </note>
-            <note target="#b..__3" n="L0.E5.3_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.3_1">
                <gloss>licet</gloss>
             </note>
-            <note target="#b..__4" n="L0.E5.4_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.4_1">
                <gloss>revertere</gloss>
             </note>
-            <note target="#b..__5" n="L0.E5.5_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.5_1">
                <gloss>non morare</gloss>
             </note>
-            <note target="#b..__6" n="L0.E5.6_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.6_1">
                <gloss>infirmus</gloss>
             </note>
-            <note target="#b..__7" n="L0.E5.7_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.7_1">
                <gloss>lassus</gloss>
             </note>
-            <note target="#b..__8" n="L0.E5.8_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.8_1">
                <gloss>
                   <unclear>v</unclear>idendi</gloss>
             </note>
-            <note target="#b..__9" n="L0.E5.9_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E5.9_1">
                <gloss>non conturbat</gloss>
             </note>
+            <!--1.XXI.18__5-->
             <note target="#b1.XXI.18__5" n="L21.18.5_2">
                <gloss>inici<gap/>
                </gloss>
             </note>
+            <!--1.XXI.19__1-->
             <note target="#b1.XXI.19__1" n="L21.19.1_1">
                <gloss>adverbium</gloss>
+               <note type="editorial">"adverbium" written in Tironian notes.</note>
             </note>
+            <!--1.XXI.19__2-->
             <note target="#b1.XXI.19__2" n="L21.19.2_2" hand="hand-g1">
                <gloss>ad
                constructiones</gloss>
             </note>
+            <!--1.XXI.20__1-->
             <note target="#b1.XXI.20__1" n="L21.20.1_2">
                <gloss>una
                   sententia</gloss>
+               <note type="editorial">"una
+                  sententia" written in Tironian notes.</note>
             </note>
+            <!--1.XXI.21__1-->
             <note target="#b1.XXI.21__1" n="L21.21.1_3" hand="hand-g1">
                <gloss>reprobantur</gloss>
             </note>
+            <!--1.XXI.22__2-->
             <note target="#b1.XXI.22__2" n="L21.22.2_1">
                <gloss>figura</gloss>
+               <note type="editorial">"figura" written in Tironian notes.</note>
             </note>
+            <!--1.XXI.23__1-->
             <note target="#b1.XXI.23__1" n="L21.23.1_2" hand="hand-g2">
                <gloss>curiosi</gloss>
             </note>
+            <!--1.XXI.24__1-->
             <note target="#b1.XXI.24__1" n="L21.24.1_1">
                <gloss>certe</gloss>
             </note>
+            <!--1.XXI.25__3-->
             <note target="#b1.XXI.25__3" n="L21.25.3_1">
                <gloss>signatum</gloss>
+               <note type="editorial">"signatum" written in Tironian notes.</note>
             </note>
+            <!--1.XXI.27__2-->
             <note target="#b1.XXI.27__2" n="L21.27.2_5">
                <gloss>mendacia</gloss>
+               <note type="editorial">"mendacia" written in Tironian notes.</note>
             </note>
+            <!--1.XXI.28__1-->
             <note target="#b1.XXI.28__1" n="L21.28.1_2">
                <gloss>sumitates</gloss>
             </note>
+            <!--1.XXI.28__2-->
             <note target="#b1.XXI.28__2" n="L21.28.2_3">
                <gloss>hoc
                   est limen</gloss>
+               <note type="editorial">"hoc
+                  est limen" written in Tironian notes.</note>
             </note>
-            <note target="#b1.XXII.__1" n="L22.1.1_1" hand="hand-g1">
+            <!--1.XXII.0-->
+            <note target="#b1.XXII.0" n="L22.1.1_1" hand="hand-g1">
                <gloss>vulgares dictae
                quia vulgus id est populus <unclear>eis</unclear>
                   <sic>
@@ -127,9 +157,12 @@
                   <corr>utitur</corr>
                </gloss>
             </note>
+            <!--1.XXII.1__3-->
             <note target="#b1.XXII.1__3" n="L22.1.3_1" hand="hand-g1">
                <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXII.1__5-->
             <note target="#b1.XXII.1__5" n="L22.1.5_1" hand="hand-g1">
                <gloss>
                   <sic>cancellari</sic>
@@ -137,233 +170,317 @@
                   </corr>
                </gloss>
             </note>
+            <!--1.XXII.1__9-->
             <note target="#b1.XXII.1__9" n="L22.1.9_3" hand="hand-g1">
                <gloss>iuvenis vel
                novellus miles</gloss>
             </note>
+            <!--1.XXII.1__11-->
             <note target="#b1.XXII.1__11" n="L22.1.11_4" hand="hand-g1">
                <gloss>tractatus
                est</gloss>
             </note>
+            <!--1.XXII.2__2-->
             <note target="#b1.XXII.2__2" n="L22.2.2_3" hand="hand-g1">
                <gloss>civitatis</gloss>
             </note>
+            <!--1.XXII.2__3-->
             <note target="#b1.XXII.2__3" n="L22.2.3_1" hand="hand-g1">
                <gloss>
                   <sic>adiuxerunt</sic>
                   <corr>adiunxerunt</corr>
                </gloss>
             </note>
+            <!--1.XXII.2__4-->
             <note target="#b1.XXII.2__4" n="L22.2.4_3">
                <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXII.2__5-->
             <note target="#b1.XXII.2__5" n="L22.2.5_2" hand="hand-g1">
                <gloss>adunato</gloss>
             </note>
+            <!--1.XXII.2__6-->
             <note target="#b1.XXII.2__6" n="L22.2.6_4" hand="hand-g1">
                <gloss>congregato</gloss>
             </note>
+            <!--1.XXII.2__7-->
             <note target="#b1.XXII.2__7" n="L22.2.7_1" hand="hand-g1">
                <gloss>multiplicato</gloss>
             </note>
+            <!--1.XXII.2__9-->
             <note target="#b1.XXII.2__9" n="L22.2.9_2" hand="hand-g1">
                <gloss>scriptis</gloss>
             </note>
+            <!--1.XXII.2__10-->
             <note target="#b1.XXII.2__10" n="L22.2.10_1" hand="hand-g1">
                <gloss>figuris</gloss>
             </note>
+            <!--1.XXII.2__11-->
             <note target="#b1.XXII.2__11" n="L22.2.11_2" hand="hand-g1">
                <gloss>designent</gloss>
             </note>
+            <!--1.XXII.2__12-->
             <note target="#b1.XXII.2__12" n="L22.2.12_2" hand="hand-g1">
                <gloss>ad
                cognitionem</gloss>
             </note>
-            <note target="#b1.XXIII.__1" n="L23.1.1_1" hand="hand-g1">
+            <!--1.XXIII.0-->
+            <note target="#b1.XXIII.0" n="L23.1.1_1" hand="hand-g1">
                <gloss>id est in libris legis</gloss>
+               <note type="editorial">"id est" written in Tironian notes.</note>
             </note>
+            <!--1.XXIII.1__2-->
             <note target="#b1.XXIII.1__2" n="L23.1.2_1" hand="hand-g1">
                <gloss>aliqua</gloss>
             </note>
+            <!--1.XXIII.1__3-->
             <note target="#b1.XXIII.1__3" n="L23.1.3_3" hand="hand-g1">
                <gloss>legis</gloss>
             </note>
+            <!--1.XXIII.1__5-->
             <note target="#b1.XXIII.1__5" n="L23.1.5_2" hand="hand-g1">
                <gloss>velox</gloss>
             </note>
+            <!--1.XXIII.1__6-->
             <note target="#b1.XXIII.1__6" n="L23.1.6_1" hand="hand-g1">
                <gloss>ut puta</gloss>
             </note>
+            <!--1.XXIII.2__1-->
             <note target="#b1.XXIII.2__1" n="L23.2.1_2" hand="hand-g1">
                <gloss>libris</gloss>
             </note>
+            <!--1.XXIII.2__2-->
             <note target="#b1.XXIII.2__2" n="L23.2.2_3" hand="hand-g1">
                <gloss>delendas</gloss>
             </note>
+            <!--1.XXIII.2__3-->
             <note target="#b1.XXIII.2__3" n="L23.2.3_3" hand="hand-g1">
                <gloss>constitu<supplied>e</supplied>runt</gloss>
             </note>
+            <!--1.XXIII.2__6-->
             <note target="#b1.XXIII.2__6" n="L23.2.6_1" hand="hand-g1">
                <gloss>nescientes</gloss>
             </note>
+            <!--1.XXIII.2__7-->
             <note target="#b1.XXIII.2__7" n="L23.2.7_4" hand="hand-g1">
                <gloss>dubietas</gloss>
             </note>
+            <!--1.XXIII.2__8-->
             <note target="#b1.XXIII.2__8" n="L23.2.8_1" hand="hand-g1">
                <gloss>apportant</gloss>
             </note>
+            <!--1.XXIII.2__10-->
             <note target="#b1.XXIII.2__10" n="L23.2.10_2" hand="hand-g1">
                <gloss>
                   <sic>fugianda</sic>
                   <corr>fugienda</corr>
                </gloss>
             </note>
+            <!--1.XXIII.2__11-->
             <note target="#b1.XXIII.2__11" n="L23.2.11_1" hand="hand-g1">
                <gloss>manifeste</gloss>
             </note>
+            <!--1.XXIII.2__12-->
             <note target="#b1.XXIII.2__12" n="L23.2.12_1" hand="hand-g1">
                <gloss>ostendunt</gloss>
             </note>
+            <!--1.XXIV.1__3-->
             <note target="#b1.XXIV.1__3" n="L24.1.3_2" hand="hand-g1">
                <gloss>videretur</gloss>
             </note>
+            <!--1.XXIV.1__4-->
             <note target="#b1.XXIV.1__4" n="L24.1.4_2" hand="hand-g1">
                <gloss>vixissent</gloss>
             </note>
+            <!--1.XXIV.1__6-->
             <note target="#b1.XXIV.1__6" n="L24.1.6_4" hand="hand-g1">
                <gloss>scilicet vivum</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXIV.1__8-->
             <note target="#b1.XXIV.1__8" n="L24.1.8_1" hand="hand-g1">
                <gloss>poeta</gloss>
             </note>
+            <!--1.XXIV.1__9-->
             <note target="#b1.XXIV.1__9" n="L24.1.9_1" hand="hand-g1">
                <gloss>potens</gloss>
             </note>
+            <!--1.XXIV.1__10-->
             <note target="#b1.XXIV.1__10" n="L24.1.10_1" hand="hand-g1">
                <gloss>vel 
                   <sic>mortem corruptum</sic>
                   <corr>morte corruptum</corr>
                </gloss>
             </note>
+            <!--1.XXIV.1__11-->
             <note target="#b1.XXIV.1__11" n="L24.1.11_3" hand="hand-g1">
                <gloss>demonstrare</gloss>
             </note>
+            <!--1.XXIV.2__4-->
             <note target="#b1.XXIV.2__4" n="L24.2.4_1" hand="hand-g1">
                <gloss>ciborum</gloss>
             </note>
+            <!--1.XXIV.2__5-->
             <note target="#b1.XXIV.2__5" n="L24.2.5_3" hand="hand-g1">
                <gloss>dispensatione</gloss>
             </note>
+            <!--1.XXV.1__1-->
             <note target="#b1.XXV.1__1" n="L25.1.1_2">
                <gloss>absconse</gloss>
             </note>
+            <!--1.XXV.1__2-->
             <note target="#b1.XXV.1__2" n="L25.1.2_2" hand="hand-g1">
                <gloss>ad invicem</gloss>
             </note>
+            <!--1.XXV.1__3-->
             <note target="#b1.XXV.1__3" n="L25.1.3_1">
                <gloss>proprium nomen, dux Romanorum</gloss>
+               <note type="editorial">"proprium nomen, dux Romanorum" written in Tironian notes.</note>
             </note>
+            <!--1.XXV.1__4-->
             <note target="#b1.XXV.1__4" n="L25.1.4_2">
                <gloss>scilicet notis</gloss>
+               <note type="editorial">"scilicet notis" written in Tironian notes.</note>
             </note>
+            <!--1.XXV.1__5-->
             <note target="#b1.XXV.1__5" n="L25.1.5_2" hand="hand-g1">
                <gloss>facturus</gloss>
             </note>
+            <!--1.XXV.1__6-->
             <note target="#b1.XXV.1__6" n="L25.1.6_1" hand="hand-g1">
                <gloss>signabat</gloss>
             </note>
+            <!--1.XXV.1__7-->
             <note target="#b1.XXV.1__7" n="L25.1.7_1" hand="hand-g1">
                <gloss>nescientibus</gloss>
             </note>
+            <!--1.XXV.2__1-->
             <note target="#b1.XXV.2__1" n="L25.2.1_2">
                <gloss>dixit</gloss>
+               <note type="editorial">"dixit" written in Tironian notes.</note>
             </note>
+            <!--1.XXV.2__2-->
             <note target="#b1.XXV.2__2" n="L25.2.2_1" hand="hand-g1">
                <gloss>adveniunt</gloss>
             </note>
+            <!--1.XXV.2__3-->
             <note target="#b1.XXV.2__3" n="L25.2.3_1" hand="hand-g1">
                <gloss>invicem</gloss>
             </note>
+            <!--1.XXV.2__4-->
             <note target="#b1.XXV.2__4" n="L25.2.4_1" hand="hand-g1">
                <gloss>scire</gloss>
             </note>
+            <!--1.XXV.2__6-->
             <note target="#b1.XXV.2__6" n="L25.2.6_2" hand="hand-g1">
                <gloss>revertendum erit</gloss>
+               <note type="editorial">"erit" written in Tironian notes.</note>
             </note>
+            <!--1.XXVI.1__1-->
             <note target="#b1.XXVI.1__1" n="L26.1.1_1" hand="hand-g1">
                <gloss>simul</gloss>
             </note>
+            <!--1.XXVI.1__2-->
             <note target="#b1.XXVI.1__2" n="L26.1.2_1" hand="hand-g1">
                <gloss>longe</gloss>
             </note>
+            <!--1.XXVI.1__3-->
             <note target="#b1.XXVI.1__3" n="L26.1.3_1" hand="hand-g1">
                <gloss>stantes</gloss>
             </note>
+            <!--1.XXVI.1__4-->
             <note target="#b1.XXVI.1__4" n="L26.1.4_1" hand="hand-g1">
                <gloss>scilicet consuetudo</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXVI.1__5-->
             <note target="#b1.XXVI.1__5" n="L26.1.5_1" hand="hand-g1">
                <gloss>quandocumque</gloss>
             </note>
+            <!--1.XXVI.2__1-->
             <note target="#b1.XXVI.2__1" n="L26.2.1_1">
                <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXVI.2__2-->
             <note target="#b1.XXVI.2__2" n="L26.2.2_1">
                <gloss>non casta</gloss>
             </note>
+            <!--1.XXVI.2__4-->
             <note target="#b1.XXVI.2__4" n="L26.2.4_1">
                <gloss>iocans</gloss>
             </note>
+            <!--1.XXVI.2__5-->
             <note target="#b1.XXVI.2__5" n="L26.2.5_2" hand="hand-main">
                <gloss>illis dat se</gloss>
+               <note type="editorial">"illis dat se" written in Tironian notes.</note>
             </note>
+            <!--1.XXVI.2__6-->
             <note target="#b1.XXVI.2__6" n="L26.2.6_1" hand="hand-g1">
                <gloss>stricta</gloss>
             </note>
+            <!--1.XXVI.2__7-->
             <note target="#b1.XXVI.2__7" n="L26.2.7_2" hand="hand-g1">
                <gloss>percutit</gloss>
             </note>
+            <!--1.XXVI.2__8-->
             <note target="#b1.XXVI.2__8" n="L26.2.8_1" hand="hand-main">
                <gloss>labia</gloss>
+               <note type="editorial">"labia" written in Tironian notes.</note>
             </note>
+            <!--1.XXVI.2__9-->
             <note target="#b1.XXVI.2__9" n="L26.2.9_1" hand="hand-g1">
                <gloss>id est ait</gloss>
             </note>
+            <!--1.XXVII.1__1-->
             <note target="#b1.XXVII.1__1" n="L27.1.1_1" hand="hand-g1">
                <gloss>scilicet
                ars</gloss>
             </note>
+            <!--1.XXVII.1__5-->
             <note target="#b1.XXVII.1__5" n="L27.1.5_3" hand="hand-g1">
                <gloss>doctrina</gloss>
             </note>
+            <!--1.XXVII.1__6-->
             <note target="#b1.XXVII.1__6" n="L27.1.6_2" hand="hand-g1">
                <gloss>verbi
                gratia</gloss>
             </note>
+            <!--1.XXVII.3__1-->
             <note target="#b1.XXVII.3__1" n="L27.3.1_1" hand="hand-g1">
                <gloss>aliquando</gloss>
             </note>
+            <!--1.XXVII.4__1-->
             <note target="#b1.XXVII.4__1" n="L27.4.1_1">
                <gloss>aliquando</gloss>
+               <note type="editorial">"aliquando" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.4__5-->
             <note target="#b1.XXVII.4__5" n="L27.4.5_4" hand="hand-g1">
                <gloss>genus
                vestis</gloss>
             </note>
+            <!--1.XXVII.4__7-->
             <note target="#b1.XXVII.4__7" n="L27.4.7_1">
                <gloss>ali<supplied>quandam</supplied>
                </gloss>
+               <note type="editorial">"aliquandam" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.4__10-->
             <note target="#b1.XXVII.4__10" n="L27.4.10_1" hand="hand-g1">
                <gloss>istius
                modi</gloss>
             </note>
+            <!--1.XXVII.4__11-->
             <note target="#b1.XXVII.4__11" n="L27.4.11_2" hand="hand-g1">
                <gloss>signandus</gloss>
             </note>
+            <!--1.XXVII.5__2-->
             <note target="#b1.XXVII.5__2" n="L27.5.2_1" hand="hand-g1">
                <gloss>adiuncto</gloss>
             </note>
+            <!--1.XXVII.5__3-->
             <note target="#b1.XXVII.5__3" n="L27.5.3_1" hand="hand-g1">
                <gloss>extra 
                   <sic>regione</sic>
@@ -371,111 +488,150 @@
                   </corr>
                </gloss>
             </note>
+            <!--1.XXVII.5__3-->
             <note target="#b1.XXVII.5__3" n="L27.5.3_2">
                <gloss>terra</gloss>
+               <note type="editorial">"terra" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.6__1-->
             <note target="#b1.XXVII.6__1" n="L27.6.1_2" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXVII.7__1-->
             <note target="#b1.XXVII.7__1" n="L27.7.1_3">
                <gloss>
                   <gap/>
                </gloss>
+               <note type="editorial">"" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.7__2-->
             <note target="#b1.XXVII.7__2" n="L27.7.2_1">
                <gloss>tantum</gloss>
+               <note type="editorial">"tantum" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.8__1-->
             <note target="#b1.XXVII.8__1" n="L27.8.1_2" hand="hand-g1">
                <gloss>turpis</gloss>
             </note>
+            <!--1.XXVII.8__3-->
             <note target="#b1.XXVII.8__3" n="L27.8.3_1" hand="hand-g1">
                <gloss>a<gap/>tie<gap/>
                </gloss>
             </note>
+            <!--1.XXVII.8__4-->
             <note target="#b1.XXVII.8__4" n="L27.8.4_1" hand="hand-g1">
                <gloss>firmamentum</gloss>
             </note>
+            <!--1.XXVII.9__2-->
             <note target="#b1.XXVII.9__2" n="L27.9.2_1" hand="hand-g1">
                <gloss>generatus</gloss>
             </note>
+            <!--1.XXVII.11__2-->
             <note target="#b1.XXVII.11__2" n="L27.11.2_1" hand="hand-g1">
                <gloss>cogitant</gloss>
             </note>
+            <!--1.XXVII.13__1-->
             <note target="#b1.XXVII.13__1" n="L27.13.1_2" hand="hand-g1">
                <gloss>harundo</gloss>
             </note>
+            <!--1.XXVII.14__3-->
             <note target="#b1.XXVII.14__3" n="L27.14.3_2" hand="hand-g1">
                <gloss>miseria</gloss>
             </note>
+            <!--1.XXVII.15__5-->
             <note target="#b1.XXVII.15__5" n="L27.15.5_1" hand="hand-g1">
                <gloss>consuetum</gloss>
             </note>
+            <!--1.XXVII.18__2-->
             <note target="#b1.XXVII.18__2" n="L27.18.2_1">
                <gloss>hoc</gloss>
+               <note type="editorial">"hoc" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.18__3-->
             <note target="#b1.XXVII.18__3" n="L27.18.3_2">
                <gloss>inde</gloss>
+               <note type="editorial">"inde" written in Tironian notes.</note>
             </note>
+            <!--1.XXVII.24__1-->
             <note target="#b1.XXVII.24__1" n="L27.24.1_1" hand="hand-g1">
                <gloss>satis</gloss>
             </note>
+            <!--1.XXVII.28__1-->
             <note target="#b1.XXVII.28__1" n="L27.28.1_1" hand="hand-g1">
                <gloss>servitium</gloss>
             </note>
+            <!--1.XXVII.29__4-->
             <note target="#b1.XXVII.29__4" n="L27.29.4_1" hand="hand-g1">
                <gloss>verbi
                gratia</gloss>
             </note>
+            <!--1.XXVII.29__9-->
             <note target="#b1.XXVII.29__9" n="L27.29.9_4" hand="hand-g1">
                <gloss>apicem</gloss>
             </note>
+            <!--1.XXVII.29__10-->
             <note target="#b1.XXVII.29__10" n="L27.29.10_1" hand="hand-g1">
                <gloss>mitebant</gloss>
             </note>
+            <!--1.XXVII.29__13-->
             <note target="#b1.XXVII.29__13" n="L27.29.13_3" hand="hand-g1">
                <gloss>paxilli</gloss>
             </note>
+            <!--1.XXVII.29__17-->
             <note target="#b1.XXVII.29__17" n="L27.29.17_1" hand="hand-g1">
                <gloss>
                   <sic>insinuhabat</sic>
                   <corr>insinuabat</corr>
                </gloss>
             </note>
+            <!--1.XXVIII.1__1-->
             <note target="#b1.XXVIII.1__1" n="L28.1.1_2" hand="hand-g1">
                <gloss>comparatio vel
                proportio</gloss>
             </note>
+            <!--1.XXVIII.1__2-->
             <note target="#b1.XXVIII.1__2" n="L28.1.2_2" hand="hand-g1">
                <gloss>adaequatio vel
                collatio</gloss>
             </note>
+            <!--1.XXVIII.1__3-->
             <note target="#b1.XXVIII.1__3" n="L28.1.3_2" hand="hand-g1">
                <gloss>similitudo</gloss>
             </note>
+            <!--1.XXVIII.1__4-->
             <note target="#b1.XXVIII.1__4" n="L28.1.4_1" hand="hand-g1">
                <gloss>scilicet analogia</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXVIII.1__5-->
             <note target="#b1.XXVIII.1__5" n="L28.1.5_3" hand="hand-g1">
                <gloss>virtus</gloss>
             </note>
+            <!--1.XXVIII.1__6-->
             <note target="#b1.XXVIII.1__6" n="L28.1.6_1" hand="hand-g1">
                <gloss>reportatur</gloss>
             </note>
+            <!--1.XXVIII.1__7-->
             <note target="#b1.XXVIII.1__7" n="L28.1.7_2" hand="hand-g1">
                <gloss>nomen</gloss>
             </note>
+            <!--1.XXVIII.1__8-->
             <note target="#b1.XXVIII.1__8" n="L28.1.8_1" hand="hand-g1">
                <gloss>assimilatio</gloss>
             </note>
+            <!--1.XXVIII.1__9-->
             <note target="#b1.XXVIII.1__9" n="L28.1.9_2" hand="hand-g1">
                <gloss>cognoscitur</gloss>
             </note>
+            <!--1.XXVIII.2__1-->
             <note target="#b1.XXVIII.2__1" n="L28.2.1_3" hand="hand-g1">
                <gloss>inaequale</gloss>
             </note>
+            <!--1.XXVIII.2__2-->
             <note target="#b1.XXVIII.2__2" n="L28.2.2_2" hand="hand-g1">
                <gloss>discordant</gloss>
             </note>
+            <!--1.XXVIII.2__3-->
             <note target="#b1.XXVIII.2__3" n="L28.2.3_5" hand="hand-g1">
                <gloss>via vel semita, 
                   <sic>calle</sic>
@@ -483,581 +639,775 @@
                   </corr>
                </gloss>
             </note>
+            <!--1.XXVIII.4__1-->
             <note target="#b1.XXVIII.4__1" n="L28.4.1_1" hand="hand-g1">
                <gloss>neutrale
                primitivum</gloss>
             </note>
+            <!--1.XXVIII.4__2-->
             <note target="#b1.XXVIII.4__2" n="L28.4.2_1" hand="hand-g1">
                <gloss>derivativa
                forma</gloss>
             </note>
+            <!--1.XXVIII.4__3-->
             <note target="#b1.XXVIII.4__3" n="L28.4.3_1" hand="hand-g1">
                <gloss>intellegere</gloss>
             </note>
+            <!--1.XXVIII.4__4-->
             <note target="#b1.XXVIII.4__4" n="L28.4.4_1" hand="hand-g1">
                <gloss>in superficie
                vocis</gloss>
             </note>
+            <!--1.XXVIII.4__5-->
             <note target="#b1.XXVIII.4__5" n="L28.4.5_1" hand="hand-g1">
                <gloss>accipere vel
                cognoscere</gloss>
             </note>
+            <!--1.XXIX.1__1-->
             <note target="#b1.XXIX.1__1" n="L29.1.1_2" hand="hand-g2">
                <gloss>veriloquium,
                principium</gloss>
             </note>
+            <!--1.XXIX.1__1-->
             <note target="#b1.XXIX.1__1" n="L29.1.1_3" hand="hand-g1">
                <gloss>origo +
                locutio</gloss>
             </note>
+            <!--1.XXIX.1__2-->
             <note target="#b1.XXIX.1__2" n="L29.1.2_2" hand="hand-g1">
                <gloss>nativitas vel
                principalitas</gloss>
             </note>
+            <!--1.XXIX.1__3-->
             <note target="#b1.XXIX.1__3" n="L29.1.3_2" hand="hand-g1">
                <gloss>nominum</gloss>
             </note>
+            <!--1.XXIX.1__4-->
             <note target="#b1.XXIX.1__4" n="L29.1.4_2" hand="hand-g1">
                <gloss>virtus</gloss>
             </note>
+            <!--1.XXIX.1__6-->
             <note target="#b1.XXIX.1__6" n="L29.1.6_4" hand="hand-g1">
                <gloss>signum</gloss>
             </note>
+            <!--1.XXIX.1__9-->
             <note target="#b1.XXIX.1__9" n="L29.1.9_2" hand="hand-g1">
                <gloss>cognita</gloss>
             </note>
+            <!--1.XXIX.1__10-->
             <note target="#b1.XXIX.1__10" n="L29.1.10_1" hand="hand-g1">
                <gloss>crescit</gloss>
             </note>
+            <!--1.XXIX.2__2-->
             <note target="#b1.XXIX.2__2" n="L29.2.2_1" hand="hand-g1">
                <gloss>frequenter</gloss>
             </note>
+            <!--1.XXIX.2__5-->
             <note target="#b1.XXIX.2__5" n="L29.2.5_1" hand="hand-g1">
                <gloss>sensum</gloss>
             </note>
+            <!--1.XXIX.2__6-->
             <note target="#b1.XXIX.2__6" n="L29.2.6_1" hand="hand-g1">
                <gloss>causae</gloss>
             </note>
+            <!--1.XXIX.2__7-->
             <note target="#b1.XXIX.2__7" n="L29.2.7_5" hand="hand-g1">
                <gloss>visio vel
                investigatio</gloss>
             </note>
+            <!--1.XXIX.2__8-->
             <note target="#b1.XXIX.2__8" n="L29.2.8_1" hand="hand-g2">
                <gloss>origine</gloss>
             </note>
+            <!--1.XXIX.2__9-->
             <note target="#b1.XXIX.2__9" n="L29.2.9_1" hand="hand-g1">
                <gloss>intelligentia</gloss>
             </note>
+            <!--1.XXIX.2__10-->
             <note target="#b1.XXIX.2__10" n="L29.2.10_1" hand="hand-g1">
                <gloss>levior</gloss>
             </note>
+            <!--1.XXIX.2__11-->
             <note target="#b1.XXIX.2__11" n="L29.2.11_1" hand="hand-g1">
                <gloss>scilicet etymologia</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.2__12-->
             <note target="#b1.XXIX.2__12" n="L29.2.12_1" hand="hand-g1">
                <gloss>scilicet nomina</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.2__13-->
             <note target="#b1.XXIX.2__13" n="L29.2.13_2" hand="hand-g1">
                <gloss>
                   <sic>voluntatum</sic>
                   <corr>voluntatem</corr>
                </gloss>
             </note>
+            <!--1.XXIX.2__14-->
             <note target="#b1.XXIX.2__14" n="L29.2.14_1" hand="hand-g1">
                <gloss>aliquando</gloss>
+               <note type="editorial">"aliquando" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.2__15-->
             <note target="#b1.XXIX.2__15" n="L29.2.15_1" hand="hand-g1">
                <gloss>volet unius</gloss>
+               <note type="editorial">"volet unius" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.3__3-->
             <note target="#b1.XXIX.3__3" n="L29.3.3_1" hand="hand-g1">
                <gloss>scilicet nomina</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.3__5-->
             <note target="#b1.XXIX.3__5" n="L29.3.5_3" hand="hand-g1">
                <gloss>iu<supplied>di</supplied>cium</gloss>
             </note>
+            <!--1.XXIX.3__6-->
             <note target="#b1.XXIX.3__6" n="L29.3.6_1" hand="hand-g1">
                <gloss>scilicet nomina</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.3__11-->
             <note target="#b1.XXIX.3__11" n="L29.3.11_1" hand="hand-g1">
                <gloss>scilicet
                immundum</gloss>
             </note>
+            <!--1.XXIX.3__12-->
             <note target="#b1.XXIX.3__12" n="L29.3.12_3" hand="hand-g1">
                <gloss>umbrosus</gloss>
             </note>
+            <!--1.XXIX.4__3-->
             <note target="#b1.XXIX.4__3" n="L29.4.3_1" hand="hand-g1">
                <gloss>murmur</gloss>
             </note>
+            <!--1.XXIX.4__4-->
             <note target="#b1.XXIX.4__4" n="L29.4.4_1" hand="hand-main">
                <gloss>nata</gloss>
             </note>
+            <!--1.XXIX.4__6-->
             <note target="#b1.XXIX.4__6" n="L29.4.6_4" hand="hand-g1">
                <gloss>Graecus dicit silon</gloss>
+               <note type="editorial">"dicit" written in Tironian notes.</note>
             </note>
+            <!--1.XXIX.4__7-->
             <note target="#b1.XXIX.4__7" n="L29.4.7_2" hand="hand-g1">
                <gloss>domata</gloss>
             </note>
+            <!--1.XXIX.4__7-->
             <note target="#b1.XXIX.4__7" n="L29.4.7_5" hand="hand-g1">
                <gloss>ex Graeca appel<unclear>latio</unclear>ne vocata, nam mata
                Graeci tecta <unclear>dic</unclear>untur. Est autem unius <unclear>fa</unclear>miliae
                habitatio</gloss>
             </note>
+            <!--1.XXIX.5__3-->
             <note target="#b1.XXIX.5__3" n="L29.5.3_1" hand="hand-g1">
                <gloss>videtur</gloss>
             </note>
+            <!--1.XXIX.5__5-->
             <note target="#b1.XXIX.5__5" n="L29.5.5_1" hand="hand-g1">
                <gloss>multa</gloss>
             </note>
+            <!--1.XXIX.5__6-->
             <note target="#b1.XXIX.5__6" n="L29.5.6_1" hand="hand-g1">
                <gloss>aliena</gloss>
             </note>
+            <!--1.XXX.1__3-->
             <note target="#b1.XXX.1__3" n="L30.1.3_2" hand="hand-g1">
                <gloss>exponitur vel
                adipiscitur</gloss>
             </note>
+            <!--1.XXX.1__4-->
             <note target="#b1.XXX.1__4" n="L30.1.4_2" hand="hand-g1">
                <gloss>sapientes, amator<supplied>es</supplied>
                      sapientia<supplied>e</supplied>
                </gloss>
+               <note type="editorial">"amatores
+                     sapientiae" written in Tironian notes.</note>
             </note>
+            <!--1.XXX.1__6-->
             <note target="#b1.XXX.1__6" n="L30.1.6_4" hand="hand-main">
                <gloss>vel
-                  quaThis gloss may be a corruption of the word
-                     qualitate found in other manuscripts</gloss>
+                  qua</gloss>
+               <note type="editorial">This gloss may be a corruption of the word
+                     qualitate found in other manuscripts</note>
             </note>
+            <!--1.XXX.1__8-->
             <note target="#b1.XXX.1__8" n="L30.1.8_1" hand="hand-g1">
                <gloss>demonstrat</gloss>
             </note>
+            <!--1.XXX.2__2-->
             <note target="#b1.XXX.2__2" n="L30.2.2_1" hand="hand-g1">
                <gloss>manifestum</gloss>
             </note>
+            <!--1.XXX.2__5-->
             <note target="#b1.XXX.2__5" n="L30.2.5_1" hand="hand-g1">
                <gloss>certe</gloss>
             </note>
+            <!--1.XXX.2__6-->
             <note target="#b1.XXX.2__6" n="L30.2.6_1" hand="hand-g1">
                <gloss>ostendamus</gloss>
             </note>
+            <!--1.XXXI.1__2-->
             <note target="#b1.XXXI.1__2" n="L31.1.2_1" hand="hand-g1">
                <gloss>istarum
                partium</gloss>
             </note>
+            <!--1.XXXI.1__3-->
             <note target="#b1.XXXI.1__3" n="L31.1.3_1" hand="hand-g3">
                <gloss>id est
                philosophi</gloss>
             </note>
+            <!--1.XXXI.1__4-->
             <note target="#b1.XXXI.1__4" n="L31.1.4_2" hand="hand-g1">
                <gloss>de uno</gloss>
             </note>
+            <!--1.XXXI.1__5-->
             <note target="#b1.XXXI.1__5" n="L31.1.5_1" hand="hand-g1">
                <gloss>potestate</gloss>
             </note>
+            <!--1.XXXI.1__5-->
             <note target="#b1.XXXI.1__5" n="L31.1.5_2" hand="hand-g3">
                <gloss> vel
                societate</gloss>
             </note>
+            <!--1.XXXI.1__6-->
             <note target="#b1.XXXI.1__6" n="L31.1.6_3" hand="hand-g1">
                <gloss>non aperta</gloss>
+               <note type="editorial">"non" written in Tironian notes.</note>
             </note>
+            <!--1.XXXI.1__7-->
             <note target="#b1.XXXI.1__7" n="L31.1.7_3" hand="hand-g1">
                <gloss>interposita</gloss>
             </note>
+            <!--1.XXXI.1__7-->
             <note target="#b1.XXXI.1__7" n="L31.1.7_6" hand="hand-g3">
                <gloss>vel addita</gloss>
             </note>
+            <!--1.XXXI.1__8-->
             <note target="#b1.XXXI.1__8" n="L31.1.8_2" hand="hand-g3">
                <gloss>separantur</gloss>
             </note>
+            <!--1.XXXI.1__9-->
             <note target="#b1.XXXI.1__9" n="L31.1.9_1" hand="hand-g1">
                <gloss>scilicet differentia</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXI.1__10-->
             <note target="#b1.XXXI.1__10" n="L31.1.10_1" hand="hand-g1">
                <gloss>interposita</gloss>
             </note>
+            <!--1.XXXI.1__11-->
             <note target="#b1.XXXI.1__11" n="L31.1.11_1" hand="hand-g3">
                <gloss>humilis</gloss>
             </note>
+            <!--1.XXXI.1__13-->
             <note target="#b1.XXXI.1__13" n="L31.1.13_1" hand="hand-g1">
                <gloss>impius</gloss>
             </note>
+            <!--1.XXXI.1__13-->
             <note target="#b1.XXXI.1__13" n="L31.1.13_3" hand="hand-g3">
                <gloss>carens
                misericordia</gloss>
             </note>
+            <!--1.XXXI.1__14-->
             <note target="#b1.XXXI.1__14" n="L31.1.14_2" hand="hand-g1">
                <gloss>scilicet nomina</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXI.1__15-->
             <note target="#b1.XXXI.1__15" n="L31.1.15_1" hand="hand-g3">
                <gloss>de eodem et de
                altero</gloss>
             </note>
+            <!--1.XXXII.1__8-->
             <note target="#b1.XXXII.1__8" n="L32.1.8_1" hand="hand-g1">
                <gloss>alienis</gloss>
             </note>
+            <!--1.XXXII.1__9-->
             <note target="#b1.XXXII.1__9" n="L32.1.9_1" hand="hand-g1">
                <gloss>locutionis</gloss>
             </note>
+            <!--1.XXXII.1__10-->
             <note target="#b1.XXXII.1__10" n="L32.1.10_1" hand="hand-g1">
                <gloss>perfectionem</gloss>
             </note>
+            <!--1.XXXII.1__11-->
             <note target="#b1.XXXII.1__11" n="L32.1.11_2" hand="hand-g1">
                <gloss>sub una
                ditione</gloss>
             </note>
+            <!--1.XXXII.1__12-->
             <note target="#b1.XXXII.1__12" n="L32.1.12_1" hand="hand-g1">
                <gloss>abundantiis</gloss>
             </note>
+            <!--1.XXXII.2__3-->
             <note target="#b1.XXXII.2__3" n="L32.2.3_1" hand="hand-g1">
                <gloss>extranea</gloss>
             </note>
+            <!--1.XXXII.2__4-->
             <note target="#b1.XXXII.2__4" n="L32.2.4_1" hand="hand-g1">
                <gloss>imponuntur</gloss>
             </note>
+            <!--1.XXXII.3__2-->
             <note target="#b1.XXXII.3__2" n="L32.3.2_1" hand="hand-g1">
                <gloss>scilicet fit</gloss>
+               <note type="editorial">"scilicet fit" written in Tironian notes.</note>
             </note>
+            <!--1.XXXII.4__2-->
             <note target="#b1.XXXII.4__2" n="L32.4.2_1" hand="hand-g1">
                <gloss>adiungatur</gloss>
             </note>
+            <!--1.XXXII.5__3-->
             <note target="#b1.XXXII.5__3" n="L32.5.3_2" hand="hand-g1">
                <gloss>dividitur</gloss>
             </note>
+            <!--1.XXXII.6__1-->
             <note target="#b1.XXXII.6__1" n="L32.6.1_1" hand="hand-g1">
                <gloss>
                   <corr>intervallum</corr>
                </gloss>
             </note>
+            <!--1.XXXII.6__3-->
             <note target="#b1.XXXII.6__3" n="L32.6.3_1" hand="hand-g3">
                <gloss>elevatione melius
                quam detractione</gloss>
             </note>
+            <!--1.XXXII.7__2-->
             <note target="#b1.XXXII.7__2" n="L32.7.2_1">
                <gloss>in tantum</gloss>
             </note>
+            <!--1.XXXII.7__3-->
             <note target="#b1.XXXII.7__3" n="L32.7.3_1" hand="hand-g1">
                <gloss>gracilis</gloss>
             </note>
+            <!--1.XXXII.7__3-->
             <note target="#b1.XXXII.7__3" n="L32.7.3_2">
                <gloss>vel tenuis</gloss>
             </note>
+            <!--1.XXXII.8__3-->
             <note target="#b1.XXXII.8__3" n="L32.8.3_2" hand="hand-g1">
                <gloss>gracilius</gloss>
             </note>
+            <!--1.XXXII.8__8-->
             <note target="#b1.XXXII.8__8" n="L32.8.8_1" hand="hand-g1">
                <gloss>pronuntiare</gloss>
             </note>
+            <!--1.XXXII.9__1-->
             <note target="#b1.XXXII.9__1" n="L32.9.1_1" hand="hand-g1">
                <gloss>constrictio</gloss>
             </note>
+            <!--1.XXXIII.1__4-->
             <note target="#b1.XXXIII.1__4" n="L33.1.4_1" hand="hand-g1">
                <gloss>peccatoribus</gloss>
             </note>
+            <!--1.XXXIII.2__1-->
             <note target="#b1.XXXIII.2__1" n="L33.2.1_1" hand="hand-g4">
                <gloss>id est ab
                habitatoribus Solorum</gloss>
             </note>
+            <!--1.XXXIII.2__3-->
             <note target="#b1.XXXIII.2__3" n="L33.2.3_2" hand="hand-g1">
                <gloss>id est Pompeii
                civitatis</gloss>
             </note>
+            <!--1.XXXIII.2__4-->
             <note target="#b1.XXXIII.2__4" n="L33.2.4_1" hand="hand-g1">
                <gloss>egressi
                illi</gloss>
             </note>
+            <!--1.XXXIII.2__5-->
             <note target="#b1.XXXIII.2__5" n="L33.2.5_2" hand="hand-g4">
                <gloss>id est
                Athenas</gloss>
             </note>
+            <!--1.XXXIII.2__5-->
             <note target="#b1.XXXIII.2__5" n="L33.2.5_3" hand="hand-g1">
                <gloss>homines</gloss>
+               <note type="editorial">"homines" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIII.2__6-->
             <note target="#b1.XXXIII.2__6" n="L33.2.6_1" hand="hand-g1">
                <gloss>habitantes</gloss>
             </note>
+            <!--1.XXXIII.2__8-->
             <note target="#b1.XXXIII.2__8" n="L33.2.8_1" hand="hand-g1">
                <gloss>
                   <sic>inconveniuntur</sic>
                   <corr>inconvenienter</corr>
-               The gloss is corrupted both in this manuscript and in Paris 7559</gloss>
+               </gloss>
+               <note type="editorial">The gloss is corrupted both in this manuscript and in Paris 7559</note>
             </note>
+            <!--1.XXXIII.2__9-->
             <note target="#b1.XXXIII.2__9" n="L33.2.9_1">
                <gloss>S<unclear>c</unclear>ismus Graece, <unclear>La</unclear>tine dicitur scissio et
                idcirco <unclear>soloe</unclear>cismus <unclear>scin</unclear>dit
                   par<unclear>te</unclear>s, quoniam duae <unclear>lingu</unclear>ae
                   corru<unclear>ptae</unclear> sunt</gloss>
             </note>
+            <!--1.XXXIII.2__9-->
             <note target="#b1.XXXIII.2__9" n="L33.2.9_2" hand="hand-g3">
                <gloss>quasi scissionem
                linguae Soloensium</gloss>
             </note>
+            <!--1.XXXIII.2__9-->
             <note target="#b1.XXXIII.2__9" n="L33.2.9_3" hand="hand-g3">
                <gloss>huic
                confusioni</gloss>
             </note>
+            <!--1.XXXIII.4__1-->
             <note target="#b1.XXXIII.4__1" n="L33.4.1_2" hand="hand-g1">
                <gloss>partium
                orationis</gloss>
             </note>
+            <!--1.XXXIII.4__2-->
             <note target="#b1.XXXIII.4__2" n="L33.4.2_2" hand="hand-g1">
                <gloss>sicut</gloss>
+               <note type="editorial">"sicut" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIII.4__3-->
             <note target="#b1.XXXIII.4__3" n="L33.4.3_2" hand="hand-g1">
                <gloss>adiungemus</gloss>
             </note>
+            <!--1.XXXIII.4__6-->
             <note target="#b1.XXXIII.4__6" n="L33.4.6_1" hand="hand-g1">
                <gloss>scilicet accidentia</gloss>
+               <note type="editorial">"accidentia" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIV.1__1-->
             <note target="#b1.XXXIV.1__1" n="L34.1.1_1" hand="hand-g1">
                <gloss>in
                locutione</gloss>
             </note>
+            <!--1.XXXIV.1__2-->
             <note target="#b1.XXXIV.1__2" n="L34.1.2_3" hand="hand-g1">
                <gloss>observari</gloss>
             </note>
+            <!--1.XXXIV.4__4-->
             <note target="#b1.XXXIV.4__4" n="L34.4.4_2" hand="hand-g1">
                <gloss>timere</gloss>
             </note>
+            <!--1.XXXIV.4__6-->
             <note target="#b1.XXXIV.4__6" n="L34.4.6_1" hand="hand-g3">
                <gloss>
                   <del>erba</del>
                   <add>herboso</add>
                </gloss>
             </note>
+            <!--1.XXXIV.5__2-->
             <note target="#b1.XXXIV.5__2" n="L34.5.2_2" hand="hand-g1">
                <gloss>turpis</gloss>
             </note>
+            <!--1.XXXIV.5__3-->
             <note target="#b1.XXXIV.5__3" n="L34.5.3_1" hand="hand-g1">
                <gloss>inordinate</gloss>
             </note>
+            <!--1.XXXIV.5__6-->
             <note target="#b1.XXXIV.5__6" n="L34.5.6_2" hand="hand-g1">
                <gloss>delectat</gloss>
             </note>
+            <!--1.XXXIV.6__4-->
             <note target="#b1.XXXIV.6__4" n="L34.6.4_1" hand="hand-g1">
                <gloss>usque nunc</gloss>
             </note>
+            <!--1.XXXIV.6__5-->
             <note target="#b1.XXXIV.6__5" n="L34.6.5_1" hand="hand-g1">
                <gloss>terrarum</gloss>
             </note>
+            <!--1.XXXIV.9__3-->
             <note target="#b1.XXXIV.9__3" n="L34.9.3_2" hand="hand-g1">
                <gloss>dea</gloss>
             </note>
+            <!--1.XXXIV.9__5-->
             <note target="#b1.XXXIV.9__5" n="L34.9.5_1" hand="hand-g1">
                <gloss>custodiant</gloss>
             </note>
+            <!--1.XXXIV.9__6-->
             <note target="#b1.XXXIV.9__6" n="L34.9.6_2" hand="hand-g1">
                <gloss>usitatur</gloss>
             </note>
+            <!--1.XXXIV.9__7-->
             <note target="#b1.XXXIV.9__7" n="L34.9.7_1" hand="hand-g1">
                <gloss>caelestia</gloss>
             </note>
+            <!--1.XXXIV.9__8-->
             <note target="#b1.XXXIV.9__8" n="L34.9.8_2" hand="hand-g1">
                <gloss>infernalis</gloss>
             </note>
+            <!--1.XXXIV.9__12-->
             <note target="#b1.XXXIV.9__12" n="L34.9.12_3" hand="hand-g1">
                <gloss>saepe</gloss>
             </note>
+            <!--1.XXXIV.11__2-->
             <note target="#b1.XXXIV.11__2" n="L34.11.2_1" hand="hand-g3">
                <gloss>
                   <del>firmitas</del>
                   <add>firmitatem</add>
                </gloss>
             </note>
+            <!--1.XXXIV.11__5-->
             <note target="#b1.XXXIV.11__5" n="L34.11.5_1" hand="hand-g1">
                <gloss>profundo</gloss>
             </note>
+            <!--1.XXXIV.13__3-->
             <note target="#b1.XXXIV.13__3" n="L34.13.3_2" hand="hand-g1">
                <gloss>exhortor
                te</gloss>
             </note>
+            <!--1.XXXIV.14__1-->
             <note target="#b1.XXXIV.14__1" n="L34.14.1_1" hand="hand-g1">
                <gloss>proelium</gloss>
             </note>
+            <!--1.XXXIV.14__2-->
             <note target="#b1.XXXIV.14__2" n="L34.14.2_1" hand="hand-g1">
                <gloss>magnum</gloss>
             </note>
+            <!--1.XXXIV.14__3-->
             <note target="#b1.XXXIV.14__3" n="L34.14.3_1" hand="hand-g1">
                <gloss>portet</gloss>
             </note>
+            <!--1.XXXIV.15__3-->
             <note target="#b1.XXXIV.15__3" n="L34.15.3_1" hand="hand-g1">
                <gloss>expectatur</gloss>
             </note>
+            <!--1.XXXIV.15__5-->
             <note target="#b1.XXXIV.15__5" n="L34.15.5_1" hand="hand-g1">
                <gloss>dubietate</gloss>
             </note>
+            <!--1.XXXV.1__2-->
             <note target="#b1.XXXV.1__2" n="L35.1.2_1" hand="hand-g1">
                <gloss>scilicet dicitur</gloss>
+               <note type="editorial">"scilicet dicitur" written in Tironian notes.</note>
             </note>
+            <!--1.XXXV.1__3-->
             <note target="#b1.XXXV.1__3" n="L35.1.3_1" hand="hand-g1">
                <gloss>transpositio</gloss>
+               <note type="editorial">"transpositio" written in Tironian notes.</note>
             </note>
+            <!--1.XXXV.2__3-->
             <note target="#b1.XXXV.2__3" n="L35.2.3_2" hand="hand-g1">
                <gloss>initio</gloss>
             </note>
+            <!--1.XXXV.3__3-->
             <note target="#b1.XXXV.3__3" n="L35.3.3_1" hand="hand-g1">
                <gloss>adiungi</gloss>
             </note>
+            <!--1.XXXV.3__6-->
             <note target="#b1.XXXV.3__6" n="L35.3.6_1" hand="hand-g1">
                <gloss>contradico</gloss>
             </note>
+            <!--1.XXXV.4__9-->
             <note target="#b1.XXXV.4__9" n="L35.4.9_1" hand="hand-g1">
                <gloss>divisio</gloss>
             </note>
+            <!--1.XXXV.5__4-->
             <note target="#b1.XXXV.5__4" n="L35.5.4_2" hand="hand-g1">
                <gloss>congressio</gloss>
             </note>
+            <!--1.XXXV.7__5-->
             <note target="#b1.XXXV.7__5" n="L35.7.5_2">
                <gloss>in copulatione</gloss>
             </note>
+            <!--1.XXXV.7__6-->
             <note target="#b1.XXXV.7__6" n="L35.7.6_1" hand="hand-g1">
                <gloss>in
                compositione</gloss>
             </note>
+            <!--1.XXXV.7__10-->
             <note target="#b1.XXXV.7__10" n="L35.7.10_2" hand="hand-g1">
                <gloss>scientia</gloss>
             </note>
+            <!--1.XXXV.7__11-->
             <note target="#b1.XXXV.7__11" n="L35.7.11_2" hand="hand-g1">
                <gloss>stultitia</gloss>
             </note>
+            <!--1.XXXVI.1__1-->
             <note target="#b1.XXXVI.1__1" n="L36.1.1_2">
                <gloss>Metaplasmus necessitate metri factus,
                schemata propter ornamentum, tropus autem in utrisque est: aliquando necesita<supplied>te</supplied>, aliquando ornat<unclear>u</unclear>
                </gloss>
+               <note type="editorial">"aliquando aliquando" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.1__2-->
             <note target="#b1.XXXVI.1__2" n="L36.1.2_1" hand="hand-g1">
                <gloss>elocutionum</gloss>
             </note>
+            <!--1.XXXVI.1__4-->
             <note target="#b1.XXXVI.1__4" n="L36.1.4_1" hand="hand-g1">
                <gloss>diversas</gloss>
             </note>
+            <!--1.XXXVI.1__6-->
             <note target="#b1.XXXVI.1__6" n="L36.1.6_1">
                <gloss>scilicet figura</gloss>
+               <note type="editorial">"scilicet figura" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.2__3-->
             <note target="#b1.XXXVI.2__3" n="L36.2.3_1" hand="hand-g1">
                <gloss>continuo</gloss>
             </note>
+            <!--1.XXXVI.2__4-->
             <note target="#b1.XXXVI.2__4" n="L36.2.4_1" hand="hand-g1">
                <gloss>maiore</gloss>
+               <note type="editorial">"maiore" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.2__5-->
             <note target="#b1.XXXVI.2__5" n="L36.2.5_2" hand="hand-g1">
                <gloss>
                   <sic>onore</sic>
                   <corr>onere</corr>
                </gloss>
             </note>
+            <!--1.XXXVI.2__12-->
             <note target="#b1.XXXVI.2__12" n="L36.2.12_1" hand="hand-g1">
                <gloss>scilicet verba</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.3__6-->
             <note target="#b1.XXXVI.3__6" n="L36.3.6_4" hand="hand-g1">
                <gloss>vas vini</gloss>
             </note>
+            <!--1.XXXVI.3__7-->
             <note target="#b1.XXXVI.3__7" n="L36.3.7_2" hand="hand-g1">
                <gloss>vertitur</gloss>
             </note>
+            <!--1.XXXVI.3__8-->
             <note target="#b1.XXXVI.3__8" n="L36.3.8_2" hand="hand-g1">
                <gloss>dux
                Graecorum</gloss>
             </note>
+            <!--1.XXXVI.3__10-->
             <note target="#b1.XXXVI.3__10" n="L36.3.10_2" hand="hand-g1">
                <gloss>dux
                Romanorum</gloss>
             </note>
+            <!--1.XXXVI.3__12-->
             <note target="#b1.XXXVI.3__12" n="L36.3.12_2" hand="hand-g1">
                <gloss>officium</gloss>
             </note>
+            <!--1.XXXVI.3__14-->
             <note target="#b1.XXXVI.3__14" n="L36.3.14_2" hand="hand-g1">
                <gloss>generat</gloss>
             </note>
+            <!--1.XXXVI.4__2-->
             <note target="#b1.XXXVI.4__2" n="L36.4.2_1" hand="hand-g1">
                <gloss>perrexit ad
                Evandrum</gloss>
             </note>
+            <!--1.XXXVI.5__2-->
             <note target="#b1.XXXVI.5__2" n="L36.5.2_3" hand="hand-g1">
                <gloss>dulcis,
                matura</gloss>
             </note>
+            <!--1.XXXVI.5__3-->
             <note target="#b1.XXXVI.5__3" n="L36.5.3_2" hand="hand-g1">
                <gloss>mulsi</gloss>
             </note>
+            <!--1.XXXVI.5__4-->
             <note target="#b1.XXXVI.5__4" n="L36.5.4_2" hand="hand-g1">
                <gloss>abundantia</gloss>
             </note>
+            <!--1.XXXVI.6__1-->
             <note target="#b1.XXXVI.6__1" n="L36.6.1_1" hand="hand-g1">
                <gloss>ventrem</gloss>
             </note>
+            <!--1.XXXVI.6__2-->
             <note target="#b1.XXXVI.6__2" n="L36.6.2_1" hand="hand-g1">
                <gloss>exercitus</gloss>
             </note>
+            <!--1.XXXVI.6__3-->
             <note target="#b1.XXXVI.6__3" n="L36.6.3_2" hand="hand-g1">
                <gloss>scilicet fuit
                completus</gloss>
             </note>
+            <!--1.XXXVI.7__2-->
             <note target="#b1.XXXVI.7__2" n="L36.7.2_2" hand="hand-g1">
                <gloss>pugnent</gloss>
             </note>
+            <!--1.XXXVI.7__3-->
             <note target="#b1.XXXVI.7__3" n="L36.7.3_2" hand="hand-g1">
                <gloss>avis</gloss>
             </note>
+            <!--1.XXXVI.7__4-->
             <note target="#b1.XXXVI.7__4" n="L36.7.4_1" hand="hand-g1">
                <gloss>aviculae</gloss>
             </note>
+            <!--1.XXXVI.7__4-->
             <note target="#b1.XXXVI.7__4" n="L36.7.4_4" hand="hand-g1">
-               <gloss>cinicellaFrom Lat. zinzala (‘small fly, mosquito‘),
-                  Old French cincele, see Französisches
-                     Etymologisches Wörterbuch 14, 664a, but here clearly refering to a
-                  bird a suo l<unclear>uctu</unclear> et planctu nomin<unclear>atur</unclear>
+               <gloss>cinicella a suo l<unclear>uctu</unclear> et planctu nomin<unclear>atur</unclear>
                quia semper flet <gap/>
                </gloss>
+               <note type="editorial">From Lat. zinzala (‘small fly, mosquito‘),
+                  Old French cincele, see Französisches
+                     Etymologisches Wörterbuch 14, 664a, but here clearly refering to a
+                  bird</note>
             </note>
+            <!--1.XXXVI.7__5-->
             <note target="#b1.XXXVI.7__5" n="L36.7.5_2" hand="hand-g1">
                <gloss>pastor
                rusticus</gloss>
             </note>
+            <!--1.XXXVI.7__6-->
             <note target="#b1.XXXVI.7__6" n="L36.7.6_2" hand="hand-g1">
                <gloss>optimus 
                   <del>citarista</del>
                   <add>citharista</add>
                </gloss>
             </note>
+            <!--1.XXXVI.7__7-->
             <note target="#b1.XXXVI.7__7" n="L36.7.7_2" hand="hand-g1">
                <gloss>maritimi
                pisces</gloss>
             </note>
+            <!--1.XXXVI.7__8-->
             <note target="#b1.XXXVI.7__8" n="L36.7.8_2" hand="hand-g1">
                <gloss>dux</gloss>
             </note>
+            <!--1.XXXVI.8__2-->
             <note target="#b1.XXXVI.8__2" n="L36.8.2_1" hand="hand-g1">
                <gloss>Troiana</gloss>
             </note>
+            <!--1.XXXVI.8__5-->
             <note target="#b1.XXXVI.8__5" n="L36.8.5_2" hand="hand-g1">
                <gloss>altum</gloss>
             </note>
+            <!--1.XXXVI.8__6-->
             <note target="#b1.XXXVI.8__6" n="L36.8.6_1" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVI.8__7-->
             <note target="#b1.XXXVI.8__7" n="L36.8.7_2" hand="hand-g1">
                <gloss>perambulamus</gloss>
             </note>
+            <!--1.XXXVI.8__8-->
             <note target="#b1.XXXVI.8__8" n="L36.8.8_1" hand="hand-g1">
                <gloss>navibus</gloss>
             </note>
+            <!--1.XXXVI.8__9-->
             <note target="#b1.XXXVI.8__9" n="L36.8.9_1" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVI.9__2-->
             <note target="#b1.XXXVI.9__2" n="L36.9.2_3" hand="hand-g1">
                <gloss>silva</gloss>
             </note>
+            <!--1.XXXVI.9__3-->
             <note target="#b1.XXXVI.9__3" n="L36.9.3_3" hand="hand-g1">
                <gloss>loco</gloss>
             </note>
+            <!--1.XXXVI.9__4-->
             <note target="#b1.XXXVI.9__4" n="L36.9.4_2" hand="hand-g1">
                <gloss>in vitreo
                colore</gloss>
             </note>
+            <!--1.XXXVI.9__5-->
             <note target="#b1.XXXVI.9__5" n="L36.9.5_3" hand="hand-g1">
                <gloss>fluvius</gloss>
             </note>
+            <!--1.XXXVI.9__7-->
             <note target="#b1.XXXVI.9__7" n="L36.9.7_3" hand="hand-g1">
                <gloss>puri</gloss>
             </note>
+            <!--1.XXXVI.10__4-->
             <note target="#b1.XXXVI.10__4" n="L36.10.4_2" hand="hand-g1">
                <gloss>
                   <sic>
@@ -1066,265 +1416,363 @@
                   </sic>
                </gloss>
             </note>
+            <!--1.XXXVI.10__5-->
             <note target="#b1.XXXVI.10__5" n="L36.10.5_2" hand="hand-g1">
                <gloss>ad
                infernum</gloss>
             </note>
+            <!--1.XXXVI.10__6-->
             <note target="#b1.XXXVI.10__6" n="L36.10.6_2" hand="hand-g1">
                <gloss>sub mortem</gloss>
+               <note type="editorial">"sub" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.11__3-->
             <note target="#b1.XXXVI.11__3" n="L36.11.3_1" hand="hand-g1">
                <gloss>denarii</gloss>
             </note>
+            <!--1.XXXVI.12__1-->
             <note target="#b1.XXXVI.12__1" n="L36.12.1_3" hand="hand-g1">
                <gloss>denominatio</gloss>
             </note>
+            <!--1.XXXVI.12__3-->
             <note target="#b1.XXXVI.12__3" n="L36.12.3_2" hand="hand-g1">
                <gloss>prope ipsa</gloss>
+               <note type="editorial">"ipsa" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.12__5-->
             <note target="#b1.XXXVI.12__5" n="L36.12.5_1" hand="hand-g1">
                <gloss>mori</gloss>
             </note>
+            <!--1.XXXVI.13__2-->
             <note target="#b1.XXXVI.13__2" n="L36.13.2_2" hand="hand-g1">
                <gloss>circuitu</gloss>
             </note>
+            <!--1.XXXVI.13__3-->
             <note target="#b1.XXXVI.13__3" n="L36.13.3_2" hand="hand-g1">
                <gloss>parva
                nubis</gloss>
             </note>
+            <!--1.XXXVI.13__4-->
             <note target="#b1.XXXVI.13__4" n="L36.13.4_3" hand="hand-g1">
                <gloss>tempestas</gloss>
             </note>
+            <!--1.XXXVI.13__5-->
             <note target="#b1.XXXVI.13__5" n="L36.13.5_2" hand="hand-g1">
                <gloss>ventus</gloss>
             </note>
+            <!--1.XXXVI.13__6-->
             <note target="#b1.XXXVI.13__6" n="L36.13.6_1" hand="hand-g1">
                <gloss>fulgura</gloss>
             </note>
+            <!--1.XXXVI.14__5-->
             <note target="#b1.XXXVI.14__5" n="L36.14.5_1" hand="hand-g1">
                <gloss>scilicet exemplum</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.14__6-->
             <note target="#b1.XXXVI.14__6" n="L36.14.6_1" hand="hand-g1">
                <gloss>dura sive
                mala</gloss>
             </note>
+            <!--1.XXXVI.14__8-->
             <note target="#b1.XXXVI.14__8" n="L36.14.8_1" hand="hand-g1">
                <gloss>spinetis</gloss>
             </note>
+            <!--1.XXXVI.14__9-->
             <note target="#b1.XXXVI.14__9" n="L36.14.9_2" hand="hand-g1">
                <gloss>ruinas</gloss>
             </note>
+            <!--1.XXXVI.14__10-->
             <note target="#b1.XXXVI.14__10" n="L36.14.10_2" hand="hand-g1">
                <gloss>prophetissa,
                filia Priami</gloss>
             </note>
+            <!--1.XXXVI.15__3-->
             <note target="#b1.XXXVI.15__3" n="L36.15.3_2" hand="hand-g1">
                <gloss>Vergilius
-                  <unclear>dixit de Tur</unclear>no quandoQuando abbreviated as qm
+                  <unclear>dixit de Tur</unclear>no quando
                <unclear>pu</unclear>g<unclear>n</unclear>avit cum Aenea</gloss>
+               <note type="editorial">Quando abbreviated as qm</note>
             </note>
+            <!--1.XXXVI.15__5-->
             <note target="#b1.XXXVI.15__5" n="L36.15.5_2" hand="hand-g1">
                <gloss>
                   <unclear>contra</unclear> Aeneam</gloss>
             </note>
+            <!--1.XXXVI.16__2-->
             <note target="#b1.XXXVI.16__2" n="L36.16.2_1" hand="hand-g1">
                <gloss>discessit</gloss>
             </note>
+            <!--1.XXXVI.18__2-->
             <note target="#b1.XXXVI.18__2" n="L36.18.2_4" hand="hand-g1">
                <gloss>assiduatae vel
                prolongatae</gloss>
             </note>
+            <!--1.XXXVI.18__4-->
             <note target="#b1.XXXVI.18__4" n="L36.18.4_1" hand="hand-g1">
                <gloss>scilicet locum</gloss>
+               <note type="editorial">"scilicet locum" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVI.18__5-->
             <note target="#b1.XXXVI.18__5" n="L36.18.5_3" hand="hand-g1">
                <gloss>in
                secreta</gloss>
             </note>
+            <!--1.XXXVI.18__9-->
             <note target="#b1.XXXVI.18__9" n="L36.18.9_2" hand="hand-g1">
                <gloss>timenti</gloss>
             </note>
+            <!--1.XXXVI.18__10-->
             <note target="#b1.XXXVI.18__10" n="L36.18.10_2" hand="hand-g1">
                <gloss>nigrum</gloss>
             </note>
+            <!--1.XXXVI.18__11-->
             <note target="#b1.XXXVI.18__11" n="L36.18.11_1" hand="hand-g1">
                <gloss>silva</gloss>
             </note>
+            <!--1.XXXVI.18__12-->
             <note target="#b1.XXXVI.18__12" n="L36.18.12_3" hand="hand-g1">
                <gloss>supereminet</gloss>
             </note>
+            <!--1.XXXVI.19__3-->
             <note target="#b1.XXXVI.19__3" n="L36.19.3_2" hand="hand-g1">
                <gloss>Vergilius dixit
                de pastoribus quomodo fuissent eorum divitiae vel habitacula</gloss>
             </note>
+            <!--1.XXXVI.19__4-->
             <note target="#b1.XXXVI.19__4" n="L36.19.4_4" hand="hand-g1">
                <gloss>domus</gloss>
             </note>
+            <!--1.XXXVI.19__5-->
             <note target="#b1.XXXVI.19__5" n="L36.19.5_3" hand="hand-g1">
                <gloss>mons</gloss>
             </note>
+            <!--1.XXXVI.20__2-->
             <note target="#b1.XXXVI.20__2" n="L36.20.2_1" hand="hand-g1">
                <gloss>disligata</gloss>
             </note>
+            <!--1.XXXVI.20__3-->
             <note target="#b1.XXXVI.20__3" n="L36.20.3_2" hand="hand-g1">
                <gloss>pronuntiatur</gloss>
             </note>
+            <!--1.XXXVI.21__2-->
             <note target="#b1.XXXVI.21__2" n="L36.21.2_2" hand="hand-g1">
                <gloss>mittuntur</gloss>
             </note>
+            <!--1.XXXVI.22__2-->
             <note target="#b1.XXXVI.22__2" n="L36.22.2_1" hand="hand-g1">
                <gloss>quandocumque</gloss>
             </note>
+            <!--1.XXXVI.22__3-->
             <note target="#b1.XXXVI.22__3" n="L36.22.3_3" hand="hand-g1">
                <gloss>navibus</gloss>
             </note>
+            <!--1.XXXVI.22__4-->
             <note target="#b1.XXXVI.22__4" n="L36.22.4_2" hand="hand-g1">
                <gloss>ventos</gloss>
             </note>
+            <!--1.XXXVII.1__2-->
             <note target="#b1.XXXVII.1__2" n="L37.1.2_1" hand="hand-g1">
                <gloss>scilicet tropi</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.1__4-->
             <note target="#b1.XXXVII.1__4" n="L37.1.4_4" hand="hand-g1">
                <gloss>transeunt</gloss>
             </note>
+            <!--1.XXXVII.1__6-->
             <note target="#b1.XXXVII.1__6" n="L37.1.6_1" hand="hand-g1">
                <gloss>de</gloss>
+               <note type="editorial">"de" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.1__7-->
             <note target="#b1.XXXVII.1__7" n="L37.1.7_1" hand="hand-g1">
                <gloss>scilicet troporum </gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.1__9-->
             <note target="#b1.XXXVII.1__9" n="L37.1.9_3" hand="hand-g1">
                <gloss>explorare</gloss>
             </note>
+            <!--1.XXXVII.1__10-->
             <note target="#b1.XXXVII.1__10" n="L37.1.10_1" hand="hand-g1">
                <gloss>scilicet nominibus</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.1__12-->
             <note target="#b1.XXXVII.1__12" n="L37.1.12_2" hand="hand-g1">
                <gloss>scilicet nomina</gloss>
+               <note type="editorial">"scilicet nomina" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.1__13-->
             <note target="#b1.XXXVII.1__13" n="L37.1.13_2" hand="hand-g1">
                <gloss>constituit</gloss>
             </note>
+            <!--1.XXXVII.2__3-->
             <note target="#b1.XXXVII.2__3" n="L37.2.3_2" hand="hand-g1">
                <gloss>transportatio </gloss>
             </note>
+            <!--1.XXXVII.2__4-->
             <note target="#b1.XXXVII.2__4" n="L37.2.4_1" hand="hand-main">
                <gloss>undare </gloss>
             </note>
+            <!--1.XXXVII.2__5-->
             <note target="#b1.XXXVII.2__5" n="L37.2.5_1" hand="hand-g1">
                <gloss>messes</gloss>
             </note>
+            <!--1.XXXVII.2__6-->
             <note target="#b1.XXXVII.2__6" n="L37.2.6_2" hand="hand-g1">
                <gloss>scilicet in 
                   <sic>segitibus</sic>
                   <corr>segetibus</corr>
                 et in vitibus</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.2__7-->
             <note target="#b1.XXXVII.2__7" n="L37.2.7_3" hand="hand-g1">
                <gloss>transportantur
             </gloss>
             </note>
+            <!--1.XXXVII.2__8-->
             <note target="#b1.XXXVII.2__8" n="L37.2.8_1" hand="hand-g1">
                <gloss>istae</gloss>
+               <note type="editorial">"istae" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.2__12-->
             <note target="#b1.XXXVII.2__12" n="L37.2.12_7" hand="hand-g1">
                <gloss>opertoriis </gloss>
             </note>
+            <!--1.XXXVII.2__13-->
             <note target="#b1.XXXVII.2__13" n="L37.2.13_4" hand="hand-g1">
                <gloss>operiuntur</gloss>
             </note>
+            <!--1.XXXVII.2__14-->
             <note target="#b1.XXXVII.2__14" n="L37.2.14_3" hand="hand-g1">
                <gloss>dirigant </gloss>
             </note>
+            <!--1.XXXVII.2__15-->
             <note target="#b1.XXXVII.2__15" n="L37.2.15_4" hand="hand-g1">
                <gloss>et ne aperta</gloss>
+               <note type="editorial">"et" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.2__16-->
             <note target="#b1.XXXVII.2__16" n="L37.2.16_5" hand="hand-g1">
                <gloss>vox manifesta</gloss>
+               <note type="editorial">"vox" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.3__2-->
             <note target="#b1.XXXVII.3__2" n="L37.3.2_1" hand="hand-g1">
                <gloss>scilicet illa avis</gloss>
+               <note type="editorial">"scilicet illa" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.3__3-->
             <note target="#b1.XXXVII.3__3" n="L37.3.3_4" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.3__4-->
             <note target="#b1.XXXVII.3__4" n="L37.3.4_5" hand="hand-g1">
                <gloss>navis</gloss>
+               <note type="editorial">"navis" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.3__5-->
             <note target="#b1.XXXVII.3__5" n="L37.3.5_2" hand="hand-g1">
                <gloss>rigam</gloss>
             </note>
+            <!--1.XXXVII.3__6-->
             <note target="#b1.XXXVII.3__6" n="L37.3.6_2" hand="hand-g1">
                <gloss>longa</gloss>
             </note>
+            <!--1.XXXVII.3__7-->
             <note target="#b1.XXXVII.3__7" n="L37.3.7_2" hand="hand-g1">
                <gloss>
                   <sic>navs</sic>
                   <corr>nav<supplied>i</supplied>s</corr>
                </gloss>
             </note>
+            <!--1.XXXVII.4__1-->
             <note target="#b1.XXXVII.4__1" n="L37.4.1_2" hand="hand-g1">
                <gloss>deus aquarum </gloss>
             </note>
+            <!--1.XXXVII.4__2-->
             <note target="#b1.XXXVII.4__2" n="L37.4.2_3" hand="hand-g1">
                <gloss>templa</gloss>
             </note>
+            <!--1.XXXVII.4__3-->
             <note target="#b1.XXXVII.4__3" n="L37.4.3_2" hand="hand-g1">
                <gloss>vetula</gloss>
             </note>
+            <!--1.XXXVII.4__4-->
             <note target="#b1.XXXVII.4__4" n="L37.4.4_2" hand="hand-g1">
                <gloss>fluctuanti</gloss>
             </note>
+            <!--1.XXXVII.4__6-->
             <note target="#b1.XXXVII.4__6" n="L37.4.6_5" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.4__7-->
             <note target="#b1.XXXVII.4__7" n="L37.4.7_4" hand="hand-g1">
                <gloss>perpetuo a 
                   <sic>mento</sic>
                   <corr>mente</corr>
                 lavat </gloss>
             </note>
+            <!--1.XXXVII.4__8-->
             <note target="#b1.XXXVII.4__8" n="L37.4.8_1" hand="hand-g1">
                <gloss>cadit </gloss>
             </note>
+            <!--1.XXXVII.4__9-->
             <note target="#b1.XXXVII.4__9" n="L37.4.9_2" hand="hand-g1">
                <gloss>profluant </gloss>
             </note>
+            <!--1.XXXVII.4__10-->
             <note target="#b1.XXXVII.4__10" n="L37.4.10_3" hand="hand-g1">
                <gloss>ambulant </gloss>
             </note>
+            <!--1.XXXVII.5__1-->
             <note target="#b1.XXXVII.5__1" n="L37.5.1_4" hand="hand-g1">
                <gloss>honestissime</gloss>
             </note>
+            <!--1.XXXVII.5__2-->
             <note target="#b1.XXXVII.5__2" n="L37.5.2_2" hand="hand-g1">
                <gloss>honoris</gloss>
             </note>
+            <!--1.XXXVII.5__3-->
             <note target="#b1.XXXVII.5__3" n="L37.5.3_2" hand="hand-g1">
                <gloss>locutio</gloss>
             </note>
+            <!--1.XXXVII.5__5-->
             <note target="#b1.XXXVII.5__5" n="L37.5.5_2" hand="hand-g1">
                <gloss>contra,
                tortura</gloss>
             </note>
+            <!--1.XXXVII.6__4-->
             <note target="#b1.XXXVII.6__4" n="L37.6.4_1" hand="hand-g1">
                <gloss>distat</gloss>
             </note>
+            <!--1.XXXVII.6__7-->
             <note target="#b1.XXXVII.6__7" n="L37.6.7_3" hand="hand-g1">
                <gloss>dat</gloss>
             </note>
+            <!--1.XXXVII.6__8-->
             <note target="#b1.XXXVII.6__8" n="L37.6.8_2" hand="hand-g1">
                <gloss>scilicet catachresis</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.6__12-->
             <note target="#b1.XXXVII.6__12" n="L37.6.12_2" hand="hand-g1">
                <gloss>navis</gloss>
             </note>
+            <!--1.XXXVII.6__12-->
             <note target="#b1.XXXVII.6__12" n="L37.6.12_5" hand="hand-g1">
                <gloss>dicitur Centaurus
                quia ibi <unclear>erat p</unclear>icta illa bestia</gloss>
             </note>
+            <!--1.XXXVII.6__13-->
             <note target="#b1.XXXVII.6__13" n="L37.6.13_1" hand="hand-g1">
                <gloss>aliquando</gloss>
+               <note type="editorial">"aliquando" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.6__14-->
             <note target="#b1.XXXVII.6__14" n="L37.6.14_3" hand="hand-g1">
                <gloss>
                   <unclear>quattuor</unclear> naves fuerunt <unclear>quae</unclear>
@@ -1332,238 +1780,313 @@
                      <unclear>proe</unclear>liant</sic> inter se in mari: Chimaera, Scylla, Pistris,
                et Centaurus</gloss>
             </note>
+            <!--1.XXXVII.8__5-->
             <note target="#b1.XXXVII.8__5" n="L37.8.5_2" hand="hand-g1">
                <gloss>
                   <unclear>in</unclear> Roma circus ubi homines iocant</gloss>
             </note>
+            <!--1.XXXVII.8__6-->
             <note target="#b1.XXXVII.8__6" n="L37.8.6_2" hand="hand-g1">
                <gloss>saltant</gloss>
             </note>
+            <!--1.XXXVII.8__7-->
             <note target="#b1.XXXVII.8__7" n="L37.8.7_1" hand="hand-g1">
                <gloss>Dum illic homines
                plaudunt, hic boves mugiunt</gloss>
             </note>
+            <!--1.XXXVII.9__2-->
             <note target="#b1.XXXVII.9__2" n="L37.9.2_4" hand="hand-g1">
                <gloss>qui frumentum
                invenit</gloss>
             </note>
+            <!--1.XXXVII.9__3-->
             <note target="#b1.XXXVII.9__3" n="L37.9.3_2" hand="hand-g1">
                <gloss>qui vinum
                invenit</gloss>
             </note>
+            <!--1.XXXVII.9__4-->
             <note target="#b1.XXXVII.9__4" n="L37.9.4_2" hand="hand-g1">
                <gloss>ardet</gloss>
             </note>
+            <!--1.XXXVII.9__5-->
             <note target="#b1.XXXVII.9__5" n="L37.9.5_2" hand="hand-g1">
                <gloss>luxuria</gloss>
             </note>
+            <!--1.XXXVII.9__6-->
             <note target="#b1.XXXVII.9__6" n="L37.9.6_3" hand="hand-g1">
                <gloss>filius Saturni,
                frater Iovis, inventor ignis</gloss>
             </note>
+            <!--1.XXXVII.9__8-->
             <note target="#b1.XXXVII.9__8" n="L37.9.8_1" hand="hand-g1">
                <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.10__7-->
             <note target="#b1.XXXVII.10__7" n="L37.10.7_1" hand="hand-g1">
                <gloss>portat</gloss>
             </note>
+            <!--1.XXXVII.11__5-->
             <note target="#b1.XXXVII.11__5" n="L37.11.5_3" hand="hand-g1">
                <gloss>Aeneas</gloss>
             </note>
+            <!--1.XXXVII.11__7-->
             <note target="#b1.XXXVII.11__7" n="L37.11.7_4" hand="hand-g1">
                <gloss>Troilus</gloss>
             </note>
+            <!--1.XXXVII.11__9-->
             <note target="#b1.XXXVII.11__9" n="L37.11.9_2" hand="hand-g1">
                <gloss>ad certamen
                congressus</gloss>
             </note>
+            <!--1.XXXVII.11__10-->
             <note target="#b1.XXXVII.11__10" n="L37.11.10_1" hand="hand-g1">
                <gloss>dux Graecorum</gloss>
+               <note type="editorial">"Graecorum" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.12__2-->
             <note target="#b1.XXXVII.12__2" n="L37.12.2_2" hand="hand-g1">
                <gloss>sancta</gloss>
             </note>
+            <!--1.XXXVII.12__3-->
             <note target="#b1.XXXVII.12__3" n="L37.12.3_3" hand="hand-g1">
                <gloss>nomen
                deae</gloss>
             </note>
+            <!--1.XXXVII.12__4-->
             <note target="#b1.XXXVII.12__4" n="L37.12.4_2" hand="hand-g1">
                <gloss>turpes</gloss>
             </note>
+            <!--1.XXXVII.12__6-->
             <note target="#b1.XXXVII.12__6" n="L37.12.6_3" hand="hand-g1">
                <gloss>
                   <sic>arpeia</sic>
                   <corr>harpyiae</corr>
                </gloss>
             </note>
+            <!--1.XXXVII.12__7-->
             <note target="#b1.XXXVII.12__7" n="L37.12.7_1" hand="hand-g1">
                <gloss>distat</gloss>
             </note>
+            <!--1.XXXVII.13__1-->
             <note target="#b1.XXXVII.13__1" n="L37.13.1_1" hand="hand-g1">
                <gloss>adunatio</gloss>
             </note>
+            <!--1.XXXVII.13__2-->
             <note target="#b1.XXXVII.13__2" n="L37.13.2_1" hand="hand-g1">
                <gloss>scilicet tropo</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.13__3-->
             <note target="#b1.XXXVII.13__3" n="L37.13.3_2" hand="hand-g1">
                <gloss>a parte
                totum</gloss>
             </note>
+            <!--1.XXXVII.13__6-->
             <note target="#b1.XXXVII.13__6" n="L37.13.6_2" hand="hand-g1">
                <gloss>adunantur</gloss>
             </note>
+            <!--1.XXXVII.13__7-->
             <note target="#b1.XXXVII.13__7" n="L37.13.7_2" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.13__8-->
             <note target="#b1.XXXVII.13__8" n="L37.13.8_2" hand="hand-g1">
                <gloss>alienat</gloss>
             </note>
+            <!--1.XXXVII.13__9-->
             <note target="#b1.XXXVII.13__9" n="L37.13.9_2" hand="hand-g1">
                <gloss>Agamemnonis</gloss>
             </note>
+            <!--1.XXXVII.13__11-->
             <note target="#b1.XXXVII.13__11" n="L37.13.11_2" hand="hand-g1">
                <gloss>elevaverat</gloss>
             </note>
+            <!--1.XXXVII.13__15-->
             <note target="#b1.XXXVII.13__15" n="L37.13.15_1" hand="hand-g1">
                <gloss>elevatum</gloss>
             </note>
+            <!--1.XXXVII.14__4-->
             <note target="#b1.XXXVII.14__4" n="L37.14.4_2" hand="hand-g1">
                <gloss>ianuarum</gloss>
             </note>
+            <!--1.XXXVII.15__1-->
             <note target="#b1.XXXVII.15__1" n="L37.15.1_2" hand="hand-g1">
                <gloss>elocutio</gloss>
+               <note type="editorial">"elocutio" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.15__3-->
             <note target="#b1.XXXVII.15__3" n="L37.15.3_2" hand="hand-g1">
                <gloss>utitur vel
                trahit</gloss>
             </note>
+            <!--1.XXXVII.15__6-->
             <note target="#b1.XXXVII.15__6" n="L37.15.6_1" hand="hand-g1">
                <gloss>honestissime</gloss>
             </note>
+            <!--1.XXXVII.15__9-->
             <note target="#b1.XXXVII.15__9" n="L37.15.9_1" hand="hand-g1">
                <gloss>effugit</gloss>
             </note>
+            <!--1.XXXVII.15__12-->
             <note target="#b1.XXXVII.15__12" n="L37.15.12_2" hand="hand-g1">
                <gloss>maris
                sol</gloss>
             </note>
+            <!--1.XXXVII.15__13-->
             <note target="#b1.XXXVII.15__13" n="L37.15.13_2" hand="hand-g1">
                <gloss>rubeum</gloss>
             </note>
+            <!--1.XXXVII.15__14-->
             <note target="#b1.XXXVII.15__14" n="L37.15.14_1" hand="hand-g1">
                <gloss>derelinquens</gloss>
             </note>
+            <!--1.XXXVII.15__21-->
             <note target="#b1.XXXVII.15__21" n="L37.15.21_2" hand="hand-g1">
                <gloss>turpitudinem</gloss>
             </note>
+            <!--1.XXXVII.15__22-->
             <note target="#b1.XXXVII.15__22" n="L37.15.22_2" hand="hand-g1">
                <gloss>honeste</gloss>
             </note>
+            <!--1.XXXVII.16__3-->
             <note target="#b1.XXXVII.16__3" n="L37.16.3_2" hand="hand-g1">
                <gloss>antepositus</gloss>
             </note>
+            <!--1.XXXVII.16__4-->
             <note target="#b1.XXXVII.16__4" n="L37.16.4_1" hand="hand-g1">
                <gloss>Vergilius dixit
-               de Polyphemo quandoQuando abbreviated as qm persequebatur Aeneam et ille 
+               de Polyphemo quando persequebatur Aeneam et ille 
                   <sic>fugiens</sic>
                   <corr>fugit</corr>
                 in profundum maris</gloss>
+               <note type="editorial">Quando abbreviated as qm</note>
             </note>
+            <!--1.XXXVII.17__2-->
             <note target="#b1.XXXVII.17__2" n="L37.17.2_2" hand="hand-g1">
                <gloss>undas</gloss>
             </note>
+            <!--1.XXXVII.17__3-->
             <note target="#b1.XXXVII.17__3" n="L37.17.3_1" hand="hand-g1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.17__4-->
             <note target="#b1.XXXVII.17__4" n="L37.17.4_2" hand="hand-g1">
                <gloss>Polyphemus</gloss>
             </note>
+            <!--1.XXXVII.18__1-->
             <note target="#b1.XXXVII.18__1" n="L37.18.1_1" hand="hand-g1">
                <gloss>interpositio</gloss>
             </note>
+            <!--1.XXXVII.18__3-->
             <note target="#b1.XXXVII.18__3" n="L37.18.3_2" hand="hand-g1">
                <gloss>separatam</gloss>
             </note>
+            <!--1.XXXVII.18__4-->
             <note target="#b1.XXXVII.18__4" n="L37.18.4_1" hand="hand-g1">
                <gloss>sensus</gloss>
             </note>
+            <!--1.XXXVII.18__6-->
             <note target="#b1.XXXVII.18__6" n="L37.18.6_2" hand="hand-g1">
                <gloss>propter Ascanium
                quando <supplied>venit</supplied> in Carthaginem ad Didonem</gloss>
             </note>
+            <!--1.XXXVII.19__1-->
             <note target="#b1.XXXVII.19__1" n="L37.19.1_1" hand="hand-g1">
                <gloss>divisio</gloss>
             </note>
+            <!--1.XXXVII.19__2-->
             <note target="#b1.XXXVII.19__2" n="L37.19.2_2" hand="hand-g1">
                <gloss>Venus</gloss>
             </note>
+            <!--1.XXXVII.20__1-->
             <note target="#b1.XXXVII.20__1" n="L37.20.1_1" hand="hand-g1">
                <gloss>ex utraque
                parte</gloss>
             </note>
+            <!--1.XXXVII.20__3-->
             <note target="#b1.XXXVII.20__3" n="L37.20.3_3" hand="hand-g1">
                <gloss>inaniter</gloss>
             </note>
+            <!--1.XXXVII.20__4-->
             <note target="#b1.XXXVII.20__4" n="L37.20.4_2" hand="hand-g1">
                <gloss>voluntas</gloss>
             </note>
+            <!--1.XXXVII.20__6-->
             <note target="#b1.XXXVII.20__6" n="L37.20.6_3" hand="hand-g1">
                <gloss>introitis</gloss>
             </note>
+            <!--1.XXXVII.20__7-->
             <note target="#b1.XXXVII.20__7" n="L37.20.7_1" hand="hand-g1">
                <gloss>vana</gloss>
             </note>
+            <!--1.XXXVII.20__8-->
             <note target="#b1.XXXVII.20__8" n="L37.20.8_3" hand="hand-g1">
                <gloss>recesserunt</gloss>
             </note>
+            <!--1.XXXVII.20__9-->
             <note target="#b1.XXXVII.20__9" n="L37.20.9_1" hand="hand-g1">
                <gloss>novissima</gloss>
             </note>
+            <!--1.XXXVII.21__3-->
             <note target="#b1.XXXVII.21__3" n="L37.21.3_2" hand="hand-g1">
                <gloss>transgrediens</gloss>
             </note>
+            <!--1.XXXVII.21__4-->
             <note target="#b1.XXXVII.21__4" n="L37.21.4_3" hand="hand-g1">
                <gloss>prae nimia
                tempestate</gloss>
             </note>
+            <!--1.XXXVII.21__5-->
             <note target="#b1.XXXVII.21__5" n="L37.21.5_1" hand="hand-g1">
                <gloss>undas</gloss>
             </note>
+            <!--1.XXXVII.21__7-->
             <note target="#b1.XXXVII.21__7" n="L37.21.7_3" hand="hand-g1">
                <gloss>via</gloss>
             </note>
+            <!--1.XXXVII.21__12-->
             <note target="#b1.XXXVII.21__12" n="L37.21.12_2" hand="hand-g1">
                <gloss>et hic
                augetur</gloss>
             </note>
+            <!--1.XXXVII.22__1-->
             <note target="#b1.XXXVII.22__1" n="L37.22.1_1" hand="hand-g1">
                <gloss>ripas</gloss>
             </note>
+            <!--1.XXXVII.22__2-->
             <note target="#b1.XXXVII.22__2" n="L37.22.2_1" hand="hand-g1">
                <gloss>aspicit</gloss>
             </note>
+            <!--1.XXXVII.22__3-->
             <note target="#b1.XXXVII.22__3" n="L37.22.3_2" hand="hand-g1">
                <gloss>pascentes</gloss>
             </note>
+            <!--1.XXXVII.22__5-->
             <note target="#b1.XXXVII.22__5" n="L37.22.5_2" hand="hand-g1">
                <gloss>Africana</gloss>
             </note>
+            <!--1.XXXVII.22__9-->
             <note target="#b1.XXXVII.22__9" n="L37.22.9_3" hand="hand-g1">
                <gloss>
                   <sic>exceptiones</sic>
                   <corr>excerptiones</corr>
                 vel sententias</gloss>
             </note>
+            <!--1.XXXVII.22__10-->
             <note target="#b1.XXXVII.22__10" n="L37.22.10_1" hand="hand-g1">
                <gloss>non
                cellent</gloss>
             </note>
+            <!--1.XXXVII.23__2-->
             <note target="#b1.XXXVII.23__2" n="L37.23.2_2" hand="hand-g1">
                <gloss>ingeniose</gloss>
             </note>
+            <!--1.XXXVII.23__3-->
             <note target="#b1.XXXVII.23__3" n="L37.23.3_3" hand="hand-g1">
                <gloss>irrisionem</gloss>
             </note>
+            <!--1.XXXVII.23__4-->
             <note target="#b1.XXXVII.23__4" n="L37.23.4_3" hand="hand-g1">
                <gloss>Iuno perrexit ad
                Aeolum regem ventorum ut emisisset ventos et periclitassent Aeneam in mari. Et
@@ -1571,253 +2094,327 @@
                vidit Venus perrexit ad Neptunum regem maris ut eiecisset illos ventos de suo
                regno</gloss>
             </note>
+            <!--1.XXXVII.23__5-->
             <note target="#b1.XXXVII.23__5" n="L37.23.5_1" hand="hand-g1">
                <gloss>ventum</gloss>
             </note>
+            <!--1.XXXVII.23__6-->
             <note target="#b1.XXXVII.23__6" n="L37.23.6_2" hand="hand-g1">
                <gloss>domus
                regalis</gloss>
             </note>
+            <!--1.XXXVII.23__7-->
             <note target="#b1.XXXVII.23__7" n="L37.23.7_2" hand="hand-g1">
                <gloss>ventus</gloss>
             </note>
+            <!--1.XXXVII.24__1-->
             <note target="#b1.XXXVII.24__1" n="L37.24.1_1" hand="hand-g1">
                <gloss>scilicet suo ipso
                dicto</gloss>
             </note>
+            <!--1.XXXVII.24__2-->
             <note target="#b1.XXXVII.24__2" n="L37.24.2_1" hand="hand-g1">
                <gloss>amittit</gloss>
             </note>
+            <!--1.XXXVII.24__3-->
             <note target="#b1.XXXVII.24__3" n="L37.24.3_1" hand="hand-g1">
                <gloss>arborum</gloss>
             </note>
+            <!--1.XXXVII.24__4-->
             <note target="#b1.XXXVII.24__4" n="L37.24.4_1" hand="hand-g1">
                <gloss>dii
                infernorum</gloss>
             </note>
+            <!--1.XXXVII.24__5-->
             <note target="#b1.XXXVII.24__5" n="L37.24.5_2" hand="hand-g1">
                <gloss>moderati</gloss>
             </note>
+            <!--1.XXXVII.24__6-->
             <note target="#b1.XXXVII.24__6" n="L37.24.6_1" hand="hand-g1">
                <gloss>metuentes</gloss>
             </note>
+            <!--1.XXXVII.24__7-->
             <note target="#b1.XXXVII.24__7" n="L37.24.7_2" hand="hand-g1">
                <gloss>duri</gloss>
             </note>
+            <!--1.XXXVII.24__8-->
             <note target="#b1.XXXVII.24__8" n="L37.24.8_2" hand="hand-g1">
                <gloss>fatas</gloss>
             </note>
+            <!--1.XXXVII.24__9-->
             <note target="#b1.XXXVII.24__9" n="L37.24.9_2" hand="hand-g1">
                <gloss>Haec sunt filiae
                Orci et sunt deae irarum et sunt nomina eorum Tisiphone, Megaera et Alecto</gloss>
             </note>
+            <!--1.XXXVII.24__11-->
             <note target="#b1.XXXVII.24__11" n="L37.24.11_2" hand="hand-g1">
                <gloss>iracundiae</gloss>
             </note>
+            <!--1.XXXVII.24__13-->
             <note target="#b1.XXXVII.24__13" n="L37.24.13_3" hand="hand-g1">
                <gloss>magni</gloss>
             </note>
+            <!--1.XXXVII.25__1-->
             <note target="#b1.XXXVII.25__1" n="L37.25.1_1" hand="hand-g1">
                <gloss>si graviter
                pronuntiaveris</gloss>
             </note>
+            <!--1.XXXVII.25__3-->
             <note target="#b1.XXXVII.25__3" n="L37.25.3_1" hand="hand-g1">
                <gloss>illorum
                verborum</gloss>
             </note>
+            <!--1.XXXVII.25__3-->
             <note target="#b1.XXXVII.25__3" n="L37.25.3_2" hand="hand-g1">
                <gloss>vel
                natura</gloss>
             </note>
+            <!--1.XXXVII.26__1-->
             <note target="#b1.XXXVII.26__1" n="L37.26.1_1" hand="hand-g1">
                <gloss>gravis</gloss>
+               <note type="editorial">"gravis" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.26__4-->
             <note target="#b1.XXXVII.26__4" n="L37.26.4_1" hand="hand-g1">
                <gloss>figuras</gloss>
             </note>
+            <!--1.XXXVII.26__5-->
             <note target="#b1.XXXVII.26__5" n="L37.26.5_1" hand="hand-g1">
                <gloss>coopertus</gloss>
             </note>
+            <!--1.XXXVII.27__2-->
             <note target="#b1.XXXVII.27__2" n="L37.27.2_3" hand="hand-g1">
                <gloss>levius,
                temperantius</gloss>
             </note>
+            <!--1.XXXVII.27__3-->
             <note target="#b1.XXXVII.27__3" n="L37.27.3_1" hand="hand-g1">
                <gloss>sicut</gloss>
             </note>
+            <!--1.XXXVII.27__4-->
             <note target="#b1.XXXVII.27__4" n="L37.27.4_1" hand="hand-g1">
                <gloss>ecce dura quia 
                   <sic>times</sic>
                   <corr>time<supplied>n</supplied>s</corr>
                </gloss>
             </note>
+            <!--1.XXXVII.27__5-->
             <note target="#b1.XXXVII.27__5" n="L37.27.5_1" hand="hand-g1">
                <gloss>quaerunt te omnes
                et dilig<gap/> felicitant <gap/>
                </gloss>
             </note>
+            <!--1.XXXVII.28__1-->
             <note target="#b1.XXXVII.28__1" n="L37.28.1_1" hand="hand-g1">
                <gloss>id est proverbium</gloss>
+               <note type="editorial">"id est proverbium" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVII.28__3-->
             <note target="#b1.XXXVII.28__3" n="L37.28.3_4" hand="hand-g1">
                <gloss>conveniens</gloss>
             </note>
+            <!--1.XXXVII.28__4-->
             <note target="#b1.XXXVII.28__4" n="L37.28.4_2" hand="hand-g1">
                <gloss>parabola,
                similitudo</gloss>
             </note>
+            <!--1.XXXVII.28__5-->
             <note target="#b1.XXXVII.28__5" n="L37.28.5_2" hand="hand-g1">
                <gloss>repugnas</gloss>
             </note>
+            <!--1.XXXVII.28__6-->
             <note target="#b1.XXXVII.28__6" n="L37.28.6_2" hand="hand-g1">
                <gloss>contra fortiores
                sibi</gloss>
             </note>
+            <!--1.XXXVII.29__1-->
             <note target="#b1.XXXVII.29__1" n="L37.29.1_3" hand="hand-g1">
                <gloss>inimica</gloss>
             </note>
+            <!--1.XXXVII.29__2-->
             <note target="#b1.XXXVII.29__2" n="L37.29.2_2" hand="hand-g1">
                <gloss>Pyrrhus filius 
                   <sic>Achilli</sic>
                   <corr>Achillis</corr>
-                dixit ad Priamum regem Troiae quandoQuando abbreviated as qm
+                dixit ad Priamum regem Troiae quando
                expugnavit eam et 
                   <sic>occisit</sic>
                   <corr>occidit</corr>
                 filium eius coram illo et ipsum post eum, quia ille Priamus exprobravit ei,
                quod sine misericordia fuisset et degener</gloss>
+               <note type="editorial">Quando abbreviated as qm</note>
             </note>
+            <!--1.XXXVII.29__3-->
             <note target="#b1.XXXVII.29__3" n="L37.29.3_1" hand="hand-g1">
                <gloss>
                   <del>renuntias</del>
                   <add>renunties</add>
                </gloss>
             </note>
+            <!--1.XXXVII.29__7-->
             <note target="#b1.XXXVII.29__7" n="L37.29.7_1" hand="hand-g1">
                <gloss>nobilem <sic>
-                     <gap/>am</sic>A significant corruption in the manuscript
-                  that cannot be resolved originis suae
+                     <gap/>am</sic> originis suae
                dissim<unclear>ulans</unclear>
                </gloss>
+               <note type="editorial">A significant corruption in the manuscript
+                  that cannot be resolved</note>
             </note>
+            <!--1.XXXVII.30__1-->
             <note target="#b1.XXXVII.30__1" n="L37.30.1_2" hand="hand-g1">
                <gloss>eloquentia</gloss>
             </note>
+            <!--1.XXXVII.30__3-->
             <note target="#b1.XXXVII.30__3" n="L37.30.3_1" hand="hand-g1">
                <gloss>evenit</gloss>
             </note>
+            <!--1.XXXVII.30__4-->
             <note target="#b1.XXXVII.30__4" n="L37.30.4_2" hand="hand-g1">
                <gloss>carmina
                sua</gloss>
             </note>
+            <!--1.XXXVII.31__2-->
             <note target="#b1.XXXVII.31__2" n="L37.31.2_2" hand="hand-g1">
                <gloss>aperitur</gloss>
             </note>
+            <!--1.XXXVII.32__2-->
             <note target="#b1.XXXVII.32__2" n="L37.32.2_2" hand="hand-g1">
                <gloss>manifestare</gloss>
             </note>
+            <!--1.XXXVII.32__3-->
             <note target="#b1.XXXVII.32__3" n="L37.32.3_2" hand="hand-g1">
                <gloss>Vergilius dixit
                de illo viro quem misit <sic>Iovis rei</sic> ad 
                   <del>Aeneum</del>
                   <add>Aeneam</add>
-                in Cartagine quod per omnia similis fuisset MercurioThe gloss contains
-                  a significant corruption that cannot be resolved; also in Harley3941</gloss>
+                in Cartagine quod per omnia similis fuisset Mercurio</gloss>
+               <note type="editorial">The gloss contains
+                  a significant corruption that cannot be resolved; also in Harley3941</note>
             </note>
+            <!--1.XXXVII.32__6-->
             <note target="#b1.XXXVII.32__6" n="L37.32.6_1" hand="hand-g1">
                <gloss>albos</gloss>
             </note>
+            <!--1.XXXVII.32__7-->
             <note target="#b1.XXXVII.32__7" n="L37.32.7_2" hand="hand-g1">
                <gloss>conveniens</gloss>
             </note>
+            <!--1.XXXVII.32__9-->
             <note target="#b1.XXXVII.32__9" n="L37.32.9_2" hand="hand-g1">
                <gloss>superdicitur,
                ostenditur, refertur</gloss>
             </note>
+            <!--1.XXXVII.33__3-->
             <note target="#b1.XXXVII.33__3" n="L37.33.3_2" hand="hand-g1">
                <gloss>in terris
                Lybiae</gloss>
             </note>
+            <!--1.XXXVII.33__4-->
             <note target="#b1.XXXVII.33__4" n="L37.33.4_2" hand="hand-g1">
                <gloss>bestiae</gloss>
             </note>
+            <!--1.XXXVII.33__5-->
             <note target="#b1.XXXVII.33__5" n="L37.33.5_2" hand="hand-g1">
                <gloss>terrae</gloss>
             </note>
+            <!--1.XXXVII.33__7-->
             <note target="#b1.XXXVII.33__7" n="L37.33.7_4" hand="hand-g1">
                <gloss>statim,
                contra</gloss>
             </note>
+            <!--1.XXXVII.33__8-->
             <note target="#b1.XXXVII.33__8" n="L37.33.8_2" hand="hand-g1">
                <gloss>simul
                sedit</gloss>
             </note>
+            <!--1.XXXVII.34__3-->
             <note target="#b1.XXXVII.34__3" n="L37.34.3_3" hand="hand-g1">
                <gloss>civitas
                Africae</gloss>
             </note>
+            <!--1.XXXVII.35__2-->
             <note target="#b1.XXXVII.35__2" n="L37.35.2_2" hand="hand-g1">
                <gloss>nata</gloss>
             </note>
+            <!--1.XXXVII.35__3-->
             <note target="#b1.XXXVII.35__3" n="L37.35.3_2" hand="hand-g1">
                <gloss>contentio</gloss>
             </note>
+            <!--1.XXXVII.35__4-->
             <note target="#b1.XXXVII.35__4" n="L37.35.4_2" hand="hand-g1">
                <gloss>
                   <sic>extortum</sic>
                   <corr>exortum</corr>
                , coactum, monstratum</gloss>
             </note>
+            <!--1.XXXVII.35__5-->
             <note target="#b1.XXXVII.35__5" n="L37.35.5_1" hand="hand-g1">
                <gloss>
-                  <gap/>The tie-mark present, but gloss not
-               present</gloss>
+                  <gap/>
+               </gloss>
+               <note type="editorial">The tie-mark present, but gloss not
+               present</note>
             </note>
+            <!--1.XXXVII.35__6-->
             <note target="#b1.XXXVII.35__6" n="L37.35.6_2" hand="hand-g1">
                <gloss>coruscatio</gloss>
             </note>
+            <!--1.XXXVII.35__8-->
             <note target="#b1.XXXVII.35__8" n="L37.35.8_2" hand="hand-g1">
                <gloss>colligare</gloss>
             </note>
+            <!--1.XXXVII.35__11-->
             <note target="#b1.XXXVII.35__11" n="L37.35.11_3" hand="hand-g1">
                <gloss>patria</gloss>
             </note>
+            <!--1.XXXVII.35__12-->
             <note target="#b1.XXXVII.35__12" n="L37.35.12_4" hand="hand-g1">
                <gloss>fortis</gloss>
             </note>
+            <!--1.XXXVII.35__13-->
             <note target="#b1.XXXVII.35__13" n="L37.35.13_3" hand="hand-g1">
                <gloss>lyris vel
                musis</gloss>
             </note>
+            <!--1.XXXVII.35__14-->
             <note target="#b1.XXXVII.35__14" n="L37.35.14_2" hand="hand-g1">
                <gloss>dulcis sonus
                canentibus</gloss>
             </note>
+            <!--1.XXXVII.35__16-->
             <note target="#b1.XXXVII.35__16" n="L37.35.16_1" hand="hand-g1">
                <gloss>munitus</gloss>
             </note>
+            <!--1.XXXVII.35__16-->
             <note target="#b1.XXXVII.35__16" n="L37.35.16_4" hand="hand-g1">
                <gloss>si ille potuit
                consequi quod voluit, ego pietate <supplied>possum</supplied>
                </gloss>
             </note>
+            <!--1.XXXVII.35__17-->
             <note target="#b1.XXXVII.35__17" n="L37.35.17_4" hand="hand-g1">
                <gloss>Aeneas dixit
-                  quandoQuando abbreviated as qm voluit visitare patrem suum in
+                  quando voluit visitare patrem suum in
                inferno</gloss>
+               <note type="editorial">Quando abbreviated as qm</note>
             </note>
+            <!--1.XXXVIII.1__1-->
             <note target="#b1.XXXVIII.1__1" n="L38.1.1_1" hand="hand-g1">
                <gloss>longa</gloss>
             </note>
+            <!--1.XXXVIII.1__2-->
             <note target="#b1.XXXVIII.1__2" n="L38.1.2_1" hand="hand-g1">
                <gloss>elocutio</gloss>
             </note>
+            <!--1.XXXVIII.1__3-->
             <note target="#b1.XXXVIII.1__3" n="L38.1.3_1" hand="hand-g1">
                <gloss>disligata</gloss>
             </note>
+            <!--1.XXXVIII.1__4-->
             <note target="#b1.XXXVIII.1__4" n="L38.1.4_1" hand="hand-g1">
                <gloss>longum</gloss>
             </note>
+            <!--1.XXXVIII.1__5-->
             <note target="#b1.XXXVIII.1__5" n="L38.1.5_2" hand="hand-g1">
                <gloss>in libro quem
                scripsit de 
@@ -1825,31 +2422,41 @@
                   <corr>Plauto</corr>
                </gloss>
             </note>
+            <!--1.XXXVIII.1__6-->
             <note target="#b1.XXXVIII.1__6" n="L38.1.6_1" hand="hand-g1">
                <gloss>longis</gloss>
             </note>
+            <!--1.XXXVIII.1__8-->
             <note target="#b1.XXXVIII.1__8" n="L38.1.8_1" hand="hand-g1">
                <gloss>scilicet prosa</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXVIII.1__9-->
             <note target="#b1.XXXVIII.1__9" n="L38.1.9_2" hand="hand-g1">
                <gloss>inclinata</gloss>
             </note>
+            <!--1.XXXVIII.1__11-->
             <note target="#b1.XXXVIII.1__11" n="L38.1.11_1" hand="hand-g1">
                <gloss>dicunt</gloss>
             </note>
+            <!--1.XXXVIII.1__12-->
             <note target="#b1.XXXVIII.1__12" n="L38.1.12_2" hand="hand-g1">
                <gloss>larga vel
                producta</gloss>
             </note>
+            <!--1.XXXVIII.1__13-->
             <note target="#b1.XXXVIII.1__13" n="L38.1.13_2" hand="hand-g1">
                <gloss>vadat</gloss>
             </note>
+            <!--1.XXXVIII.1__14-->
             <note target="#b1.XXXVIII.1__14" n="L38.1.14_1" hand="hand-g1">
                <gloss>extendat</gloss>
             </note>
+            <!--1.XXXVIII.2__1-->
             <note target="#b1.XXXVIII.2__1" n="L38.2.1_2" hand="hand-g1">
                <gloss>certa</gloss>
             </note>
+            <!--1.XXXVIII.2__2-->
             <note target="#b1.XXXVIII.2__2" n="L38.2.2_2" hand="hand-g1">
                <gloss>
                   <sic>componebant</sic>
@@ -1857,185 +2464,252 @@
                   </corr>
                </gloss>
             </note>
+            <!--1.XXXVIII.2__4-->
             <note target="#b1.XXXVIII.2__4" n="L38.2.4_3" hand="hand-g1">
                <gloss>tarde</gloss>
             </note>
+            <!--1.XXXVIII.2__5-->
             <note target="#b1.XXXVIII.2__5" n="L38.2.5_3" hand="hand-g1">
                <gloss>valuit</gloss>
             </note>
+            <!--1.XXXVIII.2__7-->
             <note target="#b1.XXXVIII.2__7" n="L38.2.7_1" hand="hand-g1">
                <gloss>disligata</gloss>
             </note>
+            <!--1.XXXVIII.2__9-->
             <note target="#b1.XXXVIII.2__9" n="L38.2.9_2" hand="hand-g1">
                <gloss>edidit, fecit,
                fundavit</gloss>
             </note>
+            <!--1.XXXVIII.2__10-->
             <note target="#b1.XXXVIII.2__10" n="L38.2.10_1" hand="hand-g1">
                <gloss>usi
                fuerunt</gloss>
             </note>
+            <!--1.XXXIX.1__5-->
             <note target="#b1.XXXIX.1__5" n="L39.1.5_2" hand="hand-g1">
                <gloss>mensurationem</gloss>
             </note>
+            <!--1.XXXIX.1__7-->
             <note target="#b1.XXXIX.1__7" n="L39.1.7_1" hand="hand-g1">
                <gloss>transeunt </gloss>
             </note>
+            <!--1.XXXIX.2__2-->
             <note target="#b1.XXXIX.2__2" n="L39.2.2_2" hand="hand-g1">
                <gloss>constitutis
             </gloss>
             </note>
+            <!--1.XXXIX.2__3-->
             <note target="#b1.XXXIX.2__3" n="L39.2.3_2" hand="hand-g1">
                <gloss>temperantur</gloss>
             </note>
+            <!--1.XXXIX.2__5-->
             <note target="#b1.XXXIX.2__5" n="L39.2.5_1" hand="hand-g1">
                <gloss>scilicet versus
             </gloss>
+               <note type="editorial">"scilicet versus" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.2__6-->
             <note target="#b1.XXXIX.2__6" n="L39.2.6_1" hand="hand-g1">
                <gloss>divisa </gloss>
             </note>
+            <!--1.XXXIX.2__10-->
             <note target="#b1.XXXIX.2__10" n="L39.2.10_1" hand="hand-g1">
                <gloss>tenderentur </gloss>
             </note>
+            <!--1.XXXIX.2__12-->
             <note target="#b1.XXXIX.2__12" n="L39.2.12_1" hand="hand-g1">
                <gloss>portare </gloss>
             </note>
+            <!--1.XXXIX.2__13-->
             <note target="#b1.XXXIX.2__13" n="L39.2.13_1" hand="hand-g1">
                <gloss>terminum </gloss>
             </note>
+            <!--1.XXXIX.3__1-->
             <note target="#b1.XXXIX.3__1" n="L39.3.1_2" hand="hand-g1">
                <gloss>scilicet versui </gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.3__2-->
             <note target="#b1.XXXIX.3__2" n="L39.3.2_1" hand="hand-g1">
                <gloss>adiungit </gloss>
             </note>
+            <!--1.XXXIX.3__3-->
             <note target="#b1.XXXIX.3__3" n="L39.3.3_1" hand="hand-g1">
                <gloss>numerus </gloss>
             </note>
+            <!--1.XXXIX.3__5-->
             <note target="#b1.XXXIX.3__5" n="L39.3.5_2" hand="hand-g1">
                <gloss>temperatus</gloss>
             </note>
+            <!--1.XXXIX.3__7-->
             <note target="#b1.XXXIX.3__7" n="L39.3.7_1" hand="hand-g3">
                <gloss>rythmus </gloss>
             </note>
+            <!--1.XXXIX.3__8-->
             <note target="#b1.XXXIX.3__8" n="L39.3.8_2" hand="hand-g1">
                <gloss>scilicet litterarum et syllabarum</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.3__9-->
             <note target="#b1.XXXIX.3__9" n="L39.3.9_1" hand="hand-g1">
                <gloss>scilicet versuum
             </gloss>
             </note>
+            <!--1.XXXIX.4__4-->
             <note target="#b1.XXXIX.4__4" n="L39.4.4_2" hand="hand-g1">
                <gloss>scilicet auctores</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.4__5-->
             <note target="#b1.XXXIX.4__5" n="L39.4.5_3" hand="hand-g1">
                <gloss>tractim </gloss>
             </note>
+            <!--1.XXXIX.4__6-->
             <note target="#b1.XXXIX.4__6" n="L39.4.6_3" hand="hand-g1">
                <gloss>mundantes</gloss>
             </note>
+            <!--1.XXXIX.4__9-->
             <note target="#b1.XXXIX.4__9" n="L39.4.9_1" hand="hand-g1">
                <gloss>scilicet metra</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.4__11-->
             <note target="#b1.XXXIX.4__11" n="L39.4.11_1" hand="hand-g1">
                <gloss>dimittere mente
             </gloss>
             </note>
+            <!--1.XXXIX.5__1-->
             <note target="#b1.XXXIX.5__1" n="L39.5.1_1" hand="hand-g1">
                <gloss>nominata </gloss>
             </note>
+            <!--1.XXXIX.5__2-->
             <note target="#b1.XXXIX.5__2" n="L39.5.2_1" hand="hand-g1">
                <gloss>scilicet metra </gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.6__4-->
             <note target="#b1.XXXIX.6__4" n="L39.6.4_3" hand="hand-g1">
                <gloss>faciunt </gloss>
             </note>
+            <!--1.XXXIX.6__5-->
             <note target="#b1.XXXIX.6__5" n="L39.6.5_2" hand="hand-g1">
                <gloss>scilicet versus</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.7__3-->
             <note target="#b1.XXXIX.7__3" n="L39.7.3_1" hand="hand-g1">
                <gloss>metra </gloss>
             </note>
+            <!--1.XXXIX.7__5-->
             <note target="#b1.XXXIX.7__5" n="L39.7.5_1" hand="hand-g1">
                <gloss>composuit </gloss>
             </note>
+            <!--1.XXXIX.8__1-->
             <note target="#b1.XXXIX.8__1" n="L39.8.1_3" hand="hand-g1">
                <gloss>honestissime </gloss>
             </note>
+            <!--1.XXXIX.8__2-->
             <note target="#b1.XXXIX.8__2" n="L39.8.2_1" hand="hand-g1">
                <gloss>saepissime
             </gloss>
             </note>
+            <!--1.XXXIX.9__3-->
             <note target="#b1.XXXIX.9__3" n="L39.9.3_2" hand="hand-g1">
                <gloss>caelestes</gloss>
             </note>
+            <!--1.XXXIX.9__4-->
             <note target="#b1.XXXIX.9__4" n="L39.9.4_1" hand="hand-g1">
                <gloss>antecedit </gloss>
+               <note type="editorial">"ante" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.9__6-->
             <note target="#b1.XXXIX.9__6" n="L39.9.6_1" hand="hand-g1">
                <gloss>conveniens</gloss>
             </note>
+            <!--1.XXXIX.9__7-->
             <note target="#b1.XXXIX.9__7" n="L39.9.7_1" hand="hand-g1">
                <gloss>scilicet receptor </gloss>
             </note>
+            <!--1.XXXIX.10__4-->
             <note target="#b1.XXXIX.10__4" n="L39.10.4_1" hand="hand-g1">
                <gloss>supersit </gloss>
             </note>
+            <!--1.XXXIX.10__5-->
             <note target="#b1.XXXIX.10__5" n="L39.10.5_1" hand="hand-g1">
                <gloss>ad recordandas
             </gloss>
             </note>
+            <!--1.XXXIX.10__6-->
             <note target="#b1.XXXIX.10__6" n="L39.10.6_1" hand="hand-g1">
                <gloss>tamen </gloss>
             </note>
+            <!--1.XXXIX.10__7-->
             <note target="#b1.XXXIX.10__7" n="L39.10.7_3" hand="hand-g1">
                <gloss>seniorum vel
                dominorum </gloss>
             </note>
+            <!--1.XXXIX.10__8-->
             <note target="#b1.XXXIX.10__8" n="L39.10.8_2" hand="hand-g1">
                <gloss>planior et
                dulcior</gloss>
             </note>
+            <!--1.XXXIX.10__9-->
             <note target="#b1.XXXIX.10__9" n="L39.10.9_1" hand="hand-g1">
                <gloss>assidue</gloss>
             </note>
+            <!--1.XXXIX.10__10-->
             <note target="#b1.XXXIX.10__10" n="L39.10.10_1" hand="hand-g1">
                <gloss>prope</gloss>
+               <note type="editorial">"prope" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.10__14-->
             <note target="#b1.XXXIX.10__14" n="L39.10.14_2" hand="hand-g1">
                <gloss>fabricatur
                dactylo et spondeo</gloss>
             </note>
+            <!--1.XXXIX.11__3-->
             <note target="#b1.XXXIX.11__3" n="L39.11.3_2" hand="hand-g1">
                <gloss>nomen
                poetae</gloss>
             </note>
+            <!--1.XXXIX.11__4-->
             <note target="#b1.XXXIX.11__4" n="L39.11.4_1" hand="hand-g1">
                <gloss>firmatur </gloss>
             </note>
+            <!--1.XXXIX.11__7-->
             <note target="#b1.XXXIX.11__7" n="L39.11.7_3" hand="hand-g1">
                <gloss>assimilatus
                ipsius libri</gloss>
             </note>
+            <!--1.XXXIX.12__1-->
             <note target="#b1.XXXIX.12__1" n="L39.12.1_1" hand="hand-g1">
                <gloss>scilicet carmen </gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.12__2-->
             <note target="#b1.XXXIX.12__2" n="L39.12.2_3" hand="hand-g1">
                <gloss>praenomen</gloss>
             </note>
+            <!--1.XXXIX.12__4-->
             <note target="#b1.XXXIX.12__4" n="L39.12.4_2" hand="hand-g1">
                <gloss>perhibetur
             </gloss>
             </note>
+            <!--1.XXXIX.12__5-->
             <note target="#b1.XXXIX.12__5" n="L39.12.5_1" hand="hand-g1">
                <gloss>sicut</gloss>
+               <note type="editorial">"sicut" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.13__4-->
             <note target="#b1.XXXIX.13__4" n="L39.13.4_2" hand="hand-g1">
                <gloss>composita</gloss>
             </note>
+            <!--1.XXXIX.13__5-->
             <note target="#b1.XXXIX.13__5" n="L39.13.5_3" hand="hand-g1">
                <gloss>mons Arcadiae </gloss>
             </note>
+            <!--1.XXXIX.13__7-->
             <note target="#b1.XXXIX.13__7" n="L39.13.7_3" hand="hand-g1">
                <gloss>habitatores vel
                   <supplied>qui</supplied> colunt 
@@ -2043,471 +2717,628 @@
                   <corr>terram</corr>
                </gloss>
             </note>
+            <!--1.XXXIX.13__8-->
             <note target="#b1.XXXIX.13__8" n="L39.13.8_2" hand="hand-g1">
                <gloss>a Delo
                insula</gloss>
             </note>
+            <!--1.XXXIX.14__2-->
             <note target="#b1.XXXIX.14__2" n="L39.14.2_2" hand="hand-g1">
                <gloss>sonus </gloss>
             </note>
+            <!--1.XXXIX.14__3-->
             <note target="#b1.XXXIX.14__3" n="L39.14.3_2" hand="hand-g1">
                <gloss>qui flent vel
                lugent</gloss>
             </note>
+            <!--1.XXXIX.14__6-->
             <note target="#b1.XXXIX.14__6" n="L39.14.6_1" hand="hand-g1">
                <gloss>compositionibus
             </gloss>
             </note>
+            <!--1.XXXIX.14__7-->
             <note target="#b1.XXXIX.14__7" n="L39.14.7_1" hand="hand-g1">
                <gloss>conveniens
             </gloss>
             </note>
+            <!--1.XXXIX.15__1-->
             <note target="#b1.XXXIX.15__1" n="L39.15.1_1" hand="hand-g1">
                <gloss>invenit </gloss>
             </note>
+            <!--1.XXXIX.15__5-->
             <note target="#b1.XXXIX.15__5" n="L39.15.5_2" hand="hand-g1">
                <gloss>sub
                   <sic>certe</sic>
                   <corr>certo</corr>
                 auctore</gloss>
+               <note type="editorial">"sub" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.15__6-->
             <note target="#b1.XXXIX.15__6" n="L39.15.6_1" hand="hand-g1">
                <gloss>retenta </gloss>
             </note>
+            <!--1.XXXIX.15__7-->
             <note target="#b1.XXXIX.15__7" n="L39.15.7_1" hand="hand-g1">
                <gloss>scilicet Graecorum</gloss>
+               <note type="editorial">"scilicet Graecorum" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.16__1-->
             <note target="#b1.XXXIX.16__1" n="L39.16.1_1" hand="hand-g1">
                <gloss>multi </gloss>
             </note>
+            <!--1.XXXIX.16__2-->
             <note target="#b1.XXXIX.16__2" n="L39.16.2_4" hand="hand-g1">
                <gloss>urbis
                Siciliae</gloss>
             </note>
+            <!--1.XXXIX.16__3-->
             <note target="#b1.XXXIX.16__3" n="L39.16.3_1" hand="hand-g1">
                <gloss>scilicet esse </gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.16__4-->
             <note target="#b1.XXXIX.16__4" n="L39.16.4_4" hand="hand-g1">
                <gloss>aestimantur</gloss>
             </note>
+            <!--1.XXXIX.16__5-->
             <note target="#b1.XXXIX.16__5" n="L39.16.5_2" hand="hand-g1">
                <gloss>multi</gloss>
+               <note type="editorial">"multi" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.16__6-->
             <note target="#b1.XXXIX.16__6" n="L39.16.6_8" hand="hand-g1">
                <gloss>Lacedaemon
                   civi<unclear>tas est</unclear> in Graecia. Ipsa est
                Spar<unclear>tana</unclear>
                </gloss>
             </note>
+            <!--1.XXXIX.16__7-->
             <note target="#b1.XXXIX.16__7" n="L39.16.7_1" hand="hand-g1">
                <gloss>in Graeciam
             </gloss>
             </note>
+            <!--1.XXXIX.16__9-->
             <note target="#b1.XXXIX.16__9" n="L39.16.9_2" hand="hand-g1">
                <gloss>timore </gloss>
             </note>
+            <!--1.XXXIX.16__13-->
             <note target="#b1.XXXIX.16__13" n="L39.16.13_2" hand="hand-g1">
                <gloss>in agris </gloss>
             </note>
+            <!--1.XXXIX.16__14-->
             <note target="#b1.XXXIX.16__14" n="L39.16.14_1" hand="hand-g1">
                <gloss>consuetudine
             </gloss>
             </note>
+            <!--1.XXXIX.16__17-->
             <note target="#b1.XXXIX.16__17" n="L39.16.17_1" hand="hand-g1">
                <gloss>incompositis
             </gloss>
             </note>
+            <!--1.XXXIX.16__19-->
             <note target="#b1.XXXIX.16__19" n="L39.16.19_6" hand="hand-g1">
                <gloss>pastor
                ovium</gloss>
             </note>
+            <!--1.XXXIX.16__21-->
             <note target="#b1.XXXIX.16__21" n="L39.16.21_2" hand="hand-g1">
                <gloss>scilicet bucolicis</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.16__22-->
             <note target="#b1.XXXIX.16__22" n="L39.16.22_1" hand="hand-g1">
                <gloss>imponantur </gloss>
             </note>
+            <!--1.XXXIX.17__2-->
             <note target="#b1.XXXIX.17__2" n="L39.17.2_1" hand="hand-g1">
                <gloss>cantasse </gloss>
             </note>
+            <!--1.XXXIX.17__3-->
             <note target="#b1.XXXIX.17__3" n="L39.17.3_1" hand="hand-g1">
                <gloss>probatum est
             </gloss>
             </note>
+            <!--1.XXXIX.17__4-->
             <note target="#b1.XXXIX.17__4" n="L39.17.4_3" hand="hand-g1">
                <gloss>patronymicum</gloss>
             </note>
+            <!--1.XXXIX.17__5-->
             <note target="#b1.XXXIX.17__5" n="L39.17.5_3" hand="hand-g1">
                <gloss>proprium</gloss>
             </note>
+            <!--1.XXXIX.17__7-->
             <note target="#b1.XXXIX.17__7" n="L39.17.7_3" hand="hand-g1">
                <gloss>in laudem
                Apollinis</gloss>
             </note>
+            <!--1.XXXIX.17__8-->
             <note target="#b1.XXXIX.17__8" n="L39.17.8_3" hand="hand-g1">
                <gloss>in laudem dearum
                musarum</gloss>
             </note>
+            <!--1.XXXIX.17__9-->
             <note target="#b1.XXXIX.17__9" n="L39.17.9_1" hand="hand-g1">
                <gloss>nomen auctoris
             </gloss>
             </note>
+            <!--1.XXXIX.18__1-->
             <note target="#b1.XXXIX.18__1" n="L39.18.1_3" hand="hand-g1">
                <gloss>nuptialia</gloss>
             </note>
+            <!--1.XXXIX.18__2-->
             <note target="#b1.XXXIX.18__2" n="L39.18.2_1" hand="hand-g1">
                <gloss>coniungentium
             </gloss>
             </note>
+            <!--1.XXXIX.18__5-->
             <note target="#b1.XXXIX.18__5" n="L39.18.5_1" hand="hand-g1">
                <gloss>composuit
             </gloss>
             </note>
+            <!--1.XXXIX.18__7-->
             <note target="#b1.XXXIX.18__7" n="L39.18.7_2" hand="hand-g1">
                <gloss>thalamum</gloss>
             </note>
+            <!--1.XXXIX.18__8-->
             <note target="#b1.XXXIX.18__8" n="L39.18.8_3" hand="hand-g1">
                <gloss>assumpserunt</gloss>
             </note>
+            <!--1.XXXIX.18__10-->
             <note target="#b1.XXXIX.18__10" n="L39.18.10_1" hand="hand-g1">
                <gloss>scilicet carminis</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.18__11-->
             <note target="#b1.XXXIX.18__11" n="L39.18.11_1" hand="hand-g1">
                <gloss>in ludicris
                locis vel turpis </gloss>
             </note>
+            <!--1.XXXIX.18__13-->
             <note target="#b1.XXXIX.18__13" n="L39.18.13_1" hand="hand-g1">
                <gloss>remansit,
                iunxit</gloss>
             </note>
+            <!--1.XXXIX.18__14-->
             <note target="#b1.XXXIX.18__14" n="L39.18.14_1" hand="hand-g1">
                <gloss>in lupanari
                locus est ubi meretrices sunt </gloss>
             </note>
+            <!--1.XXXIX.18__15-->
             <note target="#b1.XXXIX.18__15" n="L39.18.15_1" hand="hand-g1">
                <gloss>cubiculis
             </gloss>
             </note>
+            <!--1.XXXIX.19__1-->
             <note target="#b1.XXXIX.19__1" n="L39.19.1_2" hand="hand-g1">
                <gloss>fletum,
                luctum</gloss>
             </note>
+            <!--1.XXXIX.19__3-->
             <note target="#b1.XXXIX.19__3" n="L39.19.3_1" hand="hand-g1">
                <gloss>de </gloss>
             </note>
+            <!--1.XXXIX.19__4-->
             <note target="#b1.XXXIX.19__4" n="L39.19.4_1" hand="hand-g1">
                <gloss>in Babylonia
             </gloss>
             </note>
+            <!--1.XXXIX.19__6-->
             <note target="#b1.XXXIX.19__6" n="L39.19.6_2" hand="hand-g1">
                <gloss>composuit</gloss>
             </note>
+            <!--1.XXXIX.19__7-->
             <note target="#b1.XXXIX.19__7" n="L39.19.7_3" hand="hand-g1">
                <gloss>qui cum lyra
                canebat</gloss>
             </note>
+            <!--1.XXXIX.19__8-->
             <note target="#b1.XXXIX.19__8" n="L39.19.8_2" hand="hand-g1">
                <gloss>exhibent,
                ministrantur </gloss>
             </note>
+            <!--1.XXXIX.19__9-->
             <note target="#b1.XXXIX.19__9" n="L39.19.9_3" hand="hand-g1">
                <gloss>obsequiis
                morturum</gloss>
             </note>
+            <!--1.XXXIX.19__10-->
             <note target="#b1.XXXIX.19__10" n="L39.19.10_1" hand="hand-g1">
                <gloss>fletibus
             </gloss>
             </note>
+            <!--1.XXXIX.19__11-->
             <note target="#b1.XXXIX.19__11" n="L39.19.11_2" hand="hand-g1">
                <gloss>modo </gloss>
             </note>
+            <!--1.XXXIX.20__2-->
             <note target="#b1.XXXIX.20__2" n="L39.20.2_2" hand="hand-g1">
                <gloss>in obitu</gloss>
             </note>
+            <!--1.XXXIX.20__3-->
             <note target="#b1.XXXIX.20__3" n="L39.20.3_1" hand="hand-g1">
                <gloss>defecti </gloss>
             </note>
+            <!--1.XXXIX.20__4-->
             <note target="#b1.XXXIX.20__4" n="L39.20.4_2" hand="hand-g1">
                <gloss>si bona si
                mala</gloss>
             </note>
+            <!--1.XXXIX.20__5-->
             <note target="#b1.XXXIX.20__5" n="L39.20.5_2" hand="hand-g1">
                <gloss>vel quantum
                vixerunt </gloss>
             </note>
+            <!--1.XXXIX.21__3-->
             <note target="#b1.XXXIX.21__3" n="L39.21.3_2" hand="hand-g1">
                <gloss>libri</gloss>
             </note>
+            <!--1.XXXIX.21__5-->
             <note target="#b1.XXXIX.21__5" n="L39.21.5_1" hand="hand-g1">
                <gloss>compositio
             </gloss>
             </note>
+            <!--1.XXXIX.22__1-->
             <note target="#b1.XXXIX.22__1" n="L39.22.1_1" hand="hand-g1">
                <gloss>
                   <unclear>scrib</unclear>ebant historiam <gap/>
                   <unclear>ve</unclear>rsus </gloss>
             </note>
+            <!--1.XXXIX.23__1-->
             <note target="#b1.XXXIX.23__1" n="L39.23.1_2" hand="hand-g1">
                <gloss>in versibus
             </gloss>
             </note>
+            <!--1.XXXIX.23__3-->
             <note target="#b1.XXXIX.23__3" n="L39.23.3_3" hand="hand-g1">
                <gloss>conveniat,
                decantatur, assimilatur</gloss>
             </note>
+            <!--1.XXXIX.23__5-->
             <note target="#b1.XXXIX.23__5" n="L39.23.5_1" hand="hand-g1">
                <gloss>miseri</gloss>
             </note>
+            <!--1.XXXIX.23__6-->
             <note target="#b1.XXXIX.23__6" n="L39.23.6_3" hand="hand-g1">
                <gloss>antemisso
             </gloss>
             </note>
+            <!--1.XXXIX.23__7-->
             <note target="#b1.XXXIX.23__7" n="L39.23.7_2" hand="hand-g1">
                <gloss>scilicet versu</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.23__9-->
             <note target="#b1.XXXIX.23__9" n="L39.23.9_1" hand="hand-g1">
                <gloss>scilicet versibus</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.23__11-->
             <note target="#b1.XXXIX.23__11" n="L39.23.11_3" hand="hand-g1">
                <gloss>reserant,
                recantant, recludunt</gloss>
             </note>
+            <!--1.XXXIX.24__3-->
             <note target="#b1.XXXIX.24__3" n="L39.24.3_3" hand="hand-g1">
                <gloss>partitos </gloss>
             </note>
+            <!--1.XXXIX.24__7-->
             <note target="#b1.XXXIX.24__7" n="L39.24.7_1" hand="hand-g1">
                <gloss>longe </gloss>
             </note>
+            <!--1.XXXIX.24__8-->
             <note target="#b1.XXXIX.24__8" n="L39.24.8_1" hand="hand-g1">
                <gloss>scilicet versus</gloss>
+               <note type="editorial">"scilicet versus" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.24__9-->
             <note target="#b1.XXXIX.24__9" n="L39.24.9_3" hand="hand-g1">
                <gloss>antiqua</gloss>
             </note>
+            <!--1.XXXIX.24__12-->
             <note target="#b1.XXXIX.24__12" n="L39.24.12_2" hand="hand-g1">
                <gloss>alteri </gloss>
             </note>
+            <!--1.XXXIX.24__13-->
             <note target="#b1.XXXIX.24__13" n="L39.24.13_1" hand="hand-g1">
                <gloss>versibus</gloss>
+               <note type="editorial">"versibus" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.24__15-->
             <note target="#b1.XXXIX.24__15" n="L39.24.15_1" hand="hand-g1">
                <gloss>versus</gloss>
+               <note type="editorial">"versus" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.25__1-->
             <note target="#b1.XXXIX.25__1" n="L39.25.1_1" hand="hand-g1">
                <gloss>scilicet versus</gloss>
+               <note type="editorial">"scilicet versus" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.25__4-->
             <note target="#b1.XXXIX.25__4" n="L39.25.4_1" hand="hand-g1">
                <gloss>quia centenarius
                dicitur qui supra centum est </gloss>
             </note>
+            <!--1.XXXIX.25__6-->
             <note target="#b1.XXXIX.25__6" n="L39.25.6_2" hand="hand-g1">
                <gloss>de uno et alio
                auctore </gloss>
             </note>
+            <!--1.XXXIX.25__7-->
             <note target="#b1.XXXIX.25__7" n="L39.25.7_3" hand="hand-g1">
                <gloss>componunt
             </gloss>
             </note>
+            <!--1.XXXIX.25__8-->
             <note target="#b1.XXXIX.25__8" n="L39.25.8_2" hand="hand-g1">
                <gloss>formam </gloss>
             </note>
+            <!--1.XXXIX.25__9-->
             <note target="#b1.XXXIX.25__9" n="L39.25.9_1" hand="hand-g1">
                <gloss>origo, causa,
                initium </gloss>
             </note>
+            <!--1.XXXIX.26__1-->
             <note target="#b1.XXXIX.26__1" n="L39.26.1_1" hand="hand-g1">
                <gloss>certe </gloss>
             </note>
+            <!--1.XXXIX.26__2-->
             <note target="#b1.XXXIX.26__2" n="L39.26.2_3" hand="hand-g1">
                <gloss>proprium nomen
             </gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.26__5-->
             <note target="#b1.XXXIX.26__5" n="L39.26.5_2" hand="hand-g1">
                <gloss>de instructione,
                initio </gloss>
             </note>
+            <!--1.XXXIX.26__7-->
             <note target="#b1.XXXIX.26__7" n="L39.26.7_1" hand="hand-g1">
                <gloss>composuit
             </gloss>
             </note>
+            <!--1.XXXIX.26__9-->
             <note target="#b1.XXXIX.26__9" n="L39.26.9_3" hand="hand-g1">
                <gloss>cantatis </gloss>
             </note>
+            <!--1.XXXIX.26__10-->
             <note target="#b1.XXXIX.26__10" n="L39.26.10_1" hand="hand-g1">
                <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XXXIX.26__13-->
             <note target="#b1.XXXIX.26__13" n="L39.26.13_2" hand="hand-g1">
                <gloss>nomen libri quem composuit ex
                Vergilio</gloss>
+               <note type="editorial">"nomen" written in Tironian notes.</note>
             </note>
+            <!--1.XL.1__2-->
             <note target="#b1.XL.1__2" n="L40.1.2_3" hand="hand-g1">
                <gloss>a loquendo ad
                aperiendo</gloss>
             </note>
+            <!--1.XL.1__3-->
             <note target="#b1.XL.1__3" n="L40.1.3_2" hand="hand-g1">
                <gloss>compositae,
                excogitatae</gloss>
             </note>
+            <!--1.XL.1__4-->
             <note target="#b1.XL.1__4" n="L40.1.4_2" hand="hand-g1">
                <gloss>formatae</gloss>
             </note>
+            <!--1.XL.1__5-->
             <note target="#b1.XL.1__5" n="L40.1.5_1" hand="hand-g1">
                <gloss>ratione</gloss>
             </note>
+            <!--1.XL.1__6-->
             <note target="#b1.XL.1__6" n="L40.1.6_2" hand="hand-g1">
                <gloss>similitudo</gloss>
             </note>
+            <!--1.XL.1__7-->
             <note target="#b1.XL.1__7" n="L40.1.7_1" hand="hand-g1">
                <gloss>cognoscetur</gloss>
             </note>
+            <!--1.XL.1__8-->
             <note target="#b1.XL.1__8" n="L40.1.8_1" hand="hand-g1">
                <gloss>scilicet fabulas</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XL.1__11-->
             <note target="#b1.XL.1__11" n="L40.1.11_1" hand="hand-g1">
                <gloss>scilicet fabulae</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XL.1__13-->
             <note target="#b1.XL.1__13" n="L40.1.13_2" hand="hand-g1">
                <gloss>scilicet Aesopus</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XL.1__15-->
             <note target="#b1.XL.1__15" n="L40.1.15_1" hand="hand-g1">
                <gloss>causa</gloss>
             </note>
+            <!--1.XL.1__16-->
             <note target="#b1.XL.1__16" n="L40.1.16_3" hand="hand-g1">
                <gloss>excrevit,
                valuit</gloss>
             </note>
+            <!--1.XL.2__2-->
             <note target="#b1.XL.2__2" n="L40.2.2_1" hand="hand-g1">
                <gloss>parabolasse</gloss>
             </note>
+            <!--1.XL.2__3-->
             <note target="#b1.XL.2__3" n="L40.2.3_1" hand="hand-g1">
                <gloss>componuntur</gloss>
             </note>
+            <!--1.XL.2__5-->
             <note target="#b1.XL.2__5" n="L40.2.5_1" hand="hand-g1">
                <gloss>dicitur</gloss>
             </note>
+            <!--1.XL.2__6-->
             <note target="#b1.XL.2__6" n="L40.2.6_3" hand="hand-g1">
                <gloss>societatem,
                portionem vel compendium</gloss>
             </note>
+            <!--1.XL.3__2-->
             <note target="#b1.XL.3__2" n="L40.3.2_1" hand="hand-g1">
                <gloss>composuerunt</gloss>
             </note>
+            <!--1.XL.3__3-->
             <note target="#b1.XL.3__3" n="L40.3.3_1" hand="hand-g1">
                <gloss>causarum</gloss>
             </note>
+            <!--1.XL.3__4-->
             <note target="#b1.XL.3__4" n="L40.3.4_1" hand="hand-g1">
                <gloss>multas</gloss>
             </note>
+            <!--1.XL.3__5-->
             <note target="#b1.XL.3__5" n="L40.3.5_2" hand="hand-g1">
                <gloss>compositas</gloss>
             </note>
+            <!--1.XL.4__10-->
             <note target="#b1.XL.4__10" n="L40.4.10_1" hand="hand-g1">
                <gloss>intellegere</gloss>
             </note>
+            <!--1.XL.4__11-->
             <note target="#b1.XL.4__11" n="L40.4.11_3" hand="hand-g1">
                <gloss>immitis, durus,
                impatiens</gloss>
             </note>
+            <!--1.XL.4__12-->
             <note target="#b1.XL.4__12" n="L40.4.12_1" hand="hand-g1">
                <gloss>timens</gloss>
             </note>
+            <!--1.XL.4__13-->
             <note target="#b1.XL.4__13" n="L40.4.13_1" hand="hand-g1">
                <gloss>splendidissimum</gloss>
             </note>
+            <!--1.XL.4__15-->
             <note target="#b1.XL.4__15" n="L40.4.15_2" hand="hand-g1">
                <gloss>ruinis</gloss>
             </note>
+            <!--1.XL.5__2-->
             <note target="#b1.XL.5__2" n="L40.5.2_2" hand="hand-g1">
                <gloss>compositam</gloss>
             </note>
+            <!--1.XL.5__3-->
             <note target="#b1.XL.5__3" n="L40.5.3_1" hand="hand-g1">
                <gloss>demonstrandam</gloss>
             </note>
+            <!--1.XL.6__4-->
             <note target="#b1.XL.6__4" n="L40.6.4_1" hand="hand-g1">
                <gloss>locutionem</gloss>
             </note>
+            <!--1.XL.6__5-->
             <note target="#b1.XL.6__5" n="L40.6.5_1" hand="hand-g1">
                <gloss>composita</gloss>
             </note>
+            <!--1.XL.6__7-->
             <note target="#b1.XL.6__7" n="L40.6.7_1" hand="hand-g1">
                <gloss>reportatur</gloss>
             </note>
+            <!--1.XL.6__9-->
             <note target="#b1.XL.6__9" n="L40.6.9_1" hand="hand-g1">
                <gloss>continentiam</gloss>
             </note>
+            <!--1.XL.6__11-->
             <note target="#b1.XL.6__11" n="L40.6.11_1" hand="hand-g1">
                <gloss>reportatae</gloss>
             </note>
+            <!--1.XL.6__14-->
             <note target="#b1.XL.6__14" n="L40.6.14_1" hand="hand-g1">
                <gloss>scilicet exemplum</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XL.6__15-->
             <note target="#b1.XL.6__15" n="L40.6.15_1" hand="hand-g1">
                <gloss>continentia</gloss>
             </note>
+            <!--1.XL.6__17-->
             <note target="#b1.XL.6__17" n="L40.6.17_1" hand="hand-g1">
                <gloss>composita</gloss>
             </note>
+            <!--1.XL.7__1-->
             <note target="#b1.XL.7__1" n="L40.7.1_1" hand="hand-g1">
                <gloss>compositor
                fabularum</gloss>
             </note>
+            <!--1.XL.7__2-->
             <note target="#b1.XL.7__2" n="L40.7.2_1" hand="hand-g1">
                <gloss>contra</gloss>
+               <note type="editorial">"contra" written in Tironian notes.</note>
             </note>
+            <!--1.XL.7__3-->
             <note target="#b1.XL.7__3" n="L40.7.3_2" hand="hand-g1">
                <gloss>patrem
                Alexandri</gloss>
             </note>
+            <!--1.XL.7__4-->
             <note target="#b1.XL.7__4" n="L40.7.4_3" hand="hand-g1">
                <gloss>principes,
                consiliatores</gloss>
             </note>
+            <!--1.XL.7__5-->
             <note target="#b1.XL.7__5" n="L40.7.5_1" hand="hand-g1">
                <gloss>composuit</gloss>
             </note>
+            <!--1.XL.7__6-->
             <note target="#b1.XL.7__6" n="L40.7.6_2" hand="hand-g1">
                <gloss>dishortaret</gloss>
             </note>
+            <!--1.XL.7__9-->
             <note target="#b1.XL.7__9" n="L40.7.9_3" hand="hand-g1">
                <gloss>exhortasse</gloss>
             </note>
+            <!--1.XL.7__10-->
             <note target="#b1.XL.7__10" n="L40.7.10_1" hand="hand-g1">
                <gloss>vel hac</gloss>
             </note>
+            <!--1.XL.7__11-->
             <note target="#b1.XL.7__11" n="L40.7.11_2" hand="hand-g1">
                <gloss>instructione</gloss>
             </note>
+            <!--1.XL.7__13-->
             <note target="#b1.XL.7__13" n="L40.7.13_2" hand="hand-g1">
                <gloss>contentionum</gloss>
             </note>
+            <!--1.XL.7__14-->
             <note target="#b1.XL.7__14" n="L40.7.14_1" hand="hand-g1">
                <gloss>potestate</gloss>
             </note>
+            <!--1.XL.7__15-->
             <note target="#b1.XL.7__15" n="L40.7.15_2" hand="hand-g1">
                <gloss>
                   <sic>contensisse</sic>
                   <corr>consensisse</corr>
                </gloss>
             </note>
+            <!--1.XL.7__16-->
             <note target="#b1.XL.7__16" n="L40.7.16_2" hand="hand-g1">
                <gloss>scilicet canes</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XL.7__17-->
             <note target="#b1.XL.7__17" n="L40.7.17_1" hand="hand-g1">
                <gloss>dimissa</gloss>
             </note>
+            <!--1.XL.7__18-->
             <note target="#b1.XL.7__18" n="L40.7.18_1" hand="hand-g1">
                <gloss>timore</gloss>
             </note>
+            <!--1.XL.7__19-->
             <note target="#b1.XL.7__19" n="L40.7.19_1" hand="hand-g1">
                <gloss>id est
                totum</gloss>
             </note>
+            <!--1.XL.7__20-->
             <note target="#b1.XL.7__20" n="L40.7.20_3" hand="hand-g1">
                <gloss>invidia</gloss>
             </note>
+            <!--1.XL.7__21-->
             <note target="#b1.XL.7__21" n="L40.7.21_1" hand="hand-g1">
                <gloss>interfecerunt</gloss>
             </note>
+            <!--1.XL.7__22-->
             <note target="#b1.XL.7__22" n="L40.7.22_1" hand="hand-g1">
                <gloss>significat
                Philippum omnem civitatem et 
@@ -2515,216 +3346,286 @@
                   <corr>populum</corr>
                 devastasse</gloss>
             </note>
+            <!--1.XL.7__25-->
             <note target="#b1.XL.7__25" n="L40.7.25_1" hand="hand-g1">
                <gloss>levius</gloss>
             </note>
+            <!--1.XL.7__26-->
             <note target="#b1.XL.7__26" n="L40.7.26_1" hand="hand-g1">
                <gloss>vastatam
                de</gloss>
             </note>
+            <!--1.XLI.1__1-->
             <note target="#b1.XLI.1__1" n="L41.1.1_2" hand="hand-g1">
                <gloss>locutio</gloss>
             </note>
+            <!--1.XLI.1__2-->
             <note target="#b1.XLI.1__2" n="L41.1.2_1" hand="hand-g1">
                <gloss>causae</gloss>
             </note>
+            <!--1.XLI.1__3-->
             <note target="#b1.XLI.1__3" n="L41.1.3_2" hand="hand-g1">
                <gloss>factae</gloss>
             </note>
+            <!--1.XLI.1__4-->
             <note target="#b1.XLI.1__4" n="L41.1.4_1" hand="hand-g1">
                <gloss>scilicet historiam</gloss>
+               <note type="editorial">"scilicet historiam" written in Tironian notes.</note>
             </note>
+            <!--1.XLI.1__6-->
             <note target="#b1.XLI.1__6" n="L41.1.6_2" hand="hand-g1">
                <gloss>cognoscuntur</gloss>
             </note>
+            <!--1.XLI.1__8-->
             <note target="#b1.XLI.1__8" n="L41.1.8_2" hand="hand-g1">
                <gloss>nullus</gloss>
             </note>
+            <!--1.XLI.1__10-->
             <note target="#b1.XLI.1__10" n="L41.1.10_2" hand="hand-g1">
                <gloss>conscribimus</gloss>
             </note>
+            <!--1.XLI.2__1-->
             <note target="#b1.XLI.2__1" n="L41.2.1_1" hand="hand-g1">
                <gloss>sine
                falsitate</gloss>
             </note>
+            <!--1.XLI.2__2-->
             <note target="#b1.XLI.2__2" n="L41.2.2_2" hand="hand-g1">
                <gloss>ostenditur</gloss>
             </note>
+            <!--1.XLI.2__3-->
             <note target="#b1.XLI.2__3" n="L41.2.3_1" hand="hand-g1">
                <gloss>scilicet historia</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XLI.2__4-->
             <note target="#b1.XLI.2__4" n="L41.2.4_1" hand="hand-g1">
                <gloss>iustum</gloss>
             </note>
+            <!--1.XLI.2__5-->
             <note target="#b1.XLI.2__5" n="L41.2.5_2" hand="hand-g1">
                <gloss>commendatur</gloss>
             </note>
+            <!--1.XLI.2__6-->
             <note target="#b1.XLI.2__6" n="L41.2.6_1" hand="hand-g1">
                <gloss>eo quod
                monumenta</gloss>
             </note>
+            <!--1.XLI.2__7-->
             <note target="#b1.XLI.2__7" n="L41.2.7_3" hand="hand-g1">
                <gloss>firmamenta</gloss>
             </note>
+            <!--1.XLI.2__8-->
             <note target="#b1.XLI.2__8" n="L41.2.8_1" hand="hand-g1">
                <gloss>recordationem</gloss>
             </note>
+            <!--1.XLI.2__9-->
             <note target="#b1.XLI.2__9" n="L41.2.9_1" hand="hand-g1">
                <gloss>praestant</gloss>
             </note>
+            <!--1.XLI.2__10-->
             <note target="#b1.XLI.2__10" n="L41.2.10_1" hand="hand-g1">
                <gloss>causarum</gloss>
             </note>
+            <!--1.XLI.2__11-->
             <note target="#b1.XLI.2__11" n="L41.2.11_2" hand="hand-g1">
                <gloss>factarum</gloss>
             </note>
+            <!--1.XLI.2__12-->
             <note target="#b1.XLI.2__12" n="L41.2.12_1" hand="hand-g1">
                <gloss>ordo 
                   <sic>locutinum</sic>
                   <corr>locuti<supplied>o</supplied>num</corr>
                </gloss>
             </note>
+            <!--1.XLI.2__13-->
             <note target="#b1.XLI.2__13" n="L41.2.13_2" hand="hand-g1">
                <gloss>per 
                   <sic>transductionem</sic>
                   <corr>traductionem</corr>
                </gloss>
             </note>
+            <!--1.XLI.2__14-->
             <note target="#b1.XLI.2__14" n="L41.2.14_2" hand="hand-g1">
                <gloss>coronis
                textis</gloss>
             </note>
+            <!--1.XLI.2__15-->
             <note target="#b1.XLI.2__15" n="L41.2.15_1" hand="hand-g1">
                <gloss>herbarum</gloss>
             </note>
+            <!--1.XLI.2__16-->
             <note target="#b1.XLI.2__16" n="L41.2.16_1" hand="hand-g1">
                <gloss>simul</gloss>
             </note>
+            <!--1.XLI.2__17-->
             <note target="#b1.XLI.2__17" n="L41.2.17_1" hand="hand-g1">
                <gloss>ligatorum</gloss>
             </note>
+            <!--1.XLII.1__1-->
             <note target="#b1.XLII.1__1" n="L42.1.1_1" hand="hand-g1">
                <gloss>
                   <sic>paganes</sic>
                   <corr>pagani</corr>
                </gloss>
             </note>
+            <!--1.XLII.1__2-->
             <note target="#b1.XLII.1__2" n="L42.1.2_2" hand="hand-g1">
                <gloss>Troianus</gloss>
             </note>
+            <!--1.XLII.1__3-->
             <note target="#b1.XLII.1__3" n="L42.1.3_2" hand="hand-g1">
                <gloss>composuit</gloss>
             </note>
+            <!--1.XLII.1__4-->
             <note target="#b1.XLII.1__4" n="L42.1.4_1" hand="hand-g1">
                <gloss>historiam</gloss>
+               <note type="editorial">"historiam" written in Tironian notes.</note>
             </note>
+            <!--1.XLII.1__5-->
             <note target="#b1.XLII.1__5" n="L42.1.5_2" hand="hand-g1">
                <gloss>testant,
                dicunt</gloss>
             </note>
+            <!--1.XLII.2__1-->
             <note target="#b1.XLII.2__1" n="L42.2.1_1" hand="hand-g1">
                <gloss>historographus</gloss>
             </note>
+            <!--1.XLII.2__2-->
             <note target="#b1.XLII.2__2" n="L42.2.2_2" hand="hand-g1">
                <gloss>usus est</gloss>
             </note>
+            <!--1.XLII.2__3-->
             <note target="#b1.XLII.2__3" n="L42.2.3_1" hand="hand-g1">
                <gloss>Herodotum</gloss>
+               <note type="editorial">"Herodotum" written in Tironian notes.</note>
             </note>
+            <!--1.XLII.2__4-->
             <note target="#b1.XLII.2__4" n="L42.2.4_2" hand="hand-g1">
                <gloss>viguit,
                aparuit</gloss>
             </note>
+            <!--1.XLIII.1__1-->
             <note target="#b1.XLIII.1__1" n="L43.1.1_1" hand="hand-g1">
                <gloss>paganorum</gloss>
             </note>
+            <!--1.XLIII.1__2-->
             <note target="#b1.XLIII.1__2" n="L43.1.2_2" hand="hand-g1">
                <gloss>non nocent</gloss>
             </note>
+            <!--1.XLIII.1__3-->
             <note target="#b1.XLIII.1__3" n="L43.1.3_1" hand="hand-g1">
                <gloss>bona</gloss>
             </note>
+            <!--1.XLIII.1__4-->
             <note target="#b1.XLIII.1__4" n="L43.1.4_1" hand="hand-g1">
                <gloss>facta</gloss>
             </note>
+            <!--1.XLIII.1__5-->
             <note target="#b1.XLIII.1__5" n="L43.1.5_2" hand="hand-g1">
                <gloss>ad doctrinam vel
                ad instructionem</gloss>
             </note>
+            <!--1.XLIII.1__6-->
             <note target="#b1.XLIII.1__6" n="L43.1.6_1" hand="hand-g1">
                <gloss>scilicet hominum</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XLIII.1__7-->
             <note target="#b1.XLIII.1__7" n="L43.1.7_2" hand="hand-g1">
                <gloss>composuerunt</gloss>
             </note>
+            <!--1.XLIII.1__8-->
             <note target="#b1.XLIII.1__8" n="L43.1.8_2" hand="hand-g1">
                <gloss>annorum
                curricula</gloss>
             </note>
+            <!--1.XLIII.1__9-->
             <note target="#b1.XLIII.1__9" n="L43.1.9_1" hand="hand-g1">
                <gloss>numeratio</gloss>
             </note>
+            <!--1.XLIII.1__10-->
             <note target="#b1.XLIII.1__10" n="L43.1.10_1" hand="hand-g1">
                <gloss>investigantur</gloss>
             </note>
+            <!--1.XLIV.1__3-->
             <note target="#b1.XLIV.1__3" n="L44.1.3_1" hand="hand-g1">
                <gloss>actio</gloss>
             </note>
+            <!--1.XLIV.1__4-->
             <note target="#b1.XLIV.1__4" n="L44.1.4_1" hand="hand-g1">
                <gloss>genus</gloss>
+               <note type="editorial">"genus" written in Tironian notes.</note>
             </note>
+            <!--1.XLIV.1__6-->
             <note target="#b1.XLIV.1__6" n="L44.1.6_2" hand="hand-g1">
                <gloss>totum diem</gloss>
             </note>
+            <!--1.XLIV.1__7-->
             <note target="#b1.XLIV.1__7" n="L44.1.7_2" hand="hand-g1">
                <gloss>super<unclear>di</unclear>ale</gloss>
             </note>
+            <!--1.XLIV.2__1-->
             <note target="#b1.XLIV.2__1" n="L44.2.1_3" hand="hand-g1">
                <gloss>ordinantur,
                disponuntur</gloss>
             </note>
+            <!--1.XLIV.3__1-->
             <note target="#b1.XLIV.3__1" n="L44.3.1_2" hand="hand-g1">
                <gloss>servituti</gloss>
             </note>
+            <!--1.XLIV.3__2-->
             <note target="#b1.XLIV.3__2" n="L44.3.2_1" hand="hand-g1">
                <gloss>libris</gloss>
             </note>
+            <!--1.XLIV.3__3-->
             <note target="#b1.XLIV.3__3" n="L44.3.3_1" hand="hand-g1">
                <gloss>facta</gloss>
             </note>
+            <!--1.XLIV.3__4-->
             <note target="#b1.XLIV.3__4" n="L44.3.4_1" hand="hand-g1">
                <gloss>
                   <gap/> dictus <gap/>
                </gloss>
             </note>
+            <!--1.XLIV.3__5-->
             <note target="#b1.XLIV.3__5" n="L44.3.5_1" hand="hand-g1">
                <gloss>factis</gloss>
             </note>
+            <!--1.XLIV.4__2-->
             <note target="#b1.XLIV.4__2" n="L44.4.2_1" hand="hand-g1">
                <gloss>scilicet historiae</gloss>
+               <note type="editorial">"scilicet" written in Tironian notes.</note>
             </note>
+            <!--1.XLIV.4__4-->
             <note target="#b1.XLIV.4__4" n="L44.4.4_1" hand="hand-g1">
                <gloss>unius anni</gloss>
             </note>
+            <!--1.XLIV.4__5-->
             <note target="#b1.XLIV.4__5" n="L44.4.5_3" hand="hand-g1">
                <gloss>notarii</gloss>
             </note>
+            <!--1.XLIV.4__6-->
             <note target="#b1.XLIV.4__6" n="L44.4.6_2" hand="hand-g1">
                <gloss>deportati
                sunt</gloss>
             </note>
+            <!--1.XLIV.4__7-->
             <note target="#b1.XLIV.4__7" n="L44.4.7_2" hand="hand-g1">
                <gloss>ex
                modernis</gloss>
             </note>
+            <!--1.XLIV.4__8-->
             <note target="#b1.XLIV.4__8" n="L44.4.8_2" hand="hand-g1">
                <gloss>ex
                anterioribus</gloss>
             </note>
+            <!--1.XLIV.4__9-->
             <note target="#b1.XLIV.4__9" n="L44.4.9_1" hand="hand-g1">
                <gloss>utrique
                mixta</gloss>
             </note>
+            <!--1.XLIV.5__1-->
             <note target="#b1.XLIV.5__1" n="L44.5.1_2" hand="hand-g1">
                <gloss>ingenium</gloss>
             </note>

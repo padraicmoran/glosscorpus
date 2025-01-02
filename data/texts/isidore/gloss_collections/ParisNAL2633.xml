@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">ParisNAL2633</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">b7c70d</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,45 +48,56 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXII.2__4-->
             <note target="#b1.XXII.2__4" n="L22.2.4_4">
                <gloss>id est dux</gloss>
             </note>
+            <!--1.XXIII.1__7-->
             <note target="#b1.XXIII.1__7" n="L23.1.7_1">
                <gloss>id est M</gloss>
             </note>
+            <!--1.XXIV.1__1-->
             <note target="#b1.XXIV.1__1" n="L24.1.1_2">
                <gloss>id est epistolis</gloss>
             </note>
+            <!--1.XXIV.1__6-->
             <note target="#b1.XXIV.1__6" n="L24.1.6_5">
                <gloss>id est <gap/>
                </gloss>
             </note>
+            <!--1.XXIV.1__9-->
             <note target="#b1.XXIV.1__9" n="L24.1.9_2">
                <gloss>potius <gap/>us</gloss>
             </note>
+            <!--1.XXV.1__8-->
             <note target="#b1.XXV.1__8" n="L25.1.8_1">
                <gloss>id est has litteras</gloss>
             </note>
+            <!--1.XXVI.2__2-->
             <note target="#b1.XXVI.2__2" n="L26.2.2_2">
                <gloss>meretrice</gloss>
             </note>
+            <!--1.XXVII.1__4-->
             <note target="#b1.XXVII.1__4" n="L27.1.4_2">
                <gloss>id est adver<gap/>
                </gloss>
             </note>
+            <!--1.XXXIV.4__3-->
             <note target="#b1.XXXIV.4__3" n="L34.4.3_1">
                <gloss>id est
                form<unclear>idanti</unclear>
                </gloss>
             </note>
+            <!--1.XXXIV.5__4-->
             <note target="#b1.XXXIV.5__4" n="L34.5.4_1">
                <gloss>vel son<gap/>
                </gloss>
             </note>
+            <!--1.XXXIV.15__3-->
             <note target="#b1.XXXIV.15__3" n="L34.15.3_2">
                <gloss>id est expectatur</gloss>
             </note>
+            <!--1.XXXIV.16__1-->
             <note target="#b1.XXXIV.16__1" n="L34.16.1_1">
                <gloss>id est <gap/>a</gloss>
             </note>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Clm6411</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">d4812a</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,83 +48,111 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXI.18__5-->
             <note target="#b1.XXI.18__5" n="L21.18.5_3">
                <gloss>incipimus</gloss>
             </note>
+            <!--1.XXIII.1__8-->
             <note target="#b1.XXIII.1__8" n="L23.1.8_1">
                <gloss>miser</gloss>
             </note>
+            <!--1.XXIV.1__6-->
             <note target="#b1.XXIV.1__6" n="L24.1.6_3">
                <gloss>id est est viventem</gloss>
             </note>
+            <!--1.XXIV.2__5-->
             <note target="#b1.XXIV.2__5" n="L24.2.5_2">
                <gloss>id est dare</gloss>
             </note>
+            <!--1.XXV.2__6-->
             <note target="#b1.XXV.2__6" n="L25.2.6_1">
                <gloss>id est vertendum</gloss>
             </note>
+            <!--1.XXVII.1__3-->
             <note target="#b1.XXVII.1__3" n="L27.1.3_1">
                <gloss>docet</gloss>
             </note>
+            <!--1.XXVII.1__5-->
             <note target="#b1.XXVII.1__5" n="L27.1.5_2">
                <gloss>scientia</gloss>
             </note>
+            <!--1.XXXIV.1__2-->
             <note target="#b1.XXXIV.1__2" n="L34.1.2_2" hand="hand-main">
                <gloss>vitare</gloss>
             </note>
+            <!--1.XXXIV.2__2-->
             <note target="#b1.XXXIV.2__2" n="L34.2.2_1">
                <gloss>dimittere</gloss>
             </note>
+            <!--1.XXXIV.8__3-->
             <note target="#b1.XXXIV.8__3" n="L34.8.3_1">
                <gloss>non capta</gloss>
             </note>
+            <!--1.XXXIV.9__3-->
             <note target="#b1.XXXIV.9__3" n="L34.9.3_1">
-               <gloss>heilSteinmeyer-Sievers
-                  II, p. 340</gloss>
+               <gloss>heil</gloss>
+               <note type="editorial">Steinmeyer-Sievers
+                  II, p. 340</note>
             </note>
+            <!--1.XXXIV.9__11-->
             <note target="#b1.XXXIV.9__11" n="L34.9.11_1" hand="hand-main">
                <gloss>iteratur</gloss>
             </note>
+            <!--1.XXXIV.9__12-->
             <note target="#b1.XXXIV.9__12" n="L34.9.12_2">
                <gloss>saepe</gloss>
             </note>
+            <!--1.XXXVI.6__5-->
             <note target="#b1.XXXVI.6__5" n="L36.6.5_1">
-               <gloss>ituizotuSteinmeyer-Sievers II, p. 340</gloss>
+               <gloss>ituizotu</gloss>
+               <note type="editorial">Steinmeyer-Sievers II, p. 340</note>
             </note>
+            <!--1.XXXVI.8__5-->
             <note target="#b1.XXXVI.8__5" n="L36.8.5_1">
                <gloss>inflatum</gloss>
             </note>
+            <!--1.XXXVI.9__3-->
             <note target="#b1.XXXVI.9__3" n="L36.9.3_2">
                <gloss>locum</gloss>
             </note>
+            <!--1.XXXVII.15__22-->
             <note target="#b1.XXXVII.15__22" n="L37.15.22_1">
                <gloss>decet</gloss>
             </note>
+            <!--1.XXXVII.20__3-->
             <note target="#b1.XXXVII.20__3" n="L37.20.3_2">
                <gloss>otise</gloss>
             </note>
+            <!--1.XXXVII.20__5-->
             <note target="#b1.XXXVII.20__5" n="L37.20.5_1">
-               <gloss>salidaSteinmeyer-Sievers II, p. 340</gloss>
+               <gloss>salida</gloss>
+               <note type="editorial">Steinmeyer-Sievers II, p. 340</note>
             </note>
+            <!--1.XXXVII.21__7-->
             <note target="#b1.XXXVII.21__7" n="L37.21.7_2">
                <gloss>semite</gloss>
             </note>
+            <!--1.XXXVII.32__7-->
             <note target="#b1.XXXVII.32__7" n="L37.32.7_1">
                <gloss>convenienter</gloss>
             </note>
+            <!--1.XXXVIII.2__4-->
             <note target="#b1.XXXVIII.2__4" n="L38.2.4_2">
                <gloss>tarde</gloss>
             </note>
+            <!--1.XXXVIII.2__5-->
             <note target="#b1.XXXVIII.2__5" n="L38.2.5_2">
                <gloss>vim</gloss>
             </note>
+            <!--1.XXXIX.6__4-->
             <note target="#b1.XXXIX.6__4" n="L39.6.4_2">
                <gloss>dicunt</gloss>
             </note>
+            <!--1.XXXIX.15__3-->
             <note target="#b1.XXXIX.15__3" n="L39.15.3_2">
                <gloss>contentio</gloss>
             </note>
+            <!--1.XXXIX.16__4-->
             <note target="#b1.XXXIX.16__4" n="L39.16.4_3">
                <gloss>
                   <sic>aestimat</sic>
@@ -131,15 +160,19 @@
                   </corr>
                </gloss>
             </note>
+            <!--1.XXXIX.16__6-->
             <note target="#b1.XXXIX.16__6" n="L39.16.6_3">
                <gloss>civitas</gloss>
             </note>
+            <!--1.XXXIX.16__8-->
             <note target="#b1.XXXIX.16__8" n="L39.16.8_1">
                <gloss>locus</gloss>
             </note>
+            <!--1.XXXIX.21__1-->
             <note target="#b1.XXXIX.21__1" n="L39.21.1_1">
                <gloss>Latini</gloss>
             </note>
+            <!--1.XXXIX.23__6-->
             <note target="#b1.XXXIX.23__6" n="L39.23.6_2">
                <gloss>antecedente</gloss>
             </note>

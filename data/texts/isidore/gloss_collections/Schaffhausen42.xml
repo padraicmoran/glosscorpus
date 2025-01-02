@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Schaffhausen42</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">b1d407</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,32 +48,40 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.IX.3__4-->
             <note target="#b1.IX.3__4" n="L9.3.4_4" hand="hand-g1">
                <gloss>Perfecta a perficiendo ut lego. Tunc enim dicendum est
-                  quandoQuando abbreviated as qm in praesenti tempore 
+                  quando in praesenti tempore 
                   <del>legamus</del>
                   <add>legimus</add>
                </gloss>
+               <note type="editorial">Quando abbreviated as qm</note>
             </note>
+            <!--1.XIX.10__1-->
             <note target="#b1.XIX.10__1" n="L19.10.1_1">
                <gloss>figura</gloss>
             </note>
+            <!--1.XIX.10__2-->
             <note target="#b1.XIX.10__2" n="L19.10.2_1">
                <gloss>notatur</gloss>
             </note>
+            <!--1.XXXIV.5__13-->
             <note target="#b1.XXXIV.5__13" n="L34.5.13_4" hand="hand-g1">
                <gloss>sed et si alio quolibet modo incomposita dictio
                proferatur, cacemphaton dicitur</gloss>
             </note>
+            <!--1.XXXIV.6__2-->
             <note target="#b1.XXXIV.6__2" n="L34.6.2_5" hand="hand-g1">
                <gloss>ad plenam significationem</gloss>
             </note>
+            <!--1.XXXIX.2__8-->
             <note target="#b1.XXXIX.2__8" n="L39.2.8_3" hand="hand-g1">
                <gloss>id est
-               cola et commataThe same gloss appears integrated in Bologna 797and Paris
-               11278</gloss>
+               cola et commata</gloss>
+               <note type="editorial">The same gloss appears integrated in Bologna 797and Paris
+               11278</note>
             </note>
+            <!--1.XXXIX.10__7-->
             <note target="#b1.XXXIX.10__7" n="L39.10.7_9" hand="hand-g1">
                <gloss>hoc est
                fortium</gloss>

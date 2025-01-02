@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">CottonCaligulaAxv</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">d28728</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,39 +48,48 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXI.1__7-->
             <note target="#b1.XXI.1__7" n="L21.1.7_1">
                <gloss>primum autem dicatur quid sit
                nota</gloss>
             </note>
+            <!--1.XXI.2__5-->
             <note target="#b1.XXI.2__5" n="L21.2.5_1">
                <gloss>scilicet ea</gloss>
             </note>
+            <!--1.XXI.5__3-->
             <note target="#b1.XXI.5__3" n="L21.5.3_2">
                <gloss>scilicet ut veritas et
                iustitia</gloss>
             </note>
+            <!--1.XXI.6__1-->
             <note target="#b1.XXI.6__1" n="L21.6.1_2">
                <gloss>contrarius scriptor</gloss>
             </note>
+            <!--1.XXI.6__2-->
             <note target="#b1.XXI.6__2" n="L21.6.2_1">
                <gloss>in his locis</gloss>
             </note>
+            <!--1.XXI.7__2-->
             <note target="#b1.XXI.7__2" n="L21.7.2_1">
                <gloss>scilicet nota</gloss>
             </note>
+            <!--1.XXI.8__1-->
             <note target="#b1.XXI.8__1" n="L21.8.1_2">
                <gloss>
                   <corr>similis
                scriptor</corr>
                </gloss>
             </note>
+            <!--1.XXI.8__1-->
             <note target="#b1.XXI.8__1" n="L21.8.1_9">
                <gloss>Graecum</gloss>
             </note>
+            <!--1.XXI.8__7-->
             <note target="#b1.XXI.8__7" n="L21.8.7_1">
                <gloss>ne unum fiat a duobus</gloss>
             </note>
+            <!--1.XXI.28__3-->
             <note target="#b1.XXI.28__3" n="L21.28.3_1">
                <gloss>expositum</gloss>
             </note>

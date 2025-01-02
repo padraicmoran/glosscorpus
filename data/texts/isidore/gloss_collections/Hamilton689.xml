@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Hamilton689</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">d08c26</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,18 +48,21 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.I.2__2-->
             <note target="#b1.I.2__2" n="L1.2.2_1" hand="hand-g1">
                <gloss>strictis</gloss>
             </note>
+            <!--1.III.5__2-->
             <note target="#b1.III.5__2" n="L3.5.2_1" hand="hand-main">
                <gloss>legimus</gloss>
             </note>
+            <!--1.IV.14__1-->
             <note target="#b1.IV.14__1" n="L4.14.1_1">
                <gloss>Augustum <gap/>
                Octavianum <gap/>
                </gloss>
             </note>
+            <!--1.XXI.27__2-->
             <note target="#b1.XXI.27__2" n="L21.27.2_1">
                <gloss>id est deceptio vel fraus</gloss>
             </note>

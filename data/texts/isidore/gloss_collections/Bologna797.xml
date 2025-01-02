@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Bologna797</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">dc6f32</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,183 +48,238 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XIV.1__6-->
             <note target="#b1.XIV.1__6" n="L14.1.6_1">
                <gloss>vel ha</gloss>
             </note>
+            <!--1.XVII.20__1-->
             <note target="#b1.XVII.20__1" n="L17.20.1_1">
                <gloss>insanissimi</gloss>
             </note>
+            <!--1.XXI.26__1-->
             <note target="#b1.XXI.26__1" n="L21.26.1_1">
                <gloss>circulata</gloss>
             </note>
+            <!--1.XXII.1__11-->
             <note target="#b1.XXII.1__11" n="L22.1.11_1">
                <gloss>inventus</gloss>
             </note>
+            <!--1.XXII.2__6-->
             <note target="#b1.XXII.2__6" n="L22.2.6_1">
                <gloss>ordinato</gloss>
             </note>
+            <!--1.XXIII.1__3-->
             <note target="#b1.XXIII.1__3" n="L23.1.3_1">
                <gloss>legalibus</gloss>
             </note>
+            <!--1.XXIII.2__2-->
             <note target="#b1.XXIII.2__2" n="L23.2.2_1">
                <gloss>delenda<supplied>s</supplied>
                </gloss>
             </note>
+            <!--1.XXVII.11__5-->
             <note target="#b1.XXVII.11__5" n="L27.11.5_1">
                <gloss>subaudi hodierna die</gloss>
             </note>
+            <!--1.XXVII.14__3-->
             <note target="#b1.XXVII.14__3" n="L27.14.3_1">
                <gloss>miseria</gloss>
             </note>
+            <!--1.XXVII.17__3-->
             <note target="#b1.XXVII.17__3" n="L27.17.3_1">
                <gloss>scilicet
                hom<supplied>inem</supplied>
                </gloss>
             </note>
+            <!--1.XXIX.1__6-->
             <note target="#b1.XXIX.1__6" n="L29.1.6_1">
                <gloss>coaequata pecunia</gloss>
             </note>
+            <!--1.XXIX.4__6-->
             <note target="#b1.XXIX.4__6" n="L29.4.6_1">
                <gloss>silos</gloss>
             </note>
+            <!--1.XXX.1__2-->
             <note target="#b1.XXX.1__2" n="L30.1.2_1">
                <gloss>subaudi unum</gloss>
             </note>
+            <!--1.XXXI.1__6-->
             <note target="#b1.XXXI.1__6" n="L31.1.6_1">
                <gloss>mixtis</gloss>
             </note>
+            <!--1.XXXI.1__14-->
             <note target="#b1.XXXI.1__14" n="L31.1.14_1">
                <gloss>nomina</gloss>
             </note>
+            <!--1.XXXIII.4__3-->
             <note target="#b1.XXXIII.4__3" n="L33.4.3_1">
                <gloss>ut pridie kalendas pro ante</gloss>
             </note>
+            <!--1.XXXIV.9__9-->
             <note target="#b1.XXXIV.9__9" n="L34.9.9_1">
                <gloss>iacet</gloss>
             </note>
+            <!--1.XXXIV.9__12-->
             <note target="#b1.XXXIV.9__12" n="L34.9.12_1">
                <gloss>frequens</gloss>
             </note>
+            <!--1.XXXIV.11__4-->
             <note target="#b1.XXXIV.11__4" n="L34.11.4_1">
                <gloss>navigantes</gloss>
             </note>
+            <!--1.XXXV.7__3-->
             <note target="#b1.XXXV.7__3" n="L35.7.3_1">
                <gloss>subaudi constat</gloss>
             </note>
+            <!--1.XXXVI.17__3-->
             <note target="#b1.XXXVI.17__3" n="L36.17.3_1">
                <gloss>angeli et homines</gloss>
             </note>
+            <!--1.XXXVI.18__2-->
             <note target="#b1.XXXVI.18__2" n="L36.18.2_1">
                <gloss>conglutinatae</gloss>
             </note>
+            <!--1.XXXVI.18__5-->
             <note target="#b1.XXXVI.18__5" n="L36.18.5_1">
                <gloss>in secreto</gloss>
             </note>
+            <!--1.XXXVI.18__12-->
             <note target="#b1.XXXVI.18__12" n="L36.18.12_1">
                <gloss>apparet</gloss>
             </note>
+            <!--1.XXXVI.19__5-->
             <note target="#b1.XXXVI.19__5" n="L36.19.5_1">
                <gloss>a loco</gloss>
             </note>
+            <!--1.XXXVI.21__2-->
             <note target="#b1.XXXVI.21__2" n="L36.21.2_1">
                <gloss>contra</gloss>
             </note>
+            <!--1.XXXVI.22__5-->
             <note target="#b1.XXXVI.22__5" n="L36.22.5_1">
                <gloss>Hypallage:
                Adducto arcu telum tetendit. Nam adducitur telum et arcus tetenditur</gloss>
             </note>
+            <!--1.XXXVII.2__16-->
             <note target="#b1.XXXVII.2__16" n="L37.2.16_1">
                <gloss>manifesta</gloss>
             </note>
+            <!--1.XXXVII.3__4-->
             <note target="#b1.XXXVII.3__4" n="L37.3.4_1">
                <gloss>pro navi</gloss>
             </note>
+            <!--1.XXXVII.4__6-->
             <note target="#b1.XXXVII.4__6" n="L37.4.6_1">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.6__3-->
             <note target="#b1.XXXVII.6__3" n="L37.6.3_1">
                <gloss>scilicet species</gloss>
             </note>
+            <!--1.XXXVII.6__7-->
             <note target="#b1.XXXVII.6__7" n="L37.6.7_1">
                <gloss>aliud nomen</gloss>
             </note>
+            <!--1.XXXVII.10__5-->
             <note target="#b1.XXXVII.10__5" n="L37.10.5_1">
                <gloss>fortis m<gap/>
                romanos <gap/> revocator au<gap/>
                </gloss>
             </note>
+            <!--1.XXXVII.11__3-->
             <note target="#b1.XXXVII.11__3" n="L37.11.3_2">
                <gloss>pro filius Maiae</gloss>
             </note>
+            <!--1.XXXVII.20__6-->
             <note target="#b1.XXXVII.20__6" n="L37.20.6_1">
                <gloss>secretis</gloss>
             </note>
+            <!--1.XXXVII.22__4-->
             <note target="#b1.XXXVII.22__4" n="L37.22.4_1">
                <gloss>
                   <sic>Affricani</sic>
                   <corr>Africani</corr>
                </gloss>
             </note>
+            <!--1.XXXVII.23__4-->
             <note target="#b1.XXXVII.23__4" n="L37.23.4_1">
                <gloss>Neptunus deus maris</gloss>
             </note>
+            <!--1.XXXVII.23__7-->
             <note target="#b1.XXXVII.23__7" n="L37.23.7_1">
                <gloss>deus venti</gloss>
             </note>
+            <!--1.XXXVII.28__3-->
             <note target="#b1.XXXVII.28__3" n="L37.28.3_1">
                <gloss>adiunctum</gloss>
             </note>
+            <!--1.XXXVII.35__11-->
             <note target="#b1.XXXVII.35__11" n="L37.35.11_1">
                <gloss>locus</gloss>
             </note>
+            <!--1.XXXVII.35__12-->
             <note target="#b1.XXXVII.35__12" n="L37.35.12_1">
                <gloss>
                   <unclear>c</unclear>onfidens</gloss>
             </note>
+            <!--1.XXXVII.35__13-->
             <note target="#b1.XXXVII.35__13" n="L37.35.13_1">
                <gloss>chordis</gloss>
             </note>
+            <!--1.XXXVII.35__17-->
             <note target="#b1.XXXVII.35__17" n="L37.35.17_1">
                <gloss>id est Aeneas</gloss>
             </note>
+            <!--1.XXXIX.2__3-->
             <note target="#b1.XXXIX.2__3" n="L39.2.3_1">
                <gloss>coaequantur</gloss>
             </note>
+            <!--1.XXXIX.2__8-->
             <note target="#b1.XXXIX.2__8" n="L39.2.8_1" hand="hand-main">
-               <gloss>id est cola et commataThe same integrated gloss
+               <gloss>id est cola et commata</gloss>
+               <note type="editorial">The same integrated gloss
                   appears in Paris11278 and
-                     Schaffhausen42</gloss>
+                     Schaffhausen42</note>
             </note>
+            <!--1.XXXIX.2__11-->
             <note target="#b1.XXXIX.2__11" n="L39.2.11_1">
                <gloss>subaudi ac tempus </gloss>
             </note>
+            <!--1.XXXIX.3__1-->
             <note target="#b1.XXXIX.3__1" n="L39.3.1_1">
                <gloss>metro</gloss>
             </note>
+            <!--1.XXXIX.6__1-->
             <note target="#b1.XXXIX.6__1" n="L39.6.1_1">
                <gloss>scilicet metra </gloss>
             </note>
+            <!--1.XXXIX.6__5-->
             <note target="#b1.XXXIX.6__5" n="L39.6.5_1">
                <gloss>scilicet versus</gloss>
             </note>
+            <!--1.XXXIX.14__4-->
             <note target="#b1.XXXIX.14__4" n="L39.14.4_1">
                <gloss>miseros</gloss>
             </note>
+            <!--1.XXXIX.16__4-->
             <note target="#b1.XXXIX.16__4" n="L39.16.4_1">
                <gloss>aestimantur</gloss>
             </note>
+            <!--1.XXXIX.16__13-->
             <note target="#b1.XXXIX.16__13" n="L39.16.13_1">
                <gloss>silvestrem </gloss>
             </note>
+            <!--1.XXXIX.16__19-->
             <note target="#b1.XXXIX.16__19" n="L39.16.19_1">
                <gloss>pecorum </gloss>
             </note>
+            <!--1.XXXIX.18__1-->
             <note target="#b1.XXXIX.18__1" n="L39.18.1_1">
                <gloss>
                   <gap/> est dulcia cantica dram<supplied>at</supplied>is, hoc est
                carmen nuptiale </gloss>
             </note>
+            <!--1.XXXIX.25__7-->
             <note target="#b1.XXXIX.25__7" n="L39.25.7_1">
                <gloss>cohae<supplied>r</supplied>unt </gloss>
             </note>

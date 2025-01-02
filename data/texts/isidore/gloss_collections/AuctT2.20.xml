@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">AuctT2.20</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">e16337</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -48,29 +49,35 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.VII.2__5-->
             <note target="#b1.VII.2__5" n="L7.2.5_1">
                <gloss>
                   <sic>Afrinanus</sic>
                   <corr>Africanus</corr>
                </gloss>
             </note>
+            <!--1.VII.14__1-->
             <note target="#b1.VII.14__1" n="L7.14.1_1">
                <gloss>ensis, mucro, gladius</gloss>
             </note>
+            <!--1.VII.26__2-->
             <note target="#b1.VII.26__2" n="L7.26.2_1">
                <gloss>demens</gloss>
             </note>
+            <!--1.XII.2__5-->
             <note target="#b1.XII.2__5" n="L12.2.5_1">
                <gloss>que Deo</gloss>
             </note>
+            <!--1.XII.3__6-->
             <note target="#b1.XII.3__6" n="L12.3.6_1">
                <gloss>iungantur</gloss>
             </note>
+            <!--1.XXXVI.21__1-->
             <note target="#b1.XXXVI.21__1" n="L36.21.1_2">
                <gloss>Antitheton figura a Donato
                praetermissa</gloss>
             </note>
+            <!--1.XXXVI.22__4-->
             <note target="#b1.XXXVI.22__4" n="L36.22.4_3">
                <gloss>ventos</gloss>
             </note>

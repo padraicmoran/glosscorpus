@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">MadridRAH76</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">c7a01d</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -46,132 +47,170 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.VII.13__1-->
             <note target="#b1.VII.13__1" n="L7.13.1_1" hand="hand-main">
                <gloss>scilicet alia
                nomina</gloss>
             </note>
+            <!--1.VII.13__2-->
             <note target="#b1.VII.13__2" n="L7.13.2_1" hand="hand-main">
                <gloss>sunt</gloss>
             </note>
+            <!--1.VII.13__3-->
             <note target="#b1.VII.13__3" n="L7.13.3_1" hand="hand-main">
                <gloss>sunt</gloss>
             </note>
+            <!--1.VII.13__4-->
             <note target="#b1.VII.13__4" n="L7.13.4_1" hand="hand-main">
                <gloss>dubia</gloss>
             </note>
+            <!--1.VII.13__5-->
             <note target="#b1.VII.13__5" n="L7.13.5_1" hand="hand-main">
                <gloss>id est
                extremas</gloss>
             </note>
+            <!--1.VII.13__6-->
             <note target="#b1.VII.13__6" n="L7.13.6_1" hand="hand-main">
                <gloss>ista est
                extrema syllaba id est -dros et mutat in -er</gloss>
             </note>
+            <!--1.VII.13__9-->
             <note target="#b1.VII.13__9" n="L7.13.9_1" hand="hand-main">
                <gloss>sicut</gloss>
             </note>
+            <!--1.VII.16__1-->
             <note target="#b1.VII.16__1" n="L7.16.1_2" hand="hand-main">
                <gloss>re<gap/>
                </gloss>
             </note>
+            <!--1.VII.16__2-->
             <note target="#b1.VII.16__2" n="L7.16.2_1" hand="hand-main">
                <gloss>reportantur</gloss>
             </note>
+            <!--1.XXVII.4__2-->
             <note target="#b1.XXVII.4__2" n="L27.4.2_3">
                <gloss>recte</gloss>
             </note>
+            <!--1.XXVII.4__5-->
             <note target="#b1.XXVII.4__5" n="L27.4.5_3">
                <gloss>genus vestis</gloss>
             </note>
+            <!--1.XXVII.29__13-->
             <note target="#b1.XXVII.29__13" n="L27.29.13_2">
                <gloss>singuli</gloss>
             </note>
+            <!--1.XXVII.29__16-->
             <note target="#b1.XXVII.29__16" n="L27.29.16_2">
                <gloss>medietas, pars sicli</gloss>
             </note>
+            <!--1.XXVIII.2__1-->
             <note target="#b1.XXVIII.2__1" n="L28.2.1_2">
                <gloss>inaequalitate</gloss>
             </note>
+            <!--1.XXVIII.2__3-->
             <note target="#b1.XXVIII.2__3" n="L28.2.3_4">
                <gloss>semitae vel calles</gloss>
             </note>
+            <!--1.XXIX.2__7-->
             <note target="#b1.XXIX.2__7" n="L29.2.7_4">
                <gloss>inspectio, investigatio</gloss>
             </note>
+            <!--1.XXIX.3__5-->
             <note target="#b1.XXIX.3__5" n="L29.3.5_2">
                <gloss>
                   <sic>iudicum</sic>
                   <corr>iudic<supplied>i</supplied>um</corr>
                </gloss>
             </note>
+            <!--1.XXIX.3__12-->
             <note target="#b1.XXIX.3__12" n="L29.3.12_2">
                <gloss>condensus</gloss>
             </note>
+            <!--1.XXX.1__5-->
             <note target="#b1.XXX.1__5" n="L30.1.5_2">
                <gloss>tractum</gloss>
             </note>
+            <!--1.XXX.2__1-->
             <note target="#b1.XXX.2__1" n="L30.2.1_2">
                <gloss>percutit</gloss>
             </note>
+            <!--1.XXXI.1__7-->
             <note target="#b1.XXXI.1__7" n="L31.1.7_2">
                <gloss>interiecta</gloss>
             </note>
+            <!--1.XXXIV.9__2-->
             <note target="#b1.XXXIV.9__2" n="L34.9.2_1">
                <gloss>ut egomet ipse</gloss>
             </note>
+            <!--1.XXXVII.1__4-->
             <note target="#b1.XXXVII.1__4" n="L37.1.4_3">
                <gloss>transeunt</gloss>
             </note>
+            <!--1.XXXVII.2__9-->
             <note target="#b1.XXXVII.2__9" n="L37.2.9_2">
                <gloss>transformationes</gloss>
             </note>
+            <!--1.XXXVII.2__12-->
             <note target="#b1.XXXVII.2__12" n="L37.2.12_6">
                <gloss>velaminibus</gloss>
             </note>
+            <!--1.XXXVII.2__13-->
             <note target="#b1.XXXVII.2__13" n="L37.2.13_3">
                <gloss>cooperiuntur</gloss>
             </note>
+            <!--1.XXXVII.2__15-->
             <note target="#b1.XXXVII.2__15" n="L37.2.15_3">
                <gloss>aperta</gloss>
             </note>
+            <!--1.XXXVII.2__16-->
             <note target="#b1.XXXVII.2__16" n="L37.2.16_4">
                <gloss>manifesta</gloss>
             </note>
+            <!--1.XXXVII.3__3-->
             <note target="#b1.XXXVII.3__3" n="L37.3.3_3">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.3__4-->
             <note target="#b1.XXXVII.3__4" n="L37.3.4_4">
                <gloss>navis</gloss>
             </note>
+            <!--1.XXXVII.4__6-->
             <note target="#b1.XXXVII.4__6" n="L37.4.6_4">
                <gloss>mare</gloss>
             </note>
+            <!--1.XXXVII.4__7-->
             <note target="#b1.XXXVII.4__7" n="L37.4.7_3">
                <gloss>
                   <del>veloci</del>
                   <add>velociter</add>
-               The reading before correction (veloci) is the
-                  same as in Harley3941 and Paris7670</gloss>
+               </gloss>
+               <note type="editorial">The reading before correction (veloci) is the
+                  same as in Harley3941 and Paris7670</note>
             </note>
+            <!--1.XXXVII.5__1-->
             <note target="#b1.XXXVII.5__1" n="L37.5.1_3">
                <gloss>ornatissime</gloss>
             </note>
+            <!--1.XXXVII.6__1-->
             <note target="#b1.XXXVII.6__1" n="L37.6.1_2">
                <gloss>stropha, argumentatio</gloss>
             </note>
+            <!--1.XXXVII.6__15-->
             <note target="#b1.XXXVII.6__15" n="L37.6.15_2">
                <gloss>navibus</gloss>
             </note>
+            <!--1.XXXVII.6__17-->
             <note target="#b1.XXXVII.6__17" n="L37.6.17_4">
                <gloss>dividunt</gloss>
             </note>
+            <!--1.XXXVII.9__2-->
             <note target="#b1.XXXVII.9__2" n="L37.9.2_3">
                <gloss>hic primus adinvenit Cererem
                inventricem frumenti et Liberum inventorem vitis. Vinum primum apud Graecos invenit
                   <gap/>
                </gloss>
             </note>
+            <!--1.XXXIX.7__2-->
             <note target="#b1.XXXIX.7__2" n="L39.7.2_1">
                <gloss>co<gap/>
                </gloss>

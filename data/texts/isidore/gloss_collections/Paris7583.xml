@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Paris7583</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">bcba12</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -48,57 +49,72 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            <note target="#b..__1" n="L0.E2.1_1">
+         <div><!--..0-->
+            <note target="#b..0" n="L0.E2.1_1">
                <gloss>reddere, ac<gap/>tare, <gap/>are</gloss>
             </note>
-            <note target="#b..__2" n="L0.E2.2_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E2.2_1">
                <gloss>persuadeo, exhortor</gloss>
             </note>
-            <note target="#b..__3" n="L0.E2.3_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E2.3_1">
                <gloss>id est adiuvante vel tribuente</gloss>
             </note>
-            <note target="#b..__4" n="L0.E2.4_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E2.4_1">
                <gloss>id est testis</gloss>
             </note>
-            <note target="#b..__5" n="L0.E2.5_1">
+            <!--..0-->
+            <note target="#b..0" n="L0.E2.5_1">
                <gloss>impulsu</gloss>
             </note>
-            <note target="#b..__10" n="L0.E4.10_2">
+            <!--..0-->
+            <note target="#b..0" n="L0.E4.10_2">
                <gloss>dispensationem</gloss>
             </note>
+            <!--1.I.1__1-->
             <note target="#b1.I.1__1" n="L1.1.1_7">
                <gloss>disciplina est omne quod ad veritatis
                notitiam pertinens discitur</gloss>
             </note>
+            <!--1.I.2__1-->
             <note target="#b1.I.2__1" n="L1.2.1_3" hand="hand-g1">
                <gloss>ars vero non in
                veritate sed in similitudine versatur</gloss>
             </note>
+            <!--1.II.1__14-->
             <note target="#b1.II.1__14" n="L2.1.14_1" hand="hand-g1">
                <gloss>id est decretis vel
                constitutis</gloss>
             </note>
+            <!--1.III.1__1-->
             <note target="#b1.III.1__1" n="L3.1.1_3" hand="hand-g2">
                <gloss>fundamenta</gloss>
             </note>
+            <!--1.III.1__3-->
             <note target="#b1.III.1__3" n="L3.1.3_5" hand="hand-g2">
                <gloss>scriptores
                librum</gloss>
             </note>
+            <!--1.IV.13__1-->
             <note target="#b1.IV.13__1" n="L4.13.1_1" hand="hand-g1">
                <gloss>habent</gloss>
             </note>
+            <!--1.VII.1__1-->
             <note target="#b1.VII.1__1" n="L7.1.1_2">
                <gloss>demonstratio</gloss>
             </note>
+            <!--1.XVI.3__9-->
             <note target="#b1.XVI.3__9" n="L16.3.9_3">
                <gloss>hoc est inter deos computatus est cum
                honore statuae</gloss>
             </note>
+            <!--1.XVII.4__4-->
             <note target="#b1.XVII.4__4" n="L17.4.4_2">
                <gloss>accusationes</gloss>
             </note>
+            <!--1.XVII.13__1-->
             <note target="#b1.XVII.13__1" n="L17.13.1_3">
                <gloss>
                   <sic>Hac</sic>
@@ -107,54 +123,69 @@
                prolatus cum modulatione. Aliter celeuma est carmen quod navigantes canere solent vel
                clamor nauticus, id est vox nautarum</gloss>
             </note>
+            <!--1.XVII.20__3-->
             <note target="#b1.XVII.20__3" n="L17.20.3_1">
                <gloss>subaudi legitimi</gloss>
             </note>
+            <!--1.XVIII.1__1-->
             <note target="#b1.XVIII.1__1" n="L18.1.1_1">
                <gloss>Accentus
                certa lex et regula ad erigendam vel deponendam syllabam</gloss>
             </note>
+            <!--1.XVIII.1__4-->
             <note target="#b1.XVIII.1__4" n="L18.1.4_3">
                <gloss>translatum</gloss>
             </note>
+            <!--1.XVIII.5__1-->
             <note target="#b1.XVIII.5__1" n="L18.5.1_1">
                <gloss>regula</gloss>
             </note>
+            <!--1.XX.1__4-->
             <note target="#b1.XX.1__4" n="L20.1.4_4">
                <gloss>id est per membra</gloss>
             </note>
+            <!--1.XX.1__5-->
             <note target="#b1.XX.1__5" n="L20.1.5_4">
                <gloss>id est incisio</gloss>
             </note>
+            <!--1.XXI.3__6-->
             <note target="#b1.XXI.3__6" n="L21.3.6_3">
                <gloss>decollet</gloss>
             </note>
+            <!--1.XXI.3__7-->
             <note target="#b1.XXI.3__7" n="L21.3.7_2">
                <gloss>vulneret</gloss>
             </note>
+            <!--1.XXXVII.1__1-->
             <note target="#b1.XXXVII.1__1" n="L37.1.1_2">
                <gloss>Tropus Graece
                   form<unclear>a</unclear>
                   <gap/> vel similitud<unclear>o
                   interpre</unclear>tatur</gloss>
             </note>
+            <!--1.XXXVII.2__9-->
             <note target="#b1.XXXVII.2__9" n="L37.2.9_3">
                <gloss>id est transformatae</gloss>
             </note>
+            <!--1.XXXVII.2__14-->
             <note target="#b1.XXXVII.2__14" n="L37.2.14_4">
                <gloss>acuant</gloss>
             </note>
+            <!--1.XXXVII.5__7-->
             <note target="#b1.XXXVII.5__7" n="L37.5.7_1">
                <gloss>navium gubernator</gloss>
             </note>
+            <!--1.XXXVIII.1__12-->
             <note target="#b1.XXXVIII.1__12" n="L38.1.12_3">
                <gloss>
                   <unclear>f</unclear>oras emissa</gloss>
             </note>
+            <!--1.XXXVIII.2__5-->
             <note target="#b1.XXXVIII.2__5" n="L38.2.5_4">
                <gloss>
                   <unclear>cr</unclear>evit</gloss>
             </note>
+            <!--1.XL.1__9-->
             <note target="#b1.XL.1__9" n="L40.1.9_1">
                <gloss>inventor fabularum</gloss>
             </note>

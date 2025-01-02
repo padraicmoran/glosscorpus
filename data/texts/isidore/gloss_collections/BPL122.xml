@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">BPL122</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">db7231</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -47,13 +48,15 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.XXIX.4__6-->
             <note target="#b1.XXIX.4__6" n="L29.4.6_2">
                <gloss>G<supplied>raece</supplied> hyle</gloss>
             </note>
+            <!--1.XXXIII.1__1-->
             <note target="#b1.XXXIII.1__1" n="L33.1.1_2">
                <gloss>apud oratores</gloss>
             </note>
+            <!--1.XXXIX.21__4-->
             <note target="#b1.XXXIX.21__4" n="L39.21.4_2">
                <gloss>
                   <gap/>sticon</gloss>

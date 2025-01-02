@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
@@ -25,7 +26,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="siglum">Arundel129</note>
-            <note type="hex_colour"/>
+            <note type="hex_colour">e45e3a</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -49,26 +50,31 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div><!--1.III.5__3-->
             <note target="#b1.III.5__3" n="L3.5.3_1" hand="hand-g1">
                <gloss>scilicet
                perhibent</gloss>
             </note>
+            <!--1.III.5__16-->
             <note target="#b1.III.5__16" n="L3.5.16_4" hand="hand-main">
                <gloss>Phoenices dicti a rubro mare, quod proficit in
                Syriam, quia Si<unclear>donem</unclear> urbem inibi condiderunt</gloss>
             </note>
+            <!--1.III.8__2-->
             <note target="#b1.III.8__2" n="L3.8.2_1" hand="hand-g2">
                <gloss>scilicet sciendum
                est</gloss>
             </note>
+            <!--1.III.11__3-->
             <note target="#b1.III.11__3" n="L3.11.3_1" hand="hand-main">
                <gloss>quae
                unum</gloss>
             </note>
+            <!--1.IV.15__2-->
             <note target="#b1.IV.15__2" n="L4.15.2_2" hand="hand-main">
                <gloss>vulgarissat</gloss>
             </note>
+            <!--1.IV.17__2-->
             <note target="#b1.IV.17__2" n="L4.17.2_2" hand="hand-main">
                <gloss>noverunt</gloss>
             </note>
