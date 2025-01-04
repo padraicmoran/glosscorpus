@@ -36,6 +36,7 @@ Template for Gloss Corpus, v1.0: http://www.glossing.org/glosscorpus
 	</teiHeader>
 	<text>
 		<body>
+			<!-- Example of base text divided by line only -->
 			<div type="section" n="0">
 				<head>Praefatio</head>
 				<ab xml:id="II_1_0" n="GL II 1 [0]" rend="h1">Priscianus Caesariensis grammaticus Iuliano consuli ac patricio</ab>
@@ -50,6 +51,7 @@ Template for Gloss Corpus, v1.0: http://www.glossing.org/glosscorpus
 				<ab xml:id="II_1.9" n="GL II 1.9">Herodiani artibus certius, quid Apollonii scrupulosis quaestionibus </ab>
 				<ab xml:id="II_1.10" n="GL II 1.10">enucleatius possit inueniri?) cum igitur eos omnia fere uitia, quaecumque </ab>
  			</div>
+			<!-- Example of base text divided by line and also tokenised -->
 			<div type="section" n="1">
 				<head>I. De uoce, de littera</head>
 				<ab xml:id="II_5.0" n="GL II 5.0" rend="h1">

@@ -125,6 +125,24 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 </script>
 
+<!-- Default Statcounter code for Gloss Corpus
+http://www.glossing.org/glosscorpus -->
+<script type="text/javascript">
+var sc_project=13074326; 
+var sc_invisible=1; 
+var sc_security="3cd669f5"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="website
+statistics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13074326/0/3cd669f5/1/"
+alt="website statistics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
 </body>
 </html>
 

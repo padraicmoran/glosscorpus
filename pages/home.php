@@ -14,11 +14,12 @@ $totals = getOverallTotals();
 <p class="display-6 mb-4">Open-access publishing for medieval glosses
 </p>
 
-<p>Gloss Corpus is a platform for collaborative, open-access publishing and analysis of glosses on medieval manuscripts.
+<p>Gloss Corpus is a platform for publishing and analysis of glosses on medieval manuscripts, 
+	based on Open Access and open standards for data.
 </p>
 
-<p>Each contributor receives full credit and retains editorial control.
-	All collections are accessible via a persistent URL and a unique DOI. 
+<p>Contributors receive full credit for their work, with 
+	each edition of glosses assigned a unique DOI and persistent URL. 
 	Contributors also have the option to avail of peer-review.
 </p>
 

@@ -28,8 +28,8 @@ templateHeader($pageTitle, $carouselSlug);
 
 <ul>
 <li>Contributors receive full credit for their own content.</li>
-<li>Each collection is citable with its own DOI and persistent URL.</li>
-<li>Collections may be optionally peer-reviewed by an editorial committee.</li>
+<li>Editions are citable with unique DOIs and persistent URL.</li>
+<li>Editions may be optionally peer-reviewed by an editorial committee.</li>
 </ul>
 
 <!-- Expand on peer-review committee -->
@@ -46,11 +46,11 @@ to discuss your project.
 
 <h4 class="mt-5 mb-3">1. XML templates</h4>
 
-<p>Templates are for version 1.0:</p>
+<p>Version 1.0:</p>
 
 <ul>
 <li><a href="/glosscorpus/data/templates/GlossCorpus_basetext_v1.xml">Primary text (base text)</a></li>
-<li><a href="/glosscorpus/data/templates/GlossCorpus_gloss_collection_v1.xml">Gloss cllection</a></li>
+<li><a href="/glosscorpus/data/templates/GlossCorpus_gloss_collection_v1.xml">Gloss collection</a></li>
 <li><a href="/glosscorpus/data/templates/GlossCorpus_publication_v1.xml">Publication</a></li>
 </ul>
 
