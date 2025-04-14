@@ -49,10 +49,11 @@ function switchSgPl($val, $sg, $pl) {
 	else return $pl;
 }
 
-function fileLink($baseURL, $filePath, $linkText) {
-   if (file_exists($filePath)) {
-      $str = '<a href="' . $baseURL . $filePath . '">' . $linkText . '</a> ';
-      $str .= '(' . number_format(round(filesize($filePath) / 1000)) . ' kB)';
+function dataFileLink($filePath, $linkText) {
+   $realPath = '../../data/' . $filePath;
+   if (file_exists($realPath)) {
+      $str = '<a href="/glosscorpus/download.php?p=' . $filePath . '">' . $linkText . '</a> ';
+      $str .= '(' . number_format(round(filesize($realPath) / 1000)) . ' kB)';
       return $str;
    }
    else return '';

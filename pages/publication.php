@@ -79,7 +79,7 @@ if ($slugPub != '') {
 				printRow('Source', $row['source_info']);
 				printRow('Credits', $row['source_credit']);
 				printRow('Segmentation', '<div class="small text-secondary">How the text is divided in this online edition:</div> ' . $row['seg_desc']);
-				printRow('Data', fileLink($baseURL, 'data/texts/' . $row['b_slug'] . '/basetext.xml', 'XML file'));
+				printRow('Data', dataFileLink('texts/' . $row['b_slug'] . '/basetext.xml', 'XML file'));
 				echo '</table>';
 
 				echo '<h3 class="h4 pt-4">Gloss collection(s)</h3>';
@@ -91,7 +91,7 @@ if ($slugPub != '') {
 			printRow('Manuscript', trim($row['ms_city'] . ', ' . $row['ms_library'] . ', ' . $row['ms_collection'] . ' ' . $row['ms_shelfmark']));
 			if ($totalCollections > 1) printRow('Glosses', number_format($row['count_glosses']));
 			printRow('Credits', $row['c_credits']);
-			printRow('Data', fileLink($baseURL, 'data/texts/' . $row['b_slug'] . '/gloss_collections/' . $row['c_slug'] . '.xml', 'XML file'));
+			printRow('Data', dataFileLink('texts/' . $row['b_slug'] . '/gloss_collections/' . $row['c_slug'] . '.xml', 'XML file'));
 			echo '</table>';
 		}
 	}

@@ -69,7 +69,7 @@ else {
 
 		// import XML file from filesystem
 		if ($filesystemInput) {
-			$importFile = '../data/texts/' . $baseSlug . '/gloss_collections/' . $slug . '.xml';
+			$importFile = '../../../data/texts/' . $baseSlug . '/gloss_collections/' . $slug . '.xml';
 			if (! file_exists($importFile)) {
 				$error = true;
 				alert('error', 'Import file not found: ' . $importFile);

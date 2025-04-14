@@ -153,7 +153,7 @@ function processSQL($sqlOutput, $update) {
 			// update file
 			// needs folder permissions; will leave for now (still untested)
 			/*
-			$file = fopen('../data/collections/' . $slug . '.xml', 'w') or die('Unable to update XML file.');
+			$file = fopen('../../../data/collections/' . $slug . '.xml', 'w') or die('Unable to update XML file.');
 			fwrite($file, $xmlText);
 			fclose($file);
 			alert('success', 'XML file updated.');

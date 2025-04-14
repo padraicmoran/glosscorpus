@@ -55,7 +55,7 @@ else {
 
 		// import XML file from filesystem
 		if ($filesystemInput) {
-			$importFile = '../data/publications/' . $slug . '.xml';
+			$importFile = '../../../data/publications/' . $slug . '.xml';
 			if (! file_exists($importFile)) {
 				$error = true;
 				alert('error', 'Import file not found: ' . $importFile);

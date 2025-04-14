@@ -32,6 +32,9 @@ templateHeader($pageTitle, $carouselSlug);
 <li>Editions may be optionally peer-reviewed by an editorial committee.</li>
 </ul>
 
+<p>Data, web application files and other resources can be found in the <a href="https://github.com/padraicmoran/glosscorpus">GlossCorpus GitHub repository</a>.
+
+
 <!-- Expand on peer-review committee -->
 
 <h3 class="mt-5 mb-3">Guidelines for publishing</h3>
@@ -44,14 +47,15 @@ to discuss your project.
 (XML is very easy to learn. If you are unfamiliar with it, Pádraic will give advice.)</p>
 
 
+
 <h4 class="mt-5 mb-3">1. XML templates</h4>
 
 <p>Version 1.0:</p>
 
 <ul>
-<li><a href="/glosscorpus/data/templates/GlossCorpus_basetext_v1.xml">Primary text (base text)</a></li>
-<li><a href="/glosscorpus/data/templates/GlossCorpus_gloss_collection_v1.xml">Gloss collection</a></li>
-<li><a href="/glosscorpus/data/templates/GlossCorpus_publication_v1.xml">Publication</a></li>
+<li><a href="/glosscorpus/download.php?p=templates/GlossCorpus_basetext_v1.xml">Primary text (base text)</a></li>
+<li><a href="/glosscorpus/download.php?p=templates/GlossCorpus_gloss_collection_v1.xml">Gloss collection</a></li>
+<li><a href="/glosscorpus/download.php?p=templates/GlossCorpus_publication_v1.xml">Publication</a></li>
 </ul>
 
 <h4 class="mt-5 mb-3">2. Documentation</h4>
