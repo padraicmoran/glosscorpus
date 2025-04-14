@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ENTITY facsBase "https://gallica.bnf.fr/ark:/12148/btv1b52515976c/">
+    <!ENTITY ref2Base "">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Priscian in Paris, Bibliothèque Nationale de France, lat. 7503</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcription by Mary Sweeney, Postdoctoral Researcher on the IRC Laureate Project GLOSSAM, led by Pádraic Moran at the University of Galway.</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">F2</note>
+				<note type="hex_colour">cae329</note><!-- hex colour to be choosen -->
+				<note type="image_url_base"></note>
+				<note type="ref2_url_base">http://www.glossing.org/glossengine/images/thesaurus/ </note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Nationale de France</repository>
+                  <idno>MS Lat. 7503</idno>
+					</msIdentifier>
+					<physDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+
+				<note n="2r19 a" target="#II_5.1__1" facs="&facsBase;f9.item">
+					<term>philosophi</term>
+					<gloss>Graece <supplied>et</supplied> Latine amatores sapientiae diiudicant, id e<ex>st</ex> t<ex>er</ex>minando co<ex>m</ex>p<ex>re</ex>hend<supplied>unt</supplied> quae p<ex>ro</ex>prie illi<ex>orum</ex> e<ex>st</ex> ex hoc disputare</gloss>
+				</note>
+				<note n="2r19 b" target="#II_5.1__2" facs="&facsBase;f9.item" place="m.s.">
+					<term>definiunt</term>
+					<gloss>Cur n<ex>on</ex> a se vocem definiuit ut diceret: vox e<ex>st</ex> aer ict<ex>us</ex>, sed philosophos ut definire et n<ex>on</ex> gra<ex>m</ex>matici e<ex>st</ex> dicere q<ex>uid</ex> sit vox, sed philosophi. Sed cu<ex>m</ex> origine<ex>m</ex> artis ex <supplied>aequa</supplied> ratione cogeret<ex>ur</ex> et ab infimis, sicut et fecit, ad altiora p<ex>er</ex> venire, necesse habuit de voce disserere, ex qua litterae, de litteris syllabae, de syllab<ex>is</ex> dictiones, de dictionib<ex>us</ex> orationes cit<ex>ur</ex>, q<ex>uae</ex> in VIII partibus dividit<ex>ur</ex>. Ita t<ex>a</ex>m<ex>en</ex> te<ex>m</ex>peravit nec q<ex>uo</ex> necessariu<ex>m</ex> erat omitteret nec alterius officiu<ex>m</ex> unde calu<ex>m</ex>niari posset usurparet.</gloss>
+				</note>
+				<note n="2r19 b1" target="#II_5.1__2" facs="&facsBase;f9.item" place="m.d.">
+					<term>definiunt</term>
+					<gloss>definitio e<ex>st</ex> q<ex>uae</ex> in rebu<ex>us</ex>  exp<ex>ri</ex> mendis explicat quid res ipsa sit</gloss>
+				</note>
+				<note n="2r19 d" target="#II_5.1__2" facs="&facsBase;f9.item">
+					<term>definiunt</term>
+					<gloss>illi scilic<ex>et</ex> qui stoici dicunt<ex>ur</ex></gloss>
+				</note>
+				<note n="2r19 e" target="#II_5.1__6" facs="&facsBase;f9.item">
+					<term>aerem</term>
+					<gloss>q<ex>uas</ex>i os ingredit<ex>ur</ex></gloss>
+				</note>
+				<note n="2r19 f" target="#II_5.1__7" facs="&facsBase;f9.item">
+					<term>tenuissimum</term>
+					<gloss>n<ex>on</ex> densu<ex>m</ex>, subtilissimu<ex>m</ex></gloss>
+				</note>
+
+				<!-- re examine -->
+				<note n="2r19 g" target="#II_5.1__8" facs="&facsBase;f9.item">
+					<term>ictum</term>
+					<gloss>percussu<ex>m</ex> <ex>uel</ex> pulsatu<ex>m</ex> <ex>et</ex> est paru<gap/></gloss>
+				</note>
+				<note n="2r19 h" target="#II_5.1__9" facs="&facsBase;f9.item" place="m.d.">
+					<term>uel</term>
+					<gloss>a <ex>uel</ex> sonu<ex>m</ex></gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 11 ('suum sensibilie' to 'suum') - Difference: 73.33% -->
+				<note n="2r20 i" target="#II_5.1__10" facs="&facsBase;f9.item">
+					<term>suum sensibilie</term>
+					<gloss>id <ex>est</ex> p<ex>ro</ex>prium p<ex>er</ex>cibile aliq<ex>uid</ex> <ex>uel</ex> accidens</gloss>
+				</note>
+				<note n="2r20 j" target="#II_5.2__7" facs="&facsBase;f9.item">
+					<term>proprie</term>
+					<gloss>specialite<ex>m</ex></gloss>
+				</note>
+				<note n="2r20 k" target="#II_5.2__9" facs="&facsBase;f9.item">
+					<term>accidit</term>
+					<gloss>id est uox p<ex>er</ex> accidentia a auriu<ex>m</ex> ad notione<ex>m</ex> uoce<ex>m</ex> per uer<ex>um</ex></gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 1 ('definito' to 'definitio') - Difference: 11.11% -->
+				<note n="2r21 l" target="#II_5.2__14" facs="&facsBase;f9.item">
+					<term>definito</term>
+					<gloss>substantialis </gloss>
+				</note>
+				<note n="2r21 m" target="#II_5.3__2" facs="&facsBase;f9.item">
+					<term>substantia</term>
+					<gloss>ipsius uocis et naternae aeris uel a uerberatione </gloss>
+				</note>
+				<note n="2r21 n" target="#II_5.3__5" facs="&facsBase;f9.item">
+					<term>altera</term>
+					<gloss>quae est a uerberatione aeris, scilicet definit<ex>ur</ex></gloss>
+				</note>
+				<note n="2r21 o" target="#II_5.3__8" facs="&facsBase;f9.item">
+					<term>notione</term>
+					<gloss>A cognatione, hoc est, ab auditu <ex>uel</ex> designatione</gloss>
+				</note>
+				<note n="2r21 o1" target="#II_5.3__8" facs="&facsBase;f9.item">
+					<term>notione</term>
+					<gloss>uel a cognatione</gloss>
+				</note>
+				<note n="2r22 p" target="#II_5.4__4" facs="&facsBase;f9.item">
+					<term>accidentibus</term>
+					<gloss>.i. forinsecus</gloss>
+				</note>
+				<note n="2r23 q" target="#II_5.5__3" facs="&facsBase;f9.item">
+					<term>differentiae</term>
+					<gloss>distantio <ex>uel</ex> diuisiones</gloss>
+				</note>
+				<note n="2r23 r" target="#II_5.5__7" facs="&facsBase;f9.item">
+					<term>articulata</term>
+					<gloss>quae sensu<ex>m</ex> habet</gloss>
+				</note>
+				<note n="2r23 s" target="#II_5.5__9" facs="&facsBase;f9.item">
+					<term>inarticulata</term>
+					<gloss>sine sensu</gloss>
+				</note>
+				<note n="2r23 t" target="#II_5.6__3" facs="&facsBase;f9.item">
+					<term>articulata</term>t
+					<gloss>.i. sensu siue scribat<ex>ur</ex>, si uer<ex>um</ex></gloss>
+				</note>
+				<note n="2r24 u" target="#II_5.6__7" facs="&facsBase;f9.item">
+					<term>coartata</term>
+					<gloss>constricta</gloss>
+				</note>
+				<note n="2r24 v" target="#II_5.6__14" facs="&facsBase;f9.item">
+					<term>sensu</term>
+					<gloss>intellectu</gloss>
+				</note>
+				<note n="2r25 w" target="#II_5.7__9" facs="&facsBase;f9.item">
+					<term>inarticulata</term>
+					<gloss>.i. sine sensu</gloss>
+				</note>
+				<note n="2r25 x" target="#II_5.7__11" facs="&facsBase;f9.item">
+					<term>contraria</term>
+					<gloss>scilicet articulate</gloss>
+				</note>
+				<!-- re examine -->
+				<note n="2r25 y" target="#II_5.7__13" facs="&facsBase;f9.item" place="m.d.">
+					<term>quae</term>
+					<gloss>.i. siue non scribatur ut non sensibile scribatur ut uox coruorum <gap/> scilicet ut non intelleg<gap/> uox siue intelleg<gap/> ut uerba</gloss>
+				</note>
+				<note n="2r25 z" target="#II_5.8__1" facs="&facsBase;f9.item">
+					<term>affectu</term>
+					<gloss>intellectu</gloss>
+				</note>
+				<note n="2r25 aa" target="#II_5.8__2" facs="&facsBase;f9.item">
+					<term>proficiscitur</term>
+					<gloss>egredit<ex>ur</ex> </gloss>
+				</note>
+				<note n="2r26 bb" target="#II_5.8__12" facs="&facsBase;f9.item">
+					<term>illiterata</term>
+					<gloss>siue intellegat<ex>ur</ex> ut gemit<ex>us</ex> sunt uer<ex>um</ex> ut crepitus</gloss>
+				</note>
+				<note n="2r27 cc" target="#II_5.9__9" facs="&facsBase;f9.item">
+					<term>articulatae</term>
+					<gloss>sensu <ex>et</ex> scripturae</gloss>
+				</note>
+				<note n="2r27 dd" target="#II_5.11__2" facs="&facsBase;f9.item">
+					<term>arma</term>
+					<gloss>bella </gloss>
+				</note>
+				<note n="2r27 ee" target="#II_5.11__4" facs="&facsBase;f9.item">
+					<term>cano</term>
+					<gloss>dico</gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 2 ('' to 'de') - Difference: 100.0% -->
+				<note n="2r" target="#II_5.0__3" facs="&facsBase;f9.item" place="m.i.">
+					<gloss>caesariensis <gap/> grecorum <gap/> ab hunc libro iuliano apostate scribsit C<ex>on</ex>sules a consulendo, dicit<ex>ur</ex> sic<ex>it</ex> rex a regendo, na<ex>m</ex> cum Romani superba<ex>m</ex> regu<ex>m</ex> <supplied>dominationem non ferrent, annua imperia binos que consules sibi</supplied> fecerunt. 
+						Na<ex>m</ex> fastum regius beniuolentia c<ex>on</ex>sulentis, sed sup<ex>er</ex>bia dominantis erat. Hinc igitur <supplied>consules appellati, uel a consulendo ciuibus, uel a regendo cuncta consilio. Quos tamen ideo mutandos </supplied> p<ex>er</ex> singulos annos mutandos elegerunt, ut nec insolens diu maneret, <ex>et</ex> moderatior cito succurreret. 
+						<supplied> Inde autem duo pares, quia unus rem ciuilem, alter rem militarem administrabant.</supplied> Regnauer<ex>unt</ex> aut<ex>em</ex> annis cccclxvii. Inde <ex>et</ex> p<ex>ro</ex>consules dicti, eo q<ex>uo</ex>d uicem consulis fungerentur, sic<ex>ut</ex> p<ex>ro</ex>curator curatori <supplied>id est actori</supplied> <gap/>
+						<gap/> Sic<ex>ut</ex> <unclear>patres filius</unclear> a p<ex>ro</ex>uideant regi publicae. </gloss>
+				<!-- Isidorus Hispalensis - Etymologiarum siue Originum libri XX (CPL 1186) - LLT lib. : 9, cap. : 3, par. : 6  - - >
+					<refnote>see Reims, Bibliothèque Municipale, 1094 D1 3r</refnote> -->
+					</note>
+					<note n="2v1 a" target="#II_5.12__6" facs="&facsBase;f10.item">
+						<term>scribi</term>
+						<gloss>.i. ipsa <ex>est</ex> articulata <ex>et</ex> illiterata</gloss>
+					</note>
+					<note n="2v4 b" target="#II_5.15__10" facs="&facsBase;f10.item">
+						<term>coax</term>
+						<gloss>uox ranarum</gloss>
+					</note>
+					<note n="2v4 c" target="#II_5.15__12" facs="&facsBase;f10.item">
+						<term>cra</term>
+						<gloss><supplied>uox</supplied> coror<ex>um</ex></gloss>
+					</note>
+
+					<note n="2v4 d" target="#II_6.1__3" facs="&facsBase;f10.item" place="m.l.">
+						<term>inarticulatae</term>
+						<gloss>has enim uoces quanqua<ex>um</ex> intellegim<ex>us</ex> de quo sunt uolucre p<ex>ro</ex>fecte tam<ex>en</ex> inarticulate dicunt<ex>ur</ex> quia uox ut superius dici inarticulata 
+							est q<ex>uae</ex> nullo affectu p<ex>ro</ex>ficiseitur m<ex>en</ex>tis </gloss>
+					<!-- Donatus Ortigraphus - Ars grammatica - LLT De uoce, linea : 23 -->
+					<!-- see Paris, Bibliothèque nationale, lat. 7504 F3 -->
+					</note>
+					<note n="2v5 e" target="#II_6.2__2" facs="&facsBase;f10.item">
+						<term>crepitus</term>
+						<gloss>fragor <ex>et</ex> son<ex>us</ex> stipula<ex>rum</ex> c<ex>on</ex>flagrantiu<ex>m</ex></gloss>
+					</note>
+					<note n="2v6 f" target="#II_6.3__3" facs="&facsBase;f10.item">
+						<term>perficiunt</term>
+						<gloss>complent</gloss>
+					</note>
+
+					<!-- re examine-->
+					<note n="2v6 g" target="#II_6.3__5" facs="&facsBase;f10.item">
+						<term>superiores</term>
+						<gloss><unclear>nominatus patris</unclear></gloss>
+					</note>
+
+					<note n="2v6 h" target="#II_6.3__6" facs="&facsBase;f10.item">
+						<term>differentiae</term>
+						<gloss>quia nulla uox <ex>est</ex> quae n<ex>on</ex> habeat aliqua<ex>m</ex> et his differentiis</gloss>
+					</note>
+					<note n="2v6 i" target="#II_6.4__3" facs="&facsBase;f10.item">
+						<term>binae</term>
+						<gloss>differentiae</gloss>
+					</note>
+					<note n="2v7 j" target="#II_6.4__5" facs="&facsBase;f10.item">
+						<term>singulas</term>
+						<gloss>species</gloss>
+					</note>
+					<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 4 ('uox autem' to 'autem') - Difference: 44.44% -->
+				<note n="2v7 k" target="#II_6.4__10" facs="&facsBase;f10.item">
+						<term>uox autem</term>
+						<gloss>definitio s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m sonu<ex>m</ex></gloss>
+					</note>
+					<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 8 ('ἀπὸ τοῦ βοῶ' to 'ἀπὸ') - Difference: 72.73% -->
+				<note n="2v8 l" target="#II_6.5__10" facs="&facsBase;f10.item">
+						<term>ἀπὸ τοῦ βοῶ</term>
+						<gloss>.i. ab hoc sono</gloss>
+					</note>
+				</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Chartres,
+                                    Bibliothèque municipale,
+                                    MS 16</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Chartres16</note>
+            <note type="hex_colour">d77a2d</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Chartres</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <collection/>
+                  <idno>MS 16</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.VII.2__3-->
+            <note target="#b1.VII.2__3" n="L7.2.3_1" hand="hand-main">
+               <gloss>scilicet
+               dicuntur</gloss>
+            </note>
+            <!--1.IX.7__16-->
+            <note target="#b1.IX.7__16" n="L9.7.16_1" hand="hand-main">
+               <gloss>scilicet non
+               dicitur</gloss>
+            </note>
+            <!--1.XII.1__13-->
+            <note target="#b1.XII.1__13" n="L12.1.13_1" hand="hand-main">
+               <gloss>scilicet
+               coniunctionum</gloss>
+            </note>
+            <!--1.XXVII.25__2-->
+            <note target="#b1.XXVII.25__2" n="L27.25.2_1">
+               <gloss>scilicet dicitur</gloss>
+            </note>
+            <!--1.XXXVII.35__1-->
+            <note target="#b1.XXXVII.35__1" n="L37.35.1_1">
+               <gloss>comparatio</gloss>
+            </note>
+            <!--1.XXXIX.14__1-->
+            <note target="#b1.XXXIX.14__1" n="L39.14.1_1">
+               <gloss>Elegus dicitur miser. Hinc eleison
+               dicimus id est miserere, unde et elegiacum dictum, id est miserabile, de luctuosis ac
+               tristibus scilicet rebus compositum </gloss>
+            </note>
+            <!--1.XXXIX.16__19-->
+            <note target="#b1.XXXIX.16__19" n="L39.16.19_2">
+               <gloss>id est
+                  vervecariorum</gloss>
+               <note type="editorial">From Lat. vervex (‘castrated ram’), Old
+                  French berbis, see Romanisches Etymologisches
+                     Wörterbuch, p. 773</note>
+            </note>
+            <!--1.XXXIX.17__6-->
+            <note target="#b1.XXXIX.17__6" n="L39.17.6_1">
+               <gloss>scilicet hymnos</gloss>
+            </note>
+            <!--1.XXXIX.19__11-->
+            <note target="#b1.XXXIX.19__11" n="L39.19.11_1">
+               <gloss>scilicet fit </gloss>
+            </note>
+            <!--1.XXXIX.20__1-->
+            <note target="#b1.XXXIX.20__1" n="L39.20.1_1">
+               <gloss>scilicet interpretatur </gloss>
+            </note>
+            <!--1.XXXIX.21__3-->
+            <note target="#b1.XXXIX.21__3" n="L39.21.3_1">
+               <gloss>scilicet libri</gloss>
+            </note>
+            <!--1.XXXIX.21__4-->
+            <note target="#b1.XXXIX.21__4" n="L39.21.4_1">
+               <gloss>scilicet dicitur opus </gloss>
+            </note>
+            <!--1.XXXIX.24__6-->
+            <note target="#b1.XXXIX.24__6" n="L39.24.6_1">
+               <gloss>ecce integer versus </gloss>
+            </note>
+            <!--1.XXXIX.26__2-->
+            <note target="#b1.XXXIX.26__2" n="L39.26.2_1">
+               <gloss>scilicet nomen </gloss>
+            </note>
+            <!--1.XXXIX.26__3-->
+            <note target="#b1.XXXIX.26__3" n="L39.26.3_1">
+               <gloss>nomen </gloss>
+            </note>
+            <!--1.XXXIX.26__9-->
+            <note target="#b1.XXXIX.26__9" n="L39.26.9_1">
+               <gloss>id est compositis </gloss>
+            </note>
+            <!--1.XXXIX.26__11-->
+            <note target="#b1.XXXIX.26__11" n="L39.26.11_1">
+               <gloss>id est Vergilio</gloss>
+            </note>
+            <!--1.XL.1__4-->
+            <note target="#b1.XL.1__4" n="L40.1.4_1">
+               <gloss>id est receptae </gloss>
+            </note>
+            <!--1.XL.1__13-->
+            <note target="#b1.XL.1__13" n="L40.1.13_1">
+               <gloss>id est Aesopus</gloss>
+            </note>
+            <!--1.XL.2__6-->
+            <note target="#b1.XL.2__6" n="L40.2.6_1">
+               <gloss>id est alternatio</gloss>
+            </note>
+            <!--1.XL.3__5-->
+            <note target="#b1.XL.3__5" n="L40.3.5_1">
+               <gloss>scilicet constat fabulas </gloss>
+            </note>
+            <!--1.XL.3__6-->
+            <note target="#b1.XL.3__6" n="L40.3.6_1">
+               <gloss>id est vulgares </gloss>
+            </note>
+            <!--1.XL.4__1-->
+            <note target="#b1.XL.4__1" n="L40.4.1_1">
+               <gloss>scilicet poetae </gloss>
+            </note>
+            <!--1.XL.4__3-->
+            <note target="#b1.XL.4__3" n="L40.4.3_1">
+               <gloss>fingitur </gloss>
+            </note>
+            <!--1.XL.4__5-->
+            <note target="#b1.XL.4__5" n="L40.4.5_1">
+               <gloss>scilicet qui signatur per Vulcanum
+            </gloss>
+            </note>
+            <!--1.XL.4__7-->
+            <note target="#b1.XL.4__7" n="L40.4.7_1">
+               <gloss>parte </gloss>
+            </note>
+            <!--1.XL.5__2-->
+            <note target="#b1.XL.5__2" n="L40.5.2_1">
+               <gloss>constat </gloss>
+            </note>
+            <!--1.XL.6__1-->
+            <note target="#b1.XL.6__1" n="L40.6.1_1">
+               <gloss>componuntur fabulae </gloss>
+            </note>
+            <!--1.XL.6__10-->
+            <note target="#b1.XL.6__10" n="L40.6.10_1">
+               <gloss>intentionem</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

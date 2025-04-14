@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Montpellier,
+                                    Bibliothèque interuniversitaire,
+                                    H 53</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">MontpellierH53</note>
+            <note type="hex_colour">c4a81a</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Montpellier</settlement>
+                  <repository>Bibliothèque interuniversitaire</repository>
+                  <collection/>
+                  <idno>H 53</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.III.1__3-->
+            <note target="#b1.III.1__3" n="L3.1.3_3" hand="hand-g1">
+               <gloss>id est qui
+               libros scribunt</gloss>
+            </note>
+            <!--1.III.1__4-->
+            <note target="#b1.III.1__4" n="L3.1.4_5" hand="hand-g1">
+               <gloss>id est
+               computatores</gloss>
+            </note>
+            <!--1.III.6__5-->
+            <note target="#b1.III.6__5" n="L3.6.5_1" hand="hand-g1">
+               <gloss>scilicet
+               Phoenicibus</gloss>
+            </note>
+            <!--1.III.8__5-->
+            <note target="#b1.III.8__5" n="L3.8.5_2" hand="hand-g1">
+               <gloss>theta</gloss>
+            </note>
+            <!--1.III.9__5-->
+            <note target="#b1.III.9__5" n="L3.9.5_1" hand="hand-g1">
+               <gloss>id est
+               alpha</gloss>
+            </note>
+            <!--1.III.9__6-->
+            <note target="#b1.III.9__6" n="L3.9.6_1" hand="hand-g1">
+               <gloss>id est
+               Ω</gloss>
+            </note>
+            <!--1.IV.8__4-->
+            <note target="#b1.IV.8__4" n="L4.8.4_1" hand="hand-g1">
+               <gloss>id est
+               Γ</gloss>
+            </note>
+            <!--1.IV.11__7-->
+            <note target="#b1.IV.11__7" n="L4.11.7_1" hand="hand-g1">
+               <gloss>scilicet
+               hoc est</gloss>
+            </note>
+            <!--1.IV.15__2-->
+            <note target="#b1.IV.15__2" n="L4.15.2_3" hand="hand-g1">
+               <gloss>pro
+               hilarizat</gloss>
+            </note>
+            <!--1.IV.18__3-->
+            <note target="#b1.IV.18__3" n="L4.18.3_1" hand="hand-g1">
+               <gloss>scilicet
+               litterarum</gloss>
+            </note>
+            <!--1.IX.2__3-->
+            <note target="#b1.IX.2__3" n="L9.2.3_1">
+               <gloss>praesens</gloss>
+            </note>
+            <!--1.IX.7__1-->
+            <note target="#b1.IX.7__1" n="L9.7.1_1">
+               <gloss>scilicet quae sunt
+               grammaticorum</gloss>
+            </note>
+            <!--1.XII.4__2-->
+            <note target="#b1.XII.4__2" n="L12.4.2_1">
+               <gloss>scilicet habet aurum</gloss>
+            </note>
+            <!--1.XVI.2__10-->
+            <note target="#b1.XVI.2__10" n="L16.2.10_1">
+               <gloss>dy: duo. ptongus: sonus. dyptongus:
+               dualis sonus</gloss>
+            </note>
+            <!--1.XVI.3__4-->
+            <note target="#b1.XVI.3__4" n="L16.3.4_2">
+               <gloss>a Lycia patria</gloss>
+            </note>
+            <!--1.XVII.4__3-->
+            <note target="#b1.XVII.4__3" n="L17.4.3_2">
+               <gloss>id est iambico</gloss>
+            </note>
+            <!--1.XVII.12__2-->
+            <note target="#b1.XVII.12__2" n="L17.12.2_2">
+               <gloss>repetitus</gloss>
+            </note>
+            <!--1.XVII.21__1-->
+            <note target="#b1.XVII.21__1" n="L17.21.1_1">
+               <gloss>scilicet vocis</gloss>
+            </note>
+            <!--1.XVII.21__5-->
+            <note target="#b1.XVII.21__5" n="L17.21.5_3">
+               <gloss>id est arsi et thesi</gloss>
+            </note>
+            <!--1.XVII.22__7-->
+            <note target="#b1.XVII.22__7" n="L17.22.7_2">
+               <gloss>pro dimidio</gloss>
+            </note>
+            <!--1.XVII.22__8-->
+            <note target="#b1.XVII.22__8" n="L17.22.8_2">
+               <gloss>tempus</gloss>
+            </note>
+            <!--1.XVII.22__13-->
+            <note target="#b1.XVII.22__13" n="L17.22.13_2">
+               <gloss>hoc est
+                  <sic>sesquicenti</sic> in arithmetica, diatessaron in
+               musica</gloss>
+               <note type="editorial">A notable error of the glossator: the
+                     epitritus is correctly called a
+                     sesquitertius not a
+                  sesquicentus</note>
+            </note>
+            <!--1.XVII.23__2-->
+            <note target="#b1.XVII.23__2" n="L17.23.2_3">
+               <gloss>scilicet pedes</gloss>
+            </note>
+            <!--1.XVII.24__1-->
+            <note target="#b1.XVII.24__1" n="L17.24.1_2">
+               <gloss>scilicet divisione</gloss>
+            </note>
+            <!--1.XVII.28__9-->
+            <note target="#b1.XVII.28__9" n="L17.28.9_2">
+               <gloss>spondeum pro dactylo posuit propter
+               tempora</gloss>
+            </note>
+            <!--1.XVII.28__10-->
+            <note target="#b1.XVII.28__10" n="L17.28.10_1">
+               <gloss>id est diaeresin</gloss>
+            </note>
+            <!--1.XVII.28__10-->
+            <note target="#b1.XVII.28__10" n="L17.28.10_3">
+               <gloss>id est coniunctionem
+               syllabarum</gloss>
+            </note>
+            <!--1.XVII.29__1-->
+            <note target="#b1.XVII.29__1" n="L17.29.1_2">
+               <gloss>scilicet ut Iudaeorum</gloss>
+            </note>
+            <!--1.XVII.29__5-->
+            <note target="#b1.XVII.29__5" n="L17.29.5_2" hand="hand-g1">
+               <gloss>scilicet
+               ex</gloss>
+            </note>
+            <!--1.XVIII.1__5-->
+            <note target="#b1.XVIII.1__5" n="L18.1.5_1">
+               <gloss>scilicet accentuum</gloss>
+            </note>
+            <!--1.XX.1__4-->
+            <note target="#b1.XX.1__4" n="L20.1.4_3">
+               <gloss>id est per membra</gloss>
+            </note>
+            <!--1.XX.1__5-->
+            <note target="#b1.XX.1__5" n="L20.1.5_3">
+               <gloss>id est incisiones</gloss>
+            </note>
+            <!--1.XX.1__6-->
+            <note target="#b1.XX.1__6" n="L20.1.6_3">
+               <gloss>conclusiones</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

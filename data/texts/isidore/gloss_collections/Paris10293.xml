@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Paris,
+                                    Bibliothèque nationale de France,
+                                    Lat. 10293</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Paris10293</note>
+            <note type="hex_colour">c0b016</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <collection/>
+                  <idno>Lat. 10293</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.XVII.11__3-->
+            <note target="#b1.XVII.11__3" n="L17.11.3_1">
+               <gloss>patris</gloss>
+            </note>
+            <!--1.XXXIX.10__7-->
+            <note target="#b1.XXXIX.10__7" n="L39.10.7_8">
+               <gloss>hoc est fortium</gloss>
+            </note>
+            <!--1.XXXIX.24__8-->
+            <note target="#b1.XXXIX.24__8" n="L39.24.8_2">
+               <gloss>versus</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

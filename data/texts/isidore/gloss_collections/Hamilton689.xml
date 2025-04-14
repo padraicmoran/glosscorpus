@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Berlin,
+                                    Staatsbibliothek,
+                                    Hamilton 689</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Hamilton689</note>
+            <note type="hex_colour">d08c26</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek</repository>
+                  <collection/>
+                  <idno>Hamilton 689</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.I.2__2-->
+            <note target="#b1.I.2__2" n="L1.2.2_1" hand="hand-g1">
+               <gloss>strictis</gloss>
+            </note>
+            <!--1.III.5__2-->
+            <note target="#b1.III.5__2" n="L3.5.2_1" hand="hand-main">
+               <gloss>legimus</gloss>
+            </note>
+            <!--1.IV.14__1-->
+            <note target="#b1.IV.14__1" n="L4.14.1_1">
+               <gloss>Augustum <gap/>
+               Octavianum <gap/>
+               </gloss>
+            </note>
+            <!--1.XXI.27__2-->
+            <note target="#b1.XXI.27__2" n="L21.27.2_1">
+               <gloss>id est deceptio vel fraus</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Template for Gloss Corpus, v1.0: http://www.glossing.org/glosscorpus
+-->
+<publication>
+	<citation>Rijcklof Hofman (rev. Pádraic Moran), 'Glosses on Priscian, <i>Ars grammatica</i>, in St Gall, Stiftsbibliothek, 904'</citation>
+	<doi>10.71555/hofman2024</doi>
+	<publish_date>2024-12-18</publish_date>
+	<about>
+		<p>Glosses from Priscian books 1–5 were previously published in R. Hofman, <i>The Sankt Gall Priscian Commentary. Part 1</i> 
+		(2 vols, Münster, 1996). All glosses were previously published in <a href="http://www.stgallpriscian.ie">St Priscian Glosses</a>,
+		created by Pádraic Moran originally in 2010, afterwards supplemented.</p>
+	</about>
+</publication>

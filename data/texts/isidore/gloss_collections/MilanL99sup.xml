@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Milan,
+                                    Biblioteca Ambrosiana,
+                                    L 99 sup.</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">MilanL99sup</note>
+            <note type="hex_colour">c6a31c</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Milan</settlement>
+                  <repository>Biblioteca Ambrosiana</repository>
+                  <collection/>
+                  <idno>L 99 sup.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.XXI.27__2-->
+            <note target="#b1.XXI.27__2" n="L21.27.2_4">
+               <gloss>deceptio vel fraus</gloss>
+            </note>
+            <!--1.XXXVII.15__19-->
+            <note target="#b1.XXXVII.15__19" n="L37.15.19_3">
+               <gloss>per
+               membra soporem</gloss>
+            </note>
+            <!--1.XXXVII.22__9-->
+            <note target="#b1.XXXVII.22__9" n="L37.22.9_2">
+               <gloss>excerptio</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

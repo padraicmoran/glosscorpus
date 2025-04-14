@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Reims,
+                                    Bibliothèque municipale,
+                                    MS 426</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">Reims426</note>
+            <note type="hex_colour">b2d108</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Reims</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <collection/>
+                  <idno>MS 426</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                     <handNote xml:id="hand-g2">glossing hand 2</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--..0-->
+            <note target="#b..0" n="L0.E6.2_2">
+               <gloss>ecce</gloss>
+            </note>
+            <!--..0-->
+            <note target="#b..0" n="L0.E6.3_2">
+               <gloss>sponte rogatae promiti<gap/>us</gloss>
+            </note>
+            <!--..0-->
+            <note target="#b..0" n="L0.E6.9_2">
+               <gloss>adunatum</gloss>
+            </note>
+            <!--..0-->
+            <note target="#b..0" n="L0.E6.11_1">
+               <gloss>velut</gloss>
+            </note>
+            <!--..0-->
+            <note target="#b..0" n="L0.E6.12_1">
+               <gloss>constat</gloss>
+            </note>
+            <!--1.I.1__1-->
+            <note target="#b1.I.1__1" n="L1.1.1_8">
+               <gloss>doctrina</gloss>
+            </note>
+            <!--1.I.1__5-->
+            <note target="#b1.I.1__5" n="L1.1.5_1" hand="hand-g1">
+               <gloss>nullus
+               nostrorum</gloss>
+            </note>
+            <!--1.I.1__6-->
+            <note target="#b1.I.1__6" n="L1.1.6_1" hand="hand-g1">
+               <gloss>parat</gloss>
+            </note>
+            <!--1.I.3__6-->
+            <note target="#b1.I.3__6" n="L1.3.6_3" hand="hand-g2">
+               <gloss>quod est necesse
+               esse</gloss>
+            </note>
+            <!--1.I.3__8-->
+            <note target="#b1.I.3__8" n="L1.3.8_3" hand="hand-g1">
+               <gloss>disputatur</gloss>
+            </note>
+            <!--1.I.3__10-->
+            <note target="#b1.I.3__10" n="L1.3.10_6" hand="hand-g1">
+               <gloss>aestimabile</gloss>
+            </note>
+            <!--1.II.1__4-->
+            <note target="#b1.II.1__4" n="L2.1.4_4" hand="hand-g1">
+               <gloss>sapientia</gloss>
+            </note>
+            <!--1.II.1__5-->
+            <note target="#b1.II.1__5" n="L2.1.5_7" hand="hand-g1">
+               <gloss>eloquentia</gloss>
+            </note>
+            <!--1.II.1__6-->
+            <note target="#b1.II.1__6" n="L2.1.6_5" hand="hand-g1">
+               <gloss>splendore</gloss>
+            </note>
+            <!--1.II.1__13-->
+            <note target="#b1.II.1__13" n="L2.1.13_5" hand="hand-g1">
+               <gloss>rationalis</gloss>
+            </note>
+            <!--1.II.2__3-->
+            <note target="#b1.II.2__3" n="L2.2.3_5" hand="hand-g1">
+               <gloss>scientia
+               modulandi</gloss>
+            </note>
+            <!--1.II.3__4-->
+            <note target="#b1.II.3__4" n="L2.3.4_5" hand="hand-g1">
+               <gloss>nomos: lex</gloss>
+            </note>
+            <!--1.II.3__5-->
+            <note target="#b1.II.3__5" n="L2.3.5_3" hand="hand-g1">
+               <gloss>astra dicuntur
+               sidera</gloss>
+            </note>
+            <!--1.III.1__1-->
+            <note target="#b1.III.1__1" n="L3.1.1_5" hand="hand-g1">
+               <gloss>a primo et
+               ordine</gloss>
+            </note>
+            <!--1.III.1__12-->
+            <note target="#b1.III.1__12" n="L3.1.12_3" hand="hand-g1">
+               <gloss>indicatrices</gloss>
+            </note>
+            <!--1.III.2__4-->
+            <note target="#b1.III.2__4" n="L3.2.4_3" hand="hand-g1">
+               <gloss>abolentur,
+               commodentur</gloss>
+            </note>
+            <!--1.III.3__4-->
+            <note target="#b1.III.3__4" n="L3.3.4_1" hand="hand-g1">
+               <gloss>dent</gloss>
+            </note>
+            <!--1.III.3__5-->
+            <note target="#b1.III.3__5" n="L3.3.5_3" hand="hand-g1">
+               <gloss>repetentur</gloss>
+            </note>
+            <!--1.III.6__7-->
+            <note target="#b1.III.6__7" n="L3.6.7_3" hand="hand-g1">
+               <gloss>apportavit</gloss>
+            </note>
+            <!--1.III.7__5-->
+            <note target="#b1.III.7__5" n="L3.7.5_3" hand="hand-g1">
+               <gloss>duae viae</gloss>
+            </note>
+            <!--1.III.7__6-->
+            <note target="#b1.III.7__6" n="L3.7.6_4" hand="hand-g1">
+               <gloss>celsa</gloss>
+            </note>
+            <!--1.III.7__13-->
+            <note target="#b1.III.7__13" n="L3.7.13_4" hand="hand-g1">
+               <gloss>semita vel via</gloss>
+            </note>
+            <!--1.III.8__1-->
+            <note target="#b1.III.8__1" n="L3.8.1_6" hand="hand-g1">
+               <gloss>
+                  <gap/>
+               </gloss>
+            </note>
+            <!--1.III.8__9-->
+            <note target="#b1.III.8__9" n="L3.8.9_2" hand="hand-g1">
+               <gloss>thanatos:
+                  immortalis</gloss>
+               <note type="editorial">A notable error of the glossator: thanatos
+                  is Greek for death</note>
+            </note>
+            <!--1.III.9__7-->
+            <note target="#b1.III.9__7" n="L3.9.7_3" hand="hand-g1">
+               <gloss>assumit</gloss>
+            </note>
+            <!--1.IV.2__1-->
+            <note target="#b1.IV.2__1" n="L4.2.1_1" hand="hand-g1">
+               <gloss>sciant</gloss>
+            </note>
+            <!--1.IV.3__3-->
+            <note target="#b1.IV.3__3" n="L4.3.3_2" hand="hand-g1">
+               <gloss>producto</gloss>
+            </note>
+            <!--1.IV.3__4-->
+            <note target="#b1.IV.3__4" n="L4.3.4_2" hand="hand-g1">
+               <gloss>apertione</gloss>
+            </note>
+            <!--1.IV.3__9-->
+            <note target="#b1.IV.3__9" n="L4.3.9_1" hand="hand-g1">
+               <gloss>quasi simul
+               sonantes</gloss>
+            </note>
+            <!--1.IV.4__1-->
+            <note target="#b1.IV.4__1" n="L4.4.1_1" hand="hand-g1">
+               <gloss>semis Graece, Latine
+               dimidium</gloss>
+            </note>
+            <!--1.IV.4__5-->
+            <note target="#b1.IV.4__5" n="L4.4.5_1" hand="hand-g1">
+               <gloss>exiliunt</gloss>
+            </note>
+            <!--1.IV.7__2-->
+            <note target="#b1.IV.7__2" n="L4.7.2_3" hand="hand-g1">
+               <gloss>interiora
+               pennae</gloss>
+            </note>
+            <!--1.IV.9__2-->
+            <note target="#b1.IV.9__2" n="L4.9.2_3" hand="hand-g1">
+               <gloss>aliquando</gloss>
+            </note>
+            <!--1.IV.9__4-->
+            <note target="#b1.IV.9__4" n="L4.9.4_2" hand="hand-g1">
+               <gloss>fractus sonus</gloss>
+            </note>
+            <!--1.IV.11__1-->
+            <note target="#b1.IV.11__1" n="L4.11.1_2" hand="hand-g1">
+               <gloss>a quibusdam</gloss>
+            </note>
+            <!--1.IV.12__4-->
+            <note target="#b1.IV.12__4" n="L4.12.4_3" hand="hand-g1">
+               <gloss>inanis</gloss>
+            </note>
+            <!--1.IV.17__6-->
+            <note target="#b1.IV.17__6" n="L4.17.6_2" hand="hand-g1">
+               <gloss>subtilis</gloss>
+            </note>
+            <!--1.V.4__8-->
+            <note target="#b1.V.4__8" n="L5.4.8_3">
+               <gloss>Graece glossa: lingua</gloss>
+            </note>
+            <!--1.VI.1__2-->
+            <note target="#b1.VI.1__2" n="L6.1.2_1">
+               <gloss>demonstrant</gloss>
+            </note>
+            <!--1.VI.2__3-->
+            <note target="#b1.VI.2__3" n="L6.2.3_1">
+               <gloss>facit</gloss>
+            </note>
+            <!--1.VI.2__4-->
+            <note target="#b1.VI.2__4" n="L6.2.4_2">
+               <gloss>eloquens, sapiens</gloss>
+            </note>
+            <!--1.VI.2__10-->
+            <note target="#b1.VI.2__10" n="L6.2.10_3">
+               <gloss>in conexione, in coniunctione</gloss>
+            </note>
+            <!--1.VII.2__7-->
+            <note target="#b1.VII.2__7" n="L7.2.7_2">
+               <gloss>subiecit, subiugavit</gloss>
+            </note>
+            <!--1.VII.2__13-->
+            <note target="#b1.VII.2__13" n="L7.2.13_1">
+               <gloss>superponatur</gloss>
+            </note>
+            <!--1.VII.4__1-->
+            <note target="#b1.VII.4__1" n="L7.4.1_1">
+               <gloss>non habent</gloss>
+            </note>
+            <!--1.VIII.1__3-->
+            <note target="#b1.VIII.1__3" n="L8.1.3_2">
+               <gloss>repetatur</gloss>
+            </note>
+            <!--1.VIII.1__5-->
+            <note target="#b1.VIII.1__5" n="L8.1.5_2">
+               <gloss>adiungimus</gloss>
+            </note>
+            <!--1.VIII.2__4-->
+            <note target="#b1.VIII.2__4" n="L8.2.4_1">
+               <gloss>cognitae</gloss>
+            </note>
+            <!--1.VIII.4__1-->
+            <note target="#b1.VIII.4__1" n="L8.4.1_1">
+               <gloss>eo quod arcent genera</gloss>
+            </note>
+            <!--1.IX.1__1-->
+            <note target="#b1.IX.1__1" n="L9.1.1_3">
+               <gloss>a verbere</gloss>
+            </note>
+            <!--1.IX.1__2-->
+            <note target="#b1.IX.1__2" n="L9.1.2_2">
+               <gloss>percusso</gloss>
+            </note>
+            <!--1.IX.2__7-->
+            <note target="#b1.IX.2__7" n="L9.2.7_2">
+               <gloss>rethor: studens</gloss>
+            </note>
+            <!--1.IX.3__1-->
+            <note target="#b1.IX.3__1" n="L9.3.1_1">
+               <gloss>propterea</gloss>
+            </note>
+            <!--1.IX.4__1-->
+            <note target="#b1.IX.4__1" n="L9.4.1_1">
+               <gloss>Per modos enim intellegis qual<gap/> et si habeat qualitatem laud<unclear>andi</unclear>,
+               imperandi, optandi et si quat<gap/>
+               </gloss>
+            </note>
+            <!--1.IX.4__3-->
+            <note target="#b1.IX.4__3" n="L9.4.3_1">
+               <gloss>sicut, ceu</gloss>
+            </note>
+            <!--1.IX.5__1-->
+            <note target="#b1.IX.5__1" n="L9.5.1_1">
+               <gloss>Infinitivus dicitur eo quod non
+                  defini<unclear>ti</unclear>vam personam</gloss>
+            </note>
+            <!--1.IX.5__6-->
+            <note target="#b1.IX.5__6" n="L9.5.6_1">
+               <gloss>Impersonalis dicitur quia cum <gap/> hominibus <gap/> quod est impersonalis
+               dicitur <gap/> personae fierunt <gap/> hinc
+                  <gap/> bere<gap/>
+               </gloss>
+            </note>
+            <!--1.IX.6__1-->
+            <note target="#b1.IX.6__1" n="L9.6.1_1">
+               <gloss>Coniugatio dicitur eo quod 
+                  <sic>sub uno et sub uno</sic>
+                  <corr>sub uno</corr>
+                iugo multa subiugit</gloss>
+            </note>
+            <!--1.IX.6__2-->
+            <note target="#b1.IX.6__2" n="L9.6.2_1">
+               <gloss>imprudentia</gloss>
+            </note>
+            <!--1.IX.7__4-->
+            <note target="#b1.IX.7__4" n="L9.7.4_3">
+               <gloss>demis, tollis</gloss>
+            </note>
+            <!--1.IX.7__5-->
+            <note target="#b1.IX.7__5" n="L9.7.5_2">
+               <gloss>faciunt</gloss>
+            </note>
+            <!--1.IX.7__6-->
+            <note target="#b1.IX.7__6" n="L9.7.6_1">
+               <gloss>sustinent</gloss>
+            </note>
+            <!--1.IX.7__14-->
+            <note target="#b1.IX.7__14" n="L9.7.14_2">
+               <gloss>dimissa</gloss>
+            </note>
+            <!--1.X.1__1-->
+            <note target="#b1.X.1__1" n="L10.1.1_1">
+               <gloss>quod iuxta verbum incedat</gloss>
+            </note>
+            <!--1.XI.1__1-->
+            <note target="#b1.XI.1__1" n="L11.1.1_3">
+               <gloss>assumit</gloss>
+            </note>
+            <!--1.XI.1__2-->
+            <note target="#b1.XI.1__2" n="L11.1.2_1">
+               <gloss>
+                  <gap/> est enim
+               intellectum habebit <gap/> id est habebit participium</gloss>
+            </note>
+            <!--1.XII.1__7-->
+            <note target="#b1.XII.1__7" n="L12.1.7_3">
+               <gloss>in conexione</gloss>
+            </note>
+            <!--1.XII.1__14-->
+            <note target="#b1.XII.1__14" n="L12.1.14_1">
+               <gloss>coniungant</gloss>
+            </note>
+            <!--1.XII.2__3-->
+            <note target="#b1.XII.2__3" n="L12.2.3_2">
+               <gloss>alii</gloss>
+            </note>
+            <!--1.XIII.1__1-->
+            <note target="#b1.XIII.1__1" n="L13.1.1_1">
+               <gloss>scilicet per
+                  <sic>appellationem</sic> et compositionem. Per appositionem acusativo et ablativo
+               praeponitur, per compositionem nominibus et verbis ut impius, praebeo, idem
+               exhibeo</gloss>
+            </note>
+            <!--1.XIII.1__1-->
+            <note target="#b1.XIII.1__1" n="L13.1.1_2">
+               <gloss>antepositio</gloss>
+            </note>
+            <!--1.XIV.1__2-->
+            <note target="#b1.XIV.1__2" n="L14.1.2_3">
+               <gloss>voluntatem</gloss>
+            </note>
+            <!--1.XIV.1__3-->
+            <note target="#b1.XIV.1__3" n="L14.1.3_2">
+               <gloss>laetitiam, tristitiam</gloss>
+            </note>
+            <!--1.XIV.1__4-->
+            <note target="#b1.XIV.1__4" n="L14.1.4_1">
+               <gloss>loquitur, dicit</gloss>
+            </note>
+            <!--1.XIV.1__8-->
+            <note target="#b1.XIV.1__8" n="L14.1.8_2">
+               <gloss>interpretantur</gloss>
+            </note>
+            <!--1.XV.1__1-->
+            <note target="#b1.XV.1__1" n="L15.1.1_1">
+               <gloss>sensui habilis, conveniens, aptus</gloss>
+            </note>
+            <!--1.XV.1__2-->
+            <note target="#b1.XV.1__2" n="L15.1.2_1">
+               <gloss>subaudi ictu</gloss>
+            </note>
+            <!--1.XV.1__3-->
+            <note target="#b1.XV.1__3" n="L15.1.3_1">
+               <gloss>eo quod artis et regulis constringitur,
+               veluti est omnis vox, quae litteris compraehenditur, nisi enim percussus aer sonum
+               non reddit</gloss>
+            </note>
+            <!--1.XVI.1__2-->
+            <note target="#b1.XVI.1__2" n="L16.1.2_2">
+               <gloss>id est complexio quod apud nos est
+               colloquellaris praepositio hoc est apud Graecos sin labanin Graece, Latine capere
+               dicitur</gloss>
+            </note>
+            <!--1.XVI.1__3-->
+            <note target="#b1.XVI.1__3" n="L16.1.3_1">
+               <gloss>ar<gap/>
+               </gloss>
+            </note>
+            <!--1.XVI.1__4-->
+            <note target="#b1.XVI.1__4" n="L16.1.4_2">
+               <gloss>cuius</gloss>
+            </note>
+            <!--1.XVI.1__5-->
+            <note target="#b1.XVI.1__5" n="L16.1.5_1">
+               <gloss>conceptio <gap/> est
+               infinitivus modus syllabanin Graece </gloss>
+            </note>
+            <!--1.XVI.1__6-->
+            <note target="#b1.XVI.1__6" n="L16.1.6_1">
+               <gloss>ex duobus ut ar, ex tribus ut ars, ex
+               quattuor ut mons, ex quinque ut frons, ex sex ut stirps</gloss>
+            </note>
+            <!--1.XVI.1__7-->
+            <note target="#b1.XVI.1__7" n="L16.1.7_1">
+               <gloss>naturaliter</gloss>
+            </note>
+            <!--1.XVI.1__8-->
+            <note target="#b1.XVI.1__8" n="L16.1.8_2">
+               <gloss>abusive vocatur syllaba ut amo, eo</gloss>
+            </note>
+            <!--1.XVI.2__7-->
+            <note target="#b1.XVI.2__7" n="L16.2.7_2">
+               <gloss>facit</gloss>
+            </note>
+            <!--1.XVI.2__9-->
+            <note target="#b1.XVI.2__9" n="L16.2.9_2">
+               <gloss>tarditates</gloss>
+            </note>
+            <!--1.XVI.2__10-->
+            <note target="#b1.XVI.2__10" n="L16.2.10_2">
+               <gloss>voces</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XVI.3__1-->
+            <note target="#b1.XVI.3__1" n="L16.3.1_3">
+               <gloss>accepta</gloss>
+            </note>
+            <!--1.XVI.3__2-->
+            <note target="#b1.XVI.3__2" n="L16.3.2_2">
+               <gloss>si brevis est syllaba semper pes dicitur,
+               si longa est syllaba semipes spond<gap/>
+               </gloss>
+            </note>
+            <!--1.XVI.3__8-->
+            <note target="#b1.XVI.3__8" n="L16.3.8_3">
+               <gloss>a stando</gloss>
+            </note>
+            <!--1.XVII.1__2-->
+            <note target="#b1.XVII.1__2" n="L17.1.2_3">
+               <gloss>constant</gloss>
+            </note>
+            <!--1.XVII.1__3-->
+            <note target="#b1.XVII.1__3" n="L17.1.3_1">
+               <gloss>quasi legaliter</gloss>
+            </note>
+            <!--1.XVII.1__8-->
+            <note target="#b1.XVII.1__8" n="L17.1.8_3">
+               <gloss>vadimus</gloss>
+            </note>
+            <!--1.XVII.1__10-->
+            <note target="#b1.XVII.1__10" n="L17.1.10_3">
+               <gloss>id est duarum syllabarum</gloss>
+            </note>
+            <!--1.XVII.1__11-->
+            <note target="#b1.XVII.1__11" n="L17.1.11_1">
+               <gloss>trium syllabarum</gloss>
+            </note>
+            <!--1.XVII.1__12-->
+            <note target="#b1.XVII.1__12" n="L17.1.12_2">
+               <gloss>quattuor syllabarum</gloss>
+            </note>
+            <!--1.XVII.1__15-->
+            <note target="#b1.XVII.1__15" n="L17.1.15_5">
+               <gloss>declinationes vel deductiones</gloss>
+            </note>
+            <!--1.XVII.2__2-->
+            <note target="#b1.XVII.2__2" n="L17.2.2_6">
+               <gloss>puerilis</gloss>
+            </note>
+            <!--1.XVII.2__2-->
+            <note target="#b1.XVII.2__2" n="L17.2.2_10">
+               <gloss>Graece dicitur ignis</gloss>
+            </note>
+            <!--1.XVII.2__10-->
+            <note target="#b1.XVII.2__10" n="L17.2.10_2">
+               <gloss>spondiasin Graece dicitur trahere</gloss>
+            </note>
+            <!--1.XVII.2__19-->
+            <note target="#b1.XVII.2__19" n="L17.2.19_3">
+               <gloss>sonum protrahentes</gloss>
+            </note>
+            <!--1.XVII.4__5-->
+            <note target="#b1.XVII.4__5" n="L17.4.5_2">
+               <gloss>formare, componere</gloss>
+            </note>
+            <!--1.XVII.4__12-->
+            <note target="#b1.XVII.4__12" n="L17.4.12_6">
+               <gloss>invidiae</gloss>
+            </note>
+            <!--1.XVII.5__2-->
+            <note target="#b1.XVII.5__2" n="L17.5.2_2">
+               <gloss>a choro appellatur chorius</gloss>
+            </note>
+            <!--1.XVII.6__1-->
+            <note target="#b1.XVII.6__1" n="L17.6.1_2">
+               <gloss>ex Molosa insula</gloss>
+               <note type="editorial">A notable error of
+                  the glossator: Molossians lived in the region of Epirus</note>
+            </note>
+            <!--1.XVII.6__2-->
+            <note target="#b1.XVII.6__2" n="L17.6.2_2">
+               <gloss>gens in Italia vel in Graecia</gloss>
+               <note type="editorial">An ink
+                  gloss overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XVII.7__1-->
+            <note target="#b1.XVII.7__1" n="L17.7.1_1">
+               <gloss>ubi anapaestus longam syllabam dactylus
+               habet brevem</gloss>
+            </note>
+            <!--1.XVII.8__2-->
+            <note target="#b1.XVII.8__2" n="L17.8.2_4">
+               <gloss>aperta, extensa</gloss>
+            </note>
+            <!--1.XVII.9__1-->
+            <note target="#b1.XVII.9__1" n="L17.9.1_5">
+               <gloss>Graece, Latine dicitur brevis</gloss>
+            </note>
+            <!--1.XVII.10__1-->
+            <note target="#b1.XVII.10__1" n="L17.10.1_5">
+               <gloss>circumlongus</gloss>
+            </note>
+            <!--1.XVII.11__1-->
+            <note target="#b1.XVII.11__1" n="L17.11.1_1">
+               <gloss>a Baccho</gloss>
+            </note>
+            <!--1.XVII.11__4-->
+            <note target="#b1.XVII.11__4" n="L17.11.4_1">
+               <gloss>solemnia</gloss>
+            </note>
+            <!--1.XVII.12__1-->
+            <note target="#b1.XVII.12__1" n="L17.12.1_3">
+               <gloss>Antibacchius
+               dicitur eo quod contrarius s<unclear>it</unclear>
+                  <unclear>bac</unclear>chio, siquidem ubi bacchius habet brevem habet antibacchius
+               longam</gloss>
+            </note>
+            <!--1.XVII.13__2-->
+            <note target="#b1.XVII.13__2" n="L17.13.2_6">
+               <gloss>canticum navale</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XVII.13__3-->
+            <note target="#b1.XVII.13__3" n="L17.13.3_2">
+               <gloss>conveniens</gloss>
+            </note>
+            <!--1.XVII.14__1-->
+            <note target="#b1.XVII.14__1" n="L17.14.1_1">
+               <gloss>ex duobus spondeis constat</gloss>
+            </note>
+            <!--1.XVII.15__2-->
+            <note target="#b1.XVII.15__2" n="L17.15.2_1">
+               <gloss>scilicet suis spatiis</gloss>
+            </note>
+            <!--1.XVII.16__1-->
+            <note target="#b1.XVII.16__1" n="L17.16.1_2">
+               <gloss>convenientissimum</gloss>
+            </note>
+            <!--1.XVII.17__1-->
+            <note target="#b1.XVII.17__1" n="L17.17.1_4">
+               <gloss>inaequales</gloss>
+               <note type="editorial">An ink gloss overlaying
+                  an identical dry-point gloss</note>
+            </note>
+            <!--1.XVII.17__2-->
+            <note target="#b1.XVII.17__2" n="L17.17.2_3">
+               <gloss>certe</gloss>
+            </note>
+            <!--1.XVII.18__1-->
+            <note target="#b1.XVII.18__1" n="L17.18.1_3">
+               <gloss>quidam medicus appellatus est</gloss>
+            </note>
+            <!--1.XVII.21__5-->
+            <note target="#b1.XVII.21__5" n="L17.21.5_5">
+               <gloss>id est in arsi et
+               thesi, in elevatione et positione</gloss>
+            </note>
+            <!--1.XVII.21__8-->
+            <note target="#b1.XVII.21__8" n="L17.21.8_5">
+               <gloss>dividuntur, 
+                  <sic>secuntur</sic>
+                  <corr>secantur</corr>
+               </gloss>
+            </note>
+            <!--1.XVII.28__3-->
+            <note target="#b1.XVII.28__3" n="L17.28.3_2">
+               <gloss>id est ultra sex syllabas</gloss>
+            </note>
+            <!--1.XVII.28__5-->
+            <note target="#b1.XVII.28__5" n="L17.28.5_2">
+               <gloss>quia resolvimus in lectione</gloss>
+            </note>
+            <!--1.XVII.28__10-->
+            <note target="#b1.XVII.28__10" n="L17.28.10_5">
+               <gloss>dicitur ubi excipitur littera a
+               sequente</gloss>
+            </note>
+            <!--1.XVII.29__3-->
+            <note target="#b1.XVII.29__3" n="L17.29.3_2">
+               <gloss>firma, stabilia</gloss>
+            </note>
+            <!--1.XVII.29__7-->
+            <note target="#b1.XVII.29__7" n="L17.29.7_1">
+               <gloss>dimidius circulus</gloss>
+            </note>
+            <!--1.XVIII.1__1-->
+            <note target="#b1.XVIII.1__1" n="L18.1.1_2">
+               <gloss>
+                  <gap/>a nomina
+                  fem<supplied>inina</supplied> Graeca sunt quae nos mittimus <gap/>e Graece mittunt in e</gloss>
+            </note>
+            <!--1.XVIII.1__3-->
+            <note target="#b1.XVIII.1__3" n="L18.1.3_3">
+               <gloss>quod tale est quasi diceret de nomine ad
+               nomen</gloss>
+            </note>
+            <!--1.XVIII.1__6-->
+            <note target="#b1.XVIII.1__6" n="L18.1.6_2">
+               <gloss>a tonando</gloss>
+            </note>
+            <!--1.XVIII.1__7-->
+            <note target="#b1.XVIII.1__7" n="L18.1.7_3">
+               <gloss>a tenendo</gloss>
+            </note>
+            <!--1.XVIII.2__2-->
+            <note target="#b1.XVIII.2__2" n="L18.2.2_1">
+               <gloss>elevet</gloss>
+            </note>
+            <!--1.XVIII.2__3-->
+            <note target="#b1.XVIII.2__3" n="L18.2.3_2">
+               <gloss>quod deorsum praemit</gloss>
+            </note>
+            <!--1.XVIII.2__4-->
+            <note target="#b1.XVIII.2__4" n="L18.2.4_1">
+               <gloss>quasi in 
+                  <sic>circutu</sic>
+                  <corr>circu<supplied>i</supplied>tu</corr>
+                flexus</gloss>
+            </note>
+            <!--1.XX.1__1-->
+            <note target="#b1.XX.1__1" n="L20.1.1_4">
+               <gloss>a ponendo</gloss>
+            </note>
+            <!--1.XX.1__4-->
+            <note target="#b1.XX.1__4" n="L20.1.4_6">
+               <gloss>membra</gloss>
+            </note>
+            <!--1.XX.1__5-->
+            <note target="#b1.XX.1__5" n="L20.1.5_6">
+               <gloss>incisiones</gloss>
+            </note>
+            <!--1.XX.1__6-->
+            <note target="#b1.XX.1__6" n="L20.1.6_5">
+               <gloss>circuitus vel positura</gloss>
+            </note>
+            <!--1.XXI.1__2-->
+            <note target="#b1.XXI.1__2" n="L21.1.2_3">
+               <gloss>famosos</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXI.8__1-->
+            <note target="#b1.XXI.8__1" n="L21.8.1_7">
+               <gloss>separatio</gloss>
+            </note>
+            <!--1.XXI.8__5-->
+            <note target="#b1.XXI.8__5" n="L21.8.5_6">
+               <gloss>commemoratio <sic>secundum</sic>
+               </gloss>
+            </note>
+            <!--1.XXI.14__5-->
+            <note target="#b1.XXI.14__5" n="L21.14.5_4">
+               <gloss>mons vel caelum</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXI.15__2-->
+            <note target="#b1.XXI.15__2" n="L21.15.2_3">
+               <gloss>Graecus</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXI.17__4-->
+            <note target="#b1.XXI.17__4" n="L21.17.4_2">
+               <gloss>subaudi in illis comoediis</gloss>
+               <note type="editorial">An ink
+                  gloss overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXI.18__6-->
+            <note target="#b1.XXI.18__6" n="L21.18.6_2">
+               <gloss>Graecus</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXI.20__1-->
+            <note target="#b1.XXI.20__1" n="L21.20.1_6">
+               <gloss>una sententia</gloss>
+            </note>
+            <!--1.XXI.28__2-->
+            <note target="#b1.XXI.28__2" n="L21.28.2_4">
+               <gloss>in margine</gloss>
+            </note>
+            <!--1.XXIII.0-->
+            <note target="#b1.XXIII.0" n="L23.1.1_2">
+               <gloss>legis</gloss>
+            </note>
+            <!--1.XXIII.2__2-->
+            <note target="#b1.XXIII.2__2" n="L23.2.2_4">
+               <gloss>delendas</gloss>
+            </note>
+            <!--1.XXIII.2__3-->
+            <note target="#b1.XXIII.2__3" n="L23.2.3_5">
+               <gloss>iudicaverunt</gloss>
+            </note>
+            <!--1.XXIV.1__4-->
+            <note target="#b1.XXIV.1__4" n="L24.1.4_3">
+               <gloss>remansissent</gloss>
+               <note type="editorial">An ink gloss overlaying
+                  an identical dry-point gloss</note>
+            </note>
+            <!--1.XXIV.1__6-->
+            <note target="#b1.XXIV.1__6" n="L24.1.6_6">
+               <gloss>viventem</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXIV.1__9-->
+            <note target="#b1.XXIV.1__9" n="L24.1.9_3">
+               <gloss>pro potens</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXIV.1__11-->
+            <note target="#b1.XXIV.1__11" n="L24.1.11_4">
+               <gloss>praesignare</gloss>
+            </note>
+            <!--1.XXIV.2__1-->
+            <note target="#b1.XXIV.2__1" n="L24.2.1_1">
+               <gloss>segnitia</gloss>
+            </note>
+            <!--1.XXV.1__2-->
+            <note target="#b1.XXV.1__2" n="L25.1.2_3">
+               <gloss>alternatim</gloss>
+            </note>
+            <!--1.XXV.1__3-->
+            <note target="#b1.XXV.1__3" n="L25.1.3_2">
+               <gloss>dux Romanorum</gloss>
+            </note>
+            <!--1.XXV.2__5-->
+            <note target="#b1.XXV.2__5" n="L25.2.5_1">
+               <gloss>zeta</gloss>
+            </note>
+            <!--1.XXVI.2__9-->
+            <note target="#b1.XXVI.2__9" n="L26.2.9_2">
+               <gloss>scilicet ait</gloss>
+            </note>
+            <!--1.XXVII.4__5-->
+            <note target="#b1.XXVII.4__5" n="L27.4.5_5">
+               <gloss>
+                  <gap/>
+               </gloss>
+               <note type="editorial">"" written in dry point.</note>
+            </note>
+            <!--1.XXVII.10__2-->
+            <note target="#b1.XXVII.10__2" n="L27.10.2_2">
+               <gloss>sunt</gloss>
+            </note>
+            <!--1.XXVII.15__3-->
+            <note target="#b1.XXVII.15__3" n="L27.15.3_1">
+               <gloss>maximus et si quae sunt similia</gloss>
+            </note>
+            <!--1.XXVII.16__1-->
+            <note target="#b1.XXVII.16__1" n="L27.16.1_1">
+               <gloss>magis volo</gloss>
+            </note>
+            <!--1.XXVIII.1__2-->
+            <note target="#b1.XXVIII.1__2" n="L28.1.2_3">
+               <gloss>coaequatio, assimilatio,
+               similitudo</gloss>
+            </note>
+            <!--1.XXVIII.1__6-->
+            <note target="#b1.XXVIII.1__6" n="L28.1.6_2">
+               <gloss>reperietur</gloss>
+            </note>
+            <!--1.XXVIII.1__9-->
+            <note target="#b1.XXVIII.1__9" n="L28.1.9_3">
+               <gloss>semper legitur</gloss>
+            </note>
+            <!--1.XXVIII.2__3-->
+            <note target="#b1.XXVIII.2__3" n="L28.2.3_6">
+               <gloss>stricta via vel semita</gloss>
+            </note>
+            <!--1.XXVIII.2__4-->
+            <note target="#b1.XXVIII.2__4" n="L28.2.4_3">
+               <gloss>terminus</gloss>
+            </note>
+            <!--1.XXIX.2__1-->
+            <note target="#b1.XXIX.2__1" n="L29.2.1_2">
+               <gloss>scientia</gloss>
+            </note>
+            <!--1.XXIX.2__2-->
+            <note target="#b1.XXIX.2__2" n="L29.2.2_2">
+               <gloss>non semper</gloss>
+            </note>
+            <!--1.XXIX.2__10-->
+            <note target="#b1.XXIX.2__10" n="L29.2.10_2">
+               <gloss>manifestior</gloss>
+            </note>
+            <!--1.XXIX.3__1-->
+            <note target="#b1.XXIX.3__1" n="L29.3.1_1">
+               <gloss>propter istam rationem</gloss>
+            </note>
+            <!--1.XXIX.4__7-->
+            <note target="#b1.XXIX.4__7" n="L29.4.7_4">
+               <gloss>domata: tecta</gloss>
+            </note>
+            <!--1.XXXI.1__1-->
+            <note target="#b1.XXXI.1__1" n="L31.1.1_3">
+               <gloss>distantia</gloss>
+            </note>
+            <!--1.XXXI.1__4-->
+            <note target="#b1.XXXI.1__4" n="L31.1.4_4">
+               <gloss>inter unum et alterum</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXI.1__7-->
+            <note target="#b1.XXXI.1__7" n="L31.1.7_5">
+               <gloss>iactata</gloss>
+               <note type="editorial">"iactata" written in dry point.</note>
+            </note>
+            <!--1.XXXI.1__8-->
+            <note target="#b1.XXXI.1__8" n="L31.1.8_3">
+               <gloss>segregantur, dividuntur</gloss>
+            </note>
+            <!--1.XXXI.1__12-->
+            <note target="#b1.XXXI.1__12" n="L31.1.12_1">
+               <gloss>rex, usurpator imperii</gloss>
+            </note>
+            <!--1.XXXI.1__13-->
+            <note target="#b1.XXXI.1__13" n="L31.1.13_2">
+               <gloss>immitis</gloss>
+            </note>
+            <!--1.XXXII.1__1-->
+            <note target="#b1.XXXII.1__1" n="L32.1.1_1">
+               <gloss>a barbaris gentibus</gloss>
+            </note>
+            <!--1.XXXII.1__1-->
+            <note target="#b1.XXXII.1__1" n="L32.1.1_2">
+               <gloss>
+                  <unclear>Ba</unclear>rbarismus est vitium
+               unius partis lit<unclear>terae</unclear> vel 
+                  <sic>sona</sic>
+                  <corr>sonus</corr>
+               </gloss>
+            </note>
+            <!--1.XXXII.1__13-->
+            <note target="#b1.XXXII.1__13" n="L32.1.13_3">
+               <gloss>consuetudines</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXII.3__5-->
+            <note target="#b1.XXXII.3__5" n="L32.3.5_1">
+               <gloss>videlicet syllabarum</gloss>
+            </note>
+            <!--1.XXXII.3__6-->
+            <note target="#b1.XXXII.3__6" n="L32.3.6_1">
+               <gloss>accentibus</gloss>
+            </note>
+            <!--1.XXXII.5__1-->
+            <note target="#b1.XXXII.5__1" n="L32.5.1_1">
+               <gloss>hiatus dicitur apertio orum</gloss>
+            </note>
+            <!--1.XXXII.5__3-->
+            <note target="#b1.XXXII.5__3" n="L32.5.3_4">
+               <gloss>dividitur, partitur</gloss>
+            </note>
+            <!--1.XXXII.5__9-->
+            <note target="#b1.XXXII.5__9" n="L32.5.9_1">
+               <gloss>ubi L duplicatur</gloss>
+            </note>
+            <!--1.XXXII.6__2-->
+            <note target="#b1.XXXII.6__2" n="L32.6.2_1">
+               <gloss>M inter duas vocales male sonat</gloss>
+            </note>
+            <!--1.XXXII.6__4-->
+            <note target="#b1.XXXII.6__4" n="L32.6.4_2">
+               <gloss>declinamus, respuamus</gloss>
+            </note>
+            <!--1.XXXII.7__1-->
+            <note target="#b1.XXXII.7__1" n="L32.7.1_1">
+               <gloss>Graece dicitur I</gloss>
+            </note>
+            <!--1.XXXII.8__5-->
+            <note target="#b1.XXXII.8__5" n="L32.8.5_1">
+               <gloss>dicimus, pronuntiamus</gloss>
+            </note>
+            <!--1.XXXII.8__7-->
+            <note target="#b1.XXXII.8__7" n="L32.8.7_3">
+               <gloss>subtilius</gloss>
+            </note>
+            <!--1.XXXII.9__1-->
+            <note target="#b1.XXXII.9__1" n="L32.9.1_2">
+               <gloss>ubi 
+                  <sic>colliduntur</sic>
+                  <corr>collidunt</corr>
+                vocales nec bene consonant</gloss>
+            </note>
+            <!--1.XXXII.9__2-->
+            <note target="#b1.XXXII.9__2" n="L32.9.2_1">
+               <gloss>ad ultimum</gloss>
+            </note>
+            <!--1.XXXIII.5__1-->
+            <note target="#b1.XXXIII.5__1" n="L33.5.1_1">
+               <gloss>declinare</gloss>
+            </note>
+            <!--1.XXXIV.1__1-->
+            <note target="#b1.XXXIV.1__1" n="L34.1.1_2">
+               <gloss>in elocutione</gloss>
+            </note>
+            <!--1.XXXIV.1__2-->
+            <note target="#b1.XXXIV.1__2" n="L34.1.2_4">
+               <gloss>praevidere</gloss>
+            </note>
+            <!--1.XXXIV.3__1-->
+            <note target="#b1.XXXIV.3__1" n="L34.3.1_2">
+               <gloss>constructio</gloss>
+            </note>
+            <!--1.XXXIV.3__2-->
+            <note target="#b1.XXXIV.3__2" n="L34.3.2_1">
+               <gloss>plena vitiis</gloss>
+            </note>
+            <!--1.XXXIV.4__1-->
+            <note target="#b1.XXXIV.4__1" n="L34.4.1_2">
+               <gloss>non propria locutio, dictio</gloss>
+            </note>
+            <!--1.XXXIV.4__3-->
+            <note target="#b1.XXXIV.4__3" n="L34.4.3_2">
+               <gloss>tremor ad corpus, timor ad
+                  men<unclear>tem</unclear>
+               </gloss>
+            </note>
+            <!--1.XXXIV.4__7-->
+            <note target="#b1.XXXIV.4__7" n="L34.4.7_2">
+               <gloss>plenum 
+                  <sic>erbam</sic>
+                  <corr>herba</corr>
+               </gloss>
+            </note>
+            <!--1.XXXIV.5__1-->
+            <note target="#b1.XXXIV.5__1" n="L34.5.1_2">
+               <gloss>foeda, turpis, incongrua</gloss>
+            </note>
+            <!--1.XXXIV.6__1-->
+            <note target="#b1.XXXIV.6__1" n="L34.6.1_3">
+               <gloss>Si in metro fit metaplasmos est,
+                  <unclear>si in</unclear> prosa fit pleonasmos est. Super<gap/>
+               adiectio verbi</gloss>
+            </note>
+            <!--1.XXXIV.7__1-->
+            <note target="#b1.XXXIV.7__1" n="L34.7.1_2">
+               <gloss>circumlocutio vacua</gloss>
+            </note>
+            <!--1.XXXIV.9__5-->
+            <note target="#b1.XXXIV.9__5" n="L34.9.5_2">
+               <gloss>si vivit</gloss>
+            </note>
+            <!--1.XXXIV.9__6-->
+            <note target="#b1.XXXIV.9__6" n="L34.9.6_5">
+               <gloss>si vivit</gloss>
+            </note>
+            <!--1.XXXIV.9__10-->
+            <note target="#b1.XXXIV.9__10" n="L34.9.10_1">
+               <gloss>id est vivit</gloss>
+               <note type="editorial">An ink gloss overlaying
+                  an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXIV.9__12-->
+            <note target="#b1.XXXIV.9__12" n="L34.9.12_4">
+               <gloss>frequenti</gloss>
+            </note>
+            <!--1.XXXIV.10__2-->
+            <note target="#b1.XXXIV.10__2" n="L34.10.2_1">
+               <gloss>a 
+                  <sic>ferendo</sic>
+                  <corr>ferendo</corr>
+                dicitur eo quod ibi ferantur sagittae</gloss>
+            </note>
+            <!--1.XXXIV.11__4-->
+            <note target="#b1.XXXIV.11__4" n="L34.11.4_4">
+               <gloss>natantes</gloss>
+            </note>
+            <!--1.XXXIV.12__3-->
+            <note target="#b1.XXXIV.12__3" n="L34.12.3_2">
+               <gloss>dorsa</gloss>
+            </note>
+            <!--1.XXXIV.12__3-->
+            <note target="#b1.XXXIV.12__3" n="L34.12.3_3">
+               <gloss>inter tergum
+               et tergus hoc interest: tergum est dorsum, tergus, tergoris est corium</gloss>
+            </note>
+            <!--1.XXXIV.13__3-->
+            <note target="#b1.XXXIV.13__3" n="L34.13.3_3">
+               <gloss>dico te</gloss>
+            </note>
+            <!--1.XXXIV.13__3-->
+            <note target="#b1.XXXIV.13__3" n="L34.13.3_4">
+               <gloss>
+                  <unclear>Aea</unclear>cida, aio te posse
+               vincere Romanos, id est quod Romani te possunt <unclear>vin</unclear>cere et aio te
+               Romanos vincere posse</gloss>
+            </note>
+            <!--1.XXXIV.15__4-->
+            <note target="#b1.XXXIV.15__4" n="L34.15.4_1">
+               <gloss>consul Romanorum certe nobilissimus
+               fuit</gloss>
+            </note>
+            <!--1.XXXV.1__1-->
+            <note target="#b1.XXXV.1__1" n="L35.1.1_2">
+               <gloss>meta: trans, plasmus: formatio</gloss>
+            </note>
+            <!--1.XXXV.2__1-->
+            <note target="#b1.XXXV.2__1" n="L35.2.1_1">
+               <gloss>pros Graece dicitur ad, thesis
+               positio</gloss>
+            </note>
+            <!--1.XXXV.3__4-->
+            <note target="#b1.XXXV.3__4" n="L35.3.4_2">
+               <gloss>ablatio</gloss>
+            </note>
+            <!--1.XXXV.4__3-->
+            <note target="#b1.XXXV.4__3" n="L35.4.3_1">
+               <gloss>Italia</gloss>
+               <note type="editorial">"Italia" written in dry point.</note>
+            </note>
+            <!--1.XXXV.4__3-->
+            <note target="#b1.XXXV.4__3" n="L35.4.3_2">
+               <gloss>
+                  <gap/> a celando
+               dicitur</gloss>
+            </note>
+            <!--1.XXXV.4__9-->
+            <note target="#b1.XXXV.4__9" n="L35.4.9_2">
+               <gloss>divisio</gloss>
+            </note>
+            <!--1.XXXV.5__2-->
+            <note target="#b1.XXXV.5__2" n="L35.5.2_2">
+               <gloss>adunatio</gloss>
+            </note>
+            <!--1.XXXV.7__5-->
+            <note target="#b1.XXXV.7__5" n="L35.7.5_4">
+               <gloss>copulatione</gloss>
+            </note>
+            <!--1.XXXV.7__8-->
+            <note target="#b1.XXXV.7__8" n="L35.7.8_1">
+               <gloss>habitus</gloss>
+            </note>
+            <!--1.XXXV.7__10-->
+            <note target="#b1.XXXV.7__10" n="L35.7.10_3">
+               <gloss>scientia</gloss>
+            </note>
+            <!--1.XXXV.7__11-->
+            <note target="#b1.XXXV.7__11" n="L35.7.11_3">
+               <gloss>inscientia</gloss>
+            </note>
+            <!--1.XXXVI.2__1-->
+            <note target="#b1.XXXVI.2__1" n="L36.2.1_1">
+               <gloss>praeoccupatio</gloss>
+            </note>
+            <!--1.XXXVI.2__3-->
+            <note target="#b1.XXXVI.2__3" n="L36.2.3_2">
+               <gloss>inter ista</gloss>
+            </note>
+            <!--1.XXXVI.3__6-->
+            <note target="#b1.XXXVI.3__6" n="L36.3.6_7">
+               <gloss>vas vinarium</gloss>
+            </note>
+            <!--1.XXXVI.3__7-->
+            <note target="#b1.XXXVI.3__7" n="L36.3.7_3">
+               <gloss>vertitur</gloss>
+               <note type="editorial">"vertitur" written in dry point.</note>
+            </note>
+            <!--1.XXXVI.3__9-->
+            <note target="#b1.XXXVI.3__9" n="L36.3.9_2">
+               <gloss>zeugma</gloss>
+               <note type="editorial">"zeugma" written in dry point.</note>
+            </note>
+            <!--1.XXXVI.3__10-->
+            <note target="#b1.XXXVI.3__10" n="L36.3.10_4">
+               <gloss>proprium nomen</gloss>
+               <note type="editorial">"proprium nomen" written in dry point.</note>
+            </note>
+            <!--1.XXXVI.3__13-->
+            <note target="#b1.XXXVI.3__13" n="L36.3.13_1">
+               <gloss>parit</gloss>
+               <note type="editorial">"parit" written in dry point.</note>
+            </note>
+            <!--1.XXXVI.3__14-->
+            <note target="#b1.XXXVI.3__14" n="L36.3.14_3">
+               <gloss>gignit</gloss>
+            </note>
+            <!--1.XXXVI.3__14-->
+            <note target="#b1.XXXVI.3__14" n="L36.3.14_4">
+               <gloss>zeugma</gloss>
+               <note type="editorial">"zeugma" written in dry point.</note>
+            </note>
+            <!--1.XXXVI.5__2-->
+            <note target="#b1.XXXVI.5__2" n="L36.5.2_7">
+               <gloss>
+                  <sic>initia</sic>
+               </gloss>
+            </note>
+            <!--1.XXXVI.5__4-->
+            <note target="#b1.XXXVI.5__4" n="L36.5.4_3">
+               <gloss>sufficientia</gloss>
+            </note>
+            <!--1.XXXVI.7__1-->
+            <note target="#b1.XXXVI.7__1" n="L36.7.1_2">
+               <gloss>reduplicatio, congeminatio eo quod simul
+               geminatur versus</gloss>
+            </note>
+            <!--1.XXXVI.7__3-->
+            <note target="#b1.XXXVI.7__3" n="L36.7.3_5">
+               <gloss>avis</gloss>
+            </note>
+            <!--1.XXXVI.7__5-->
+            <note target="#b1.XXXVI.7__5" n="L36.7.5_5">
+               <gloss>pastor</gloss>
+            </note>
+            <!--1.XXXVI.7__6-->
+            <note target="#b1.XXXVI.7__6" n="L36.7.6_5">
+               <gloss>citharista</gloss>
+            </note>
+            <!--1.XXXVI.7__7-->
+            <note target="#b1.XXXVI.7__7" n="L36.7.7_4">
+               <gloss>pisces maritimi</gloss>
+            </note>
+            <!--1.XXXVI.7__8-->
+            <note target="#b1.XXXVI.7__8" n="L36.7.8_5">
+               <gloss>id est rex</gloss>
+            </note>
+            <!--1.XXXVI.8__1-->
+            <note target="#b1.XXXVI.8__1" n="L36.8.1_2">
+               <gloss>inter anaphoram et epanaphoram: 
+                  <sic>enafora</sic>
+                  <corr>anaphora</corr>
+                est repetitio per principia versuum, epanaphora per
+                  principi<unclear>a</unclear> sententiarum</gloss>
+            </note>
+            <!--1.XXXVI.8__2-->
+            <note target="#b1.XXXVI.8__2" n="L36.8.2_4">
+               <gloss>Troia</gloss>
+            </note>
+            <!--1.XXXVI.8__4-->
+            <note target="#b1.XXXVI.8__4" n="L36.8.4_1">
+               <gloss>zeugma est</gloss>
+            </note>
+            <!--1.XXXVI.8__5-->
+            <note target="#b1.XXXVI.8__5" n="L36.8.5_3">
+               <gloss>maris undosum</gloss>
+            </note>
+            <!--1.XXXVI.8__8-->
+            <note target="#b1.XXXVI.8__8" n="L36.8.8_3">
+               <gloss>navibus</gloss>
+            </note>
+            <!--1.XXXVI.9__2-->
+            <note target="#b1.XXXVI.9__2" n="L36.9.2_4">
+               <gloss>silva</gloss>
+            </note>
+            <!--1.XXXVI.9__3-->
+            <note target="#b1.XXXVI.9__3" n="L36.9.3_6">
+               <gloss>patria</gloss>
+            </note>
+            <!--1.XXXVI.9__5-->
+            <note target="#b1.XXXVI.9__5" n="L36.9.5_5">
+               <gloss>fons quidam</gloss>
+            </note>
+            <!--1.XXXVI.9__6-->
+            <note target="#b1.XXXVI.9__6" n="L36.9.6_1">
+               <gloss>flumina</gloss>
+            </note>
+            <!--1.XXXVI.10__1-->
+            <note target="#b1.XXXVI.10__1" n="L36.10.1_2">
+               <gloss>super, quasi subgeminatio</gloss>
+            </note>
+            <!--1.XXXVI.10__3-->
+            <note target="#b1.XXXVI.10__3" n="L36.10.3_3">
+               <gloss>Me, me, adsum
+               qui feci, in me convertite ferrum</gloss>
+            </note>
+            <!--1.XXXVI.10__4-->
+            <note target="#b1.XXXVI.10__4" n="L36.10.4_4">
+               <gloss>delectat</gloss>
+            </note>
+            <!--1.XXXVI.11__2-->
+            <note target="#b1.XXXVI.11__2" n="L36.11.2_1">
+               <gloss>
+                  <sic>replicanti</sic>
+               </gloss>
+            </note>
+            <!--1.XXXVI.12__4-->
+            <note target="#b1.XXXVI.12__4" n="L36.12.4_1">
+               <gloss>longe ire</gloss>
+            </note>
+            <!--1.XXXVI.12__5-->
+            <note target="#b1.XXXVI.12__5" n="L36.12.5_2">
+               <gloss>mori</gloss>
+            </note>
+            <!--1.XXXVI.12__6-->
+            <note target="#b1.XXXVI.12__6" n="L36.12.6_2">
+               <gloss>extra solem</gloss>
+            </note>
+            <!--1.XXXVI.13__1-->
+            <note target="#b1.XXXVI.13__1" n="L36.13.1_1">
+               <gloss>Graece dicitur nomen</gloss>
+            </note>
+            <!--1.XXXVI.13__3-->
+            <note target="#b1.XXXVI.13__3" n="L36.13.3_3">
+               <gloss>nubes</gloss>
+            </note>
+            <!--1.XXXVI.13__5-->
+            <note target="#b1.XXXVI.13__5" n="L36.13.5_3">
+               <gloss>tempestates</gloss>
+            </note>
+            <!--1.XXXVI.14__3-->
+            <note target="#b1.XXXVI.14__3" n="L36.14.3_2">
+               <gloss>compositum 
+                  <sic>pronomen</sic>
+                  <corr>praenomen</corr>
+               </gloss>
+               <note type="editorial">Pronomen looks like a mistake in the resolution
+                  of abbrevation</note>
+            </note>
+            <!--1.XXXVI.14__6-->
+            <note target="#b1.XXXVI.14__6" n="L36.14.6_3">
+               <gloss>dura, crudelis, velox, terribilis,
+               sordida</gloss>
+            </note>
+            <!--1.XXXVI.14__9-->
+            <note target="#b1.XXXVI.14__9" n="L36.14.9_3">
+               <gloss>eventus</gloss>
+            </note>
+            <!--1.XXXVI.14__10-->
+            <note target="#b1.XXXVI.14__10" n="L36.14.10_5">
+               <gloss>filia Priami</gloss>
+            </note>
+            <!--1.XXXVI.14__11-->
+            <note target="#b1.XXXVI.14__11" n="L36.14.11_1">
+               <gloss>praedicabat</gloss>
+            </note>
+            <!--1.XXXVI.17__1-->
+            <note target="#b1.XXXVI.17__1" n="L36.17.1_2">
+               <gloss>
+                  <gap/>a pluriformia
+               figura dicitur eo quod diversas formas habet</gloss>
+            </note>
+            <!--1.XXXVI.18__10-->
+            <note target="#b1.XXXVI.18__10" n="L36.18.10_3">
+               <gloss>obscurum, tenebrosum, nigrum</gloss>
+            </note>
+            <!--1.XXXVI.19__4-->
+            <note target="#b1.XXXVI.19__4" n="L36.19.4_3">
+               <gloss>ignem</gloss>
+            </note>
+            <!--1.XXXVI.19__4-->
+            <note target="#b1.XXXVI.19__4" n="L36.19.4_5">
+               <gloss>domum</gloss>
+            </note>
+            <!--1.XXXVI.21__1-->
+            <note target="#b1.XXXVI.21__1" n="L36.21.1_3">
+               <gloss>contrapositio</gloss>
+            </note>
+            <!--1.XXXVI.21__2-->
+            <note target="#b1.XXXVI.21__2" n="L36.21.2_3">
+               <gloss>subaudi quare</gloss>
+            </note>
+            <!--1.XXXVI.21__4-->
+            <note target="#b1.XXXVI.21__4" n="L36.21.4_1">
+               <gloss>quae humorem habent</gloss>
+            </note>
+            <!--1.XXXVI.22__3-->
+            <note target="#b1.XXXVI.22__3" n="L36.22.3_4">
+               <gloss>navibus</gloss>
+            </note>
+            <!--1.XXXVI.22__4-->
+            <note target="#b1.XXXVI.22__4" n="L36.22.4_5">
+               <gloss>ventos</gloss>
+            </note>
+            <!--1.XXXVII.1__3-->
+            <note target="#b1.XXXVII.1__3" n="L37.1.3_2">
+               <gloss>qualitates, effectus</gloss>
+            </note>
+            <!--1.XXXVII.1__11-->
+            <note target="#b1.XXXVII.1__11" n="L37.1.11_1">
+               <gloss>tropos</gloss>
+            </note>
+            <!--1.XXXVII.2__1-->
+            <note target="#b1.XXXVII.2__1" n="L37.2.1_3">
+               <gloss>transformatio</gloss>
+            </note>
+            <!--1.XXXVII.2__2-->
+            <note target="#b1.XXXVII.2__2" n="L37.2.2_3">
+               <gloss>usu arrepta</gloss>
+            </note>
+            <!--1.XXXVII.2__5-->
+            <note target="#b1.XXXVII.2__5" n="L37.2.5_2">
+               <gloss>messes</gloss>
+            </note>
+            <!--1.XXXVII.2__5-->
+            <note target="#b1.XXXVII.2__5" n="L37.2.5_3">
+               <gloss>eo quod in similitudinem fluctuum videtur 
+                  <sic>flutuare</sic>
+                  <corr>flu<supplied>c</supplied>tuare</corr>
+               </gloss>
+            </note>
+            <!--1.XXXVII.2__13-->
+            <note target="#b1.XXXVII.2__13" n="L37.2.13_5">
+               <gloss>ob<supplied>s</supplied>curantur</gloss>
+            </note>
+            <!--1.XXXVII.2__14-->
+            <note target="#b1.XXXVII.2__14" n="L37.2.14_5">
+               <gloss>acuant ad quaerendum quod intus
+               latet</gloss>
+            </note>
+            <!--1.XXXVII.2__15-->
+            <note target="#b1.XXXVII.2__15" n="L37.2.15_5">
+               <gloss>aperta</gloss>
+            </note>
+            <!--1.XXXVII.2__16-->
+            <note target="#b1.XXXVII.2__16" n="L37.2.16_8">
+               <gloss>in superficie cuiuslibet rei</gloss>
+            </note>
+            <!--1.XXXVII.3__1-->
+            <note target="#b1.XXXVII.3__1" n="L37.3.1_3">
+               <gloss>velocissimos</gloss>
+            </note>
+            <!--1.XXXVII.3__1-->
+            <note target="#b1.XXXVII.3__1" n="L37.3.1_4">
+               <gloss>aligerae aves dic<unclear>tae</unclear>
+               quia alas gerunt et est d<unclear>ictio</unclear> propria</gloss>
+            </note>
+            <!--1.XXXVII.3__1-->
+            <note target="#b1.XXXVII.3__1" n="L37.3.1_5">
+               <gloss>fit translatio ab avibus 
+                  <sic>et</sic>
+                  <corr>ad</corr>
+                equos. Et aves et 
+                  <sic>aqui</sic>
+                  <corr>equi</corr>
+                animam habent</gloss>
+            </note>
+            <!--1.XXXVII.3__4-->
+            <note target="#b1.XXXVII.3__4" n="L37.3.4_9">
+               <gloss>navis</gloss>
+            </note>
+            <!--1.XXXVII.3__4-->
+            <note target="#b1.XXXVII.3__4" n="L37.3.4_10">
+               <gloss>navis de pine</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.3__5-->
+            <note target="#b1.XXXVII.3__5" n="L37.3.5_3">
+               <gloss>riga</gloss>
+            </note>
+            <!--1.XXXVII.3__7-->
+            <note target="#b1.XXXVII.3__7" n="L37.3.7_3">
+               <gloss>alta navis</gloss>
+            </note>
+            <!--1.XXXVII.3__8-->
+            <note target="#b1.XXXVII.3__8" n="L37.3.8_1">
+               <gloss>id est arare et sulcum praemere</gloss>
+            </note>
+            <!--1.XXXVII.3__9-->
+            <note target="#b1.XXXVII.3__9" n="L37.3.9_1">
+               <gloss>riga</gloss>
+            </note>
+            <!--1.XXXVII.4__3-->
+            <note target="#b1.XXXVII.4__3" n="L37.4.3_3">
+               <gloss>spumas aquarum</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.4__6-->
+            <note target="#b1.XXXVII.4__6" n="L37.4.6_8">
+               <gloss>mare</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.4__7-->
+            <note target="#b1.XXXVII.4__7" n="L37.4.7_7">
+               <gloss>perpetualiter</gloss>
+            </note>
+            <!--1.XXXVII.4__10-->
+            <note target="#b1.XXXVII.4__10" n="L37.4.10_5">
+               <gloss>discurrunt</gloss>
+            </note>
+            <!--1.XXXVII.4__11-->
+            <note target="#b1.XXXVII.4__11" n="L37.4.11_1">
+               <gloss>Graece dicitur a circuitu quia circuit
+               totum orbem</gloss>
+            </note>
+            <!--1.XXXVII.5__1-->
+            <note target="#b1.XXXVII.5__1" n="L37.5.1_6">
+               <gloss>honestissime</gloss>
+            </note>
+            <!--1.XXXVII.5__3-->
+            <note target="#b1.XXXVII.5__3" n="L37.5.3_3">
+               <gloss>locutio</gloss>
+            </note>
+            <!--1.XXXVII.5__4-->
+            <note target="#b1.XXXVII.5__4" n="L37.5.4_2">
+               <gloss>
+                  <sic>dechoretur</sic>
+                  <corr>decoretur</corr>
+               </gloss>
+            </note>
+            <!--1.XXXVII.5__6-->
+            <note target="#b1.XXXVII.5__6" n="L37.5.6_2">
+               <gloss>controversa id est 
+                  <sic>antitrofa</sic>
+                  <corr>anti<supplied>s</supplied>tropha</corr>
+               </gloss>
+            </note>
+            <!--1.XXXVII.7__2-->
+            <note target="#b1.XXXVII.7__2" n="L37.7.2_2">
+               <gloss>antecedente</gloss>
+            </note>
+            <!--1.XXXVII.7__2-->
+            <note target="#b1.XXXVII.7__2" n="L37.7.2_7">
+               <gloss>indicat</gloss>
+            </note>
+            <!--1.XXXVII.8__1-->
+            <note target="#b1.XXXVII.8__1" n="L37.8.1_1">
+               <gloss>transnominatio</gloss>
+            </note>
+            <!--1.XXXVII.8__6-->
+            <note target="#b1.XXXVII.8__6" n="L37.8.6_5">
+               <gloss>exultant, gaudent</gloss>
+            </note>
+            <!--1.XXXVII.9__6-->
+            <note target="#b1.XXXVII.9__6" n="L37.9.6_6">
+               <gloss>deus ignis</gloss>
+            </note>
+            <!--1.XXXVII.9__7-->
+            <note target="#b1.XXXVII.9__7" n="L37.9.7_1">
+               <gloss>Ceres 
+                  <sic>inventris</sic>
+                  <corr>inventrix</corr>
+                frum<unclear>enti dicitur</unclear>, Liber vini</gloss>
+            </note>
+            <!--1.XXXVII.10__2-->
+            <note target="#b1.XXXVII.10__2" n="L37.10.2_2">
+               <gloss>subaudi demonstratur</gloss>
+            </note>
+            <!--1.XXXVII.10__2-->
+            <note target="#b1.XXXVII.10__2" n="L37.10.2_3">
+               <gloss>efficiens est qui efficit</gloss>
+            </note>
+            <!--1.XXXVII.10__3-->
+            <note target="#b1.XXXVII.10__3" n="L37.10.3_1">
+               <gloss>pro freno</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.10__4-->
+            <note target="#b1.XXXVII.10__4" n="L37.10.4_1">
+               <gloss>Neptunus</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.10__6-->
+            <note target="#b1.XXXVII.10__6" n="L37.10.6_3">
+               <gloss>
+                  <gap/>
+               </gloss>
+               <note type="editorial">"" written in dry point.</note>
+            </note>
+            <!--1.XXXVII.11__7-->
+            <note target="#b1.XXXVII.11__7" n="L37.11.7_7">
+               <gloss>Troilus</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.11__10-->
+            <note target="#b1.XXXVII.11__10" n="L37.11.10_3">
+               <gloss>
+                  <gap/>ill<unclear>e Troi</unclear>lus</gloss>
+               <note type="editorial">"ille Troilus" written in dry point.</note>
+            </note>
+            <!--1.XXXVII.12__2-->
+            <note target="#b1.XXXVII.12__2" n="L37.12.2_4">
+               <gloss>praeponitur alma</gloss>
+               <note type="editorial">An ink gloss
+                  overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.12__5-->
+            <note target="#b1.XXXVII.12__5" n="L37.12.5_1">
+               <gloss>
+                  <sic>arpeie</sic>
+                  <corr>harpyiae</corr>
+               </gloss>
+               <note type="editorial">An ink gloss overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.12__6-->
+            <note target="#b1.XXXVII.12__6" n="L37.12.6_6">
+               <gloss>ipse</gloss>
+            </note>
+            <!--1.XXXVII.13__11-->
+            <note target="#b1.XXXVII.13__11" n="L37.13.11_4">
+               <gloss>elevabat</gloss>
+               <note type="editorial">An ink gloss overlaying an
+                  identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.15__13-->
+            <note target="#b1.XXXVII.15__13" n="L37.15.13_4">
+               <gloss>rubicundi</gloss>
+            </note>
+            <!--1.XXXVII.18__9-->
+            <note target="#b1.XXXVII.18__9" n="L37.18.9_1">
+               <gloss>parentis</gloss>
+               <note type="editorial">"parentis" written in dry point.</note>
+            </note>
+            <!--1.XXXVII.21__6-->
+            <note target="#b1.XXXVII.21__6" n="L37.21.6_2">
+               <gloss>demonstrat</gloss>
+               <note type="editorial">An ink gloss overlaying
+                  an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.22__7-->
+            <note target="#b1.XXXVII.22__7" n="L37.22.7_2">
+               <gloss>
+                  <sic>cralia</sic>
+                  <corr>cr<supplied>as</supplied> alia</corr>
+                mittam</gloss>
+               <note type="editorial">An ink gloss overlaying an identical dry-point gloss;the
+                  mistake cralia is a result of an incorrect reading of an
+                  underlying dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.22__9-->
+            <note target="#b1.XXXVII.22__9" n="L37.22.9_5">
+               <gloss>excerptiones</gloss>
+               <note type="editorial">An ink gloss overlaying
+                  an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.24__3-->
+            <note target="#b1.XXXVII.24__3" n="L37.24.3_4">
+               <gloss>
+                  <sic>silvorum</sic>
+                  <corr>silvarum</corr>
+               </gloss>
+               <note type="editorial">An ink gloss overlaying an identical dry-point gloss</note>
+            </note>
+            <!--1.XXXVII.24__4-->
+            <note target="#b1.XXXVII.24__4" n="L37.24.4_3">
+               <gloss>mites</gloss>
+            </note>
+            <!--1.XXXVII.34__1-->
+            <note target="#b1.XXXVII.34__1" n="L37.34.1_5">
+               <gloss>civitatem</gloss>
+               <note type="editorial">"civitatem" written in dry point.</note>
+            </note>
+            <!--1.XXXVII.35__6-->
+            <note target="#b1.XXXVII.35__6" n="L37.35.6_4">
+               <gloss>
+                  <gap/>s</gloss>
+               <note type="editorial">"s" written in dry point.</note>
+            </note>
+            <!--1.XXXVII.35__13-->
+            <note target="#b1.XXXVII.35__13" n="L37.35.13_5">
+               <gloss>
+                  <gap/>
+               </gloss>
+               <note type="editorial">"" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.13__2-->
+            <note target="#b1.XXXIX.13__2" n="L39.13.2_3">
+               <gloss>responsa</gloss>
+               <note type="editorial">"responsa" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.13__5-->
+            <note target="#b1.XXXIX.13__5" n="L39.13.5_7">
+               <gloss>mons</gloss>
+               <note type="editorial">"mons" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.13__8-->
+            <note target="#b1.XXXIX.13__8" n="L39.13.8_6">
+               <gloss>insula</gloss>
+               <note type="editorial">"insula" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.14__4-->
+            <note target="#b1.XXXIX.14__4" n="L39.14.4_5">
+               <gloss>subaudi versos</gloss>
+               <note type="editorial">"subaudi versos" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.16__6-->
+            <note target="#b1.XXXIX.16__6" n="L39.16.6_6">
+               <gloss>
+                  <unclear>civita</unclear>s</gloss>
+               <note type="editorial">"civitas" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.16__15-->
+            <note target="#b1.XXXIX.16__15" n="L39.16.15_2">
+               <gloss>fe<unclear>stiv</unclear>itas</gloss>
+               <note type="editorial">"festivitas" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.16__19-->
+            <note target="#b1.XXXIX.16__19" n="L39.16.19_10">
+               <gloss>berbiarii</gloss>
+               <note type="editorial">From Lat. vervex
+                  (‘castrated ram’), Old French berbis, see
+                     Romanisches Etymologisches Wörterbuch, p.
+               773</note>
+               <note type="editorial">"berbiarii" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.19__9-->
+            <note target="#b1.XXXIX.19__9" n="L39.19.9_4">
+               <gloss>mors</gloss>
+               <note type="editorial">"mors" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.23__3-->
+            <note target="#b1.XXXIX.23__3" n="L39.23.3_6">
+               <gloss>assimilatur</gloss>
+               <note type="editorial">"assimilatur" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.24__10-->
+            <note target="#b1.XXXIX.24__10" n="L39.24.10_1">
+               <gloss>hominum</gloss>
+               <note type="editorial">"hominum" written in dry point.</note>
+            </note>
+            <!--1.XXXIX.25__3-->
+            <note target="#b1.XXXIX.25__3" n="L39.25.3_1">
+               <gloss>
+                  <sic>uxor Adelphi</sic>
+               </gloss>
+               <note type="editorial">"uxor Adelphi" written in dry point.</note>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

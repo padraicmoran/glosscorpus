@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ENTITY facsBase "">
+    <!ENTITY ref2Base "">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Dublin Priscian frag. (MS 228)</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<publicationStmt>
+				<p></p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">T</note>
+				<note type="hex_colour">9e5b13</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College Library</repository>
+						<collection></collection>
+						<idno>MS 228 (olim C.1.8)</idno>
+					</msIdentifier>
+					<physDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glosses on Isidore, <title>Etymologiae</title> in 
+                                    Gotha,
+                                    Forschungsbibliothek,
+                                    Membr. I 147</title>
+            <editor>Evina Stein</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gloss Corpus</publisher>
+            <authority>Pádraic Moran</authority>
+            <date when="2024-12-20">20 December 2024</date>
+            <idno type="DOI">https://doi.org/10.71555/stein2024</idno>
+            <idno type="URL">http://www.glossing.org/glosscorpus/publications/stein2024</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="siglum">GothaI147</note>
+            <note type="hex_colour">d18927</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Gotha</settlement>
+                  <repository>Forschungsbibliothek</repository>
+                  <collection/>
+                  <idno>Membr. I 147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-main">main hand</handNote>
+                     <handNote xml:id="hand-g1">glossing hand 1</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!--1.XXXVII.28__5-->
+            <note target="#b1.XXXVII.28__5" n="L37.28.5_1">
+               <gloss>id est
+               ver<supplied>tices</supplied>
+               </gloss>
+            </note>
+            <!--1.XXXVII.29__6-->
+            <note target="#b1.XXXVII.29__6" n="L37.29.6_1">
+               <gloss>id est novus 
+                  <sic>milies</sic>
+                  <corr>miles</corr>
+                id est tria nomina habuit: id est 
+                  <sic>Neptulenus</sic>
+                  <corr>Neoptolemus</corr>
+                et Aeacidus et Achilles</gloss>
+               <note type="editorial">The gloss confuses Achilles’s son Neoptolemus
+                  and himself (cf. Paris7585)</note>
+            </note>
+            <!--1.XXXVII.32__4-->
+            <note target="#b1.XXXVII.32__4" n="L37.32.4_1">
+               <gloss>id est membra</gloss>
+            </note>
+            <!--1.XXXVII.34__1-->
+            <note target="#b1.XXXVII.34__1" n="L37.34.1_1">
+               <gloss>id est
+                  civi<supplied>tatem</supplied>
+               </gloss>
+               <note type="editorial">Abbreviated as civi
+                  (see Paris7585)</note>
+            </note>
+            <!--1.XXXVII.34__2-->
+            <note target="#b1.XXXVII.34__2" n="L37.34.2_1">
+               <gloss>proprium</gloss>
+            </note>
+            <!--1.XXXVII.34__3-->
+            <note target="#b1.XXXVII.34__3" n="L37.34.3_1">
+               <gloss>id est civitas</gloss>
+            </note>
+            <!--1.XXXVII.34__4-->
+            <note target="#b1.XXXVII.34__4" n="L37.34.4_1">
+               <gloss>proprium</gloss>
+            </note>
+            <!--1.XXXVII.35__7-->
+            <note target="#b1.XXXVII.35__7" n="L37.35.7_1">
+               <gloss>id est animas</gloss>
+            </note>
+            <!--1.XXXVII.35__10-->
+            <note target="#b1.XXXVII.35__10" n="L37.35.10_1">
+               <gloss>id est nomen viri</gloss>
+            </note>
+            <!--1.XXXVII.35__17-->
+            <note target="#b1.XXXVII.35__17" n="L37.35.17_2">
+               <gloss>id est Aeneas de patre suo
+               dicit</gloss>
+            </note>
+            <!--1.XXXVIII.2__6-->
+            <note target="#b1.XXXVIII.2__6" n="L38.2.6_1">
+               <gloss>proprium</gloss>
+            </note>
+            <!--1.XXXIX.4__6-->
+            <note target="#b1.XXXIX.4__6" n="L39.4.6_1">
+               <gloss>id est feminae</gloss>
+            </note>
+            <!--1.XXXIX.4__8-->
+            <note target="#b1.XXXIX.4__8" n="L39.4.8_1">
+               <gloss>id est
+                  huelim</gloss>
+               <note type="editorial">Described in Williams (1940), p. 305</note>
+            </note>
+            <!--1.XXXIX.7__4-->
+            <note target="#b1.XXXIX.7__4" n="L39.7.4_1">
+               <gloss>proprium </gloss>
+            </note>
+            <!--1.XXXIX.7__7-->
+            <note target="#b1.XXXIX.7__7" n="L39.7.7_1">
+               <gloss>id est nomen metri</gloss>
+            </note>
+            <!--1.XXXIX.7__8-->
+            <note target="#b1.XXXIX.7__8" n="L39.7.8_1">
+               <gloss>proprium</gloss>
+            </note>
+            <!--1.XXXIX.7__9-->
+            <note target="#b1.XXXIX.7__9" n="L39.7.9_1">
+               <gloss>id est liror </gloss>
+            </note>
+            <!--1.XXXIX.10__2-->
+            <note target="#b1.XXXIX.10__2" n="L39.10.2_1">
+               <gloss>heroum </gloss>
+            </note>
+            <!--1.XXXIX.10__7-->
+            <note target="#b1.XXXIX.10__7" n="L39.10.7_1" hand="hand-main">
+               <gloss>hoc est fortium</gloss>
+               <note type="editorial">Integrated into the main
+               text</note>
+            </note>
+            <!--1.XXXIX.12__2-->
+            <note target="#b1.XXXIX.12__2" n="L39.12.2_1">
+               <gloss>vel Tales, proprium</gloss>
+            </note>
+            <!--1.XXXIX.12__3-->
+            <note target="#b1.XXXIX.12__3" n="L39.12.3_1">
+               <gloss>proprium</gloss>
+            </note>
+            <!--1.XXXIX.13__5-->
+            <note target="#b1.XXXIX.13__5" n="L39.13.5_1">
+               <gloss>id est monte</gloss>
+            </note>
+            <!--1.XXXIX.16__2-->
+            <note target="#b1.XXXIX.16__2" n="L39.16.2_1">
+               <gloss>de civitate Syracusa</gloss>
+            </note>
+            <!--1.XXXIX.16__10-->
+            <note target="#b1.XXXIX.16__10" n="L39.16.10_1" hand="hand-main">
+               <gloss>auderent</gloss>
+               <note type="editorial">Integrated into the main text</note>
+            </note>
+            <!--1.XXXIX.16__19-->
+            <note target="#b1.XXXIX.16__19" n="L39.16.19_3">
+               <gloss>id est pastorum ovium</gloss>
+            </note>
+            <!--1.XXXIX.17__4-->
+            <note target="#b1.XXXIX.17__4" n="L39.17.4_1">
+               <gloss>proprium bri</gloss>
+            </note>
+            <!--1.XXXIX.17__5-->
+            <note target="#b1.XXXIX.17__5" n="L39.17.5_1">
+               <gloss>id est civitas</gloss>
+            </note>
+            <!--1.XXXIX.17__7-->
+            <note target="#b1.XXXIX.17__7" n="L39.17.7_1">
+               <gloss>id est idolum</gloss>
+            </note>
+            <!--1.XXXIX.17__8-->
+            <note target="#b1.XXXIX.17__8" n="L39.17.8_1">
+               <gloss>id est mulieres</gloss>
+            </note>
+            <!--1.XXXIX.18__3-->
+            <note target="#b1.XXXIX.18__3" n="L39.18.3_1">
+               <gloss>id est dan</gloss>
+               <note type="editorial">Described
+                  in Williams (1940, p. 306) as Old Breton; but Daibhi O’Croinin argues this gloss
+                  is Old Irish (2021)</note>
+            </note>
+            <!--1.XXXIX.18__8-->
+            <note target="#b1.XXXIX.18__8" n="L39.18.8_1">
+               <gloss>vindico, id est habeo</gloss>
+            </note>
+            <!--1.XXXIX.24__2-->
+            <note target="#b1.XXXIX.24__2" n="L39.24.2_1">
+               <gloss>id est po<unclear>etae</unclear>
+               </gloss>
+            </note>
+            <!--1.XXXIX.26__2-->
+            <note target="#b1.XXXIX.26__2" n="L39.26.2_2">
+               <gloss>proprium </gloss>
+            </note>
+            <!--1.XL.1__12-->
+            <note target="#b1.XL.1__12" n="L40.1.12_1">
+               <gloss>id est incredibiles</gloss>
+            </note>
+            <!--1.XL.1__16-->
+            <note target="#b1.XL.1__16" n="L40.1.16_1">
+               <gloss>id est crevit</gloss>
+            </note>
+            <!--1.XL.4__2-->
+            <note target="#b1.XL.4__2" n="L40.4.2_1">
+               <gloss>id est ignis</gloss>
+            </note>
+            <!--1.XL.4__9-->
+            <note target="#b1.XL.4__9" n="L40.4.9_1">
+               <gloss>id est iorch</gloss>
+               <note type="editorial">Described
+                  in Williams (1940), p. 306</note>
+            </note>
+            <!--1.XL.6__2-->
+            <note target="#b1.XL.6__2" n="L40.6.2_1">
+               <gloss>id est mulier</gloss>
+            </note>
+            <!--1.XL.6__3-->
+            <note target="#b1.XL.6__3" n="L40.6.3_1">
+               <gloss>id est mulieri</gloss>
+            </note>
+            <!--1.XL.6__8-->
+            <note target="#b1.XL.6__8" n="L40.6.8_1">
+               <gloss>id est nomen libri</gloss>
+            </note>
+            <!--1.XL.6__12-->
+            <note target="#b1.XL.6__12" n="L40.6.12_1">
+               <gloss>id verius est ad homines</gloss>
+            </note>
+            <!--1.XL.6__13-->
+            <note target="#b1.XL.6__13" n="L40.6.13_2">
+               <gloss>id est Abimelech, filius
+               Gedeonis</gloss>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

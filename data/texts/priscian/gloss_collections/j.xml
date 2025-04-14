@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ENTITY facsBase "https://digital.dombibliothek-koeln.de/hs/content/zoom/">
+    <!ENTITY ref2Base "">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xml:base="../basetext.xml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glosses on Priscian in Köln, Erzbischöfliche Diözesan- und Dombibliothek, 200</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcription by Mary Sweeney, Postdoctoral Researcher on the IRC Laureate Project GLOSSAM, led by Pádraic Moran at the University of Galway.</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="siglum">J</note>
+				<note type="hex_colour">29cae3</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+                  <settlement>Köln</settlement>
+                  <repository>Erzbischöfliche Diözesan- und Dombibliothek</repository>
+                  <idno>Cod. 200</idno>
+					</msIdentifier>
+					<physDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<note n="2r7 a" target="#II_5.1__1" facs="&facsBase;290971">
+					<term>philosophi</term>
+					<gloss>.i. amatores sapientiae</gloss>
+				</note>
+				<note n="2r7 b" target="#II_5.1__7" facs="&facsBase;290971">
+					<term>tenuissimum</term>
+					<gloss>non crassu<ex>m</ex></gloss>
+				</note>
+					<note n="2r7 c" target="#II_5.1__8" facs="&facsBase;290971" place="m.d.">
+					<term>ictum</term>
+					<gloss>pulsatum p<ex>er</ex>cussum</gloss>
+				</note>
+					<note n="2r7 d" target="#II_5.1__10" facs="&facsBase;290971">
+					<term>suum</term>
+					<gloss>uel sonum</gloss>
+				</note>
+					<note n="2r8 e" target="#II_5.2__1" facs="&facsBase;290971">
+					<term>sensibile</term>
+					<gloss>p<ex>ro</ex>priu<ex>m</ex> uis</gloss>
+				</note>
+				<note n="2r8 e1" target="#II_5.2__1" facs="&facsBase;290971" place="m.d.">
+					<term>sensibile</term>
+					<gloss>Inter sensibile <ex>et</ex> intellegibile hoc definim<ex>us</ex>, sensibilia dicim<ex>us</ex>, quia visu tactuq<ex>ue</ex> corporis sciri sequuntur</gloss>
+				</note>
+					<note n="2r9 f" target="#II_5.3__3" facs="&facsBase;290971" place="m.l.">
+					<term>sumpta</term>
+					<gloss>id e<ex>ss</ex>e a uerberatione aeris</gloss>
+				</note>
+					<note n="2r9 g" target="#II_5.3__8" facs="&facsBase;290971" place="m.l.">
+					<term>notione</term>
+					<gloss>a cognitione a sensu</gloss>
+				</note>
+					<note n="2r10 h" target="#II_5.4__4" facs="&facsBase;290971" place="m.l.">
+					<term>accidentibus</term>
+						<gloss>forinsec<ex>us</ex> <ex>uel</ex> ad p<ex>ro</ex>piantibus</gloss>
+				</note>
+				<note n="2r10 h1" target="#II_5.4__4" facs="&facsBase;290971" place="m.l.">
+					<term>accidentibus</term>
+					<gloss>forinsecus q<ex>uo</ex>d de forinsecus uenit</gloss>
+				</note>
+					<note n="2r10 i" target="#II_5.4__13" facs="&facsBase;290971">
+					<term>ipsa</term>
+					<gloss>scilicet uoce</gloss>
+				</note>
+					<!-- re-examine: Multiple possible matches found -->
+				<note n="2r10 j" target="#II_5.4__14" facs="&facsBase;290971" place="m.d.">
+					<term>est</term>
+					<gloss>hoc est quantu<ex>m</ex> audit<ex>ur</ex> si parum sonatur paru<ex>m</ex> auditor</gloss>
+				</note>
+					<note n="2r11 k" target="#II_5.5__7" facs="&facsBase;290971">
+					<term>articulata</term>
+					<gloss>quae sensu<ex>m</ex> hab<ex>et</ex></gloss>
+				</note>
+					<note n="2r11 l" target="#II_5.5__9" facs="&facsBase;290971">
+					<term>inarticulata</term>
+					<gloss>.i. c<ex>on</ex>traria</gloss>
+				</note>
+				<note n="2r11 l1" target="#II_5.5__9" facs="&facsBase;290971" place="m.d.">
+					<term>inarticulata</term>
+						<gloss>quamuis possit scribi</gloss>
+				</note>
+				<note n="2r11 l2" target="#II_5.5__9" facs="&facsBase;290971" place="m.d.">
+					<term>inarticulata</term>
+					<gloss>sicut est anima <ex>et</ex> corpus una substantialis altera accidentalis</gloss>
+				</note>
+					<note n="2r12 m" target="#II_5.6__7" facs="&facsBase;290971">
+					<term>coartata</term>
+					<gloss>constricta</gloss>
+				</note>
+					<note n="2r13 n" target="#II_5.6__11" facs="&facsBase;290971">
+					<term>copulata</term>
+					<gloss>conglutinata in unu<ex>m</ex></gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 7 ('sensu mentis' to 'sensu') - Difference: 58.33% -->
+				<note n="2r13 o" target="#II_5.6__14" facs="&facsBase;290971">
+					<term>sensu mentis</term>
+					<gloss>intellectu uel intentione hominis</gloss>
+				</note>
+				<note n="2r14 p" target="#II_5.7__11" facs="&facsBase;290971">
+					<term>contraria</term>
+					<gloss>superiora scilicet uox</gloss>
+				</note>
+				<note n="2r14 q" target="#II_5.8__1" facs="&facsBase;290971">
+					<term>affectu</term>
+					<gloss><unclear>apetitu</unclear> <ex>uel</ex> sensu</gloss>
+				</note>
+				<note n="2r15 r" target="#II_5.8__3" facs="&facsBase;290971">
+					<term>mentis</term>
+					<gloss>qui loquitur</gloss>
+				</note>
+				<note n="2r15 s" target="#II_5.8__9" facs="&facsBase;290971" place="m.l.">
+					<term>scribi</term>
+					<gloss>ut coax cra</gloss>
+				</note>
+				<!-- re examine -->
+				<note n="2r16 t" target="#II_5.9__9" facs="&facsBase;290971">
+					<term>articulatae</term>
+					<gloss>cu<ex>m</ex> sensu et scriptione q<ex>uam</ex> plenu<ex>m</ex> sensu<ex>m</ex> hab<ex>ere</ex></gloss>
+				</note>
+				<note n="2r17 u" target="#II_5.11__4" facs="&facsBase;290971">
+					<term>cano</term>
+					<gloss>laudo</gloss>
+				</note>
+				<note n="2r17 v" target="#II_5.12__4" facs="&facsBase;290971" place="m.d.">
+					<term>non</term>
+					<gloss>articulate <ex>et</ex> inlitterate ad significandu<ex>m</ex> aliquod <gap/></gloss>
+				</note>
+				<note n="2r17 w" target="#II_5.12__12" facs="&facsBase;290971">
+					<term>sibili</term>
+					<gloss>quib<ex>us</ex> p<ex>ro</ex>uocant<ex>ur</ex> canes</gloss>
+				</note>
+				<note n="2r18 x" target="#II_5.13__2" facs="&facsBase;290971">
+					<term>gemitus</term>
+					<gloss>quo ostendit<ex>ur</ex> labo<ex>rum</ex></gloss>
+				</note>
+				<note n="2r18 y" target="#II_5.13__5" facs="&facsBase;290971">
+					<term>enim</term>
+					<gloss>sibilis gemitas</gloss>
+				</note>
+				<note n="2r20 z" target="#II_5.15__14" facs="&facsBase;290971" place="m.l.">
+					<term>aliae</term>
+					<gloss>H<ex>ae</ex>c eni<ex>m</ex> voces qua<ex>m</ex>q<ex>ue</ex> intelligimus de quos in uolucre p<ex>ro</ex>fecte tam<ex>en</ex> i<ex>n</ex>articulatae dicunt<ex>ur</ex> quia vox ut superius i<ex>n</ex>articulata est q<ex>uae</ex> a nullo m<ex>en</ex>tis affectu proficiscitur</gloss>
+				</note>
+				<note n="2r21 aa" target="#II_6.2__2" facs="&facsBase;290971">
+					<term>crepitus</term>
+					<gloss><ex>inter</ex> strepitus et aicriae</gloss>
+				</note>
+				<note n="2r22 bb" target="#II_6.3__2" facs="&facsBase;290971">
+					<term>uocum</term>
+					<gloss>inferiores</gloss>
+				</note>
+				<note n="2r23 cc" target="#II_6.4__3" facs="&facsBase;290971">
+					<term>binae</term>
+					<gloss>differentiae</gloss>
+				</note>
+				<note n="2r23 cc1" target="#II_6.4__3" facs="&facsBase;290971" place="m.d.">
+					<term>binae</term>
+					<gloss>differentiae ut species</gloss>
+				</note>
+				<note n="2r23 dd" target="#II_6.4__7" facs="&facsBase;290971" place="m.s.">
+					<term>coeuntes</term>
+					<gloss>
+						Articulata ⁊ litterata differentia faciunt una<ex>m</ex> uocis specie<ex>m</ex> q<ex>uae</ex> potes <ex>uel</ex> intelligi ⁊ scribi, ut Arma v<ex>irumque</ex> c<ex>ano</ex> T<ex>roiae</ex>.
+						Articulata ⁊ illitterata differentia faciunt altera<ex>m</ex> uocis specie<ex>m</ex> q<ex>uae</ex> potest intelligi s<ex>ed</ex> n<ex>on</ex> scribi, ut sibili hominu<ex>m</ex> <space/> ⁊ gemitus egrot<supplied>antium</supplied>.
+						Inarticulata ⁊ litterata differentia faciunt t<ex>er</ex>tia<ex>m</ex> uocis specie<ex>m</ex> q<ex>uae</ex> n<ex>on</ex> pote<ex>st</ex> intelligi s<ex>ed</ex> scribi ut s<ex>un</ex>t uoces auiu<ex>m</ex> ⁊ ranaru<ex>m</ex> coax cra.
+						Inarticulata ⁊ illitterata differentia faciunt q<ex>ua</ex>rta<ex>m</ex> uocis specie<ex>m</ex> q<ex>uae</ex> nec pote<ex>st</ex> intellegi nec scribi ut sunt crepit<ex>us</ex> ⁊ mugit<ex>us</ex> animaliu<ex>m</ex> ⁊ simila.
+					</gloss>
+				</note>
+				<note n="2r24 ee" target="#II_6.4__7" facs="&facsBase;290971">
+					<term>coeuntes</term>
+					<gloss>in uocem</gloss>
+				</note>
+				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 8 ('ἀπὸ τοῦ βοῶ' to 'ἀπὸ') - Difference: 72.73% -->
+				<note n="2r24 ff" target="#II_6.5__10" facs="&facsBase;290971">
+					<term>ἀπὸ τοῦ βοῶ</term>
+					<gloss>ab hoc sono uocis</gloss>
+				</note>
+				<note n="2r25 gg" target="#II_6.5__16" facs="&facsBase;290971">
+					<term>placet</term>
+					<gloss>sed mihi non pri</gloss>
+				</note>
+			</div>
+		</body>
+	</text>
+</TEI>
