@@ -1,5 +1,5 @@
 # Gloss Corpus
-http://ww.glossing.org/glosscorpus/
+http://www.glossing.org/glosscorpus/
 
 Gloss Corpus is a fully open Access, open-standards resource for the collaborative publication and study of glosses on medieval manuscripts. It aims to support the glossing research community by sharing resources and tools, including tools for data analytics and visualisation (currently still in development).
 
