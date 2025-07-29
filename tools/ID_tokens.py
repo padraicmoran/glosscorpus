@@ -4,7 +4,7 @@ import string
 from nltk import wordpunct_tokenize as tze
 
 
-def id_tokens():
+def id_tokens(verbose=True):
     """
     Searches for all base-text files and tokenises their contents, tagging and numbering each word.
 
@@ -21,14 +21,27 @@ def id_tokens():
         for base_txt in base_texts:
             txt_dir = os.path.join(texts_dir, base_txt)
             base_txt_path = os.path.join(txt_dir, "basetext.xml")
-            if "_tokenised" not in base_txt_path:  # Need better way to ensure base-texts not already tokenised (!!!)
-                if os.path.isfile(base_txt_path):
-                    xml_files[base_txt] = base_txt_path
-                else:
-                    raise RuntimeError(f"Could not find file path: {base_txt_path}")
+            if os.path.isfile(base_txt_path):
+                xml_files[base_txt] = base_txt_path
+            else:
+                raise RuntimeError(f"Could not find file path: {base_txt_path}")
 
     # For each .xml file found in the base-texts directory
     for old_xml in xml_files:
+
+        # Create a new file path with "_tokenised" appended to the filename where the output will be saved
+        directory = os.path.join(texts_dir, old_xml)
+        new_file_path = os.path.join(directory, 'basetext_tokenised.xml')  # Need better way to show base-texts tokenised (!!!)
+
+        # Check if a tokenised file already exists at this path, if so, skip the file with explanatory print out
+        if os.path.isfile(new_file_path):
+            if verbose:
+                print(f"Tokenised file already exists:\n    {new_file_path}\n")
+            continue
+        elif os.path.join("isidore", "basetext_tokenised.xml") in new_file_path:
+            if verbose:
+                print(f"Skipping tokenisation of file as its format predates tokenisation:\n    {new_file_path}\n")
+            continue
 
         # Open and read the content of the .xml file
         with open(xml_files.get(old_xml), 'r', encoding="utf-8") as xml_file:
@@ -50,7 +63,8 @@ def id_tokens():
         percent_divisor = 100/original_len
         percent_complete = 0
         if original_len >= 500000:
-            print(f"Long for-loop in progress:\n    100% remaining.")
+            if verbose:
+                print(f"Long for-loop in progress:\n    100% remaining.")
         for tag_no, found_tag in enumerate(tagset):
             find_pos = text_content.find(found_tag)
 
@@ -79,9 +93,11 @@ def id_tokens():
                 exact_complete = 100-percent_left
                 if exact_complete >= percent_complete + 0.1:
                     percent_complete += 0.1
-                    print(f"    {round(percent_left, 2)}% remaining.")
+                    if verbose:
+                        print(f"    {round(percent_left, 2)}% remaining.")
                 elif exact_complete >= 100:
-                    print(f"    0% remaining.")
+                    if verbose:
+                        print(f"    0% remaining.")
 
         # Iterate through the list of substrings, ignoring substrings containing tags
         ptlist = []
@@ -297,13 +313,12 @@ def id_tokens():
                 content[:content.find("<body>")] + new_xml_body + content[content.find("</body>") + len("</body>"):]
         )
 
-        # Create a new file path with "_tokenised" appended to the filename
-        directory = os.path.join(texts_dir, old_xml)
-        new_file_path = os.path.join(directory, 'basetext_tokenised.xml')  # Need better way to show base-texts tokenised (!!!)
-
         # Save the modified content to the new file path
         with open(new_file_path, 'w', encoding="utf-8") as new_file:
             new_file.write(new_xml_file)
+
+        if verbose:
+            print(f"Created tokenised file:\n    {new_file_path}\n")
 
 
 if __name__ == "__main__":
