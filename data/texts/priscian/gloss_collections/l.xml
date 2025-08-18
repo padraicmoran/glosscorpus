@@ -124,23 +124,23 @@
 				</note>
 			<note n="10r6 l" target="#II_5.6__13" facs="&facsBase;#page/18/mode/1up">
 					<term>aliquo</term>
-					<gloss>abla<ex>tiuus</ex></gloss> 
+					<gloss>abla<ex>tiuus</ex></gloss>
 				</note>
 			<note n="10r7 m" target="#II_5.8__1" facs="&facsBase;#page/18/mode/1up">
 					<term>affectu </term>
-					<gloss>ut mugitus</gloss> 
+					<gloss>ut mugitus</gloss>
 				</note>
 			<note n="10r9 n" target="#II_5.12__6" facs="&facsBase;#page/18/mode/1up">
 					<term>scribi</term>
-					<gloss><ex>et</ex></gloss> 
+					<gloss><ex>et</ex></gloss>
 				</note>
 			<note n="10r11 o" target="#II_5.14__6" facs="&facsBase;#page/18/mode/1up" place="m.l.">
 					<term>possunt</term>
-					<gloss>q<ex>uia</ex> c<ex>on</ex>fusae ⁊ i<ex>n</ex>distinctae p<ex>er</ex> litt<ex>er</ex>as p<ex>ro</ex>ferunt<ex>ur</ex></gloss> 
+					<gloss>q<ex>uia</ex> c<ex>on</ex>fusae ⁊ i<ex>n</ex>distinctae p<ex>er</ex> litt<ex>er</ex>as p<ex>ro</ex>ferunt<ex>ur</ex></gloss>
 				</note>
 			<note n="10r17 p" target="#II_6.5__12" facs="&facsBase;#page/18/mode/1up">
 					<term>βοῶ</term>
-					<gloss>.i. a sono</gloss> 
+					<gloss>.i. a sono</gloss>
 				</note>
 					<note n="10r20 q" target="#II_6.8__9" facs="&facsBase;#page/18/mode/1up">
 						<term>totam</term>
@@ -315,7 +315,7 @@
 						<note n="11r22 k " target="#II_9.23__15" facs="&facsBase;#page/19/mode/1up">
 							<term>eas</term>
 							<gloss>mutas</gloss>
-						</note>					
+						</note>
 						<note n="11r22 l " target="#II_9.23__18" facs="&facsBase;#page/19/mode/1up">
 							<term>cum</term>
 							<gloss>.i. iste mute</gloss>
@@ -609,7 +609,7 @@
 				<note n="13r20 d2" target="#II_17.14__3" facs="&facsBase;#page/21/mode/1up" place="m.d.">
 							<term>Xeroloφo</term>
 							<gloss>κερολοφος crinis in circuitu colli; κερος: cornu; λοφο<supplied>ς</supplied>: crinis</gloss>
-							<!-- >see Laon 444 276r: κερολοφος, scilicet proprium loci est .i. crinisin circuitu colli, uel 
+							<!-- >see Laon 444 276r: κερολοφος, scilicet proprium loci est .i. crinisin circuitu colli, uel
 								siccus ceruus interpretatur uel iuba minor. ξερολοφος dicebat statonicus -->
 						</note>
 						<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 6 ('ανφαfον' to 'δημοφαϝων') - Difference: 66.67% -->
@@ -905,11 +905,11 @@
 						</note>
 						<note n="17v29 g" target="#II_34.21__3" facs="&facsBase;#page/26/mode/1up">
 							<term>septingenta</term>
-							<gloss><g>=</g> &gt; (17v29=34.21) </gloss><term>quingenta</term><gloss><g>=</g></gloss> 
+							<gloss><g>=</g> &gt; (17v29=34.21) </gloss><term>quingenta</term><gloss><g>=</g></gloss>
 						</note>
 						<note n="17v30 h" target="#II_34.23__6" facs="&facsBase;#page/26/mode/1up">
 							<term>aduerbium</term>
-							<gloss><g>-</g> &gt; (17v30=34.23) </gloss><term>hic</term><gloss><g>-</g></gloss> 
+							<gloss><g>-</g> &gt; (17v30=34.23) </gloss><term>hic</term><gloss><g>-</g></gloss>
 						</note>
 						<note n="18r1 a" target="#II_34.26__3" facs="&facsBase;#page/26/mode/1up">
 							<term>iratus</term>
@@ -930,7 +930,7 @@
 						<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 2 ('diarisin' to 'diaeresin') - Difference: 22.22% -->
 				<note n="18v14 c" target="#II_37.15__13" facs="&facsBase;#page/27/mode/1up">
 							<term>diarisin</term>
-							<gloss><g>-</g> &gt; (18v14=37.15) </gloss><term>poetis</term><gloss><g>-</g></gloss> 
+							<gloss><g>-</g> &gt; (18v14=37.15) </gloss><term>poetis</term><gloss><g>-</g></gloss>
 						</note>
 						<note n="18v18 d" target="#II_38.1__10" facs="&facsBase;#page/27/mode/1up">
 							<term>inquīro</term>
@@ -939,7 +939,7 @@
 						<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 5 ('σκηνή' to 'laedo') - Difference: 100.0% -->
 				<note n="18v20 e" target="#II_38.5__1" facs="&facsBase;#page/27/mode/1up">
 							<term>σκηνή</term>
-							<gloss><g>-</g> &gt; (18v20=38.4)  </gloss><term>scaena</term><gloss><g>-</g></gloss> 
+							<gloss><g>-</g> &gt; (18v20=38.4)  </gloss><term>scaena</term><gloss><g>-</g></gloss>
 						</note>
 						<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 5 ('χαμαι' to 'χαμαιεῦναι') - Difference: 50.0% -->
 				<note n="18v24 f" target="#II_38.12__3" facs="&facsBase;#page/27/mode/1up">
@@ -1009,7 +1009,7 @@
 							<term>asbestus</term>
 							<gloss>asbestus <ex>est</ex> lapis semp<ex>er</ex> ardens nec pot<ex>est</ex> extingui hinc uocabulu<ex>m</ex>
 								sumens nam in graeca asbestos d<ex>icitu</ex>r i<ex>n</ex> inextingibilis.
-								In euangelio κατα λουκaν "το δε αχυρον κατακαυσει πυρι ασβεστω" - 
+								In euangelio κατα λουκaν "το δε αχυρον κατακαυσει πυρι ασβεστω" -
 								Palea<ex>m</ex> a<ex>u</ex>t<ex>em</ex> comburet igni inextingibili</gloss>
 								<note type="editorial">cf. Luke 3:17</note>
 							</note>

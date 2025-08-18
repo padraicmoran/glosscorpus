@@ -43,7 +43,7 @@ def id_tokens(verbose=True):
                 print(f"Skipping tokenisation of file as its format predates tokenisation:\n    {new_file_path}\n")
             continue
 
-        # Open and read the content of the .xml file
+        # If the text hasn't been tokenised yet, open and read the content of the untokenised .xml file
         with open(xml_files.get(old_xml), 'r', encoding="utf-8") as xml_file:
             content = xml_file.read()
 
