@@ -2,7 +2,7 @@ import os
 from collections import Counter
 import fnmatch
 from nltk import edit_distance as ed
-from bs4 import BeautifulSoup, Comment
+from bs4 import BeautifulSoup
 import re
 
 
@@ -88,10 +88,12 @@ def find_lems(verbose=True):
                                       f"as an annotated file already exists:\n    {lemmatised_file_path}\n")
                             continue
                         gloss_collections.append(gloss_file_path)
-                    else:
-                        raise RuntimeError(f"Could not find file path: {gloss_file_path}")
-        else:
-            raise RuntimeError(f"Could not find file path: {glosses_path}")
+                    elif verbose:
+                        print(f"Skipping lemma annotation of glosses for gloss file, {filename}. "
+                              f"File could not be found at the designated path:\n    {gloss_file_path}\n")
+        elif verbose:
+            print(f"Skipping lemma annotation for all gloss collections on base-text, {basefile} "
+                  f"as the folder path could not be found:\n    {glosses_path}\n")
 
         # For each collection of glosses found
         for gloss_file in gloss_collections:
@@ -128,7 +130,7 @@ def find_lems(verbose=True):
                 print("  Finding glosses...")
 
             # Create a list of glosses identified in the original text, with their indices
-            # Format: (original text, start, end, lemma, target_line, new_line)
+            # Format: (original text, start, end, lemma, target line ID, is target line new, HTML note RE lemma)
             identified_glosses = list()
 
             # Use BS to find unique IDs for each collected gloss
@@ -138,13 +140,15 @@ def find_lems(verbose=True):
                 bs_note = BeautifulSoup(note, "xml").note
                 note_id = bs_note.get('n')
                 if not note_id:
-                    raise RuntimeError(f"Could not find ID for identified gloss:\n\n{bs_note}\n\n{note}")
-
+                    if verbose:
+                        print(f"    Skipping gloss as its ID could not be determined:\n      {note}")
+                    skip_count += 1
+                    continue
                 # Replace problematic XML quote character form note when it doesn't occur in the original_text
                 if '"' in note_id:
                     note_id = '&quot;'.join(note_id.split('"'))
-
                 lemma_note = ""
+
                 # Use regex to find the note in the original text using the unique gloss ID
                 # (DOTALL matches across multiple lines)
                 note_pattern = re.compile(
@@ -157,7 +161,6 @@ def find_lems(verbose=True):
                         print(f"    Skipping gloss {note_id} as no gloss with this ID could be found in the text file:"
                               f"\n      {note}")
                     skip_count += 1
-                    # lemma_note = f"<!-- re-examine: Could not locate gloss {note_id} in text file -->"
                     continue
 
                 # Get the start and end indices of the match found in the original text
@@ -176,7 +179,11 @@ def find_lems(verbose=True):
                         note_count = original_note.count("<note")
                         endnote_count = original_note.count("</note>")
                 elif note_count != endnote_count:
-                    raise RuntimeError("Could not find any closing tag.")
+                    if verbose:
+                        print(f"    Skipping gloss {note_id}, as the correct closing </note> tag could not be found.\n"
+                              f"{original_note}")
+                    skip_count += 1
+                    continue
 
                 # Parse the gloss (between <note> tags) with BS to more easily extract text and attributes
                 note_soup = BeautifulSoup(original_note, "xml")
@@ -191,8 +198,6 @@ def find_lems(verbose=True):
                         print(f"    Skipping gloss number {full_note["n"]}; "
                               f"multiple glosses or lemmata were detected between a single set of XML <note> tags")
                     skip_count += 1
-                    # lemma_note = (f"<!-- re-examine: More than one <gloss> or <term> tags occur in the gloss: "
-                    #               f"{target_line_id} -->")
                     continue
 
                 # If no lemma is identified by a gloss
@@ -201,7 +206,6 @@ def find_lems(verbose=True):
                         print(f"    Skipping gloss number {full_note["n"]}; "
                               f"no lemma was detected between the XML <note> tags associated with this gloss")
                     skip_count += 1
-                    # lemma_note = (f"<!-- re-examine: No <term> tags occur in the gloss: {target_line_id} -->")
                     continue
 
                 # If one lemma is identified by a gloss, preprocess it for later comparison
@@ -223,16 +227,15 @@ def find_lems(verbose=True):
                     fg_lemma = fg_lemma.lower()
 
                 else:
-                    raise RuntimeError("Unexpected number of Lemmata found for <note> tag.")
+                    if verbose:
+                        print(f"    Skipping gloss number {full_note["n"]}; "
+                              f"an unexpected number of Lemmata (i.e. <term> tags) were found within the <note> tag.")
+                    skip_count += 1
+                    continue
 
                 # Isolate the target line in the base-text identified by the gloss
                 # If this is a different line from the last gloss, track this information too
-                try:
-                    target_line_id = full_note["target"]
-                except KeyError:
-                    print(full_note)
-                    print(type(full_note))
-                    raise RuntimeError
+                target_line_id = full_note["target"]
                 if target_line_id:
                     target_line_id = target_line_id[1:]
                 else:
@@ -240,7 +243,6 @@ def find_lems(verbose=True):
                         print(f"    Skipping gloss number {full_note["n"]}; "
                               f"no target line in the base-text found for this gloss")
                     skip_count += 1
-                    # lemma_note = f"<!-- re-examine: No line with ID {target_line_id} occurs in the base-text -->"
                     continue
 
                 if target_line_id == cur_line:
@@ -251,16 +253,16 @@ def find_lems(verbose=True):
 
                 identified_glosses.append(
                     [original_note, span[0], span[1], fg_lemma, target_line_id, new_line, lemma_note]
-                )  # Add Lemma Note if continuing to use them
+                )
 
             # Keep track of how many glosses have been found which can be assigned to a lemma
             no_glosses = len(identified_glosses)
+            pre_skipped = skip_count
             percent_divisor = 100 / no_glosses
             percent_left = 100
 
             if verbose:
-                print(f"  Found {len(identified_glosses)} usable glosses\n    {skip_count} glosses skipped\n\n"
-                      f"    Assigning glosses to lemmata:")
+                print(f"\n  Assigning glosses to lemmata:")
 
             # Assign glosses to lemmata in the base-text, and generate notes regarding lemmata where necessary
             for gloss_no, identified_gloss in enumerate(identified_glosses):
@@ -278,7 +280,7 @@ def find_lems(verbose=True):
                 # Name the elements of the identified gloss
                 found_gloss, fg_lemma = identified_gloss[0], identified_gloss[3]
                 target_line_id, new_line, lemma_note = identified_gloss[4], identified_gloss[5], identified_gloss[6]
-                lemma_key = "No lemma found"
+                lemma_key = "No lemma key found"
 
                 # Using the target from the gloss edition, find the words from the correct line in the base-text
                 lemma_list = base_lines.get(target_line_id)
@@ -299,8 +301,14 @@ def find_lems(verbose=True):
 
                 # If no corresponding text segment can be found in the base-text line
                 if target_line_id and not lemma_list:
-                    # lemma_note = f"<!-- re-examine: No line with ID {target_line_id} occurs in the base-text -->"
-                    raise RuntimeError("Testing")
+                    if verbose:
+                        missing_gloss_soup = BeautifulSoup(found_gloss, "xml")
+                        missing_gloss_note = missing_gloss_soup.find("note")
+                        missing_gloss_no = missing_gloss_note["n"]
+                        print(f"    Skipping gloss number {missing_gloss_no}; "
+                              f"no line with ID {target_line_id} occurs in the base-text")
+                    skip_count += 1
+                    lemma_key = "No lemma key found"
 
                 # If only one exact match for the stated lemma occurs in the line from the base-text
                 elif lemmas_only.count(fg_lemma) == 1:
@@ -350,7 +358,7 @@ def find_lems(verbose=True):
                         lem_tok = lem_tok_inst[0]
                         lem_id = lem_tok_inst[1]
                         # If this is the first lemma matched in the base-text segment
-                        if lem_tok == fg_lemma and lemma_key == "No lemma found":
+                        if lem_tok == fg_lemma and lemma_key == "No lemma key found":
                             lemma_key = f"#{lem_id}"
                         # If this is not the first lemma matched in the base-text segment
                         elif lem_tok == fg_lemma and lemma_key[0] == "#":
@@ -360,9 +368,6 @@ def find_lems(verbose=True):
                             lemma_note = "<!-- re-examine: Multiple possible matches found -->"
                         else:
                             lemma_note = lemma_note[:-1] + " Multiple possible matches found -->"
-
-                if lemma_key == "No lemma found":
-                    raise RuntimeError(f"No lemma found for gloss: {target_line_id}")
 
                 # Add the lemma found lemma key, and any lemma notes to the identified gloss list
                 identified_gloss[6] = lemma_note
@@ -385,7 +390,11 @@ def find_lems(verbose=True):
                 identified_glosses[gloss_no] = identified_gloss
 
             if verbose:
-                print(f"    0.0% remaining.\n\nSaving gloss annotations\n")
+                print(f"    0.0% remaining.\n")
+                print("  Generating file with lemma annotations...")
+
+            # Skip all glosses for which lemma keys could not be found
+            identified_glosses = [idg for idg in identified_glosses if idg[7] != "No lemma key found"]
 
             # Assign glosses to lemmata in the base-text, and generate notes regarding lemmata where necessary
             for gloss_no, identified_gloss in enumerate(reversed(identified_glosses)):
@@ -397,8 +406,21 @@ def find_lems(verbose=True):
                 if output_text[find_pos:end_pos] == found_gloss:
                     output_text = output_text[:find_pos] + updated_gloss + output_text[end_pos:]
                 else:
-                    raise RuntimeError(f"Expected gloss:\n\n{found_gloss}\n\nto occur at index {find_pos}, "
-                                       f"instead found\n\n{output_text[find_pos:end_pos]}")
+                    if verbose:
+                        missing_gloss_soup = BeautifulSoup(found_gloss, "xml")
+                        missing_gloss_note = missing_gloss_soup.find("note")
+                        missing_gloss_no = missing_gloss_note["n"]
+                        print(f"    Skipping gloss number {missing_gloss_no}; "
+                              f"An error occurred matching the indices of the gloss in the text. "
+                              f"Expected gloss:\n\n{found_gloss}\n\nto occur at index {find_pos}, "
+                              f"instead found\n\n{output_text[find_pos:end_pos]}")
+                    skip_count += 1
+
+            if verbose:
+                post_skipped = skip_count - pre_skipped
+                usable_glosses = len(identified_glosses) - post_skipped
+                print(f"  Annotated lemmata for {usable_glosses} glosses\n    {skip_count} glosses skipped")
+                print(f"  Saving gloss annotations for file:\n    {gloss_file}\n")
 
             # Create a new file path with "_lemmatised" appended to the filename
             directory, filename = os.path.split(gloss_file)
