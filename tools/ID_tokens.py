@@ -1,326 +1,482 @@
 import os
 import re
+from datetime import date
 import string
+from bs4 import BeautifulSoup
 from nltk import wordpunct_tokenize as tze
 
 
-def id_tokens(verbose=True):
+def id_tokens(verbose=False):
     """
     Searches for all base-text files and tokenises their contents, tagging and numbering each word.
 
-    Creates an annotated copy of the file within the same directory as the original files..
+    Creates an annotated copy of the file within the same directory as the original files.
     """
 
-    # Search for .xml files in the base-texts directory
+    # Search for, and collect .xml files for base-texts
     xml_files = {}
     tools_dir = os.getcwd()
     tools_parent = os.path.dirname(tools_dir)
     texts_dir = os.path.join(tools_parent, "data", "texts")
-    if os.path.isdir(texts_dir):  # Check if it's a directory
+    if os.path.isdir(texts_dir):
         base_texts = os.listdir(texts_dir)
         for base_txt in base_texts:
             txt_dir = os.path.join(texts_dir, base_txt)
             base_txt_path = os.path.join(txt_dir, "basetext.xml")
             if os.path.isfile(base_txt_path):
                 xml_files[base_txt] = base_txt_path
-            else:
-                raise RuntimeError(f"Could not find file path: {base_txt_path}")
+            elif verbose:
+                print(f"Skipping base text, {base_txt}, could not find file path:\n    {base_txt_path}")
+    elif verbose:
+        print(f"Token annotation abandoned; cannot find texts directory at specified location:\n    {texts_dir}")
 
     # For each .xml file found in the base-texts directory
     for old_xml in xml_files:
 
-        # Create a new file path with "_tokenised" appended to the filename where the output will be saved
-        directory = os.path.join(texts_dir, old_xml)
-        new_file_path = os.path.join(directory, 'basetext_tokenised.xml')  # Need better way to show base-texts tokenised (!!!)
+        if verbose:
+            print(f"Currently working on base-text file for {old_xml}\n  Tokenising file's contents")
 
-        # Check if a tokenised file already exists at this path, if so, skip the file with explanatory print out
-        if os.path.isfile(new_file_path):
-            if verbose:
-                print(f"Tokenised file already exists:\n    {new_file_path}\n")
-            continue
-        elif os.path.join("isidore", "basetext_tokenised.xml") in new_file_path:
-            if verbose:
-                print(f"Skipping tokenisation of file as its format predates tokenisation:\n    {new_file_path}\n")
-            continue
-
-        # If the text hasn't been tokenised yet, open and read the content of the untokenised .xml file
-        with open(xml_files.get(old_xml), 'r', encoding="utf-8") as xml_file:
+        # Open the TEI file as raw text, and parse the TEI file with BeautifulSoup
+        with open(xml_files.get(old_xml), "r", encoding="utf-8") as xml_file:
             content = xml_file.read()
+        base_soup = BeautifulSoup(content, "xml")
+        output_text = content[:]
 
-        # Isolate the text content
-        text_content = content[content.find("<body>"):content.find("</body>") + len("</body>")]
-        tagset = []
-        iend = 0
-        for i in range(text_content.count("<")):
-            istart = text_content.find("<", iend)
-            iend = text_content.find(">", istart) + 1
-            tagset.append(text_content[istart:iend])
+        # Check if the base-text file has already been tokenised
+        file_desc = base_soup.find("fileDesc")
+        if file_desc:
+            revision_desc = base_soup.find("teiHeader").find("revisionDesc")
+            # If no revision history exists for the file, assume it hasn't been tokenised, and create a revision history
+            if not revision_desc:
+                if verbose:
+                    print(f"    No <revisionDesc> found in {old_xml} base-text file, creating one...")
+                # Insert the new revision history after the file description in the base-text file
+                indent_match = re.search(r"^(\s*)</fileDesc>", output_text, re.MULTILINE)
+                if indent_match:
+                    indent = indent_match.group(1)
+                else:
+                    indent = ""
+                revision_desc = base_soup.new_tag("revisionDesc")
+                today = date.today().strftime("%Y-%m-%d")
+                change = base_soup.new_tag("change")
+                change.attrs["when"] = today
+                change.attrs["what"] = "revision_history_created"
+                change.attrs["who"] = "#tokeniser"
+                change.attrs["how"] = "automatic"
+                change.string = ("Automatically processed: "
+                                 "The revisionDesc section was automatically created during token annotation.")
+                revision_desc.append(change)
+                new_revision_str = str(revision_desc.prettify())
+                new_str_with_tabs = re.sub(
+                    r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_revision_str, flags=re.MULTILINE
+                )
+                new_revision = new_str_with_tabs.strip()
+                new_revision = f"\n{indent}" + f"\n{indent}".join(new_revision.split("\n"))
+                closing_index = output_text.find("</fileDesc>")
 
-        # Split the .xml file into substrings of tags and text between tags
-        # This for-loop can take a particularly long time to run (e.g. on Priscian)
-        textlist = []
-        original_len = len(text_content)
-        percent_divisor = 100/original_len
-        percent_complete = 0
-        if original_len >= 500000:
+                # Add the new revision history to the base-text file,
+                # but don't save it yet, as the token annotation process may fail
+                output_text = (
+                        output_text[:closing_index + len("</fileDesc>")]
+                        + new_revision
+                        + output_text[closing_index + len("</fileDesc>"):]
+                )
+                if verbose:
+                    print("      <revisionDesc> section added after <fileDesc> section in file.")
+
+                # Reopen and parse the base-text file, which now includes revision history section
+                base_soup = BeautifulSoup(output_text, "xml")
+                revision_desc = base_soup.find("teiHeader").find("revisionDesc")
+
+            # If a revision history already existed for the file, or if one has just been created,
+            # add new revision information to it to inform about token annotation
+            indent_match = re.search(r"^(\s*)</revisionDesc>", output_text, re.MULTILINE)
+            if indent_match:
+                indent = indent_match.group(1)
+            else:
+                indent = ""
+            today = date.today().strftime("%Y-%m-%d")
+            change = base_soup.new_tag("change")
+            change.attrs["when"] = today
+            change.attrs["what"] = "tokenisation_and_annotation"
+            change.attrs["who"] = "#tokeniser"
+            change.attrs["how"] = "automatic"
+            change.string = ("Automatically processed: "
+                             "Words and punctuation were separated into tokens. "
+                             "Each token was tagged with either w (word) or pc (punctuation), "
+                             "and given a unique ID number based on its line ID and its position in that line.")
+            new_change_str = str(change.prettify())
+            new_str_with_tabs = re.sub(
+                r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_change_str, flags=re.MULTILINE
+            )
+            new_revision = new_str_with_tabs.strip()
+            new_revision = "\t" + f"\n{indent}\t".join(new_revision.split("\n")) + f"\n{indent}"
+            closing_index = output_text.find("</revisionDesc>")
+
+            # Add the revision history update to the base-text file,
+            # but don't save it yet, as the token annotation process may fail
+            output_text = (
+                    output_text[:closing_index]
+                    + new_revision
+                    + output_text[closing_index:]
+            )
             if verbose:
-                print(f"Long for-loop in progress:\n    100% remaining.")
-        for tag_no, found_tag in enumerate(tagset):
-            find_pos = text_content.find(found_tag)
+                print("    New <change> added to <revisionDesc> section in file to detail token annotation")
 
-            # If the remaining text begins with a tag, add that tag to the list of substrings,
-            # then remove that tag from the beginning of the remaining text
-            if find_pos == 0:
-                textlist.append(found_tag)
-                text_content = text_content[len(found_tag):]
+            # Reopen and parse the base-text file, which now includes the revision history update
+            base_soup = BeautifulSoup(output_text, "xml")
+            revision_desc = base_soup.find("teiHeader").find("revisionDesc")
 
-            # If tags remain, but the remaining text does not begin with a tag,
-            # add all text until the next tag to the list of substrings,
-            # then add the next tag to the list of substrings,
-            # then remove both the tag and all text preceding it from the beginning of the remaining text
-            else:
-                pre_text = text_content[:find_pos]
-                textlist.extend([pre_text, found_tag])
-                text_content = text_content[len(pre_text) + len(found_tag):]
+        # If the base-text file has no file description, it is faulty, and the revision history can't be inserted
+        # Abandon attempt to work with this base-text
+        else:
+            if verbose:
+                print(f"    No <fileDesc> found for {old_xml} base-text, cannot insert <revisionDesc>")
+                print(f"Token annotation abandoned for {old_xml} base-text\n")
+            continue
 
-            # If text remains, but no tags remain, add the remaining text to the list of substrings
-            if tag_no + 1 == len(tagset):
-                if text_content:
-                    textlist.append(text_content)
-
-            if original_len >= 500000:
-                percent_left = len(text_content)*percent_divisor
-                exact_complete = 100-percent_left
-                if exact_complete >= percent_complete + 0.1:
-                    percent_complete += 0.1
-                    if verbose:
-                        print(f"    {round(percent_left, 2)}% remaining.")
-                elif exact_complete >= 100:
-                    if verbose:
-                        print(f"    0% remaining.")
-
-        # Iterate through the list of substrings, ignoring substrings containing tags
-        ptlist = []
-        for xml_split in textlist:
-            if "<" not in xml_split:
-
-                # If new-line characters occur in the remaining text substrings
-                # (excluding substrings which contain only new-line and space characters),
-                # separate these new-line characters from the rest of the substring
-                if xml_split.strip() and "\n" in xml_split:
-                    nl_count = xml_split.count("\n")
-                    for nl_no in range(nl_count):
-
-                        # If the first character in the substring is a new-line character,
-                        # add it to the new substrings list and remove it from the current substring text
-                        if xml_split[0] == "\n":
-                            ptlist.append("\n")
-                            xml_split = xml_split[1:]
-                        # Otherwise find the index of the next new-line character in the current substring text,
-                        # add the text up to that index to the new substring list, next add the new-line character too,
-                        # then remove both from the current substring text
-                        else:
-                            next_nl = xml_split.find("\n")
-                            ptlist.append(xml_split[:next_nl])
-                            ptlist.append("\n")
-                            xml_split = xml_split[next_nl + 1:]
-                        # If no new-line characters remain in the current substring text, but text does remain,
-                        # add that text to the new substrings list
-                        if nl_no + 1 == nl_count and xml_split:
-                            ptlist.append(xml_split)
-
-                # Add substrings which contain no tags or text content, but do contain space or new-line characters
-                # to the new substrings list without altering them
+        # Add a responsibility statement for the tokeniser if one does not already exist
+        title_stmt = base_soup.find("teiHeader").find("fileDesc").find("titleStmt")
+        if title_stmt:
+            resp_stmts = title_stmt.find_all("respStmt")
+            # Insert a new responsibility statement at the bottom of the title statement in the base-text file
+            # if one does not already occur there
+            if not resp_stmts:
+                if verbose:
+                    print(f"    No responsibility statement found in {old_xml} base-text file, creating one...")
+                indent_match = re.search(r"^(\s*)</titleStmt>", output_text, re.MULTILINE)
+                if indent_match:
+                    indent = indent_match.group(1)
                 else:
-                    ptlist.append(xml_split)
+                    indent = ""
+                resp_stmt = base_soup.new_tag("respStmt")
+                resp_stmt.attrs["xml:id"] = "tokeniser"
+                responsibility = base_soup.new_tag("resp")
+                responsibility.string = (
+                    "Automatic separation of word and punctuation tokens for base-texts, "
+                    "and assignment of unique ID numbers to each token"
+                )
+                resp_name = base_soup.new_tag("name")
+                resp_name.string = (
+                    "ID_tokens.py"
+                )
+                resp_stmt.append(responsibility)
+                resp_stmt.append(resp_name)
 
-            # Add substrings which contain tags to the new substrings list without altering them
+                new_resp_str = str(resp_stmt.prettify())
+                new_resp_with_tabs = re.sub(
+                    r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_resp_str, flags=re.MULTILINE
+                )
+                new_resp_revision = new_resp_with_tabs.strip()
+                new_resp_revision = "\t" + f"\n{indent}\t".join(new_resp_revision.split("\n")) + f"\n{indent}"
+                closing_index = output_text.find("</titleStmt>")
+
+                # Add the new responsibility statement to the base-text file,
+                # but don't save it yet, as the token annotation process may fail
+                output_text = (
+                        output_text[:closing_index]
+                        + new_resp_revision
+                        + output_text[closing_index:]
+                )
+                if verbose:
+                    print("      Responsibility statement added to base-text file for tokeniser")
+
+                # Reopen and parse the base-text file, which now includes a responsibility statement
+                base_soup = BeautifulSoup(output_text, "xml")
+
+            # If one or more responsibility statements exist, but they were not made by the tokensier
+            # Insert a new responsibility statement after the last one in the base-text file
             else:
-                ptlist.append(xml_split)
+                # Check that none of the responsibility statements relate to the tokeniser
+                tokenised = False
+                for resp_stmt in resp_stmts:
+                    if resp_stmt.get("xml:id") == "tokeniser":
+                        tokenised = True
+                        break
 
-        # Iterate through the updated list of substrings, ignoring substrings containing tags or only space characters
-        pt_space_list = []
-        for pt_item in ptlist:
-            if pt_item.strip() and pt_item != pt_item.strip() and "<" not in pt_item:
-
-                # If two consecutive space characters occur in any remaining text substrings,
-                # separate these from the rest of the substring, then add each to a new list of substrings separately
-                if "  " in pt_item and pt_item != "  ":
-                    ds_count = pt_item.count("  ")
-                    for ds_no in range(ds_count):
-
-                        # If the first character in the current substring text are both spaces,
-                        # add a double space substring to the new substrings list
-                        # and remove them from the beginning of the current substring
-                        if pt_item[0:2] == "  ":
-                            pt_space_list.append("  ")
-                            pt_item = pt_item[2:]
-                        # Otherwise find the index of the next two consecutive space characters in the substring text,
-                        # add the text up to that index to the new substring list,
-                        # then add two consecutive space characters to the new substring list,
-                        # then remove both the text and the two space characters from the beginning of the substring
-                        else:
-                            next_ds = pt_item.find("  ")
-                            pt_space_list.append(pt_item[:next_ds])
-                            pt_space_list.append("  ")
-                            pt_item = pt_item[next_ds + 2:]
-                        # If no double-spacing remains in the current substring text, but text does remain,
-                        # add that text to the new substrings list
-                        if ds_no + 1 == ds_count and pt_item:
-                            pt_space_list.append(pt_item)
-
-                # Add substrings which contain no double space characters to the new substrings list without changes
-                else:
-                    pt_space_list.append(pt_item)
-
-            # Add substrings which contain tags to the new substrings list without altering them
-            else:
-                pt_space_list.append(pt_item)
-
-        # Iterate through the updated list of substrings,
-        # ignoring substrings containing tags or those which only contain space and new-line characters
-        strip_list = []
-        for pts_item in pt_space_list:
-            if pts_item.strip() and "<" not in pts_item:
-
-                # If any space or new-line characters remain at the beginning or end of any remaining text substrings,
-                # separate these from the rest of the substring, then add each to a new list of substrings separately
-                if pts_item != pts_item.strip():
-                    ptstrip = pts_item.strip()
-                    ptstart = pts_item.find(ptstrip)
-                    ptend = ptstart + len(ptstrip)
-                    strip_list.extend([pts_item[:ptstart], pts_item[ptstart:ptend], pts_item[ptend:]])
-
-                # Otherwise, if the non-tag substring begins and ends with letter characters,
-                # add it alone to the list of substrings without changing it
-                else:
-                    strip_list.append(pts_item)
-
-            # Add substrings which contain tags to the new substrings list without altering them
-            else:
-                strip_list.append(pts_item)
-
-        # Iterate through the stripped list of substrings
-        # Look for substrings containing tags to find the section and ab keys
-        # Look for substrings containing text and tokenise it
-        tok_list = []
-        segment_id = "null"
-        for stripped_item in strip_list:
-
-            # If the item is an xml tag
-            if "<" in stripped_item:
-
-                if 'type="section"' in stripped_item:
-                    segment_id = "null"
-
-                elif 'head' in stripped_item:
-                    segment_id = "Header"
-
-                elif 'ab xml:id="' in stripped_item:
-                    key_start_index = stripped_item.find("ab xml:id=")
-                    post_index_string = stripped_item[key_start_index:]
-                    key_end_ex = key_start_index + post_index_string.find('"', post_index_string.find('"') + 1)
-                    segment_id = stripped_item[key_start_index + 11:key_end_ex]
-
-                tok_list.append(stripped_item)
-
-            # If the item is not an xml tag, and not a header
-            elif stripped_item.strip() and "<" not in stripped_item and segment_id not in ["null", "Header"]:
-
-                # Tokenise text substrings, tagging each word and adding segment references to the tag
-                toks_sublist = tze(stripped_item)
-
-                # Get token indices in sentence, to preserve original spacing
-                space_sublist = []
-                reduce_sent = stripped_item[:]
-                for tok_num, tok in enumerate(toks_sublist):
-                    if tok_num == 0:
-                        reduce_sent = reduce_sent[len(tok):]
+                # If none of the responsibility statements relate to the tokeniser
+                if not tokenised:
+                    # Insert tokenisation and token annotation responsibility information into the base-text file
+                    indent_match = re.search(r"^(\s*)</titleStmt>", output_text, re.MULTILINE)
+                    if indent_match:
+                        indent = indent_match.group(1)
                     else:
-                        tok_ind = reduce_sent.find(tok)
-                        if tok_ind == 0:
-                            space_sublist.append("")
-                        else:
-                            space_sublist.append(reduce_sent[:tok_ind])
-                        reduce_sent = reduce_sent[tok_ind + len(tok):]
+                        indent = ""
+                    resp_stmt = base_soup.new_tag("respStmt")
+                    resp_stmt.attrs["xml:id"] = "tokeniser"
+                    responsibility = base_soup.new_tag("resp")
+                    responsibility.string = (
+                        "Automatic separation of word and punctuation tokens for base-texts, "
+                        "and assignment of unique ID numbers to each token"
+                    )
+                    resp_name = base_soup.new_tag("name")
+                    resp_name.string = (
+                        "ID_tokens.py"
+                    )
+                    resp_stmt.append(responsibility)
+                    resp_stmt.append(resp_name)
 
-                # Add token IDs and recombine the sentence
-                toks_count = [num + 1 for num, _ in enumerate(toks_sublist)]
-                toks_zip = zip(toks_sublist, [f'__{tok_id}' for tok_id in toks_count])
-                toks_sublist = [
-                    f'\n\t\t\t\t\t<pc xml:id="{segment_id}{tagged_tok[1]}">{tagged_tok[0]}</pc>' if all(
-                        char in string.punctuation + "«»" for char in tagged_tok[0]
-                    ) else f'\n\t\t\t\t\t<w xml:id="{segment_id}{tagged_tok[1]}">{tagged_tok[0]}</w>'
-                    for tagged_tok in toks_zip
-                ]
-                for space_num, space_type in enumerate(space_sublist):
-                    toks_sublist[space_num] = toks_sublist[space_num] + space_type
-                toks = "".join(toks_sublist)
-                tok_list.append(toks)
+                    new_resp_str = str(resp_stmt.prettify())
+                    new_resp_with_tabs = re.sub(
+                        r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_resp_str, flags=re.MULTILINE
+                    )
+                    new_resp_revision = new_resp_with_tabs.strip()
+                    new_resp_revision = f"\n{indent}\t" + f"\n{indent}\t".join(new_resp_revision.split("\n"))
+                    closing_index = output_text.find("</respStmt>")
 
+                    # Add the revision history update to the base-text file,
+                    # but don't save it yet, as the token annotation process may fail
+                    output_text = (
+                            output_text[:closing_index + len("</respStmt>")]
+                            + new_resp_revision
+                            + output_text[closing_index + len("</respStmt>"):]
+                    )
+                    if verbose:
+                        print("      Responsibility statement added to base-text file for tokeniser")
+
+        # If the base-text file has no title statement, it is faulty, and the responsibility statement can't be inserted
+        # Abandon attempt to work with this base-text
+        else:
+            if verbose:
+                print(f"    No <titleStmt> found for {old_xml} base-text, cannot insert <respStmt>")
+                print(f"Token annotation abandoned for {old_xml} base-text\n")
+            continue
+
+        # Look through all listed changes in the file's revision history
+        changes = revision_desc.find_all("change")
+        already_tokenised = False
+        for change in changes:
+            tok_check = change["what"]
+            # Check if a listed change suggests that the file either:
+            # 1. Predates automatic token annotation, but nevertheless should not be tokenised
+            # 2. Has already been tokenised and annotated
+            if tok_check in ["pre_tokenisation", "token_annotation"]:
+                already_tokenised = True
+                break
+        # If a base-text has already been tokenised, or predates tokenisation, skip the file with explanatory print out
+        if already_tokenised:
+            if verbose:
+                print(f"Skipping token annotation for {old_xml} and reverting all changes, "
+                      f"file has already been tokenised and/or annotated\n")
+            continue
+
+        # If the text hasn't been tokenised yet, get the contents of each line of text
+        line_tags = base_soup.find_all("ab")
+
+        # Process each line of text in the TEI file
+        all_lines = list()
+        full_count = len(line_tags)
+        skip_count = 0
+        for base_line in line_tags:
+
+            # Use BS to find unique IDs for each collected line
+            # To save processing power, this is done before any text is processed, in case a line can be skipped
+            line_id = base_line.get("xml:id")
+            if not line_id:
+                if verbose:
+                    print(f"    Skipping line as its ID could not be determined:\n      {base_line}")
+                skip_count += 1
+                continue
+
+            # Next use unique IDs with regex to find the indices of the line in the base-file's raw text
+            # (DOTALL matches across multiple lines as TEI lines can wrap)
+            line_pattern = re.compile(
+                rf'(<ab[^>]*xml:id="{re.escape(line_id)}"[^>]*>.*?</ab>)', re.DOTALL
+            )
+            match = line_pattern.search(output_text)
+            if not match:
+                if verbose:
+                    print(f"    Skipping line {line_id} as no line with this ID could be found in the text file:"
+                          f"\n      {base_line}")
+                skip_count += 1
+                continue
+
+            # Get the start and end indices of the match found in the original text
+            span = [i for i in match.span()]
+            original_ab = match.group(1)
+            ab_count = original_ab.count("<ab ")
+            end_ab_count = 1
+
+            # In case any nested <ab> tags occur, and the regex may not have found the correct closing </ab> tag,
+            # iterate over the original text until the correct closing tag is found by counting the number of
+            # opening and closing tags within each match, and updating the match indices until the number is even
+            if ab_count > end_ab_count:
+                while ab_count > end_ab_count:
+                    span = [span[0], output_text.find("</ab>", span[1]) + len("</ab>")]
+                    original_ab = output_text[span[0]:span[1]]
+                    ab_count = original_ab.count("<ab ")
+                    end_ab_count = original_ab.count("</ab>")
+            elif ab_count != end_ab_count:
+                if verbose:
+                    print(f"    Skipping line {line_id}, as the correct closing </ab> tag could not be found.\n"
+                          f"{original_ab}\n")
+                skip_count += 1
+                continue
+
+            # Get the raw text of the line enclosed by <ab> tags
+            match_raw = re.search(r"<ab[^>]*>(.*)</ab>", original_ab, re.DOTALL)
+            if match_raw:
+                raw_text = match_raw.group(1)
             else:
-                tok_list.append(stripped_item)
+                if verbose:
+                    print(
+                        f"    Skipping line {line_id} as the raw text between <ab> tags could not be extracted.\n"
+                    )
+                skip_count += 1
+                continue
 
-        new_xml_body = "".join(tok_list)
+            # Tokenise the text
+            line_text = base_line.get_text()
+            clean_tokens = tze(line_text)
 
-        # Renumber tokens in glosses which contain problematic <title> tags
-        if "<title>" in new_xml_body:
+            # Account for any TEI tags that may occur using regex
+            tokens_with_tags = list()
+            i = 0
+            n = len(raw_text)
+            for tok in clean_tokens:
+                # 1) Skip whitespace between tokens in the tagged string
+                while i < n and raw_text[i].isspace():
+                    i += 1
 
-            reducing_xml_body = new_xml_body
+                snippet = ""
 
-            # Create a list of all glosses which contain problematic <title> tags
-            problem_glosslist = []
-            title_count = reducing_xml_body.count("<title>")
-            for title_tag in range(title_count):
-                title_index = reducing_xml_body.find("<title>")
-                title_close_index = reducing_xml_body.find("</title>")
-                problem_text = reducing_xml_body[title_index:title_close_index + len("</title>")]
+                # 2) Include any opening tags that come right before the token’s first visible char
+                #    (we do NOT consume closing or self-closing tags here; those belong to the
+                #     previous token or to the next token if they introduce visible text).
+                while i < n and raw_text[i] == '<':
+                    j = raw_text.find('>', i)
+                    if j == -1:
+                        raise ValueError("Malformed tag (missing '>').")
+                    tag = raw_text[i:j + 1]
+                    if tag.startswith('</') or tag.endswith('/>'):
+                        # leave these for step (4) of the previous or next token
+                        break
+                    snippet += tag
+                    i = j + 1
 
-                preceding = reducing_xml_body[:title_index]
-                proceeding = reducing_xml_body[title_close_index + len("</title>"):]
-                problem_pretext = preceding[preceding.rfind("<ab "):]
-                problem_protext = proceeding[:proceeding.find("</ab>") + len("</ab>")]
+                # 3) Consume text/tags until we have matched the entire token (char-by-char).
+                k = 0  # index in token
+                while k < len(tok):
+                    if i >= n:
+                        raise ValueError(f"Ran out of text while matching token {tok!r}.")
+                    ch = raw_text[i]
+                    if ch == '<':
+                        j = raw_text.find('>', i)
+                        if j == -1:
+                            raise ValueError("Malformed tag (missing '>').")
+                        snippet += raw_text[i:j + 1]
+                        i = j + 1
+                        continue
+                    snippet += ch
+                    if ch.isspace():
+                        # ignore stray whitespace inside markup regions
+                        i += 1
+                        continue
+                    if ch != tok[k]:
+                        raise ValueError(
+                            f"Mismatch while matching token {tok!r}: expected {tok[k]!r}, saw {ch!r} at pos {i}."
+                        )
+                    k += 1
+                    i += 1
 
-                problem_gloss = problem_pretext + problem_text + problem_protext
-                reducing_xml_body = reducing_xml_body[reducing_xml_body.find(problem_gloss) + len(problem_gloss):]
-                problem_glosslist.append(problem_gloss)
+                # 4) After finishing the token’s visible chars, greedily include any immediately
+                #    adjacent end tags or empty elements (e.g. </term>, </hi>, <lb/>) that close
+                #    markup for this token, but stop before an opening tag that would start the next token.
+                while i < n and raw_text[i] == '<':
+                    j = raw_text.find('>', i)
+                    if j == -1:
+                        raise ValueError("Malformed tag (missing '>').")
+                    tag = raw_text[i:j + 1]
+                    if tag.startswith('</') or tag.endswith('/>'):
+                        snippet += tag
+                        i = j + 1
+                    else:
+                        break
 
-            # Split each problematic gloss into tokens, replace the xml ID for that token, then recombine the list
-            for problem_gloss in problem_glosslist:
-                key_start_index = problem_gloss.find("ab xml:id=")
-                post_index_string = problem_gloss[key_start_index:]
-                key_end_ex = key_start_index + post_index_string.find('"', post_index_string.find('"') + 1)
-                segment_id = problem_gloss[key_start_index + 11:key_end_ex] + "__"
+                tokens_with_tags.append(snippet)
 
-                prob_gl_list = re.split(r"(</w>|</pc>)", problem_gloss)
-                fixed_gloss_list = []
-                prob_tok_num = 0
-                for prob_tok in prob_gl_list:
-                    if "<w " in prob_tok or "<pc " in prob_tok:
-                        prob_tok_num += 1
-                    if segment_id in prob_tok:
-                        prob_id_index = prob_tok.find(segment_id)
-                        old_gl_num = prob_tok[prob_id_index:]
-                        old_gl_num = old_gl_num[:old_gl_num.find('"')]
-                        new_gl_num = f"{segment_id}{prob_tok_num}"
-                        prob_tok = new_gl_num.join(prob_tok.split(old_gl_num))
-                    fixed_gloss_list.append(prob_tok)
-
-                fixed_gloss = "".join(fixed_gloss_list)
-                new_xml_body = fixed_gloss.join(new_xml_body.split(problem_gloss))
-
-        new_xml_file = (
-                content[:content.find("<body>")] + new_xml_body + content[content.find("</body>") + len("</body>"):]
-        )
-
-        # Save the modified content to the new file path
-        with open(new_file_path, 'w', encoding="utf-8") as new_file:
-            new_file.write(new_xml_file)
+            all_lines.append([clean_tokens, tokens_with_tags, original_ab, raw_text, line_id, span[0], span[1]])
 
         if verbose:
-            print(f"Created tokenised file:\n    {new_file_path}\n")
+            print(f"  Tokenisation complete for base-text file: {old_xml}"
+                  f"\n  Adding unique IDs to each token in file: {old_xml}")
+
+        # Measure the amount of time taken to apply unique IDs to tokens
+        original_len = len(all_lines)
+        percent_divisor = 100 / original_len
+        percent_left = 100
+        long_loop = 500000
+
+        for line_num, line in enumerate(all_lines):
+
+            clean_tokens, tei_tokens, raw_line, raw_text = line[0], line[1], line[2], line[3]
+            line_id, start, end = line[4], line[5], line[6]
+
+            # Make sure that the tokenised text can be located within the raw text for the line
+            updated_line = raw_line[:]
+            if raw_text not in updated_line:
+                if verbose:
+                    print(f"  Skipping token annotation for line {line_id} and reverting all changes, "
+                          f"cannot match raw text with line from original TEI document\n")
+                skip_count += 1
+                continue
+            ab_tags = updated_line.split(raw_text)
+
+            if updated_line not in output_text:
+                if verbose:
+                    print(f"  Skipping token annotation for line {line_id} and reverting all changes, "
+                          f"cannot find line in original TEI document\n")
+                skip_count += 1
+                continue
+
+            tag_indent = output_text[(output_text[:start]).rfind("\n") + len("\n"):start]
+            word_indent = tag_indent + "\t"
+
+            annotated_tokens = [(f"{line_id}__{toknum + 1}", tok) for toknum, tok in enumerate(tei_tokens)]
+            annotated_tokens = [
+                f'\n{word_indent}<pc xml:id="{tagged_tok[0]}">{tagged_tok[1]}</pc>' if all(
+                    char in string.punctuation + "«»" for char in tagged_tok[0]
+                ) else f'\n{word_indent}<w xml:id="{tagged_tok[0]}">{tagged_tok[1]}</w>'
+                for tagged_tok in annotated_tokens
+            ]
+
+            annotated_line = "".join([ab_tags[0]] + annotated_tokens + ["\n", tag_indent, ab_tags[1]])
+
+            line.append(annotated_line)
+            all_lines[line_num] = line
+
+            if original_len >= long_loop and verbose:
+                percent_complete = line_num * percent_divisor
+                exact_left = 100 - percent_complete
+                if exact_left == 100:
+                    print(f"    {exact_left}% remaining.")
+                elif exact_left <= percent_left - 0.1:
+                    percent_left = round(exact_left, 2)
+                    print(f"    {percent_left}% remaining.")
+
+        # Insert annotated tokens into the correct positions in the raw TEI file's text
+        for line in reversed(all_lines):
+
+            raw_line, start, end, annotated_line, line_id = line[2], line[5], line[6], line[7], line[4]
+
+            if output_text[start:end] == raw_line:
+                output_text = output_text[:start] + annotated_line + output_text[end:]
+            else:
+                if verbose:
+                    print(f"  Skipping token annotation for line {line_id} and reverting all changes, "
+                          f"cannot find line in original TEI document\n")
+                skip_count += 1
+                continue
+
+        # Save the modified content to the new file path
+        with open(xml_files.get(old_xml), 'w', encoding="utf-8") as new_file:
+            new_file.write(output_text)
+
+        if verbose:
+            print(f"Token annotation complete for file:\n    {xml_files.get(old_xml)}\n"
+                  f"  Lines annotated: {full_count-skip_count}\n  Lines skipped: {skip_count}\n")
 
 
 if __name__ == "__main__":
 
-    id_tokens()
+    id_tokens(True)
