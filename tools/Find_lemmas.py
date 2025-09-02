@@ -1,4 +1,5 @@
 import os
+from datetime import date
 from collections import Counter
 import fnmatch
 from nltk import edit_distance as ed
@@ -21,7 +22,7 @@ def norm_ld(s1, s2):
     return lev_norm
 
 
-def find_lems(verbose=True):
+def find_lems(verbose=False):
     """
     Searches for all tokenised .xml files in the first-level subdirectories of the directory this .py file is placed in,
     and links individual glosses to the lemmata.
@@ -34,20 +35,63 @@ def find_lems(verbose=True):
     tools_dir = os.getcwd()
     tools_parent = os.path.dirname(tools_dir)
     texts_dir = os.path.join(tools_parent, "data", "texts")
-    if os.path.isdir(texts_dir):  # Check if it's a directory
+    if os.path.isdir(texts_dir):
         base_texts = os.listdir(texts_dir)
         for base_txt in base_texts:
             txt_dir = os.path.join(texts_dir, base_txt)
-            base_txt_path = os.path.join(txt_dir, "basetext_tokenised.xml")  # Need better solution (!!!)
+            base_txt_path = os.path.join(txt_dir, "basetext.xml")
             if os.path.isfile(base_txt_path):
-                if os.path.join("isidore", "basetext_tokenised.xml") in base_txt_path:
+
+                # Check whether base-texts have been tokenised or not
+                # If not, or if they have been annotated without using the tokenisation tool, skip them
+                with open(base_txt_path, "r", encoding="utf-8") as xml_file:
+                    content = xml_file.read()
+                base_soup = BeautifulSoup(content, "xml")
+                revision_desc = base_soup.find("teiHeader").find("revisionDesc")
+                if revision_desc:
+                    changes = revision_desc.find_all("change")
+                    tokenised = False
+                    pre_tokenised = False
+                    for change in changes:
+                        tok_check = change["what"]
+                        if tok_check == "tokenisation_and_annotation":
+                            tokenised = True
+                            break
+                        elif tok_check == "pre_tokenisation":
+                            pre_tokenised = True
+                            break
+
+                    # If the base-text has been tokenised and annotated by the tokenisation tool
+                    if tokenised:
+                        base_files[base_txt] = base_txt_path
+
+                    # If the base-text has been tokenised and/or similarly annotated without using the tokenisation tool
+                    elif pre_tokenised:
+                        if verbose:
+                            print(f"Skipping lemma assignment for glosses on {base_txt} "
+                                  f"as the base-text's token annotation predates the tokeniser tool "
+                                  f"and is incompatible with automatic lemma assignment:"
+                                  f"\n    {base_txt_path}\n")
+                        continue
+
+                    # If the base-text has neither been tokenised nor similarly annotated, with or without the tool
+                    else:
+                        if verbose:
+                            print(f"Skipping lemma assignment for glosses on {base_txt} "
+                                  f"as the base-text has not been tokenised:"
+                                  f"\n    {base_txt_path}\n")
+                        continue
+
+                # If there is no revision description, assume the base-text has not been tokenised
+                elif not revision_desc:
                     if verbose:
-                        print(f"Skipping lemma annotation of file as its format is incompatible:"
+                        print(f"Skipping lemma assignment for glosses on {base_txt} "
+                              f"as the base-text has not been tokenised:"
                               f"\n    {base_txt_path}\n")
                     continue
-                base_files[base_txt] = base_txt_path
+
             elif verbose:
-                print(f"Skipping lemma annotation of glosses for {base_txt} "
+                print(f"Skipping lemma assignment for glosses on {base_txt} "
                       f"as the tokenised base-text file could not be found:\n    {base_txt_path}\n")
     elif verbose:
         print(f"Could not find directory:\n    {texts_dir}\n")
@@ -73,32 +117,65 @@ def find_lems(verbose=True):
                 print("  This will impact the assignment of lemmata, all these lines should be manually checked\n")
         base_lines = {line.get("xml:id"): line.find_all("w") for line in base_lines}
 
-        # Collect paths to gloss collections' locations
+        # Collect paths to gloss collections if they have not already been annotated with lemma targets
         gloss_collections = []
         glosses_path = os.path.join(texts_dir, basefile, "gloss_collections")
-        if os.path.isdir(glosses_path):  # Check if it's a directory
+        if os.path.isdir(glosses_path):
             for filename in fnmatch.filter(os.listdir(glosses_path), '*.xml'):
-                if "_lemmatised" not in filename:  # Need better solution to ensure files not already lemmtised (!!!)
-                    gloss_file_path = os.path.join(glosses_path, filename)
-                    lemmatised_file_path = gloss_file_path[:-4] + "_lemmatised" + ".xml"
-                    if os.path.isfile(gloss_file_path):
-                        if os.path.isfile(lemmatised_file_path):
+                gloss_file_path = os.path.join(glosses_path, filename)
+                lemmatised = False
+                pre_lemmatised = False
+                if os.path.isfile(gloss_file_path):
+
+                    # Check whether glosses in the collection have been assigned to lemmata in the base-text yet
+                    # If so, skip them
+                    with open(gloss_file_path, "r", encoding="utf-8") as xml_file:
+                        content = xml_file.read()
+                    gloss_soup = BeautifulSoup(content, "xml")
+                    file_desc = gloss_soup.find("fileDesc")
+                    if file_desc:
+                        revision_desc = gloss_soup.find("teiHeader").find("revisionDesc")
+
+                        if revision_desc:
+                            changes = revision_desc.find_all("change")
+                            for change in changes:
+                                tok_check = change["what"]
+                                if tok_check == "lemma_assignment":
+                                    lemmatised = True
+                                    break
+                                elif tok_check == "pre_lemma_assignment":
+                                    pre_lemmatised = True
+                                    break
+
+                        # If the collection has been annotated by the lemma-assignment tool or preceding its development
+                        if lemmatised or pre_lemmatised:
                             if verbose:
-                                print(f"  Skipping annotation for the file, {filename}, "
-                                      f"as an annotated file already exists:\n    {lemmatised_file_path}\n")
+                                print(f"  Skipping lemma assignment for {filename} as the the file "
+                                      f"has already been annotated with lemmata:\n    {gloss_file_path}\n")
                             continue
-                        gloss_collections.append(gloss_file_path)
-                    elif verbose:
-                        print(f"Skipping lemma annotation of glosses for gloss file, {filename}. "
-                              f"File could not be found at the designated path:\n    {gloss_file_path}\n")
+
+                        # If the base-text has neither been tokenised nor similarly annotated, with or without the tool
+                        else:
+                            gloss_collections.append(gloss_file_path)
+
+                    # If the collection file has no file description, it is faulty,
+                    # Abandon attempt to work with this base-text, as the revision history can't be inserted
+                    else:
+                        if verbose:
+                            print(f"  Skipping lemma assignment for {filename} as no <fileDesc> section could be found "
+                                  f"in the file, so no <revisionDesc> can be inserted:\n    {gloss_file_path}\n")
+                        continue
+
         elif verbose:
-            print(f"Skipping lemma annotation for all gloss collections on base-text, {basefile} "
-                  f"as the folder path could not be found:\n    {glosses_path}\n")
+            print(f"  Skipping lemma assignment for all gloss collections on base-text, {basefile}, "
+                  f"as the directory path could not be found:\n    {glosses_path}\n")
 
         # For each collection of glosses found
         for gloss_file in gloss_collections:
+            filename = os.path.basename(gloss_file)
+
             if verbose:
-                print(f"  Currently annotating glosses from file:\n    {gloss_file}\n")
+                print(f"  Currently annotating glosses from file: {filename}\n")
 
             # Open and read the content of the xml file
             with open(gloss_file, 'r', encoding="utf-8") as gloss_xml_file:
@@ -112,6 +189,204 @@ def find_lems(verbose=True):
             if len(gloss_soup.find_all("term")) == 0:
                 if verbose:
                     print(f"  No lemmata found in edition; abandoning attempt.\n")
+                continue
+
+            # Check if revisions have been made to the file
+            file_desc = gloss_soup.find("fileDesc")
+            if file_desc:
+                revision_desc = gloss_soup.find("teiHeader").find("revisionDesc")
+                # If no revision history exists for the file, assume glosses have not been assigned to lemmata,
+                # Create a revision history for the lemma assignments that are about to take place
+                if not revision_desc:
+                    if verbose:
+                        print(f"    No <revisionDesc> found in file for collection, {filename}, creating one...")
+
+                    # Insert the new revision history after the file description in the gloss collection file
+                    indent_match = re.search(r"^(\s*)</fileDesc>", output_text, re.MULTILINE)
+                    if indent_match:
+                        indent = indent_match.group(1)
+                    else:
+                        indent = ""
+                    revision_desc = gloss_soup.new_tag("revisionDesc")
+                    today = date.today().strftime("%Y-%m-%d")
+                    change = gloss_soup.new_tag("change")
+                    change.attrs["when"] = today
+                    change.attrs["what"] = "revision_history_created"
+                    change.attrs["who"] = "#lemmatiser"
+                    change.attrs["how"] = "automatic"
+                    change.string = ("Automatically processed: "
+                                     "The revisionDesc section was automatically created during lemma assignment.")
+                    revision_desc.append(change)
+                    new_revision_str = str(revision_desc.prettify())
+                    new_str_with_tabs = re.sub(
+                        r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_revision_str, flags=re.MULTILINE
+                    )
+                    new_revision = new_str_with_tabs.strip()
+                    new_revision = f"\n{indent}" + f"\n{indent}".join(new_revision.split("\n"))
+                    closing_index = output_text.find("</fileDesc>")
+
+                    # Add the new revision history to the gloss collection file,
+                    # but don't save it yet, as the lemma assignment process may fail
+                    output_text = (
+                            output_text[:closing_index + len("</fileDesc>")]
+                            + new_revision
+                            + output_text[closing_index + len("</fileDesc>"):]
+                    )
+                    if verbose:
+                        print("      <revisionDesc> section added after <fileDesc> section in file\n")
+
+                    # Reopen and parse the gloss collection file, which now includes revision history section
+                    gloss_soup = BeautifulSoup(output_text, "xml")
+
+                # If a revision history already existed for the file, or if one has just been created,
+                # add new revision information to it to inform about lemma assignment
+                indent_match = re.search(r"^(\s*)</revisionDesc>", output_text, re.MULTILINE)
+                if indent_match:
+                    indent = indent_match.group(1)
+                else:
+                    indent = ""
+                today = date.today().strftime("%Y-%m-%d")
+                change = gloss_soup.new_tag("change")
+                change.attrs["when"] = today
+                change.attrs["what"] = "lemma_assignment"
+                change.attrs["who"] = "#lemmatiser"
+                change.attrs["how"] = "automatic"
+                change.string = ("Automatically processed: Glosses were assigned to lemmata in the associated "
+                                 "base-text file by targeting the unique IDs of tokens within that file which have "
+                                 "the highest string similarity with lemmata identified in this gloss edition.")
+                new_change_str = str(change.prettify())
+                new_str_with_tabs = re.sub(
+                    r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_change_str, flags=re.MULTILINE
+                )
+                new_revision = new_str_with_tabs.strip()
+                new_revision = "\t" + f"\n{indent}\t".join(new_revision.split("\n")) + f"\n{indent}"
+                closing_index = output_text.find("</revisionDesc>")
+
+                # Add the revision history update to the gloss collection file,
+                # but don't save it yet, as the token annotation process may fail
+                output_text = (
+                        output_text[:closing_index]
+                        + new_revision
+                        + output_text[closing_index:]
+                )
+                if verbose:
+                    print("    New <change> added to <revisionDesc> section in file to detail lemma assignment\n")
+
+                # Reopen and parse the gloss collection file, which now includes the revision history update
+                gloss_soup = BeautifulSoup(output_text, "xml")
+
+            # If the gloss collection file has no file description the revision history can't be inserted
+            # Abandon attempt to work with this collection
+            else:
+                if verbose:
+                    print(f"    No <fileDesc> found for collection, {filename}. Cannot insert <revisionDesc>")
+                    print(f"  Lemma assignment abandoned for {filename}\n")
+                continue
+
+            # Add a responsibility statement for the lemma assignment tool if one does not already exist
+            title_stmt = gloss_soup.find("teiHeader").find("fileDesc").find("titleStmt")
+            if title_stmt:
+                resp_stmts = title_stmt.find_all("respStmt")
+                # Insert a new responsibility statement at the bottom of the title statement in the gloss collection
+                # file if one does not already occur there
+                if not resp_stmts:
+                    if verbose:
+                        print(f"    No responsibility statement found in file for collection, {filename}, "
+                              f"creating one...")
+                    indent_match = re.search(r"^(\s*)</titleStmt>", output_text, re.MULTILINE)
+                    if indent_match:
+                        indent = indent_match.group(1)
+                    else:
+                        indent = ""
+                    resp_stmt = gloss_soup.new_tag("respStmt")
+                    resp_stmt.attrs["xml:id"] = "lemmatiser"
+                    responsibility = gloss_soup.new_tag("resp")
+                    responsibility.string = (
+                        "Automatic assignment of glosses to lemmata (single tokens) within a base-text file"
+                    )
+                    resp_name = gloss_soup.new_tag("name")
+                    resp_name.string = (
+                        "Find_lemmas.py"
+                    )
+                    resp_stmt.append(responsibility)
+                    resp_stmt.append(resp_name)
+
+                    new_resp_str = str(resp_stmt.prettify())
+                    new_resp_with_tabs = re.sub(
+                        r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_resp_str, flags=re.MULTILINE
+                    )
+                    new_resp_revision = new_resp_with_tabs.strip()
+                    new_resp_revision = "\t" + f"\n{indent}\t".join(new_resp_revision.split("\n")) + f"\n{indent}"
+                    closing_index = output_text.find("</titleStmt>")
+
+                    # Add the new responsibility statement to the base-text file,
+                    # but don't save it yet, as the token annotation process may fail
+                    output_text = (
+                            output_text[:closing_index]
+                            + new_resp_revision
+                            + output_text[closing_index:]
+                    )
+                    if verbose:
+                        print("      Responsibility statement added to gloss collection file for lemmatiser\n")
+
+                    # Reopen and parse the base-text file, which now includes a responsibility statement
+                    gloss_soup = BeautifulSoup(output_text, "xml")
+
+                # If one or more responsibility statements exist, but they were not made by the lemma assignment tool
+                # Insert a new responsibility statement after the last one in the gloss collection file
+                else:
+                    # Check that none of the responsibility statements relate to the lemma assignment tool
+                    lemmatised = False
+                    for resp_stmt in resp_stmts:
+                        if resp_stmt.get("xml:id") == "lemmatiser":
+                            lemmatised = True
+                            break
+
+                    # If none of the responsibility statements relate to the lemma assignment tool
+                    if not lemmatised:
+                        # Insert lemma assignment responsibility information into the gloss collection file
+                        indent_match = re.search(r"^(\s*)</titleStmt>", output_text, re.MULTILINE)
+                        if indent_match:
+                            indent = indent_match.group(1)
+                        else:
+                            indent = ""
+                        resp_stmt = gloss_soup.new_tag("respStmt")
+                        resp_stmt.attrs["xml:id"] = "lemmatiser"
+                        responsibility = gloss_soup.new_tag("resp")
+                        responsibility.string = (
+                            "Automatic assignment of glosses to lemmata (single tokens) within a base-text file"
+                        )
+                        resp_name = gloss_soup.new_tag("name")
+                        resp_name.string = (
+                            "Find_lemmas.py"
+                        )
+                        resp_stmt.append(responsibility)
+                        resp_stmt.append(resp_name)
+
+                        new_resp_str = str(resp_stmt.prettify())
+                        new_resp_with_tabs = re.sub(
+                            r'^( +)', lambda m: '\t' * (len(m.group(1)) // 1), new_resp_str, flags=re.MULTILINE
+                        )
+                        new_resp_revision = new_resp_with_tabs.strip()
+                        new_resp_revision = f"\n{indent}\t" + f"\n{indent}\t".join(new_resp_revision.split("\n"))
+                        closing_index = output_text.find("</respStmt>")
+
+                        # Add the new responsibility statement to the base-text file,
+                        # but don't save it yet, as the token annotation process may fail
+                        output_text = (
+                                output_text[:closing_index + len("</respStmt>")]
+                                + new_resp_revision
+                                + output_text[closing_index + len("</respStmt>"):]
+                        )
+                        if verbose:
+                            print("      Responsibility statement added to gloss collection file for lemmatiser\n")
+
+            # If the gloss collection file has no title statement the responsibility statement can't be inserted
+            # Abandon attempt to work with this collection
+            else:
+                if verbose:
+                    print(f"    No <titleStmt> found for collection, {filename}. Cannot insert <respStmt>")
+                    print(f"  Lemma assignment abandoned for {filename}\n")
                 continue
 
             # Find each sequential <note> tag in the text file used to identify glosses and their lemmata
@@ -144,7 +419,7 @@ def find_lems(verbose=True):
                         print(f"    Skipping gloss as its ID could not be determined:\n      {note}")
                     skip_count += 1
                     continue
-                # Replace problematic XML quote character form note when it doesn't occur in the original_text
+                # Replace problematic XML quote character form note when it doesn't occur in the raw TEI text
                 if '"' in note_id:
                     note_id = '&quot;'.join(note_id.split('"'))
                 lemma_note = ""
@@ -345,8 +620,8 @@ def find_lems(verbose=True):
                             lemma_note = (f"<!-- re-examine: Levenshtein distance used to find the closest match - "
                                           f"Edit distance: {min_lev[0]} ('{this_fg_lemma}' to '{min_lev[2][0]}') - "
                                           f"Difference: {min_lev_norm}% -->")
-                        else:
-                            lemma_note = lemma_note[:-1] + (f" Levenshtein distance used to find the closest match - "
+                        elif "Levenshtein distance used to find the closest match" not in lemma_note:
+                            lemma_note = lemma_note[:-2] + (f" Levenshtein distance used to find the closest match - "
                                                             f"Edit distance: "
                                                             f"{min_lev[0]} ('{this_fg_lemma}' to '{min_lev[2][0]}') - "
                                                             f"Difference: {min_lev_norm}% -->")
@@ -366,8 +641,8 @@ def find_lems(verbose=True):
                             lemma_key = f"""{lemma_key} #{additional_lemma_key}"""
                         if not lemma_note:
                             lemma_note = "<!-- re-examine: Multiple possible matches found -->"
-                        else:
-                            lemma_note = lemma_note[:-1] + " Multiple possible matches found -->"
+                        elif "Multiple possible matches found" not in lemma_note:
+                            lemma_note = lemma_note[:-2] + " Multiple possible matches found -->"
 
                 # Add the lemma found lemma key, and any lemma notes to the identified gloss list
                 identified_gloss[6] = lemma_note
@@ -422,16 +697,14 @@ def find_lems(verbose=True):
                 print(f"  Annotated lemmata for {usable_glosses} glosses\n    {skip_count} glosses skipped")
                 print(f"  Saving gloss annotations for file:\n    {gloss_file}\n")
 
-            # Create a new file path with "_lemmatised" appended to the filename
-            directory, filename = os.path.split(gloss_file)
-            new_filename = os.path.splitext(filename)[0] + '_lemmatised.xml'  # Need a better solution (!!!)
-            new_file_path = os.path.join(directory, new_filename)
+            # Overwrite the old file with the new lemma-annotated file,
+            # which contains a responsibility statement and revision history
 
             # Save the modified content to the new file path
-            with open(new_file_path, 'w', encoding="utf-8") as new_file:
+            with open(gloss_file, 'w', encoding="utf-8") as new_file:
                 new_file.write(output_text)
 
 
 if __name__ == "__main__":
 
-    find_lems()
+    find_lems(True)

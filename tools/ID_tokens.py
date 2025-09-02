@@ -86,7 +86,6 @@ def id_tokens(verbose=False):
 
                 # Reopen and parse the base-text file, which now includes revision history section
                 base_soup = BeautifulSoup(output_text, "xml")
-                revision_desc = base_soup.find("teiHeader").find("revisionDesc")
 
             # If a revision history already existed for the file, or if one has just been created,
             # add new revision information to it to inform about token annotation
@@ -250,7 +249,7 @@ def id_tokens(verbose=False):
             # Check if a listed change suggests that the file either:
             # 1. Predates automatic token annotation, but nevertheless should not be tokenised
             # 2. Has already been tokenised and annotated
-            if tok_check in ["pre_tokenisation", "token_annotation"]:
+            if tok_check in ["pre_tokenisation", "tokenisation_and_annotation"]:
                 already_tokenised = True
                 break
         # If a base-text has already been tokenised, or predates tokenisation, skip the file with explanatory print out
