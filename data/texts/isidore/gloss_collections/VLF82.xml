@@ -49,6 +49,17 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change how="manual" what="revision_history_created" when="2025-09-02" who="Adrian Doyle">
+            Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
+         </change>
+         <change how="manual" what="pre_lemma_assignment" when="2025-09-02" who="Evina Stein">
+            Manually annotated: Lemmata were manually identified before the development of the GlossCorpus lemma
+            assignment tool. This work predates the introduction of a revision history into GlossCorpus TEI files;
+            hence, the date of this change is tied to the date on which a revision history was introduced for this
+            file. Tags and notes introduced during the manual lemma assignment may remain in this text file.
+         </change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>

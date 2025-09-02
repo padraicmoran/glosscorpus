@@ -8,6 +8,14 @@
 			<titleStmt>
 				<title>Glosses on Óengus mac Óengobann, <title>Félire Óenguso</title> in Oxford, Bodleian Library, Rawlinson B505</title>
 				<editor>Nike Stam</editor>
+				<respStmt xml:id="lemmatiser">
+					<resp>
+						Automatic assignment of glosses to lemmata (single tokens) within a base-text file
+					</resp>
+					<name>
+						Find_lemmas.py
+					</name>
+				</respStmt>
 			</titleStmt>
 			<editionStmt>
 				<p>The transcription of the glosses was made by Nike Stam and formed the basis of her 
@@ -41,6 +49,14 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<revisionDesc>
+			<change how="automatic" what="revision_history_created" when="2025-09-01" who="#lemmatiser">
+				Automatically processed: The revisionDesc section was automatically created during lemma assignment.
+			</change>
+			<change how="automatic" what="lemma_assignment" when="2025-09-01" who="#lemmatiser">
+				Automatically processed: Glosses were assigned to lemmata in the associated base-text file by targeting the unique IDs of tokens within that file which have the highest string similarity with lemmata identified in this gloss edition.
+			</change>
+        </revisionDesc>
 	</teiHeader>
 	<text>
 		<body>

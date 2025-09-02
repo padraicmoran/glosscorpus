@@ -35,9 +35,9 @@
          </change>
          <change how="manual" what="pre_tokenisation" when="2025-08-30" who="Evina Stein">
             Manually annotated: Lemmata were manually identified before the development of the GlossCorpus token
-            annotation tool. This predates the introduction of a revision history into GlossCorpus TEI files; hence, the
-            date of this change is tied to the date on which a revision history was included for this file. Tags and
-            notes resulting from the earlier token annotation process remain in the text file.
+            annotation tool. This work predates the introduction of a revision history into GlossCorpus TEI files;
+            hence, the date of this change is tied to the date on which a revision history was introduced for this
+            file. Tags and notes resulting from the manual token annotation may remain in this text file.
          </change>
       </revisionDesc>
    </teiHeader>
