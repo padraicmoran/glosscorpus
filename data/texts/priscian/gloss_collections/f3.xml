@@ -34,17 +34,31 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<revisionDesc>
+			<change how="manual" what="revision_history_created" when="2025-09-02" who="Adrian Doyle">
+				Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
+			</change>
+			<change how="automatic" what="pre_lemma_assignment" when="2025-09-02" who="Adrian Doyle and Mary Sweeney">
+				Automatically processed then manually corrected: Glosses were assigned to lemmata in the associated
+				base-text file by targeting the unique IDs of tokens within that file which have the highest string
+				similarity with lemmata identified in this gloss edition. This was carried out in late 2024, during the
+				early development of the GlossCorpus lemma assignment tool, before the functionality of the tool was
+				finalised. This predates the introduction of a revision history into GlossCorpus TEI files; hence, the
+				date of this change is tied to the date on which a revision history was included for this file. Tags,
+				notes and errors resulting from the earlier token annotation process may remain in the text file.
+			</change>
+        </revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div>
 				<note n="2r3 a" target="#II_5.1__1" facs="&facsBase;f7.item" place="m.s.">
 					<term>Philosophi</term>
-					<gloss>Achademia stoici peripatetici: achademia ab academia uilla platonis. 
-						Stoici dicunt<ex>ur</ex> q<ex>ui</ex> ad ur<supplied>bem ueni</supplied>entes in porticib<ex>us</ex> te<ex>m</ex>plorum philosophabantur. 
-						Peripatetici exorantes, quam tamen eundo philosophabant<ex>ur</ex>.					
-						Et dicti peripatetici circu<ex>m</ex> calcatores pericircum<gap/> q<ex>uo</ex>d haberent sententias circu<ex>m</ex> calcatus, .i. ueritate solidatas				
-					</gloss>			
+					<gloss>Achademia stoici peripatetici: achademia ab academia uilla platonis.
+						Stoici dicunt<ex>ur</ex> q<ex>ui</ex> ad ur<supplied>bem ueni</supplied>entes in porticib<ex>us</ex> te<ex>m</ex>plorum philosophabantur.
+						Peripatetici exorantes, quam tamen eundo philosophabant<ex>ur</ex>.
+						Et dicti peripatetici circu<ex>m</ex> calcatores pericircum<gap/> q<ex>uo</ex>d haberent sententias circu<ex>m</ex> calcatus, .i. ueritate solidatas
+					</gloss>
 				</note>
 				<note n="2r3 a1" target="#II_5.1__1" facs="&facsBase;f7.item" place="m.d.">
 					<term>Philosophi</term>
@@ -56,21 +70,21 @@
 				</note>
 				<note n="2r3 c" target="#II_5.1__7" facs="&facsBase;f7.item" place="m.d.">
 					<term>tenuissimum</term>
-					<gloss>quare dict<ex>um</ex> tenuissimu<ex>m</ex> aere<ex>m</ex> ut ostendera n<ex>on</ex> existo crasso et terrae uicino aere uoce<ex>m</ex> fieri sed ex illo superiori, 
-						na<ex>m</ex> a t<ex>er</ex>ra usq<ex>ue</ex> ad lunare<ex>m</ex> circulu<ex>m</ex> crassus aer est et spissus, 
-						unde et aliquando corporascit in nubes et implerisque locis terre similis est, 
+					<gloss>quare dict<ex>um</ex> tenuissimu<ex>m</ex> aere<ex>m</ex> ut ostendera n<ex>on</ex> existo crasso et terrae uicino aere uoce<ex>m</ex> fieri sed ex illo superiori,
+						na<ex>m</ex> a t<ex>er</ex>ra usq<ex>ue</ex> ad lunare<ex>m</ex> circulu<ex>m</ex> crassus aer est et spissus,
+						unde et aliquando corporascit in nubes et implerisque locis terre similis est,
 						a lunari circulo ad speram <supplied>caeli</supplied> purus est ether</gloss>
 				</note>
 				<note n="2r3 c1" target="#II_5.1__7" facs="&facsBase;f7.item" place="m.s.">
-					<term>tenuissimum</term>	
+					<term>tenuissimum</term>
 					<gloss>ad quod co<ex>n</ex>paratur aer quia d<ex>icitu</ex>r tenuissim<ex>um</ex> potest ad reliqua elem<ex>en</ex>ta ut terra q<ex>uo</ex>d uerat<ex>ur</ex> in puluere<ex>m</ex> <supplied>ardica</supplied> solis tenuis appellat<ex>ur</ex> a quo tenuior aer tenuis sum<ex>mus</ex> potest</gloss>
 				</note>
-			
+
 				<!-- re examine -->
 				<note n="2r3 d" target="#II_5.1__8" facs="&facsBase;f7.item">
 					<term>ictum</term>
 					<gloss>p<ex>er</ex>cussu<ex>m</ex></gloss>
-					<!-- Signes de renvoi also present but cannot find matching sign -->		
+					<!-- Signes de renvoi also present but cannot find matching sign -->
 				</note>
 
 				<note n="2r3 e" target="#II_5.1__10" facs="&facsBase;f7.item">
@@ -83,7 +97,7 @@
 				</note>
 				<note n="2r4 g" target="#II_5.2__9" facs="&facsBase;f7.item" place="m.s.">
 					<term>accidit</term>
-					<gloss>hoc dic<ex>tum</ex> sonus auditui, sunt auditus sono, quantu<ex>m</ex> p<ex>er</ex>tinet ad aures sentitus auri autem aer, 
+					<gloss>hoc dic<ex>tum</ex> sonus auditui, sunt auditus sono, quantu<ex>m</ex> p<ex>er</ex>tinet ad aures sentitus auri autem aer,
 						sed sensibilis d<ex>icitu</ex>r inter intelligibilis eo q<ex>uo</ex>d sentiri at que intelligi po<ex>st</ex> ab anima q<ex>uo</ex>d p<ex>ro</ex>prie humanis aurib<ex>us</ex> canuerit</gloss>
 				</note>
 				<note n="2r4 h" target="#II_5.2__14" facs="&facsBase;f7.item">
@@ -116,7 +130,7 @@
 				</note>
 				<note n="2r5 l1" target="#II_5.4__11" facs="&facsBase;f7.item" place="m.d.">
 					<term>quantum</term>
-					<gloss>Uox e<ex>st</ex> aer ict<ex>us</ex> sensibilis auditu, quantu<ex>m</ex> in ipse, .i. in ipso ictu, 
+					<gloss>Uox e<ex>st</ex> aer ict<ex>us</ex> sensibilis auditu, quantu<ex>m</ex> in ipse, .i. in ipso ictu,
 						scilicet in ipsa p<ex>er</ex>cussione si forte percitat<ex>ur</ex> aer magnu<ex>m</ex> sonu<ex>m</ex> reddit. Si uno exigue modicere sonat</gloss>
 				</note>
 				<note n="2r6 m" target="#II_5.5__9" facs="&facsBase;f7.item">
@@ -177,8 +191,8 @@
 				</note>
 				<note n="2r10 z1" target="#II_5.13__2" facs="&facsBase;f7.item" place="m.d.">
 					<term>gemitus</term>
-					<gloss>modulationes cordaruex<ex>m</ex>, q<ex>uonia</ex>m eorum intelligitur <supplied>affectus</supplied>, quamuis n<ex>on</ex> scribat<ex>ur</ex>. 
-						In gemitu dolor, in sibilo <supplied>uero aliquando</supplied> mitigation (.i. pacificatio) equorum aliquando acumen canu<ex>m</ex>; 
+					<gloss>modulationes cordaruex<ex>m</ex>, q<ex>uonia</ex>m eorum intelligitur <supplied>affectus</supplied>, quamuis n<ex>on</ex> scribat<ex>ur</ex>.
+						In gemitu dolor, in sibilo <supplied>uero aliquando</supplied> mitigation (.i. pacificatio) equorum aliquando acumen canu<ex>m</ex>;
 						<supplied>in tinnitu</supplied> et enim cordaru<ex>m</ex> dep<ex>re</ex>henditur intellectus <supplied>plerumque syllabarum</supplied>.</gloss>
 				<!-- see MURETHACH (MUIREDACH) AUTISSIODORENSIS METENSISQUE - ACLL Intellectus in Donati Arte maiore -->
 				</note>
@@ -212,7 +226,7 @@
 					<gloss>uox ranaru<ex>m</ex></gloss>
 				</note>
 
-			
+
 				<!-- n="2r13 hh" target="#II_5.15" facs="&facsBase;f7.item">
 					<gloss>has enim uoces quanquam intellegimus de quo sunt uolucre profecte tamen inarticulate dicuntur quia uox ut superius dici inarticulata est quae nullo affectu proficiseitur mentis </gloss>
 					<note>The scirbe has by mistake inserted a quote from Donatus Ortigraphus - Ars grammatica - LLT De uoce, linea : 23, into the main body text. This quotation is also found as a marginal gloss in F2 on 2v.</note>

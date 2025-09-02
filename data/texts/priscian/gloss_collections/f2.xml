@@ -34,6 +34,20 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<revisionDesc>
+			<change how="manual" what="revision_history_created" when="2025-09-02" who="Adrian Doyle">
+				Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
+			</change>
+			<change how="automatic" what="pre_lemma_assignment" when="2025-09-02" who="Adrian Doyle and Mary Sweeney">
+				Automatically processed then manually corrected: Glosses were assigned to lemmata in the associated
+				base-text file by targeting the unique IDs of tokens within that file which have the highest string
+				similarity with lemmata identified in this gloss edition. This was carried out in late 2024, during the
+				early development of the GlossCorpus lemma assignment tool, before the functionality of the tool was
+				finalised. This predates the introduction of a revision history into GlossCorpus TEI files; hence, the
+				date of this change is tied to the date on which a revision history was included for this file. Tags,
+				notes and errors resulting from the earlier token annotation process may remain in the text file.
+			</change>
+        </revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -174,8 +188,8 @@
 				</note>
 				<!-- re-examine: Levenshtein distance used to find the closest match - Edit distance: 2 ('' to 'de') - Difference: 100.0% -->
 				<note n="2r" target="#II_5.0__3" facs="&facsBase;f9.item" place="m.i.">
-					<gloss>caesariensis <gap/> grecorum <gap/> ab hunc libro iuliano apostate scribsit C<ex>on</ex>sules a consulendo, dicit<ex>ur</ex> sic<ex>it</ex> rex a regendo, na<ex>m</ex> cum Romani superba<ex>m</ex> regu<ex>m</ex> <supplied>dominationem non ferrent, annua imperia binos que consules sibi</supplied> fecerunt. 
-						Na<ex>m</ex> fastum regius beniuolentia c<ex>on</ex>sulentis, sed sup<ex>er</ex>bia dominantis erat. Hinc igitur <supplied>consules appellati, uel a consulendo ciuibus, uel a regendo cuncta consilio. Quos tamen ideo mutandos </supplied> p<ex>er</ex> singulos annos mutandos elegerunt, ut nec insolens diu maneret, <ex>et</ex> moderatior cito succurreret. 
+					<gloss>caesariensis <gap/> grecorum <gap/> ab hunc libro iuliano apostate scribsit C<ex>on</ex>sules a consulendo, dicit<ex>ur</ex> sic<ex>it</ex> rex a regendo, na<ex>m</ex> cum Romani superba<ex>m</ex> regu<ex>m</ex> <supplied>dominationem non ferrent, annua imperia binos que consules sibi</supplied> fecerunt.
+						Na<ex>m</ex> fastum regius beniuolentia c<ex>on</ex>sulentis, sed sup<ex>er</ex>bia dominantis erat. Hinc igitur <supplied>consules appellati, uel a consulendo ciuibus, uel a regendo cuncta consilio. Quos tamen ideo mutandos </supplied> p<ex>er</ex> singulos annos mutandos elegerunt, ut nec insolens diu maneret, <ex>et</ex> moderatior cito succurreret.
 						<supplied> Inde autem duo pares, quia unus rem ciuilem, alter rem militarem administrabant.</supplied> Regnauer<ex>unt</ex> aut<ex>em</ex> annis cccclxvii. Inde <ex>et</ex> p<ex>ro</ex>consules dicti, eo q<ex>uo</ex>d uicem consulis fungerentur, sic<ex>ut</ex> p<ex>ro</ex>curator curatori <supplied>id est actori</supplied> <gap/>
 						<gap/> Sic<ex>ut</ex> <unclear>patres filius</unclear> a p<ex>ro</ex>uideant regi publicae. </gloss>
 				<!-- Isidorus Hispalensis - Etymologiarum siue Originum libri XX (CPL 1186) - LLT lib. : 9, cap. : 3, par. : 6  - - >
@@ -196,7 +210,7 @@
 
 					<note n="2v4 d" target="#II_6.1__3" facs="&facsBase;f10.item" place="m.l.">
 						<term>inarticulatae</term>
-						<gloss>has enim uoces quanqua<ex>um</ex> intellegim<ex>us</ex> de quo sunt uolucre p<ex>ro</ex>fecte tam<ex>en</ex> inarticulate dicunt<ex>ur</ex> quia uox ut superius dici inarticulata 
+						<gloss>has enim uoces quanqua<ex>um</ex> intellegim<ex>us</ex> de quo sunt uolucre p<ex>ro</ex>fecte tam<ex>en</ex> inarticulate dicunt<ex>ur</ex> quia uox ut superius dici inarticulata
 							est q<ex>uae</ex> nullo affectu p<ex>ro</ex>ficiseitur m<ex>en</ex>tis </gloss>
 					<!-- Donatus Ortigraphus - Ars grammatica - LLT De uoce, linea : 23 -->
 					<!-- see Paris, Bibliothèque nationale, lat. 7504 F3 -->
