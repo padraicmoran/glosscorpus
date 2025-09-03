@@ -27,38 +27,76 @@ def prep_files(normalise=False):
 
     # Create lists to collect directories for each base text and associated gloss collections
     base_texts = os.listdir(texts_dir)
-    gloss_collections = list()
+    text_collections = dict()
 
+    # Ensure that each gloss collection for a base-text has had lemmata assigned before beginning
     for text in base_texts:
         text_path = os.path.join(texts_dir, text)
         collections_path = os.path.join(text_path, "gloss_collections")
+
+        gloss_collections = list()
+        # Check that lemmata have been assigned
         for gloss_coll in os.listdir(collections_path):
-            if "_lemmatised.xml" in gloss_coll:
-                gloss_collections.append(os.path.join(collections_path, gloss_coll))
+            gloss_file_path = os.path.join(collections_path, gloss_coll)
+            lemmatised = False
+            pre_lemmatised = False
+            if os.path.isfile(gloss_file_path):
+                with open(gloss_file_path, "r", encoding="utf-8") as xml_file:
+                    content = xml_file.read()
+                gloss_soup = BeautifulSoup(content, "xml")
+                file_desc = gloss_soup.find("fileDesc")
+                if file_desc:
+                    revision_desc = gloss_soup.find("teiHeader").find("revisionDesc")
+                    if revision_desc:
+                        changes = revision_desc.find_all("change")
+                        for change in changes:
+                            tok_check = change["what"]
+                            if tok_check == "lemma_assignment":
+                                lemmatised = True
+                                break
+                            elif tok_check == "pre_lemma_assignment":
+                                pre_lemmatised = True
+                                break
+
+            # Only include gloss collections which have been found to have assigned lemmata
+            if lemmatised or pre_lemmatised:
+                gloss_collections.append(gloss_file_path)
+
+        text_collections[text] = gloss_collections
+
+    # If there are fewer than 2 gloss collections for any one base-text, skip this base-text
+    # because no comparison can be made between collections if there are fewer than two
+    too_few_collections = list()
+    for text in text_collections:
+        if len(text_collections.get(text)) <= 1:
+            too_few_collections.append(text)
+    for text in too_few_collections:
+        del text_collections[text]
 
     # Get gloss collection data for each base text, and add each separately to a dictionary
-    texts_dict = dict()
-    for text in base_texts:
-        filetexts = list()
-        for filename in gloss_collections:
-            # Load files and add text (between text tags) for each collection to a list
-            if filename.startswith('.'):
-                continue
-            elif "_lemmatised.xml" not in filename:
-                continue
-            elif text in filename:
-                with open(filename, 'r', encoding="utf-8") as loadfile:
-                    file_loaded = loadfile.read()
-                filetexts.append(file_loaded[file_loaded.find("<text>"):file_loaded.find("</text>") + len("</text>")])
 
-        # Split each collection file data into lists of data for individual glosses
-        glosses = list()
-        for filetext in filetexts:
+    text_pairs = dict()
+    for text in text_collections:
+        gloss_collections = text_collections.get(text)
+        glosses_data = list()
+        for file_path in gloss_collections:
+            filename = os.path.basename(file_path)
+            coll_name = "".join(filename.split(".xml"))
+
+            # Load files and add text (between text tags) for each collection to a list
+            if file_path.startswith('.'):
+                continue
+            with open(file_path, 'r', encoding="utf-8") as loadfile:
+                file_loaded = loadfile.read()
+            filetext = file_loaded[file_loaded.find("<text>"):file_loaded.find("</text>") + len("</text>")]
+
+            # Split each collection file data into lists of data for individual glosses
             filetext = filetext[filetext.find("<note "):filetext.rfind("</note>") + len("</note>")]
             # Remove notes
             filetext_split = filetext.split("<!--")
             filetext_split = [i if "-->" not in i else i[i.find("-->") + 3:] for i in filetext_split]
             filetext = "".join(filetext_split)
+
             # Tidy up html
             file_glosses = [
                 "<note n=" + i[:i.rfind("</note>") + len("</note>")] for i in filetext.split("<note n=") if i
@@ -69,13 +107,9 @@ def prep_files(normalise=False):
                 while "  " in i:
                     i = " ".join(i.split("  "))
                 file_glosses[i_indx] = i.strip()
-            glosses.append(file_glosses)
 
-        # Refine the data for individual glosses
-        glosses_data = list()
-        for collection_index, gloss_collection in enumerate(glosses):
-            this_file = os.path.basename(gloss_collections[collection_index]).strip(".xml")
-            for gloss_html in gloss_collection:
+            # Refine the data for individual glosses
+            for gloss_html in file_glosses:
                 gloss_soup = BeautifulSoup(gloss_html, 'html.parser')
                 gloss_id = gloss_soup.find('note')['n']
                 lemma_id = gloss_soup.find('note')['target']
@@ -83,7 +117,17 @@ def prep_files(normalise=False):
                     gloss_text = gloss_soup.find("gloss").text
                 except AttributeError:
                     continue
-                glosses_data.append([this_file, gloss_id, lemma_id, gloss_text])
+
+                if gloss_text.count("(") == gloss_text.count(")"):
+                    while "(" in gloss_text and ")" in gloss_text:
+                        gloss_text = gloss_text[:gloss_text.find("(")] + gloss_text[gloss_text.find(")") + 1:]
+
+                if gloss_text.count("[") == gloss_text.count("]"):
+                    while "[" in gloss_text and "]" in gloss_text:
+                        gloss_text = gloss_text[:gloss_text.find("[")] + gloss_text[gloss_text.find("]") + 1:]
+
+                glosses_data.append([coll_name, gloss_id, lemma_id, gloss_text])
+
         if normalise:
             glosses_data = [[gd[0], gd[1], gd[2], gd[3].lower()] for gd in glosses_data]
             glosses_data = [[gd[0], gd[1], gd[2], "u".join(gd[3].split("v"))] for gd in glosses_data]
@@ -91,6 +135,9 @@ def prep_files(normalise=False):
             for punct in [p for p in string.punctuation + "«»"]:
                 glosses_data = [[gd[0], gd[1], gd[2], "".join(gd[3].split(punct))] for gd in glosses_data]
             glosses_data = [[gd[0], gd[1], gd[2], " ".join(gd[3].split("  "))] for gd in glosses_data]
+
+        # Remove glosses which have no assigned lemma
+        glosses_data = [gd for gd in glosses_data if "__" in gd[2]]
 
         # Replace null glosses with empty strings
         glosses_data = [gd if not pd.isnull(gd[3]) else [gd[0], gd[1], gd[2], ""] for gd in glosses_data]
@@ -117,9 +164,10 @@ def prep_files(normalise=False):
                 if gloss_datum[0] != remaining_gloss[0] and gloss_datum[2] == remaining_gloss[2]:
                     gloss_pairs.append([gloss_datum, remaining_gloss])
 
-        texts_dict[text] = gloss_pairs
+        if gloss_pairs:
+            text_pairs[text] = gloss_pairs
 
-    return texts_dict
+    return text_pairs
 
 
 def apply_bestmod(model="default", cutoff="default", llm="default", output_filename="default",
@@ -183,7 +231,7 @@ def apply_bestmod(model="default", cutoff="default", llm="default", output_filen
                 related_glosses.append(full_gloss_pairs[result_index])
         related_glosses = [
             [
-                pair[0][1], pair[0][2], pair[0][3], pair[1][1], pair[1][2], pair[1][3], "Related"
+                pair[0][0], pair[0][1], pair[0][3], pair[1][0], pair[1][1], pair[1][3], "Related"
             ] for pair in related_glosses
         ]
 
