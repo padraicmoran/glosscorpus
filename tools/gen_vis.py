@@ -1,5 +1,6 @@
 import os
 from bs4 import BeautifulSoup
+import json
 
 
 def gather_data(verbose=False):
@@ -146,7 +147,7 @@ def gather_data(verbose=False):
     return output
 
 
-def calculate_results(corpus_data, verbose=False):
+def calculate_base_results(corpus_data, verbose=False):
     """Uses data gathered from TEI files to find information about text collections"""
 
     # Get list of words, and associated collections' information for each base-text
@@ -154,14 +155,16 @@ def calculate_results(corpus_data, verbose=False):
         base_dict = corpus_data.get(base_text)
         if not base_dict:
             if verbose:
-                print(f"No information gathered for base-text file: {base_text}\n  Cannot compile data for this text\n")
+                print(f"No information gathered for base-text file: {base_text}"
+                      f"\n  Cannot compile all data for this text\n")
             continue
 
         # Get the list of tokenised words from each base-text
         words = base_dict.get("words")
         if not words:
             if verbose:
-                print(f"No lemmata found for base-text file: {base_text}\n  Cannot compile data for this text\n")
+                print(f"No lemmata found for base-text file: {base_text}"
+                      f"\n  Cannot compile all data for this text\n")
             continue
 
         # Collect all lemmata and line numbers from this base-text
@@ -184,7 +187,8 @@ def calculate_results(corpus_data, verbose=False):
         collections = base_dict.get("collections")
         if not collections:
             if verbose:
-                print(f"No collections found for base-text file: {base_text}\n  Cannot compile data for this text\n")
+                print(f"No collections found for base-text file: {base_text}"
+                      f"\n  Cannot compile all data for this text\n")
             continue
         else:
             for coll_name in collections:
@@ -212,7 +216,7 @@ def calculate_results(corpus_data, verbose=False):
                     # Find the number of words which are lemmata
                     unique_targets = sorted(list(set(targets)))
                     num_lemmata = len(unique_targets)
-                    coll_dict["number_lemmata"] = num_lemmata
+                    coll_dict["glossed_lemmata"] = num_lemmata
 
                     # Determine the number of glosses per lemma
                     glosses_per_lemma = {lemma: targets.count(lemma) for lemma in unique_targets}
@@ -226,7 +230,7 @@ def calculate_results(corpus_data, verbose=False):
                     # Find the number of lines which have been glossed
                     unique_lines = sorted(list(set(target_lines)))
                     glossed_lines = len(unique_lines)
-                    coll_dict["number_lines"] = glossed_lines
+                    coll_dict["glossed_lines"] = glossed_lines
 
                     # Determine the number of glosses per line
                     glosses_per_line = {line: target_lines.count(line) for line in unique_lines}
@@ -253,59 +257,159 @@ def calculate_results(corpus_data, verbose=False):
 
         # Determine the number of lines which contain lemmata
         base_line_list = sorted(list(set(base_line_list)))
-        lemma_line_count = len(base_line_list)
-        base_dict["lemma_line_count"] = lemma_line_count
+        glossed_line_count = len(base_line_list)
+        base_dict["glossed_line_count"] = glossed_line_count
 
         # Determine the percentage of lines which contain lemmata
-        line_pc = lemma_line_count / line_count
+        line_pc = glossed_line_count / line_count
         line_pc *= 100
-        base_dict["lemma_line_percent"] = round(line_pc, 2)
+        base_dict["glossed_line_percent"] = round(line_pc, 2)
 
         corpus_data[base_text] = base_dict
 
     return corpus_data
 
 
-def print_data(compiled_data):
-    for i in compiled_data:
-        print(i)
-        i_dict = compiled_data.get(i)
-        for j in i_dict:
-            print(f"  {j}")
-            j_dict = i_dict.get(j)
-            if j == "words":
-                for k in j_dict:
-                    print(f"    {k}")
-                    print(f"    ...")
-                    break
-            elif j == "collections":
-                for k in j_dict:
-                    print(f"    {k}")
-                    k_dict = j_dict.get(k)
-                    for l in k_dict:
-                        print(f"      {l}")
-                        l_dict = k_dict.get(l)
-                        if l in ["glosses", "lemmata", "lines"]:
-                            for m in l_dict:
-                                print(f"        {[str(m)]}")
-                                print(f"        ...")
-                                break
-                        elif l in ["glosses_per_lemma", "glosses_per_line"]:
-                            for m in l_dict:
-                                print(f"        {m}")
-                                print(f"          {l_dict.get(m)}")
-                                print(f"        ...")
-                                break
-                        else:
-                            print(f"        {l_dict}")
-            else:
-                print(f"    {j_dict}")
-        print()
+def calculate_combined_results(base_results, verbose=False):
+    """Combines initially extracted information for individual collections
+       to generate results from multiple gloss collections on a single base-text"""
+
+    all_combined_lems = dict()
+    all_combined_lines = dict()
+    all_combined_gplems = dict()
+    all_combined_gplines = dict()
+
+    for bt in base_results:
+        bt_dict = base_results.get(bt)
+        collections = bt_dict.get("collections")
+        combined_lemmata = list()
+        combined_lines = list()
+        combined_gplem = dict()
+        combined_gpline = dict()
+
+        if len(collections) <= 1:
+            if verbose:
+                print(f"Fewer than 2 gloss collections found for base-text: {bt}"
+                      f"\n  Cannot combine results from multiple collections\n")
+
+        for coll in collections:
+            coll_dict = collections.get(coll)
+            if "lemmata" in coll_dict:
+                combined_lemmata.extend(coll_dict.get("lemmata"))
+            if "lines" in coll_dict:
+                combined_lines.extend(coll_dict.get("lines"))
+            if "glosses_per_lemma" in coll_dict:
+                gplem_data = coll_dict.get("glosses_per_lemma")
+                max_gplem = max(gplem_data, key=gplem_data.get)
+                max_gplem = {max_gplem: gplem_data.get(max_gplem)}
+                combined_gplem[coll] = max_gplem
+            if "glosses_per_line" in coll_dict:
+                gpline_data = coll_dict.get("glosses_per_line")
+                max_gpline = max(gpline_data, key=gpline_data.get)
+                max_gpline = {max_gpline: gpline_data.get(max_gpline)}
+                combined_gpline[coll] = max_gpline
+        all_combined_lems[bt] = combined_lemmata
+        all_combined_lines[bt] = combined_lines
+        all_combined_gplems[bt] = combined_gplem
+        all_combined_gplines[bt] = combined_gpline
+
+    # Determine the lemma with the highest number of glosses (among all collections)
+    for bt in all_combined_lems:
+        combined_lemmata = all_combined_lems.get(bt)
+        if combined_lemmata:
+            all_lemmata = sorted(list(set(combined_lemmata)))
+            combined_lemma_counts = dict()
+            for lemma in all_lemmata:
+                combined_lemma_counts[lemma] = combined_lemmata.count(lemma)
+            max_clemc = max(combined_lemma_counts, key=combined_lemma_counts.get)
+            max_clemc = {max_clemc: combined_lemma_counts.get(max_clemc)}
+            subdict = base_results.get(bt)
+            subdict["most_glossed_lemma"] = max_clemc
+
+    # Determine the line with the highest number of glosses (among all collections)
+    for bt in all_combined_lines:
+        combined_lines = all_combined_lines.get(bt)
+        if combined_lines:
+            all_lines = sorted(list(set(combined_lines)))
+            combined_line_counts = dict()
+            for line in all_lines:
+                combined_line_counts[line] = combined_lines.count(line)
+            max_clinec = max(combined_line_counts, key=combined_line_counts.get)
+            max_clinec = {max_clinec: combined_line_counts.get(max_clinec)}
+            subdict = base_results.get(bt)
+            subdict["most_glossed_line"] = max_clinec
+
+    # Determine the lemma with the highest number of glosses (in each individual collection)
+    for bt in all_combined_gplems:
+        collections = all_combined_gplems.get(bt)
+        subdict = base_results.get(bt)
+        subdict_collections = subdict.get("collections")
+        if collections:
+            for coll in collections:
+                coll_subdict = subdict_collections.get(coll)
+                most_glossed_lemma = collections.get(coll)
+                coll_subdict["most_glossed_lemma"] = most_glossed_lemma
+
+    # Determine the line with the highest number of glosses (in each individual collection)
+    for bt in all_combined_gplines:
+        collections = all_combined_gplines.get(bt)
+        subdict = base_results.get(bt)
+        subdict_collections = subdict.get("collections")
+        if collections:
+            for coll in collections:
+                coll_subdict = subdict_collections.get(coll)
+                most_glossed_line = collections.get(coll)
+                coll_subdict["most_glossed_line"] = most_glossed_line
+
+    combined_results = base_results
+
+    return combined_results
+
+
+def trim_data(compiled_data, verbose=False):
+    """Remove bulky data that isn't needed anymore once corpus information has been compiled"""
+
+    if verbose:
+        print("\nRemoving unnecessary data before creating output file\n")
+
+    for bt in compiled_data:
+        bt_dict = compiled_data.get(bt)
+        if "words" in bt_dict:
+            del bt_dict["words"]
+        if "collections" in bt_dict:
+            collections = bt_dict.get("collections")
+            for coll in collections:
+                coll_dict = collections.get(coll)
+                if "glosses" in coll_dict:
+                    del coll_dict["glosses"]
+                if "lemmata" in coll_dict:
+                    del coll_dict["lemmata"]
+                if "lines" in coll_dict:
+                    del coll_dict["lines"]
+                if "glosses_per_lemma" in coll_dict:
+                    del coll_dict["glosses_per_lemma"]
+                if "glosses_per_line" in coll_dict:
+                    del coll_dict["glosses_per_line"]
+
+    return compiled_data
+
+
+def save_info(compiled_data, verbose=False):
+    """Creates a JSON file of the information required to create visualisations"""
+
+    if verbose:
+        print("Saving visualisation information for gloss collections!")
+
+    save_dir = os.path.join(os.getcwd(), "visualisation_data")
+    os.makedirs(save_dir, exist_ok=True)
+    with open(os.path.join(save_dir, "collections_info.json"), "w") as json_file:
+        json.dump(trim_data(compiled_data), json_file, indent=4, default=str)
 
 
 if __name__ == "__main__":
 
-    corpus_data = gather_data(True)
-    corpus_results = calculate_results(corpus_data, True)
+    gathered_data = gather_data(True)
+    corpus_base_results = calculate_base_results(gathered_data, True)
+    corpus_results = calculate_combined_results(corpus_base_results, True)
 
-    print_data(corpus_results)
+    save_info(corpus_results, True)
