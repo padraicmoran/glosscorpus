@@ -54,10 +54,10 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change how="automatic" what="revision_history_created" when="2025-09-02" who="#lemmatiser">
+			<change type="automatic" subtype="revision_history_created" when="2025-09-02" who="#lemmatiser">
 				Automatically processed: The revisionDesc section was automatically created during lemma assignment.
 			</change>
-			<change how="automatic" what="lemma_assignment" when="2025-09-02" who="#lemmatiser">
+			<change type="automatic" subtype="lemma_assignment" when="2025-09-02" who="#lemmatiser">
 				Automatically processed: Glosses were assigned to lemmata in the associated base-text file by targeting the unique IDs of tokens within that file which have the highest string similarity with lemmata identified in this gloss edition.
 			</change>
 		</revisionDesc>

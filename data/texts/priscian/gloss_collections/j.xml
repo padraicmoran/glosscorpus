@@ -33,10 +33,10 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change how="manual" what="revision_history_created" when="2025-09-02" who="Adrian Doyle">
+			<change type="manual" subtype="revision_history_created" when="2025-09-02" who="Adrian Doyle">
 				Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
 			</change>
-			<change how="automatic" what="pre_lemma_assignment" when="2025-09-02" who="Adrian Doyle and Mary Sweeney">
+			<change type="automatic" subtype="pre_lemma_assignment" when="2025-09-02" who="Adrian Doyle and Mary Sweeney">
 				Automatically processed then manually corrected: Glosses were assigned to lemmata in the associated
 				base-text file by targeting the unique IDs of tokens within that file which have the highest string
 				similarity with lemmata identified in this gloss edition. This was carried out in late 2024, during the

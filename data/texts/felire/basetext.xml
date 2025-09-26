@@ -39,10 +39,10 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change how="automatic" what="revision_history_created" when="2025-08-30" who="#tokeniser">
+			<change type="automatic" subtype="revision_history_created" when="2025-08-30" who="#tokeniser">
 				Automatically processed: The revisionDesc section was automatically created during token annotation.
 			</change>
-			<change how="automatic" what="tokenisation_and_annotation" when="2025-08-30" who="#tokeniser">
+			<change type="automatic" subtype="tokenisation_and_annotation" when="2025-08-30" who="#tokeniser">
 				Automatically processed: Words and punctuation were separated into tokens. Each token was tagged with either w (word) or pc (punctuation), and given a unique ID number based on its line ID and its position in that line.
 			</change>
 		</revisionDesc>
