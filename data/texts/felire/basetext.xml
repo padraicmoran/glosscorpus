@@ -31,16 +31,16 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-         <change type="manual" subtype="revision_history_created" when="2025-09-29" who="Adrian Doyle">
-            Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
-         </change>
-         <change type="manual" subtype="pre_tokenisation" when="2025-09-29" who="Nike Stam">
-            Manually annotated: Lemmata were manually identified before the development of the GlossCorpus token
-            annotation tool. This work predates the introduction of a revision history into GlossCorpus TEI files;
-            hence, the date of this change is tied to the date on which a revision history was introduced for this
-            file. Tags and notes resulting from the manual token annotation may remain in this text file.
-         </change>
-      </revisionDesc>
+       <change type="manual" subtype="revision_history_created" when="2025-09-29" who="Adrian Doyle">
+          Manually updated: The revisionDesc section was manually introduced to this file's TEI header.
+       </change>
+       <change type="manual" subtype="pre_tokenisation" when="2025-09-29" who="Nike Stam">
+          Manually annotated: Lemmata were manually identified before the development of the GlossCorpus token
+          annotation tool. This work predates the introduction of a revision history into GlossCorpus TEI files;
+          hence, the date of this change is tied to the date on which a revision history was introduced for this
+          file. Tags and notes resulting from the manual token annotation may remain in this text file.
+       </change>
+    </revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
