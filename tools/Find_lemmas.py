@@ -211,9 +211,9 @@ def find_lems(verbose=False):
                     today = date.today().strftime("%Y-%m-%d")
                     change = gloss_soup.new_tag("change")
                     change.attrs["when"] = today
-                    change.attrs["what"] = "revision_history_created"
+                    change.attrs["subtype"] = "revision_history_created"
                     change.attrs["who"] = "#lemmatiser"
-                    change.attrs["how"] = "automatic"
+                    change.attrs["type"] = "automatic"
                     change.string = ("Automatically processed: "
                                      "The revisionDesc section was automatically created during lemma assignment.")
                     revision_desc.append(change)
@@ -248,9 +248,9 @@ def find_lems(verbose=False):
                 today = date.today().strftime("%Y-%m-%d")
                 change = gloss_soup.new_tag("change")
                 change.attrs["when"] = today
-                change.attrs["what"] = "lemma_assignment"
+                change.attrs["subtype"] = "lemma_assignment"
                 change.attrs["who"] = "#lemmatiser"
-                change.attrs["how"] = "automatic"
+                change.attrs["type"] = "automatic"
                 change.string = ("Automatically processed: Glosses were assigned to lemmata in the associated "
                                  "base-text file by targeting the unique IDs of tokens within that file which have "
                                  "the highest string similarity with lemmata identified in this gloss edition.")

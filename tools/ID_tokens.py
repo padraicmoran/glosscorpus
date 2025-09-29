@@ -60,9 +60,9 @@ def id_tokens(verbose=False):
                 today = date.today().strftime("%Y-%m-%d")
                 change = base_soup.new_tag("change")
                 change.attrs["when"] = today
-                change.attrs["what"] = "revision_history_created"
+                change.attrs["subtype"] = "revision_history_created"
                 change.attrs["who"] = "#tokeniser"
-                change.attrs["how"] = "automatic"
+                change.attrs["type"] = "automatic"
                 change.string = ("Automatically processed: "
                                  "The revisionDesc section was automatically created during token annotation.")
                 revision_desc.append(change)
@@ -97,9 +97,9 @@ def id_tokens(verbose=False):
             today = date.today().strftime("%Y-%m-%d")
             change = base_soup.new_tag("change")
             change.attrs["when"] = today
-            change.attrs["what"] = "tokenisation_and_annotation"
+            change.attrs["subtype"] = "tokenisation_and_annotation"
             change.attrs["who"] = "#tokeniser"
-            change.attrs["how"] = "automatic"
+            change.attrs["type"] = "automatic"
             change.string = ("Automatically processed: "
                              "Words and punctuation were separated into tokens. "
                              "Each token was tagged with either w (word) or pc (punctuation), "
